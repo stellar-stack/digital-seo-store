@@ -1,26 +1,65 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-ink: #0a0e1a;
+  --color-ink-soft: #101627;
+  --color-amber: #f5a623;
+  --color-amber-dark: #d98a0f;
+  --color-charcoal: #17181c;
+  --color-cream: #faf9f6;
+  --color-mist: #f2f1ec;
+  --color-line: #e6e4dd;
+  --color-line-dark: rgba(255, 255, 255, 0.12);
+  --color-muted: #6b6b72;
+  --color-muted-dark: #9a9dac;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-amber: var(--color-amber);
+  --color-amber-dark: var(--color-amber-dark);
+  --color-charcoal: var(--color-charcoal);
+  --color-cream: var(--color-cream);
+  --color-mist: var(--color-mist);
+  --color-line: var(--color-line);
+  --color-line-dark: var(--color-line-dark);
+  --color-muted: var(--color-muted);
+  --color-muted-dark: var(--color-muted-dark);
+
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-inter);
+
+  --ease-signature: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: auto;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-cream);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: var(--color-amber);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

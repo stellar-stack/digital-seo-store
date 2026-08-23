@@ -1,0 +1,1179 @@
+{
+  "meta": {
+    "titleDefault": "Digital SEO Store — Enterprise SEO & Growth Marketing Agency",
+    "description": "Data-driven SEO, PPC, and digital marketing for ambitious brands across the US, UK, Canada and Europe. Real strategy, transparent reporting, measurable revenue."
+  },
+  "common": {
+    "home": "Home"
+  },
+  "nav": {
+    "servicesLabel": "Services",
+    "services": {
+      "seo": "SEO Services",
+      "localSeo": "Local SEO",
+      "ecommerceSeo": "eCommerce SEO",
+      "seoAudit": "SEO Audit",
+      "ppc": "PPC Advertising",
+      "sem": "Search Engine Marketing",
+      "smm": "Social Media Marketing",
+      "contentMarketing": "Content Marketing",
+      "cro": "Conversion Rate Optimization",
+      "reputationManagement": "Reputation Management",
+      "wordpressDevelopment": "WordPress Development",
+      "hireSeoExperts": "Hire SEO Experts"
+    },
+    "about": "About",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Book a free consultation"
+  },
+  "footer": {
+    "blurb": "An independent digital marketing agency helping ambitious brands turn search, social, and paid media into a dependable revenue channel — since 2021.",
+    "company": "Company",
+    "faq": "FAQs",
+    "getInTouch": "Get in touch",
+    "offices": "Offices in the US, Canada & India",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "ROI-Focused Digital Marketing",
+      "titleLine1": "Finally, an SEO team",
+      "titleLine2": "built to think differently.",
+      "subtitle": "We partner with ambitious brands across the US, UK, Canada and Europe to turn organic search into your most reliable revenue channel — no fluff, no vanity metrics, just data-driven growth.",
+      "ctaPrimary": "Book a free consultation",
+      "ctaSecondary": "Explore SEO services",
+      "rotatingPrefix": "Built for",
+      "rotating": {
+        "seo": "SEO",
+        "ppc": "PPC",
+        "content": "Content",
+        "social": "Social",
+        "cro": "Conversion"
+      }
+    },
+    "stats": {
+      "experts": "Certified digital experts",
+      "clients": "Businesses grown",
+      "since": "Years in business",
+      "countries": "Countries served"
+    },
+    "servicesSection": {
+      "eyebrow": "Digital Marketing Services",
+      "title": "Services built to help you grow online",
+      "description": "We help businesses across every industry with a data-driven, fully integrated marketing strategy — grounded in honesty, complete transparency, and evidence over guesswork."
+    },
+    "servicesGrid": {
+      "seo": "Data-driven strategies that outrank your competitors and turn search visibility into qualified pipeline.",
+      "ecommerceSeo": "Competitor research, on-page optimization, and conversion-focused product pages that lift organic revenue.",
+      "wordpressDevelopment": "Vetted, industry-specific developers building fast, scalable WordPress sites that convert.",
+      "localSeo": "Modern local SEO for businesses with a physical presence, built to win the map pack and nearby search.",
+      "seoAudit": "A fully transparent audit across 250+ technical parameters, with a clear roadmap for improvement.",
+      "smm": "Hyper-targeted social funnels that build community and drive measurable business growth.",
+      "contentMarketing": "Custom content strategy — from featured snippets to editorials — built to attract your ideal audience.",
+      "ppc": "Certified PPC specialists who turn every click into a measurable return on ad spend.",
+      "learnMore": "Learn more",
+      "viewAll": "View all services →"
+    },
+    "process": {
+      "eyebrow": "Internet Marketing Services",
+      "title": "How we deliver consistent results for every client",
+      "description": "There's no magic to ranking #1 on Google. Our four-step process is disciplined, transparent, and built to compound over time.",
+      "steps": {
+        "discover": {
+          "title": "Study your business",
+          "description": "We start by understanding your business, then analyze 50–100 keyword groups against 300+ traffic-driving factors."
+        },
+        "team": {
+          "title": "Build your dedicated team",
+          "description": "We assemble a team of specialists with real experience in your industry — an extension of your in-house team."
+        },
+        "strategy": {
+          "title": "Craft a data-driven strategy",
+          "description": "Our experts build a custom roadmap aligned to your goals, grounded in current data and the latest best practices."
+        },
+        "grow": {
+          "title": "Review and scale",
+          "description": "We review performance on a regular cadence, report transparently, and adjust the strategy as your business grows."
+        }
+      }
+    },
+    "comparison": {
+      "eyebrow": "Digital Agency, Built Differently",
+      "title": "Choose a partner focused on profit, not just traffic",
+      "description": "Plenty of agencies say they're different. Here's what actually sets us apart.",
+      "othersLabel": "Other agencies",
+      "usLabel": "Digital SEO Store",
+      "rows": {
+        "promises": {
+          "them": "Make promises they can't keep",
+          "us": "Make realistic, data-backed commitments"
+        },
+        "oneSize": {
+          "them": "Use one-size-fits-all solutions",
+          "us": "Customize strategy for every client"
+        },
+        "juggle": {
+          "them": "Juggle too many accounts at once",
+          "us": "Dedicate a focused team to your account"
+        },
+        "communication": {
+          "them": "Go quiet when issues come up",
+          "us": "Stay transparent about goals and deadlines"
+        },
+        "quickWins": {
+          "them": "Chase quick wins over lasting results",
+          "us": "Prioritize long-term, compounding growth"
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What our clients say",
+      "items": {
+        "local": {
+          "quote": "Getting found locally was crucial for my business. Digital SEO Store's team took the time to understand my audience and optimize my presence — my site now ranks at the top locally, and walk-in traffic has grown significantly.",
+          "name": "Kelly McMillian"
+        },
+        "ppc": {
+          "quote": "Before working with Digital SEO Store, our PPC campaigns were wasting money with little to show for it. Their team rebuilt our targeting, ad copy, and bidding — our return on ad spend improved within weeks.",
+          "name": "Steve Barnett"
+        },
+        "social": {
+          "quote": "I was skeptical about social media marketing, but their strategic plan changed my mind. We've built a real community, grown brand awareness, and turned our channels into genuine marketing tools.",
+          "name": "Denis Robinson"
+        }
+      }
+    },
+    "faq": {
+      "eyebrow": "Frequently Asked",
+      "title": "Questions? We've got answers.",
+      "items": {
+        "results": {
+          "question": "How quickly can I expect to see results from your SEO efforts?",
+          "answer": "SEO is a long-term game — most clients see noticeable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and scope of work."
+        },
+        "tactics": {
+          "question": "What SEO tactics and strategies do you use?",
+          "answer": "A comprehensive, tailored approach: on-page optimization, high-quality content, technical audits, and authoritative link-building — backed by data and adjusted continuously for maximum impact."
+        },
+        "cost": {
+          "question": "How much do your SEO services cost?",
+          "answer": "Pricing depends on scope, industry competitiveness, and your goals. We provide a transparent, value-based proposal after an initial consultation — see our Pricing page for starting ranges."
+        },
+        "guarantee": {
+          "question": "Do you offer any guarantees for your SEO services?",
+          "answer": "We can't guarantee specific rankings — no honest agency can — but we stand behind our work and commit to measurable improvement, with transparent reporting throughout."
+        }
+      },
+      "viewAll": "View all FAQs →"
+    },
+    "cta": {
+      "title": "Tired of empty promises from SEO agencies?",
+      "subtitle": "Get real strategy, real reporting, and real results — starting with a free consultation.",
+      "button": "Book my free consultation"
+    }
+  },
+  "services": {
+    "seo": {
+      "hero": {
+        "eyebrow": "SEO Services",
+        "title": "Custom SEO services built to drive revenue",
+        "subtitle": "We improve your rankings across every major search engine using modern, white-hat methods — turning search visibility into new customers, higher conversion rates, and compounding revenue."
+      },
+      "intro": {
+        "title": "SEO built around your business, not a template",
+        "paragraph1": "Whether you're looking to improve rankings, get discovered by more of the right people, or need a complete organic search overhaul, our customizable SEO services are built around your goals — not a one-size-fits-all checklist.",
+        "paragraph2": "Every engagement starts with a deep audit of your site, your competitors, and your industry, so the strategy we build is grounded in your reality, not a generic playbook."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our SEO services to grow your organic search ranking",
+        "description": "A complete, integrated approach — every discipline works together, not in isolation.",
+        "items": [
+          {
+            "title": "SEO audits",
+            "description": "A comprehensive analysis of your site's architecture, content, performance, and competitive landscape — with a clear roadmap for improvement."
+          },
+          {
+            "title": "On-page SEO",
+            "description": "Unique, value-rich content, optimized headlines and HTML tags, and technical fundamentals aligned to search engine best practices."
+          },
+          {
+            "title": "Technical SEO",
+            "description": "Back-end improvements like page speed and crawlability, so search engines can index your site quickly and accurately."
+          },
+          {
+            "title": "Link building",
+            "description": "A dedicated outreach team building relevant, high-quality backlinks — never spammy or low-value links that put your domain at risk."
+          },
+          {
+            "title": "Keyword research & strategy",
+            "description": "Deep research into your niche and current rankings to target the terms your ideal customers are actually searching."
+          },
+          {
+            "title": "Content strategy",
+            "description": "SEO-friendly blog posts, editorials, and page content that search engines and readers both want to engage with."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "SEO FAQs",
+        "title": "Common questions about our SEO services",
+        "items": [
+          {
+            "question": "How long does SEO take to show results?",
+            "answer": "Most clients begin seeing measurable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and the scope of work."
+          },
+          {
+            "question": "Do you focus on Google, or other search engines too?",
+            "answer": "We primarily optimize for Google, since it drives the vast majority of organic search traffic for most businesses — but the fundamentals we implement improve visibility across other search engines too."
+          },
+          {
+            "question": "Will you guarantee a #1 ranking?",
+            "answer": "No honest agency can guarantee a specific ranking — search engines don't sell that outcome. What we do guarantee is a transparent, disciplined process and measurable progress toward your goals."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to turn search into your best revenue channel?",
+        "subtitle": "Get a free SEO consultation and a clear picture of where the opportunity is."
+      }
+    },
+    "localSeo": {
+      "hero": {
+        "eyebrow": "Local SEO",
+        "title": "Win the local searches that drive revenue",
+        "subtitle": "Our local SEO services help multi-location and single-location brands rank higher in Google Maps and local search results, driving qualified foot traffic, calls, and leads from the customers searching for you right now."
+      },
+      "intro": {
+        "title": "Local visibility built for how customers actually search",
+        "paragraph1": "Whether you operate a single storefront or a multi-location franchise, local SEO determines whether customers find you or your competitor first. We build strategies around how people actually search near them — from 'near me' queries to service-area terms — so your business shows up at the exact moment intent turns into action.",
+        "paragraph2": "Our team of certified local SEO specialists manages every layer of your local presence — from Google Business Profile and citations to reviews and localized content — so every location is accurate, consistent, and working to bring in new business, not just visible online."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our local SEO services to grow your local visibility",
+        "description": "A complete local SEO program — every location, listing, and review working together to drive real-world business.",
+        "items": [
+          {
+            "title": "Google Business Profile optimization",
+            "description": "We claim, verify, and optimize your Business Profile — categories, attributes, posts, and photos — so you show up in the Map Pack for the searches that matter most."
+          },
+          {
+            "title": "Local citations & NAP consistency",
+            "description": "We build and correct listings across top directories and data aggregators, ensuring your business name, address, and phone number stay consistent everywhere customers find you."
+          },
+          {
+            "title": "Localized content",
+            "description": "We create location and service-area pages built around how nearby customers actually search, so every market you serve has content designed to rank and convert."
+          },
+          {
+            "title": "Review & reputation management",
+            "description": "We help you generate more reviews, respond promptly and professionally, and monitor your reputation across Google and other key platforms."
+          },
+          {
+            "title": "Local link building",
+            "description": "We earn backlinks from relevant local and industry sources — sponsorships, associations, local press — that strengthen your authority in each market."
+          },
+          {
+            "title": "Multi-location & franchise SEO",
+            "description": "We build scalable systems for brands with multiple locations or franchisees, keeping every location optimized and on-brand without duplicating effort."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Local SEO FAQs",
+        "title": "Common questions about our local SEO services",
+        "items": [
+          {
+            "question": "How is local SEO different from regular SEO?",
+            "answer": "Local SEO focuses specifically on ranking in geographically targeted searches and the Google Map Pack — think Google Business Profile, local citations, and location-specific content — rather than broad, national organic rankings."
+          },
+          {
+            "question": "How long does local SEO take to show results?",
+            "answer": "Most businesses see measurable movement in Map Pack rankings and local visibility within 3-6 months, though newer listings or highly competitive markets can take longer."
+          },
+          {
+            "question": "Can you manage local SEO for multiple locations or franchises?",
+            "answer": "Yes. We've built our local SEO process specifically to scale — managing dozens or hundreds of individual locations under one consistent, centrally coordinated strategy."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to win the local searches near you?",
+        "subtitle": "Get a free local SEO consultation and see exactly where your visibility gaps are."
+      }
+    },
+    "ecommerceSeo": {
+      "hero": {
+        "eyebrow": "eCommerce SEO",
+        "title": "eCommerce SEO built to drive online sales",
+        "subtitle": "We optimize your product pages, category structure, and technical foundation so shoppers find your store before they find a competitor's — turning organic search into a reliable driver of online revenue, not just traffic."
+      },
+      "intro": {
+        "title": "eCommerce SEO built for how shoppers actually search",
+        "paragraph1": "Online stores compete on a different battlefield than typical websites — thousands of product pages, constant inventory changes, and marketplaces fighting for the same shoppers. Our eCommerce SEO services are built around that reality, combining technical precision with content and structure that helps the right products rank when it matters most.",
+        "paragraph2": "Every engagement starts with a full audit of your catalog, your technical architecture, and the competitors and marketplaces already ranking for your highest-value terms. From there, we build a roadmap that prioritizes the pages and fixes that move revenue first — not just rankings for their own sake."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our eCommerce SEO services to grow your online store",
+        "description": "A complete, integrated approach built for the scale and complexity of online catalogs.",
+        "items": [
+          {
+            "title": "Product & category page optimization",
+            "description": "We optimize titles, descriptions, and on-page structure across your entire catalog — including the thin or duplicate pages that quietly hold your store back."
+          },
+          {
+            "title": "Technical SEO for large catalogs",
+            "description": "From faceted navigation to pagination and crawl budget, we solve the technical challenges unique to stores with thousands of SKUs."
+          },
+          {
+            "title": "Site speed & Core Web Vitals",
+            "description": "We diagnose and fix performance issues that slow down product pages, improving both search rankings and the shopping experience."
+          },
+          {
+            "title": "Structured data & rich snippets",
+            "description": "We implement product schema markup so your listings can show pricing, reviews, and availability directly in search results."
+          },
+          {
+            "title": "Competitor & marketplace research",
+            "description": "We analyze how you stack up against direct competitors and marketplace giants like Amazon and Walmart, so your strategy targets real, winnable opportunities."
+          },
+          {
+            "title": "Conversion-focused content",
+            "description": "Product descriptions, category copy, and buying guides written to rank — and to turn the traffic they earn into paying customers."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "eCommerce SEO FAQs",
+        "title": "Common questions about our eCommerce SEO services",
+        "items": [
+          {
+            "question": "How is eCommerce SEO different from regular SEO?",
+            "answer": "eCommerce SEO addresses challenges specific to online stores — large product catalogs, faceted navigation, duplicate content across variants, and the need to optimize for purchase intent, not just informational searches."
+          },
+          {
+            "question": "How long does it take to see results?",
+            "answer": "Most stores see measurable improvement in rankings and organic traffic within 3–6 months, though timelines vary based on catalog size, site history, and how competitive your category is."
+          },
+          {
+            "question": "Do you optimize for marketplaces like Amazon, or just our own website?",
+            "answer": "Our core focus is your owned website, since that's where you control the customer relationship and margins — but we factor marketplace competition into strategy and can extend optimization to platforms like Amazon and Walmart where it makes sense."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to turn organic search into your best-performing sales channel?",
+        "subtitle": "Get a free eCommerce SEO consultation and a clear picture of where the opportunity is."
+      }
+    },
+    "seoAudit": {
+      "hero": {
+        "eyebrow": "SEO Audit",
+        "title": "Find exactly what's holding your rankings back",
+        "subtitle": "A single technical error can quietly cost your site thousands of visitors a month. Our SEO audits examine 250+ technical parameters to show you precisely what's wrong — and what to fix first."
+      },
+      "intro": {
+        "title": "An audit built on data, not guesswork",
+        "paragraph1": "Before we recommend a single change, we look at the full picture — your technical foundation, your content, your backlink profile, and how you stack up against the competitors actually ranking above you. Every finding is backed by data pulled directly from your site and your market, not a generic checklist.",
+        "paragraph2": "Our 45+ certified specialists have run this process across sites in the US, UK, Canada, Spain, and France, so we know what separates a page that ranks from one that doesn't. You'll walk away with a clear, prioritized plan, not a report nobody has time to read."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "What our SEO audit covers",
+        "description": "Every audit reviews 250+ technical parameters across six core disciplines, so nothing gets missed.",
+        "items": [
+          {
+            "title": "Technical crawlability & indexation",
+            "description": "We check how search engines crawl, render, and index your site — sitemaps, robots.txt, canonicalization, and structured data — and flag the errors quietly blocking pages from ranking."
+          },
+          {
+            "title": "On-page & content audit",
+            "description": "A page-by-page review of titles, headers, internal linking, and content quality, mapped against search intent and the keywords your customers actually use."
+          },
+          {
+            "title": "Backlink profile analysis",
+            "description": "A full review of your link profile to flag toxic or low-value links putting your domain at risk, alongside the authority signals worth protecting and building on."
+          },
+          {
+            "title": "Core Web Vitals & site speed",
+            "description": "We test load times, interactivity, and visual stability across devices, then isolate the specific fixes that will move the needle on both rankings and user experience."
+          },
+          {
+            "title": "Competitor benchmarking",
+            "description": "A side-by-side comparison against the sites actually outranking you, so you know exactly where the gap is and what it will take to close it."
+          },
+          {
+            "title": "Prioritized action roadmap",
+            "description": "Every finding is ranked by impact and effort, giving you a clear sequence of what to fix first — not a long list with no sense of priority."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "SEO Audit FAQs",
+        "title": "Common questions about our SEO audit services",
+        "items": [
+          {
+            "question": "How long does an SEO audit take?",
+            "answer": "Most audits are completed within 2-3 weeks, depending on the size of your site and the depth of the competitive analysis involved. Larger enterprise sites with thousands of pages may take longer."
+          },
+          {
+            "question": "What's the difference between an SEO audit and ongoing SEO?",
+            "answer": "An audit is a diagnostic — a full assessment of your current site health, structure, and competitive position. Ongoing SEO is the implementation and optimization work that follows, guided by what the audit uncovers."
+          },
+          {
+            "question": "Will I get a report, or help implementing the fixes?",
+            "answer": "Both. You'll receive a clear, prioritized report walking through every finding, and if you'd like our team to implement the recommendations, that's available as a follow-on engagement."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to see what's really happening on your site?",
+        "subtitle": "Get a free SEO audit consultation and find out where the real opportunity is."
+      }
+    },
+    "ppc": {
+      "hero": {
+        "eyebrow": "PPC Advertising",
+        "title": "Paid search campaigns built to convert, not just click",
+        "subtitle": "We plan, launch, and manage PPC campaigns across Google, Microsoft, and social platforms — turning ad spend into qualified leads and predictable, measurable revenue."
+      },
+      "intro": {
+        "title": "PPC management built around your margins",
+        "paragraph1": "Too many PPC accounts are optimized for clicks instead of profit. Our approach starts with your business economics — target CPA, margin, and lifetime value — so every campaign we build is accountable to revenue, not vanity metrics.",
+        "paragraph2": "We audit your existing accounts, competitors, and market before spending a single dollar of new budget, so the strategy reflects your actual funnel and audience — not a generic template applied to every client."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our PPC services to grow qualified traffic and revenue",
+        "description": "A full-funnel approach — strategy, execution, and reporting working together, not in isolation.",
+        "items": [
+          {
+            "title": "Google & Microsoft Ads management",
+            "description": "Full campaign setup and ongoing management across Search, Shopping, and Display — built and maintained by certified specialists."
+          },
+          {
+            "title": "Campaign strategy & keyword targeting",
+            "description": "Deep research into your market and buyer intent so every dollar targets the keywords most likely to convert, not just generate traffic."
+          },
+          {
+            "title": "Ad copy & creative testing",
+            "description": "Structured A/B testing of headlines, copy, and creative to continually improve click-through rate and message relevance."
+          },
+          {
+            "title": "Landing page & conversion tracking",
+            "description": "Conversion tracking, tagging, and landing page recommendations so you know exactly which clicks turn into leads and sales."
+          },
+          {
+            "title": "Bid management & budget optimization",
+            "description": "Ongoing, data-driven bid and budget adjustments that shift spend toward what's working and away from what isn't."
+          },
+          {
+            "title": "Transparent performance reporting",
+            "description": "Clear, regular reporting on spend, CPA, ROAS, and revenue — no vanity metrics, no black box."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "PPC FAQs",
+        "title": "Common questions about our PPC services",
+        "items": [
+          {
+            "question": "How quickly will I see results from PPC?",
+            "answer": "Unlike SEO, PPC can drive traffic and leads as soon as campaigns go live. Most accounts reach meaningful optimization within the first 30–60 days as we gather performance data and refine targeting."
+          },
+          {
+            "question": "Which platforms do you manage campaigns on?",
+            "answer": "We primarily manage Google Ads and Microsoft Ads, along with paid social campaigns on platforms like Meta and LinkedIn, depending on where your target audience is most active."
+          },
+          {
+            "question": "How do you decide our budget and bids?",
+            "answer": "We start from your target cost-per-acquisition and margins, then set bids and budgets to hit that target — shifting spend toward the keywords, audiences, and platforms delivering the best return."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to make every click count?",
+        "subtitle": "Get a free PPC account audit and see exactly where your budget is being wasted."
+      }
+    },
+    "sem": {
+      "hero": {
+        "eyebrow": "Search Engine Marketing",
+        "title": "A paid search strategy built for market leaders",
+        "subtitle": "We build the strategic layer above your paid search campaigns — aligning Google, Microsoft, and Shopping ads with your SEO and business goals so every channel works toward the same growth targets."
+      },
+      "intro": {
+        "title": "Strategy that connects every paid search channel",
+        "paragraph1": "Search engine marketing is bigger than any single campaign. It's the strategic layer that decides where your budget goes — Google Search, Microsoft Ads, Shopping, and remarketing — and how those channels work together with organic search. We build that layer first, then align it with the campaign execution that brings it to life.",
+        "paragraph2": "For ambitious brands running paid search across multiple platforms and audiences, that strategic layer is often missing — campaigns compete with each other instead of compounding. We map your full paid search footprint against your SEO performance, competitive landscape, and budget, so every dollar goes to the channel and audience where it will do the most."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our search engine marketing services to grow paid search revenue",
+        "description": "A complete paid search strategy that spans platforms and formats — built to work alongside your SEO, not compete with it.",
+        "items": [
+          {
+            "title": "Multi-platform paid search strategy",
+            "description": "We build a unified strategy across Google Ads, Microsoft Ads, and other paid search platforms, so your budget follows the audiences and intent that convert — not just the channel that's easiest to manage."
+          },
+          {
+            "title": "Shopping & product listing ads",
+            "description": "For eCommerce brands, we structure and prioritize Shopping campaigns and product feeds so your catalog reaches high-intent shoppers at the moment they're ready to buy."
+          },
+          {
+            "title": "Remarketing & audience targeting",
+            "description": "We build audience segments from site visitors, past customers, and lookalike profiles, then design remarketing strategy that brings qualified traffic back until it converts."
+          },
+          {
+            "title": "SEO + SEM integration",
+            "description": "Paid and organic search share the same keyword data, competitive insight, and customer intent — we align both disciplines so they reinforce each other instead of operating in silos."
+          },
+          {
+            "title": "Competitive auction insights",
+            "description": "We analyze auction dynamics, impression share, and competitor bidding behavior across your category, so your strategy accounts for where the real competition is happening."
+          },
+          {
+            "title": "Cross-channel budget allocation",
+            "description": "We model spend across platforms, campaign types, and funnel stages, then reallocate based on performance data — so budget moves toward what's actually driving revenue."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "SEM FAQs",
+        "title": "Common questions about our search engine marketing services",
+        "items": [
+          {
+            "question": "What's the difference between SEM and PPC?",
+            "answer": "PPC is the day-to-day management of paid ad campaigns — bidding, ad copy, optimization. SEM is the broader strategy that sits above it: deciding which platforms to invest in, how to allocate budget across Search, Shopping, and remarketing, and how paid search fits your overall growth plan. We offer both as connected services."
+          },
+          {
+            "question": "How does SEM work alongside SEO?",
+            "answer": "Paid and organic search inform each other — SEM identifies high-converting keywords faster, while SEO builds durable, long-term visibility. We align the two so insights from one strategy strengthen the other, rather than running them as separate, disconnected efforts."
+          },
+          {
+            "question": "Which paid search platforms do you work with?",
+            "answer": "We build strategy across Google Ads, Microsoft Ads, and Shopping and product listing ads, choosing the mix based on where your audience actually searches and buys — not defaulting to a single platform."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready for a paid search strategy that actually adds up?",
+        "subtitle": "Get a free consultation and see how your paid search channels could work together."
+      }
+    },
+    "smm": {
+      "hero": {
+        "eyebrow": "Social Media Marketing",
+        "title": "Social media marketing that builds real brand equity",
+        "subtitle": "We build platform-specific strategies, create content people actually engage with, and run paid social campaigns that convert — turning your social presence into a measurable driver of awareness, community, and revenue."
+      },
+      "intro": {
+        "title": "Social strategy built around your brand, not trends",
+        "paragraph1": "Posting consistently isn't a strategy. We start by understanding your audience, your competitors, and where your brand genuinely fits into the platforms that matter — Meta, Instagram, LinkedIn, TikTok, and beyond — so every piece of content and every ad dollar serves a clear business goal, not just a content calendar.",
+        "paragraph2": "From day one, our team handles the full picture: organic content and community management, paid social advertising, creator partnerships, and the reporting that shows what's actually working. You get one accountable team instead of juggling freelancers, in-house gaps, and disconnected platforms."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our social media marketing services to grow your brand",
+        "description": "A full-funnel approach — strategy, content, advertising, and reporting working as one system.",
+        "items": [
+          {
+            "title": "Platform strategy",
+            "description": "A tailored roadmap for Meta, Instagram, LinkedIn, TikTok, and other channels — built around where your audience actually spends time, not a generic multi-platform checklist."
+          },
+          {
+            "title": "Content creation & community management",
+            "description": "Scroll-stopping content, consistent posting, and active community management that turns followers into an engaged, loyal audience."
+          },
+          {
+            "title": "Paid social advertising",
+            "description": "Precisely targeted ad campaigns across Meta, Instagram, LinkedIn, and TikTok, built to drive awareness, leads, and sales — and optimized continuously against real performance data."
+          },
+          {
+            "title": "Influencer & creator partnerships",
+            "description": "We identify and manage partnerships with creators who genuinely align with your brand, extending your reach with content that feels authentic, not sponsored filler."
+          },
+          {
+            "title": "Social listening & reputation management",
+            "description": "Ongoing monitoring of brand mentions, sentiment, and conversations so you can respond quickly, protect your reputation, and act on real customer feedback."
+          },
+          {
+            "title": "Performance analytics & reporting",
+            "description": "Clear, regular reporting on the metrics that matter — engagement, reach, conversions, and ROI — so you always know what's working and why."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Social Media FAQs",
+        "title": "Common questions about our social media marketing services",
+        "items": [
+          {
+            "question": "Which social media platforms should my business be on?",
+            "answer": "It depends on your audience and goals. Meta (Facebook and Instagram), LinkedIn, and TikTok cover most brands, but the right mix depends on where your customers actually spend their time. We help you prioritize the platforms worth the investment instead of spreading your budget too thin."
+          },
+          {
+            "question": "How long does it take to see results from social media marketing?",
+            "answer": "Community growth and engagement typically build over the first 2–3 months, while paid social campaigns can drive measurable traffic and leads much faster. Organic reach and brand equity compound over time with consistent, strategic effort."
+          },
+          {
+            "question": "Do you handle both organic content and paid social advertising?",
+            "answer": "Yes. We manage the full picture — organic content, community management, paid campaigns, and reporting — as one connected strategy rather than disconnected services, so your organic and paid efforts reinforce each other."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to turn social media into a real growth channel?",
+        "subtitle": "Get a free social media consultation and a clear picture of where the opportunity is."
+      }
+    },
+    "contentMarketing": {
+      "hero": {
+        "eyebrow": "Content Marketing",
+        "title": "Content marketing that earns rankings and revenue",
+        "subtitle": "We plan, write, and optimize content built around real search intent and buyer questions — turning your blog, resource hub, and landing pages into a compounding source of traffic and pipeline."
+      },
+      "intro": {
+        "title": "Content built around your buyers, not a quota",
+        "paragraph1": "Publishing more isn't a strategy. Publishing the right content, for the right audience, at the right stage of the buying journey is. We build editorial programs rooted in keyword research and search intent, so every article, guide, and page you publish is designed to earn rankings and move prospects closer to a decision.",
+        "paragraph2": "Our team of certified content strategists and SEO writers has spent 5+ years refining what works across mid-market and enterprise industries. Strategy, writing, optimization, and reporting all happen under one roof, so your content program stays consistent, on-brand, and accountable to measurable results."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our content marketing services to build authority and drive demand",
+        "description": "A connected content engine — strategy, creation, and measurement working as one system.",
+        "items": [
+          {
+            "title": "Content strategy & editorial calendars",
+            "description": "A documented content plan mapped to your audience, funnel stages, and business goals, with a realistic publishing cadence your team can sustain."
+          },
+          {
+            "title": "SEO-driven blog & article writing",
+            "description": "Well-researched, brand-voiced articles built around real search demand — written to rank and to genuinely inform the reader."
+          },
+          {
+            "title": "Pillar pages & topic clusters",
+            "description": "Authoritative core pages supported by interlinked subtopic content that signals topical expertise to both search engines and readers."
+          },
+          {
+            "title": "Featured-snippet-optimized content",
+            "description": "Content structured with the formatting, headers, and direct answers search engines favor for snippets, People Also Ask, and AI-generated overviews."
+          },
+          {
+            "title": "Gated assets & lead magnets",
+            "description": "Guides, templates, and reports designed to capture qualified leads in exchange for genuinely useful, well-produced content."
+          },
+          {
+            "title": "Content performance measurement",
+            "description": "Ongoing tracking of rankings, traffic, engagement, and conversions, with regular reporting that shows exactly what your content is producing."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Content Marketing FAQs",
+        "title": "Common questions about our content marketing services",
+        "items": [
+          {
+            "question": "How is content marketing different from just having a blog?",
+            "answer": "A blog is a publishing tool; content marketing is a strategy. We start with your audience, keywords, and business goals, then plan every piece of content to serve a specific purpose in your funnel — not just to fill a schedule."
+          },
+          {
+            "question": "How often should we be publishing new content?",
+            "answer": "It depends on your industry, competition, and resources. We'd rather build a cadence you can sustain with consistently high quality than push volume that dilutes your brand or drains your budget."
+          },
+          {
+            "question": "How do you measure the ROI of content marketing?",
+            "answer": "We track rankings, organic traffic, engagement, and — most importantly — the leads and conversions each piece of content contributes to, so you can see the business impact, not just vanity metrics."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to turn content into a real growth channel?",
+        "subtitle": "Get a free content marketing consultation and a clear plan for what to publish next."
+      }
+    },
+    "cro": {
+      "hero": {
+        "eyebrow": "Conversion Rate Optimization",
+        "title": "Turn more of your traffic into revenue",
+        "subtitle": "We combine behavioral data, testing, and conversion-focused design to help you convert more visitors — without spending another dollar on traffic."
+      },
+      "intro": {
+        "title": "CRO built on evidence, not guesswork",
+        "paragraph1": "Traffic is only half the equation. If your site isn't converting, more visits just means more missed opportunity. Our conversion rate optimization services find exactly where prospects hesitate or drop off, then fix it with changes backed by real user data.",
+        "paragraph2": "Every recommendation we make is tested, not assumed. We combine quantitative analytics with qualitative behavior data to build a CRO roadmap grounded in how your actual visitors think, decide, and act."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our CRO services to convert more of your existing traffic",
+        "description": "A structured, data-first approach — every test and change is built on evidence, not opinion.",
+        "items": [
+          {
+            "title": "Conversion audits & funnel analysis",
+            "description": "A deep review of your site, analytics, and conversion funnel to identify exactly where visitors lose momentum and why."
+          },
+          {
+            "title": "A/B & multivariate testing",
+            "description": "Structured, statistically sound testing of headlines, layouts, and calls to action so every change is validated before it scales."
+          },
+          {
+            "title": "Landing page design & copy optimization",
+            "description": "Conversion-focused design and persuasive, benefit-led copy built to move visitors toward a decision."
+          },
+          {
+            "title": "User behavior analytics",
+            "description": "Heatmaps, scroll maps, and session recordings that show us exactly how real visitors interact with your site."
+          },
+          {
+            "title": "Checkout & form optimization",
+            "description": "Reducing friction at your highest-stakes moments — simplifying forms and checkout flows to recover lost conversions."
+          },
+          {
+            "title": "Personalization strategy",
+            "description": "Tailoring content, offers, and experiences to different visitor segments to lift relevance and conversion rate."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "CRO FAQs",
+        "title": "Common questions about our CRO services",
+        "items": [
+          {
+            "question": "What is a CRO audit?",
+            "answer": "A thorough review of your site's analytics, UX, page performance, and user behavior, measured against your specific business goals — whether that's sales, sign-ups, or lead generation. It gives us a prioritized list of where and why visitors aren't converting."
+          },
+          {
+            "question": "What's a good conversion rate for my website?",
+            "answer": "It varies significantly by industry, traffic source, and business model, so there's no single benchmark that applies to every site. As part of your CRO audit, we'll show you how your current rate compares to relevant industry standards."
+          },
+          {
+            "question": "How long before we see results from CRO?",
+            "answer": "Meaningful testing requires enough traffic to reach statistical significance, so most clients see their first validated wins within 2–3 months, with gains compounding as we test and refine further."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to get more from the traffic you already have?",
+        "subtitle": "Get a free CRO consultation and see where your biggest conversion opportunities are hiding."
+      }
+    },
+    "reputationManagement": {
+      "hero": {
+        "eyebrow": "Reputation Management",
+        "title": "Reputation management built for lasting credibility",
+        "subtitle": "We help ambitious brands monitor, strengthen, and protect their online reputation — turning genuine customer feedback into a credibility advantage, without fake reviews, manipulated ratings, or shortcuts that put your brand at risk."
+      },
+      "intro": {
+        "title": "A reputation strategy grounded in real trust",
+        "paragraph1": "Your reputation is shaped by thousands of small moments — a review, a comment, a search result. We help you monitor those moments across every platform that matters, respond to them with a clear strategy, and build the kind of credibility that holds up under scrutiny, not just first impressions.",
+        "paragraph2": "We don't manufacture five-star ratings or bury complaints — we help you earn better reviews by making it easier for happy customers to speak up, and we help you respond to every review, positive or negative, in a way that shows real accountability. That consistency is what actually protects your brand long-term."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Our reputation management services to protect and grow your brand",
+        "description": "A complete, ethical approach to reputation — every channel monitored, every review earned, nothing manufactured.",
+        "items": [
+          {
+            "title": "Review generation & monitoring",
+            "description": "Automated, permission-based systems that make it easy for genuinely satisfied customers to leave a review, paired with real-time monitoring across Google, industry platforms, and social channels."
+          },
+          {
+            "title": "Review response strategy",
+            "description": "A consistent, on-brand approach to responding to every review — positive or negative — that shows customers and prospects you're listening and accountable."
+          },
+          {
+            "title": "Brand mention & sentiment monitoring",
+            "description": "Ongoing tracking of what's said about your brand across the web and social media, with sentiment analysis that flags emerging issues before they escalate."
+          },
+          {
+            "title": "Negative content mitigation",
+            "description": "We address inaccurate or outdated content directly with the source where possible, and build strong, positive content that reflects your brand accurately in search results."
+          },
+          {
+            "title": "Online profile & search result management",
+            "description": "Accurate, consistent business listings and profiles across directories and search platforms, so customers find the right information no matter where they look."
+          },
+          {
+            "title": "Crisis response planning",
+            "description": "A clear, pre-built playbook for responding quickly and transparently if a reputation issue escalates, so your team isn't improvising under pressure."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Reputation Management FAQs",
+        "title": "Common questions about our reputation management services",
+        "items": [
+          {
+            "question": "Do you write fake reviews for my business?",
+            "answer": "No. We never write, buy, or manufacture reviews. Our approach focuses on making it easy for real customers to share honest feedback, and on responding professionally to the reviews you already have. Reputation built on fabricated reviews doesn't hold up — and it isn't a strategy we offer."
+          },
+          {
+            "question": "Can you remove negative reviews or content from search results?",
+            "answer": "We can't force removal of legitimate reviews or content, and we're transparent about that. What we can do is address inaccurate content directly with the source when possible, and build strong, authentic content that represents your brand accurately in search results over time."
+          },
+          {
+            "question": "How long does it take to see a change in my online reputation?",
+            "answer": "Most brands see meaningful movement — more reviews, faster response times, clearer sentiment trends — within a few months, though the timeline depends on your starting point, industry, and how many platforms are involved."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to take control of your online reputation?",
+        "subtitle": "Get a free reputation audit and see exactly where you stand."
+      }
+    },
+    "wordpressDevelopment": {
+      "hero": {
+        "eyebrow": "WordPress Development",
+        "title": "WordPress websites built to rank and convert",
+        "subtitle": "We design and build WordPress websites with SEO performance engineered in from the first sprint — so your new site doesn't just look sharp, it drives rankings, traffic, and revenue from day one."
+      },
+      "intro": {
+        "title": "WordPress development led by SEO strategists, not just coders",
+        "paragraph1": "Most WordPress agencies build a site, hand you the keys, and hope search engines figure out the rest. We do it differently. As a marketing agency first, we architect every theme, template, and page structure around technical SEO best practices from the earliest wireframe — not as an afterthought bolted on after launch.",
+        "paragraph2": "Our team of 45+ certified digital marketing experts spans the US, Canada, and India, giving you round-the-clock development capacity backed by strategists who understand how Google actually ranks a site. The result is a WordPress build that's fast, secure, easy to manage, and ready to compete from launch day."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "Full-scope WordPress development, engineered for growth",
+        "description": "Every build combines clean design, solid engineering, and SEO fundamentals from the first line of code.",
+        "items": [
+          {
+            "title": "Custom theme & site design",
+            "description": "We design and develop custom WordPress websites from scratch — no recycled templates — matched to your brand, your users, and your conversion goals."
+          },
+          {
+            "title": "SEO-first technical architecture",
+            "description": "Site structure, internal linking, schema markup, and URL architecture are planned before a single page is built, so your site is built to rank, not retrofitted later."
+          },
+          {
+            "title": "Speed & Core Web Vitals optimization",
+            "description": "We optimize code, images, caching, and hosting configuration so your site loads fast and passes Google's Core Web Vitals — a ranking factor too many WordPress builds ignore."
+          },
+          {
+            "title": "Secure hosting & maintenance",
+            "description": "Ongoing monitoring, security hardening, and managed updates keep your site protected against vulnerabilities, downtime, and outdated plugins."
+          },
+          {
+            "title": "WooCommerce & eCommerce builds",
+            "description": "We build secure, scalable WooCommerce stores with optimized product pages, checkout flows, and payment integrations designed to turn browsers into buyers."
+          },
+          {
+            "title": "Ongoing support & updates",
+            "description": "Once your site is live, our team continues to manage updates, backups, and enhancements, so your WordPress site stays fast, secure, and current."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "WordPress Development FAQs",
+        "title": "Common questions about our WordPress development services",
+        "items": [
+          {
+            "question": "Will my new WordPress site actually be SEO-friendly?",
+            "answer": "Yes — SEO isn't an add-on with us. Because we're a marketing agency first, every WordPress site we build follows technical SEO best practices from the initial architecture through launch, covering site speed, mobile responsiveness, structured data, and crawlability."
+          },
+          {
+            "question": "How long does a custom WordPress build take?",
+            "answer": "Timelines depend on scope, but most custom WordPress websites take between 6 and 12 weeks from kickoff to launch, covering strategy, design, development, and QA."
+          },
+          {
+            "question": "Can you migrate our existing site to WordPress or handle ongoing support after launch?",
+            "answer": "Yes to both. We handle full migrations with minimal downtime and no lost content or rankings, and we offer ongoing maintenance plans covering updates, backups, security monitoring, and performance improvements after your site goes live."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready for a WordPress site that ranks as well as it looks?",
+        "subtitle": "Get a free consultation and see how a marketing-led approach to WordPress development can change what your website delivers."
+      }
+    },
+    "hireSeoExperts": {
+      "hero": {
+        "eyebrow": "Hire SEO Experts",
+        "title": "Add a dedicated SEO expert to your team",
+        "subtitle": "Bring a certified SEO specialist or full team onto your roster — working inside your workflows, reporting to your priorities, and scaling with your business. No agency hand-offs, no black box."
+      },
+      "intro": {
+        "title": "Staff augmentation built for serious in-house teams",
+        "paragraph1": "When you hire an SEO expert from Digital SEO Store, you're not buying a campaign — you're extending your in-house team with a certified specialist who works inside your tools, your reporting cadence, and your priorities. It's the flexibility of an in-house hire without the recruiting timeline, overhead, or risk.",
+        "paragraph2": "Since 2021, our team of 45+ certified digital marketing experts, based across our US, Canada, and India offices, has supported mid-market and enterprise marketing teams who need dedicated capacity — not another agency retainer. You stay in control of strategy; we bring the execution power."
+      },
+      "features": {
+        "eyebrow": "What's Included",
+        "title": "What you get when you hire an SEO expert from DSS",
+        "description": "A flexible staffing model designed to plug directly into how your team already works.",
+        "items": [
+          {
+            "title": "Dedicated specialist or team match",
+            "description": "We match you with a certified SEO expert — or a full team — whose skill set and experience fit your industry, platform, and goals."
+          },
+          {
+            "title": "Flexible engagement models",
+            "description": "Hire part-time, full-time, or project-based support, and adjust the arrangement as your workload and priorities change."
+          },
+          {
+            "title": "Direct access to your expert",
+            "description": "Work directly with the specialist assigned to your account — no account managers relaying messages or diluting context."
+          },
+          {
+            "title": "Structured onboarding",
+            "description": "A defined onboarding process gets your dedicated expert up to speed on your brand, stack, and goals fast, with full knowledge transfer along the way."
+          },
+          {
+            "title": "Transparent time & task reporting",
+            "description": "Clear visibility into hours, priorities, and progress, so you always know exactly what your dedicated expert is working on and why."
+          },
+          {
+            "title": "Scale up or down on demand",
+            "description": "Add capacity during peak initiatives or scale back when priorities shift — without the cost or delay of hiring and offboarding in-house."
+          }
+        ]
+      },
+      "faq": {
+        "eyebrow": "Hiring FAQs",
+        "title": "Common questions about hiring SEO experts",
+        "items": [
+          {
+            "question": "How is hiring an SEO expert different from hiring an SEO agency for a project?",
+            "answer": "When you hire an SEO expert, you get dedicated capacity that works inside your team and processes, reporting directly to you. A project engagement, by contrast, hands you a defined outcome managed largely on the agency's own terms and timeline."
+          },
+          {
+            "question": "Can I choose how many hours or how much capacity I need?",
+            "answer": "Yes. Engagements are flexible — part-time, full-time, or scaled to a specific project — and can be adjusted as your needs change over time."
+          },
+          {
+            "question": "Who owns the strategy and the work my dedicated expert produces?",
+            "answer": "You do. Your dedicated expert works as an extension of your team, executing against your priorities and reporting through the channels and cadence you choose."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to add dedicated SEO talent to your team?",
+        "subtitle": "Tell us your goals and we'll match you with the right certified expert."
+      }
+    }
+  },
+  "notFound": {
+    "title": "This page took a wrong turn.",
+    "subtitle": "The page you're looking for doesn't exist or has moved. Let's get you back on track.",
+    "button": "Back to homepage"
+  },
+  "blogPage": {
+    "hero": {
+      "eyebrow": "Blog",
+      "title": "Digital marketing insights",
+      "subtitle": "Stay ahead of the curve with practical, no-fluff guidance on SEO, PPC, and growth marketing from our team."
+    }
+  },
+  "faqPage": {
+    "hero": {
+      "eyebrow": "FAQs",
+      "title": "Frequently asked questions",
+      "subtitle": "Everything you need to know about working with us. Can't find your answer? Reach out and we'll get back to you directly."
+    },
+    "categories": {
+      "general": {
+        "title": "General",
+        "items": [
+          { "question": "What is SEO, and why does it matter?", "answer": "Search engine optimization is the practice of improving your site so it ranks higher in organic (unpaid) search results. It matters because organic search is often the highest-intent, most cost-efficient channel for finding new customers over the long run." },
+          { "question": "Do you work with businesses outside the US?", "answer": "Yes — we work with clients across the US, UK, Canada, Spain, France, and beyond. Our strategies account for local search behavior and, where relevant, multi-region or multi-language SEO." },
+          { "question": "Do you handle work in-house, or outsource it?", "answer": "The large majority of work is handled in-house by our team of 45+ certified specialists. For a small number of highly specialized tasks, we partner with carefully vetted external experts." },
+          { "question": "Can you support enterprise-level organizations?", "answer": "Absolutely. We work with businesses of every size, and our processes, reporting, and account structure are built to scale to complex, multi-stakeholder organizations." }
+        ]
+      },
+      "results": {
+        "title": "Results & Process",
+        "items": [
+          { "question": "How quickly can I expect results?", "answer": "SEO is a long-term channel — most clients see measurable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and the scope of work." },
+          { "question": "How do you measure success?", "answer": "We track organic rankings, traffic, conversion rate, and ultimately ROI — and report on all of it transparently, on a regular cadence you can rely on." },
+          { "question": "What's your approach to link building?", "answer": "We earn links through valuable, relevant content and genuine outreach — never black-hat or spammy tactics that put your domain at risk." },
+          { "question": "Do you offer any guarantees?", "answer": "We can't guarantee specific rankings — no honest agency can, since search engines don't sell that outcome. We do commit to a transparent process and measurable progress toward your goals." }
+        ]
+      },
+      "pricing": {
+        "title": "Pricing & Contracts",
+        "items": [
+          { "question": "How much do your services cost?", "answer": "It depends on scope, industry competitiveness, and your goals. See our Pricing page for starting ranges, or get a tailored proposal after a free consultation." },
+          { "question": "Are there long-term contracts?", "answer": "We work month-to-month after an initial 3-month minimum — the time it typically takes for a strategy to start showing measurable traction." },
+          { "question": "Can I change my plan later?", "answer": "Yes — most clients start with a smaller scope and expand as results compound. We'll revisit your plan together at any regular strategy call." },
+          { "question": "Do you offer a profit-sharing model?", "answer": "For qualifying US-based businesses, yes — ask about our profit-sharing option during your consultation." }
+        ]
+      },
+      "working": {
+        "title": "Working With Us",
+        "items": [
+          { "question": "Will I have a dedicated point of contact?", "answer": "Yes — every client is assigned a dedicated account manager and a team of specialists who work as an extension of your in-house team." },
+          { "question": "How often will we communicate?", "answer": "Typically a regular strategy call (weekly or bi-weekly depending on your plan), plus transparent reporting and direct access to your team in between." },
+          { "question": "What do you need from us to get started?", "answer": "Access to your website analytics and search console, a conversation about your goals, and a point of contact on your side — we'll handle the rest." },
+          { "question": "Can you also build or redesign our website?", "answer": "Yes — our WordPress Development service builds SEO-first sites designed to rank and convert from day one." }
+        ]
+      }
+    },
+    "cta": {
+      "title": "Still have questions?",
+      "subtitle": "Talk to us directly — we're happy to walk through anything specific to your business."
+    }
+  },
+  "thankYou": {
+    "title": "Thank you — your message is on its way to us.",
+    "subtitle": "We'll get back to you within one business day. In the meantime, feel free to explore our services.",
+    "button": "Back to homepage"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact Us",
+      "title": "Let's grow your traffic and sales, together",
+      "subtitle": "Have questions about SEO, or need a full-stack growth plan? We're one message away — fill out the form and we'll get back to you within one business day."
+    },
+    "info": {
+      "title": "Let's build something great together",
+      "description": "Want more leads, stronger traffic, or a smarter digital presence? Reach out and let's make it happen — we're ready when you are."
+    },
+    "offices": {
+      "us": { "label": "United States", "address": "1290 Oconee St, Athens, GA 30605" },
+      "canada": { "label": "Canada", "address": "12473 91A Avenue, Surrey, BC V3V" },
+      "india": { "label": "India", "address": "D-324, Safal Sumel 8, Ahmedabad" }
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "Tell us a bit about your business and goals — we'll follow up promptly.",
+      "name": "Your name",
+      "email": "Your email",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "message": "Your message",
+      "send": "Send message",
+      "sending": "Sending…"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Us",
+      "title": "Empowering businesses with data-driven marketing",
+      "subtitle": "Your affordable, transparent, and results-focused digital marketing partner — since 2021."
+    },
+    "stats": {
+      "experts": "Certified digital experts",
+      "clients": "Businesses grown",
+      "years": "Years in business",
+      "offices": "Countries with offices"
+    },
+    "story": {
+      "title": "Building success with data-driven strategies",
+      "paragraph1": "Digital SEO Store is an industry-focused digital marketing agency helping businesses achieve measurable growth since 2021. Our mission is simple: help businesses attract more customers online and grow with the power of digital marketing — delivered affordably and transparently.",
+      "paragraph2": "Our team of 45+ certified digital experts specializes in SEO, PPC, social media, and analytics. Every strategy we craft is backed by data, designed around your specific business, and focused on delivering measurable results — not vanity metrics."
+    },
+    "values": {
+      "eyebrow": "What We Stand For",
+      "title": "Values that shape everything we do",
+      "description": "We don't believe in shortcuts. These principles guide how we serve clients and approach every project.",
+      "items": [
+        { "title": "Authenticity", "description": "No fake reviews, no hidden tricks with search engines, no spam. Just solid work focused on what matters." },
+        { "title": "Excellence", "description": "We hold our own work to a higher bar than our clients expect — because good enough rarely is." },
+        { "title": "Honesty", "description": "We tell clients what's realistic, not what's easiest to hear — even when it's a harder conversation." },
+        { "title": "Reliability", "description": "Deadlines, deliverables, and communication you can count on, every time." },
+        { "title": "Integrity", "description": "We do right by clients even when no one's watching — it's the only way we know how to work." },
+        { "title": "Long-term partnership", "description": "We're not chasing one-off projects. We build relationships that compound over years, not months." }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Choose Digital SEO Store",
+      "title": "We don't just deliver results — we exceed expectations",
+      "description": "We stand out because we build long-term relationships and strategies that deliver real results.",
+      "items": [
+        { "title": "Big-picture thinking", "description": "We look beyond the immediate win to build sustainable, compounding growth." },
+        { "title": "ROI-focused marketing", "description": "Every strategy is designed to deliver a measurable return, not just activity." },
+        { "title": "Global experience", "description": "We've served clients across a wide range of industries and markets worldwide." },
+        { "title": "Custom solutions", "description": "We tailor every strategy to your specific business — never a copy-paste template." },
+        { "title": "Dedicated partnership", "description": "We work with you every step of the way, as a genuine extension of your team." },
+        { "title": "Transparent reporting", "description": "You always know exactly what we're doing and why — no black boxes, ever." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to grow your business? Let's work together.",
+      "subtitle": "We'll help you build a data-driven strategy aligned to your goals — with the support you need every step of the way."
+    }
+  },
+  "pricing": {
+    "hero": {
+      "eyebrow": "Pricing",
+      "title": "Straightforward pricing, built around results",
+      "subtitle": "No hidden fees, no vague retainers. Choose a starting point below, then we'll tailor the scope to your goals during a free consultation."
+    },
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$2,450",
+        "period": "/month",
+        "description": "For growing businesses ready to build a real SEO foundation.",
+        "features": [
+          "Full technical & on-page SEO audit",
+          "Keyword research & strategy",
+          "On-page optimization (up to 10 pages)",
+          "Monthly link building",
+          "Monthly performance reporting",
+          "Dedicated account manager"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "name": "Growth",
+        "price": "$5,990",
+        "period": "/month",
+        "description": "Our most popular plan for scaling organic revenue.",
+        "features": [
+          "Everything in Starter",
+          "Expanded on-page optimization (up to 30 pages)",
+          "SEO-driven content production",
+          "Accelerated link building",
+          "Conversion rate optimization basics",
+          "Bi-weekly strategy calls"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "$8,950",
+        "period": "/month",
+        "description": "For established brands with complex, high-stakes SEO needs.",
+        "features": [
+          "Everything in Growth",
+          "Unlimited page optimization",
+          "Dedicated content & outreach team",
+          "Advanced technical SEO & site migrations",
+          "Custom reporting dashboard",
+          "Weekly strategy calls"
+        ],
+        "cta": "Talk to sales"
+      }
+    ],
+    "note": "Need something more specific — a single project, a site migration, or a custom scope? Contact us for a tailored proposal.",
+    "faq": {
+      "eyebrow": "Pricing FAQs",
+      "title": "Questions about our pricing",
+      "items": [
+        {
+          "question": "Are there any long-term contracts?",
+          "answer": "We work on month-to-month agreements after an initial 3-month minimum — the time it typically takes for an SEO strategy to start showing measurable traction."
+        },
+        {
+          "question": "What's included in the free consultation?",
+          "answer": "A review of your current site and search visibility, a discussion of your goals, and a clear recommendation on which plan (or custom scope) fits your business — no pressure, no obligation."
+        },
+        {
+          "question": "Can I switch plans as my business grows?",
+          "answer": "Yes — most clients start smaller and scale up as results compound. We'll revisit your plan together at any regular strategy call."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Not sure which plan is right for you?",
+      "subtitle": "Book a free consultation and we'll recommend a scope based on your goals — no obligation."
+    }
+  }
+}
