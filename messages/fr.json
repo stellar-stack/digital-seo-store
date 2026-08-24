@@ -39,136 +39,234 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Marketing digital axé sur le ROI",
-      "titleLine1": "Enfin, une équipe SEO",
-      "titleLine2": "conçue pour penser différemment.",
-      "subtitle": "Nous accompagnons des marques ambitieuses aux États-Unis, au Royaume-Uni, au Canada et en Europe pour faire du référencement naturel votre canal de revenus le plus fiable — sans artifices, sans indicateurs de vanité, uniquement une croissance guidée par la donnée.",
-      "ctaPrimary": "Réserver une consultation gratuite",
-      "ctaSecondary": "Découvrir le SEO",
-      "rotatingPrefix": "Conçu pour",
+      "eyebrow": "Agence de marketing digital axée sur le ROI",
+      "titleStatic": "Enfin, une agence SEO qui",
       "rotating": {
-        "seo": "le SEO",
-        "ppc": "le PPC",
-        "content": "le contenu",
-        "social": "le social",
-        "cro": "la conversion"
+        "growth": "Génère une croissance exponentielle",
+        "sales": "Génère des ventes numériques directes",
+        "traffic": "Augmente le trafic organique",
+        "recover": "Récupère le trafic perdu",
+        "rank": "Positionne votre site et votre application",
+        "results": "Délivre des résultats concrets"
+      },
+      "ctaPrimary": "Obtenir une consultation gratuite",
+      "panelEyebrow": "Notre bilan",
+      "extraStats": {
+        "services": "Lignes de services principales",
+        "languages": "Langues proposées"
       }
     },
-    "stats": {
-      "experts": "Experts digitaux certifiés",
-      "clients": "Entreprises accompagnées",
-      "since": "Années d'expérience",
-      "countries": "Pays desservis"
+    "intro": {
+      "eyebrow": "Agence de marketing digital",
+      "title": "Nous aidons les entreprises à se développer en ligne",
+      "description": "Nous proposons des services de marketing digital B2B et B2C complets et axés sur les résultats, incluant le SEO local, la RMS, le CRO, le PPC, les réseaux sociaux, et bien plus. (Nous proposons des services à partage de profits pour les entreprises aux États-Unis, sans coût marketing initial.)",
+      "cta": "Obtenir une consultation gratuite"
     },
     "servicesSection": {
       "eyebrow": "Services de marketing digital",
-      "title": "Des services conçus pour vous faire grandir en ligne",
-      "description": "Nous accompagnons des entreprises de tous secteurs grâce à une stratégie marketing intégrée et pilotée par la donnée — fondée sur l'honnêteté, une transparence totale et des décisions fondées sur des preuves."
+      "title": "Des services pour vous aider à grandir en ligne",
+      "description": "Nous aidons des entreprises de tous secteurs grâce à notre stratégie marketing intégrée et pilotée par la donnée, afin d'atteindre leurs objectifs marketing et de générer un trafic considérable. Cela s'appuie sur notre culture de l'honnêteté, une transparence à 100 % et des décisions fondées sur des preuves.",
+      "closingTitle": "Prenez de l'avance sur vos concurrents grâce à nos services marketing spécialisés par secteur",
+      "closingSubtitle": "Nous ne collaborons avec une entreprise que si nous sommes certains à 100 % de pouvoir délivrer des résultats",
+      "closingCta": "Réserver ma consultation gratuite"
     },
     "servicesGrid": {
-      "seo": "Des stratégies data-driven qui dépassent vos concurrents et transforment la visibilité en pipeline qualifié.",
-      "ecommerceSeo": "Analyse concurrentielle, optimisation on-page et fiches produit pensées pour la conversion et le revenu organique.",
-      "wordpressDevelopment": "Des développeurs spécialisés et vérifiés pour des sites WordPress rapides, évolutifs et conçus pour convertir.",
-      "localSeo": "Un SEO local moderne pour les entreprises avec présence physique, conçu pour dominer les recherches de proximité.",
-      "seoAudit": "Un audit totalement transparent sur plus de 250 paramètres techniques, avec une feuille de route claire.",
-      "smm": "Des tunnels social media hyper-ciblés qui construisent une communauté et une croissance mesurable.",
-      "contentMarketing": "Une stratégie de contenu sur mesure — des featured snippets aux articles de fond — pensée pour votre audience idéale.",
-      "ppc": "Des spécialistes PPC certifiés qui transforment chaque clic en retour sur investissement publicitaire mesurable.",
+      "seo": {
+        "title": "Services SEO",
+        "description": "Nos stratégies data-driven surpasseront vos concurrents, attireront de nouveaux clients et augmenteront un trafic de qualité, les ventes et le chiffre d'affaires. Nous sommes experts en SEO, en optimisation de la conversion, et bien plus encore."
+      },
+      "ecommerceSeo": {
+        "title": "SEO eCommerce",
+        "description": "Nos experts en SEO eCommerce mènent une recherche concurrentielle, une optimisation on-page, une optimisation du taux de conversion, une optimisation de la vitesse du site, et bien plus encore, afin d'améliorer le positionnement de votre site et de vos pages produits."
+      },
+      "wordpressDevelopment": {
+        "title": "Développement web",
+        "description": "Faites appel à nos développeurs dédiés, vérifiés et spécialisés par secteur, forts de plusieurs décennies d'expérience dans la livraison d'applications web et mobiles interopérables, robustes et évolutives pour de multiples domaines."
+      },
+      "localSeo": {
+        "title": "SEO local",
+        "description": "En combinant des années d'expérience SEO éprouvée avec des techniques marketing modernes, pour les entreprises disposant d'une présence physique et cherchant à attirer une audience plus locale."
+      },
+      "seoAudit": {
+        "title": "Audit SEO",
+        "description": "Nos services d'audit SEO sont transparents à 100 % et couvrent plus de 250 paramètres techniques garantissant de meilleures conversions. Nous vous partagerons notre rapport d'audit SEO afin que vous puissiez examiner en détail les axes d'amélioration potentiels."
+      },
+      "speedOptimization": {
+        "title": "Optimisation de la vitesse",
+        "description": "Un site lent fait perdre des clients et du chiffre d'affaires. Nos ingénieurs experts en vitesse de site veillent à ce que votre site se charge en moins de 3 secondes, afin d'augmenter le trafic ciblé et d'améliorer le taux de conversion."
+      },
+      "smm": {
+        "title": "Réseaux sociaux",
+        "description": "Que vous souhaitiez renforcer votre présence sur les réseaux sociaux ou générer des prospects ciblés, nous créons des tunnels hyper-ciblés qui favorisent une croissance business à fort impact."
+      },
+      "contentMarketing": {
+        "title": "Marketing de contenu",
+        "description": "Nous créons des stratégies de contenu sur mesure et développons des supports marketing optimisés pour le SEO — featured snippets, éditoriaux, articles de blog et publicités — afin d'attirer votre audience cible potentielle."
+      },
+      "ppc": {
+        "title": "Paiement au clic",
+        "description": "Obtenez des résultats immédiats en faisant appel à nos experts PPC, qui savent transformer les clics en chiffre d'affaires. Optimisez votre campagne PPC avec des experts PPC certifiés."
+      },
       "learnMore": "En savoir plus",
       "viewAll": "Voir tous les services →"
     },
     "process": {
       "eyebrow": "Services de marketing internet",
-      "title": "Comment nous obtenons des résultats constants pour chaque client",
-      "description": "Il n'y a pas de magie pour être numéro 1 sur Google. Notre méthode en quatre étapes est rigoureuse, transparente et conçue pour porter ses fruits dans la durée.",
+      "title": "Voici comment nous garantissons des résultats satisfaisants à chacun de nos clients",
+      "description": "Il n'existe pas de recette magique pour placer votre entreprise en première position sur Google ou tout autre moteur de recherche. Mais notre processus en quatre étapes, aussi rigoureux et discipliné qu'une organisation militaire, nous permet de délivrer les résultats que vous attendez.",
       "steps": {
         "discover": {
           "title": "Étudier votre entreprise",
-          "description": "Nous commençons par comprendre votre activité, puis analysons 50 à 100 groupes de mots-clés à partir de plus de 300 facteurs de trafic."
+          "description": "Nous commençons par comprendre votre entreprise, en collectant et en analysant 50 à 100 groupes de mots-clés. Nos experts élaborent ensuite une stratégie pilotée par la donnée, en s'appuyant sur plus de 300 facteurs pertinents générateurs de trafic."
         },
         "team": {
           "title": "Constituer votre équipe dédiée",
-          "description": "Nous assemblons une équipe de spécialistes ayant une réelle expérience de votre secteur — une extension de votre équipe interne."
+          "description": "En fonction de vos besoins et de vos objectifs, nous mobiliserons une équipe d'experts SEO dédiés ayant de l'expérience dans votre secteur. Chaque membre travaillera comme s'il faisait partie de votre équipe marketing interne."
         },
         "strategy": {
-          "title": "Élaborer une stratégie data-driven",
-          "description": "Nos experts construisent une feuille de route sur mesure, alignée sur vos objectifs et fondée sur les données actuelles et les meilleures pratiques."
+          "title": "Élaborer une stratégie pilotée par la donnée",
+          "description": "Ensuite, nos experts élaborent une feuille de route SEO sur mesure, fondée sur vos données et votre secteur d'activité. Nos experts veillent à ce que le plan reflète les dernières tendances et vos objectifs, afin de délivrer les résultats que vous attendez."
         },
         "grow": {
-          "title": "Analyser et faire évoluer",
-          "description": "Nous évaluons les performances régulièrement, rendons compte en toute transparence et ajustons la stratégie à mesure que votre entreprise se développe."
+          "title": "Analyser et développer",
+          "description": "Enfin, vient le moment d'évaluer la performance de la stratégie mise en œuvre. Une fois par semaine, ou selon vos disponibilités dans le mois, nous nous retrouvons lors d'un point d'avancement pour discuter des progrès réalisés — et apporter les ajustements nécessaires."
         }
       }
     },
     "comparison": {
-      "eyebrow": "Une agence digitale différente",
-      "title": "Choisissez un partenaire centré sur le profit, pas seulement sur le trafic",
-      "description": "Beaucoup d'agences affirment être différentes. Voici ce qui nous distingue réellement.",
-      "othersLabel": "Les autres agences",
+      "eyebrow": "Agence digitale en Inde",
+      "title": "Choisissez-nous pour générer du profit, pas seulement du trafic",
+      "description": "Des milliers d'entreprises affirment être différentes, être les meilleures, et délivrer des résultats. Mais nos clients nous disent avoir été déçus par elles. Découvrez en quoi nous sommes différents",
+      "othersLabel": "Les autres agences SEO",
       "usLabel": "Digital SEO Store",
       "rows": {
         "promises": {
-          "them": "Font des promesses qu'elles ne tiennent pas",
-          "us": "Prennent des engagements réalistes et fondés sur la donnée"
+          "them": "Font des promesses qu'elles ne peuvent pas tenir",
+          "us": "Prennent des engagements réalistes"
         },
         "oneSize": {
-          "them": "Appliquent des solutions génériques",
-          "us": "Personnalisent la stratégie pour chaque client"
+          "them": "Utilisent des solutions génériques, valables pour tous",
+          "us": "Personnalisent leur stratégie pour chaque client"
         },
         "juggle": {
-          "them": "Jonglent avec trop de comptes à la fois",
-          "us": "Dédient une équipe concentrée à votre compte"
+          "them": "Jonglent avec trop de projets à la fois",
+          "us": "Dédient une équipe à chaque client"
         },
         "communication": {
-          "them": "Deviennent silencieuses en cas de problème",
-          "us": "Restent transparentes sur les objectifs et les délais"
+          "them": "Ne communiquent pas toujours sur les problèmes",
+          "us": "Transparentes sur les objectifs et les délais"
         },
         "quickWins": {
-          "them": "Recherchent des gains rapides plutôt que durables",
-          "us": "Priorisent une croissance durable et cumulative"
+          "them": "Privilégient les gains rapides au détriment du succès à long terme",
+          "us": "Priorisent un trafic de qualité et durable"
+        },
+        "measure": {
+          "them": "Mesurent le succès uniquement au positionnement et au trafic",
+          "us": "Se concentrent sur la livraison d'un vrai retour sur investissement"
+        },
+        "vendor": {
+          "them": "Se comportent comme un prestataire classique",
+          "us": "Agissent comme une extension de votre équipe"
+        },
+        "strategy2": {
+          "them": "Laissent la stratégie à la charge du client",
+          "us": "Élaborent des stratégies éprouvées, axées sur les résultats"
+        },
+        "outsource": {
+          "them": "Sous-traitent le travail à des freelances au hasard",
+          "us": "Sélectionnent rigoureusement et bâtissent des équipes d'experts"
         }
-      }
+      },
+      "closingTitle": "Fatigué des promesses non tenues des agences SEO ?",
+      "closingSubtitle": "Obtenez de vrais résultats grâce à nos stratégies éprouvées !",
+      "closingCta": "Obtenir une consultation gratuite"
     },
     "testimonials": {
       "eyebrow": "Témoignages",
       "title": "Ce que disent nos clients",
       "items": {
         "local": {
-          "quote": "Être visible localement était essentiel pour mon activité. L'équipe de Digital SEO Store a pris le temps de comprendre mon audience et d'optimiser ma présence — mon site est désormais en tête localement, et le trafic en magasin a nettement augmenté.",
+          "quote": "En tant que propriétaire d'une petite entreprise, être visible localement était essentiel pour ma réussite. Les services de SEO local de Digital SEO Store ont tout changé ! Leur équipe a pris le temps de comprendre mon entreprise et mon audience cible, en optimisant ma présence en ligne pour attirer davantage de clients locaux. Grâce à leurs efforts, mon site se classe désormais en tête des résultats de recherche locaux, et j'ai constaté une augmentation significative du trafic en magasin et des ventes. Je les recommande vivement !",
           "name": "Kelly McMillian"
         },
         "ppc": {
-          "quote": "Avant Digital SEO Store, nos campagnes PPC gaspillaient du budget pour peu de résultats. Leur équipe a entièrement revu notre ciblage, nos annonces et nos enchères — notre retour sur investissement publicitaire s'est amélioré en quelques semaines.",
+          "quote": "Avant de travailler avec Digital SEO Store, mes campagnes au paiement au clic étaient un vrai désordre — elles gaspillaient de l'argent et ne généraient que peu, voire aucun résultat. Leurs experts PPC ont entièrement repensé nos campagnes, en optimisant le ciblage, les textes publicitaires et les stratégies d'enchères. En seulement quelques semaines, nous avons constaté un retour sur investissement publicitaire bien plus élevé, et nos ventes ont explosé. Leur approche pilotée par la donnée et leur suivi constant des campagnes ont été inestimables.",
           "name": "Steve Barnett"
         },
         "social": {
-          "quote": "J'étais sceptique sur le marketing des réseaux sociaux, mais leur plan stratégique m'a convaincu. Nous avons bâti une véritable communauté et transformé nos réseaux en de vrais leviers marketing.",
+          "quote": "J'étais sceptique à l'idée d'investir dans le marketing sur les réseaux sociaux pour mon entreprise, mais l'équipe de Digital SEO Store m'a fait changer d'avis. Ils ont développé un plan stratégique pour renforcer notre présence sur les réseaux sociaux, en créant du contenu engageant et des campagnes publicitaires ciblées. Grâce à leurs efforts, nous avons bâti une communauté en ligne solide, accru la notoriété de notre marque et généré davantage de trafic vers notre site. Nos canaux sociaux sont devenus de puissants leviers marketing, grâce à leur expertise.",
           "name": "Denis Robinson"
         }
       }
     },
+    "blogTeaser": {
+      "eyebrow": "les analyses de nos experts en marketing digital",
+      "title": "Blog",
+      "description": "Restez informé et gardez une longueur d'avance sur la concurrence grâce aux dernières actualités de l'univers digital.",
+      "readMore": "Lire la suite"
+    },
     "faq": {
-      "eyebrow": "Questions fréquentes",
-      "title": "Des questions ? Nous avons les réponses.",
+      "title": "Questions fréquemment posées. Contactez-nous si vous en avez d'autres",
       "items": {
         "results": {
-          "question": "En combien de temps puis-je espérer des résultats SEO ?",
-          "answer": "Le SEO s'inscrit dans la durée — la plupart des clients constatent une amélioration notable de leur positionnement et de leur trafic organique en 3 à 6 mois, selon le secteur, l'état actuel du site et l'ampleur du projet."
+          "question": "En combien de temps puis-je espérer voir les résultats de vos efforts SEO ?",
+          "answer": "Le SEO s'inscrit dans la durée, et les résultats n'apparaissent pas du jour au lendemain. Il faut généralement 3 à 6 mois pour commencer à observer des améliorations notables du positionnement et du trafic organique. Ce délai peut toutefois varier selon des facteurs comme la concurrence de votre secteur, l'état actuel de votre site et l'ampleur de l'optimisation nécessaire."
         },
         "tactics": {
           "question": "Quelles tactiques et stratégies SEO utilisez-vous ?",
-          "answer": "Une approche complète et sur mesure : optimisation on-page, contenu de haute qualité, audits techniques et netlinking de qualité — le tout piloté par la donnée et ajusté en continu."
+          "answer": "Notre approche SEO est complète et adaptée aux besoins spécifiques de votre entreprise. Nous nous concentrons sur l'optimisation on-page, la création de contenu de haute qualité, les audits techniques SEO et l'acquisition de liens depuis des sources faisant autorité. Nous nous appuyons également sur des données pour surveiller et ajuster en permanence nos stratégies afin d'en maximiser l'impact."
+        },
+        "inhouse": {
+          "question": "Gérez-vous le processus SEO en interne ou le sous-traitez-vous ?",
+          "answer": "Nous gérons la majeure partie du processus SEO en interne, avec notre équipe de professionnels expérimentés. Cependant, pour certaines tâches spécialisées comme les audits techniques avancés ou la création de contenu à grande échelle, il nous arrive de collaborer avec des experts ou agences tiers, rigoureusement sélectionnés et de confiance."
+        },
+        "enterprise": {
+          "question": "Pouvez-vous gérer le SEO pour de grandes entreprises de niveau international ?",
+          "answer": "Absolument ! Nous travaillons avec des entreprises de toutes tailles, et nous disposons des ressources, de l'expertise et d'un historique éprouvé pour gérer le SEO des organisations les plus grandes et les plus complexes. Notre équipe est parfaitement équipée pour relever les défis particuliers et l'échelle exigés par les projets SEO à l'échelle d'une entreprise."
+        },
+        "linkbuilding": {
+          "question": "Quelle est votre approche du netlinking ?",
+          "answer": "Nous comprenons l'importance de backlinks pertinents et de haute qualité pour le SEO. Nos stratégies de netlinking consistent à gagner des liens grâce à un contenu utile et partageable, à une prospection stratégique, et en construisant des relations avec des influenceurs et des publications de votre secteur. Nous ne recourons jamais à des pratiques de netlinking black-hat ou spammy susceptibles de nuire à votre présence en ligne."
+        },
+        "measure": {
+          "question": "Comment mesurez-vous le succès de vos campagnes SEO ?",
+          "answer": "Nous suivons une variété d'indicateurs pour évaluer le succès de nos actions SEO : positionnement organique, trafic du site, taux de conversion et, in fine, le retour sur investissement (ROI) pour votre entreprise. Nous vous fournissons un reporting et des analyses réguliers et transparents, afin que vous compreniez toujours l'impact de notre travail."
+        },
+        "standout": {
+          "question": "Qu'est-ce qui distingue vos services SEO de la concurrence ?",
+          "answer": "Notre engagement envers la transparence, des stratégies personnalisées et une approche pilotée par la donnée font toute la différence. Nous prenons le temps de comprendre les objectifs et les défis propres à votre entreprise, et nous sommes francs sur ce qui est réalisable ou non. Notre équipe se tient constamment à jour des meilleures pratiques SEO et des évolutions des algorithmes, afin de toujours proposer des solutions efficaces et pérennes."
+        },
+        "examples": {
+          "question": "Pouvez-vous partager des exemples de campagnes SEO réussies que vous avez menées ?",
+          "answer": "Nous avons aidé de nombreux clients, dans divers secteurs, à obtenir des résultats exceptionnels grâce à nos services SEO. Par exemple, nous avons aidé une entreprise locale de plomberie à augmenter son trafic organique de 87 % et à générer plus de 250 000 $ de revenus supplémentaires dès la première année. Nous avons également aidé une marque e-commerce nationale à améliorer sa visibilité sur des mots-clés à forte valeur, ce qui a entraîné une hausse de 32 % de ses ventes en ligne."
         },
         "cost": {
-          "question": "Quel est le coût de vos services SEO ?",
-          "answer": "Le tarif dépend du périmètre, de la concurrence du secteur et de vos objectifs. Nous proposons une proposition transparente après une première consultation — consultez notre page Tarifs pour les fourchettes de départ."
+          "question": "Combien coûtent vos services SEO ?",
+          "answer": "Le coût de nos services SEO peut varier selon l'ampleur du projet, la concurrence de votre secteur, ainsi que vos objectifs et défis spécifiques. Nous croyons cependant en une tarification transparente et fondée sur la valeur, adaptée aux besoins propres à chaque client. Lors de notre première consultation, nous vous fournirons une proposition détaillée et une répartition des coûts en fonction de vos besoins."
         },
         "guarantee": {
-          "question": "Proposez-vous une garantie sur vos services SEO ?",
-          "answer": "Nous ne pouvons garantir un positionnement précis — aucune agence honnête ne le peut — mais nous nous engageons sur la qualité de notre travail et une amélioration mesurable, avec un reporting transparent."
+          "question": "Proposez-vous des garanties ou des remboursements pour vos services SEO ?",
+          "answer": "Bien que nous ne puissions pas garantir un positionnement ou des résultats précis (ceux-ci étant en dernier ressort déterminés par les moteurs de recherche), nous garantissons la qualité de notre travail et notre engagement à générer des améliorations mesurables pour votre entreprise. Si nous ne parvenons pas à atteindre les objectifs et livrables convenus dans notre contrat, nous sommes disposés à discuter d'éventuels remboursements ou ajustements au cas par cas."
         }
-      },
-      "viewAll": "Voir toutes les FAQ →"
+      }
+    },
+    "signup": {
+      "title": "Prêt à faire passer votre entreprise au niveau supérieur ?",
+      "subtitle": "Commencez votre parcours vers le succès en marketing digital en seulement 3 étapes simples :",
+      "steps": {
+        "touch": {
+          "title": "Contactez-nous",
+          "description": "Remplissez notre formulaire de contact simple, et nous vous recontacterons rapidement pour en savoir plus sur votre entreprise."
+        },
+        "campaigns": {
+          "title": "Lancez des campagnes intelligentes",
+          "description": "Nos experts en marketing digital collaborent avec vous pour créer des stratégies astucieuses qui font avancer votre entreprise."
+        },
+        "growth": {
+          "title": "Profitez d'une croissance constante",
+          "description": "Renforcez votre présence en ligne, élargissez votre audience et constatez des résultats impressionnants qui s'améliorent chaque mois."
+        }
+      }
     },
     "cta": {
       "title": "Fatigué des promesses non tenues des agences SEO ?",
@@ -1083,9 +1181,18 @@
       "description": "Vous voulez plus de leads, un trafic plus fort, ou une présence digitale plus intelligente ? Contactez-nous et donnons vie à votre projet — nous sommes prêts quand vous l'êtes."
     },
     "offices": {
-      "us": { "label": "États-Unis", "address": "1290 Oconee St, Athens, GA 30605" },
-      "canada": { "label": "Canada", "address": "12473 91A Avenue, Surrey, BC V3V" },
-      "india": { "label": "Inde", "address": "D-324, Safal Sumel 8, Ahmedabad" }
+      "us": {
+        "label": "États-Unis",
+        "address": "1290 Oconee St, Athens, GA 30605"
+      },
+      "canada": {
+        "label": "Canada",
+        "address": "12473 91A Avenue, Surrey, BC V3V"
+      },
+      "india": {
+        "label": "Inde",
+        "address": "D-324, Safal Sumel 8, Ahmedabad"
+      }
     },
     "form": {
       "title": "Envoyez-nous un message",
@@ -1121,12 +1228,30 @@
       "title": "Des valeurs qui guident tout ce que nous faisons",
       "description": "Nous ne croyons pas aux raccourcis. Ces principes guident notre relation avec nos clients et chaque projet que nous menons.",
       "items": [
-        { "title": "Authenticité", "description": "Pas de faux avis, pas d'astuces cachées avec les moteurs de recherche, pas de spam. Juste du travail sérieux centré sur l'essentiel." },
-        { "title": "Excellence", "description": "Nous exigeons de nous-mêmes plus que ce que nos clients attendent — parce que le « suffisamment bien » l'est rarement." },
-        { "title": "Honnêteté", "description": "Nous disons à nos clients ce qui est réaliste, pas ce qui est le plus facile à entendre — même quand la conversation est difficile." },
-        { "title": "Fiabilité", "description": "Des délais, des livrables et une communication sur lesquels vous pouvez compter, à chaque fois." },
-        { "title": "Intégrité", "description": "Nous agissons correctement envers nos clients même quand personne ne regarde — c'est la seule façon de travailler que nous connaissons." },
-        { "title": "Partenariat durable", "description": "Nous ne cherchons pas des missions ponctuelles. Nous construisons des relations qui grandissent sur des années, pas des mois." }
+        {
+          "title": "Authenticité",
+          "description": "Pas de faux avis, pas d'astuces cachées avec les moteurs de recherche, pas de spam. Juste du travail sérieux centré sur l'essentiel."
+        },
+        {
+          "title": "Excellence",
+          "description": "Nous exigeons de nous-mêmes plus que ce que nos clients attendent — parce que le « suffisamment bien » l'est rarement."
+        },
+        {
+          "title": "Honnêteté",
+          "description": "Nous disons à nos clients ce qui est réaliste, pas ce qui est le plus facile à entendre — même quand la conversation est difficile."
+        },
+        {
+          "title": "Fiabilité",
+          "description": "Des délais, des livrables et une communication sur lesquels vous pouvez compter, à chaque fois."
+        },
+        {
+          "title": "Intégrité",
+          "description": "Nous agissons correctement envers nos clients même quand personne ne regarde — c'est la seule façon de travailler que nous connaissons."
+        },
+        {
+          "title": "Partenariat durable",
+          "description": "Nous ne cherchons pas des missions ponctuelles. Nous construisons des relations qui grandissent sur des années, pas des mois."
+        }
       ]
     },
     "why": {
@@ -1134,12 +1259,30 @@
       "title": "Nous ne livrons pas seulement des résultats — nous dépassons les attentes",
       "description": "Nous nous distinguons en construisant des relations durables et des stratégies qui produisent de vrais résultats.",
       "items": [
-        { "title": "Vision d'ensemble", "description": "Nous regardons au-delà du gain immédiat pour construire une croissance durable et cumulative." },
-        { "title": "Marketing centré sur le ROI", "description": "Chaque stratégie est conçue pour produire un retour mesurable, pas seulement de l'activité." },
-        { "title": "Expérience internationale", "description": "Nous avons accompagné des clients dans un large éventail de secteurs et de marchés à travers le monde." },
-        { "title": "Solutions sur mesure", "description": "Nous adaptons chaque stratégie à votre entreprise spécifique — jamais un modèle générique copié-collé." },
-        { "title": "Partenariat dédié", "description": "Nous vous accompagnons à chaque étape, comme une véritable extension de votre équipe." },
-        { "title": "Reporting transparent", "description": "Vous savez toujours exactement ce que nous faisons et pourquoi — jamais de boîte noire." }
+        {
+          "title": "Vision d'ensemble",
+          "description": "Nous regardons au-delà du gain immédiat pour construire une croissance durable et cumulative."
+        },
+        {
+          "title": "Marketing centré sur le ROI",
+          "description": "Chaque stratégie est conçue pour produire un retour mesurable, pas seulement de l'activité."
+        },
+        {
+          "title": "Expérience internationale",
+          "description": "Nous avons accompagné des clients dans un large éventail de secteurs et de marchés à travers le monde."
+        },
+        {
+          "title": "Solutions sur mesure",
+          "description": "Nous adaptons chaque stratégie à votre entreprise spécifique — jamais un modèle générique copié-collé."
+        },
+        {
+          "title": "Partenariat dédié",
+          "description": "Nous vous accompagnons à chaque étape, comme une véritable extension de votre équipe."
+        },
+        {
+          "title": "Reporting transparent",
+          "description": "Vous savez toujours exactement ce que nous faisons et pourquoi — jamais de boîte noire."
+        }
       ]
     },
     "cta": {

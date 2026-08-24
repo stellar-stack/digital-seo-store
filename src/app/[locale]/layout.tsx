@@ -35,6 +35,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
+    metadataBase: new URL("https://digitalseostore.com"),
     title: {
       default: t("titleDefault"),
       template: `%s | Digital SEO Store`,

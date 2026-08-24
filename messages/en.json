@@ -39,136 +39,234 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "ROI-Focused Digital Marketing",
-      "titleLine1": "Finally, an SEO team",
-      "titleLine2": "built to think differently.",
-      "subtitle": "We partner with ambitious brands across the US, UK, Canada and Europe to turn organic search into your most reliable revenue channel — no fluff, no vanity metrics, just data-driven growth.",
-      "ctaPrimary": "Book a free consultation",
-      "ctaSecondary": "Explore SEO services",
-      "rotatingPrefix": "Built for",
+      "eyebrow": "ROI-Focused Digital Marketing Agency",
+      "titleStatic": "Finally, An SEO Company That",
       "rotating": {
-        "seo": "SEO",
-        "ppc": "PPC",
-        "content": "Content",
-        "social": "Social",
-        "cro": "Conversion"
+        "growth": "Drive Exponential Growth",
+        "sales": "Drives Direct Digital Sales",
+        "traffic": "Increases Organic Traffic",
+        "recover": "Recover Lost Traffic",
+        "rank": "Get Your Web & App Rank",
+        "results": "Deliver Real Results"
+      },
+      "ctaPrimary": "Get a free consultation",
+      "panelEyebrow": "Our track record",
+      "extraStats": {
+        "services": "Core service lines",
+        "languages": "Languages served"
       }
     },
-    "stats": {
-      "experts": "Certified digital experts",
-      "clients": "Businesses grown",
-      "since": "Years in business",
-      "countries": "Countries served"
+    "intro": {
+      "eyebrow": "Digital Marketing Company",
+      "title": "Helping businesses grow online",
+      "description": "We offer result-driven B2B & B2C end to end digital marketing services including local SEO, RMS, CRO, PPC, Social Media, and more. (We offer profit-sharing services to businesses in the USA for no upfront marketing cost.)",
+      "cta": "Get a free consultation"
     },
     "servicesSection": {
       "eyebrow": "Digital Marketing Services",
-      "title": "Services built to help you grow online",
-      "description": "We help businesses across every industry with a data-driven, fully integrated marketing strategy — grounded in honesty, complete transparency, and evidence over guesswork."
+      "title": "Services to help you grow online",
+      "description": "We help businesses of various domains with our data-driven and integrated digital marketing strategy to achieve their marketing goals and drive insane amounts of traffic. This is achieved by our culture of honesty, 100% transparency, and making evidence-based decisions.",
+      "closingTitle": "Take your business ahead of your competitors with our niche based marketing services",
+      "closingSubtitle": "We only partner with businesses if we are 100% sure of delivering results",
+      "closingCta": "Book my free consultation"
     },
     "servicesGrid": {
-      "seo": "Data-driven strategies that outrank your competitors and turn search visibility into qualified pipeline.",
-      "ecommerceSeo": "Competitor research, on-page optimization, and conversion-focused product pages that lift organic revenue.",
-      "wordpressDevelopment": "Vetted, industry-specific developers building fast, scalable WordPress sites that convert.",
-      "localSeo": "Modern local SEO for businesses with a physical presence, built to win the map pack and nearby search.",
-      "seoAudit": "A fully transparent audit across 250+ technical parameters, with a clear roadmap for improvement.",
-      "smm": "Hyper-targeted social funnels that build community and drive measurable business growth.",
-      "contentMarketing": "Custom content strategy — from featured snippets to editorials — built to attract your ideal audience.",
-      "ppc": "Certified PPC specialists who turn every click into a measurable return on ad spend.",
+      "seo": {
+        "title": "SEO Services",
+        "description": "Our Data-Driven strategies will bury your rival, bring new customers, increase high-quality traffic, sales and revenue. We're experts at SEO, conversion optimization, and more."
+      },
+      "ecommerceSeo": {
+        "title": "eCommerce SEO",
+        "description": "Our eCommerce SEO experts perform competitor research, on-page optimization, conversion rate optimization, site speed optimization, and more to boost search rankings of website and product pages."
+      },
+      "wordpressDevelopment": {
+        "title": "Web development",
+        "description": "Hire our vetted industry-specific dedicated developers with decades of experience delivering interoperable, robust, & scalable web/mobile applications for multiple domains."
+      },
+      "localSeo": {
+        "title": "Local SEO",
+        "description": "Leveraging years of proven SEO experience with modern marketing techniques for businesses with a physical presence and driving a more local audience."
+      },
+      "seoAudit": {
+        "title": "SEO audit",
+        "description": "Our SEO audit services are 100% transparent & cover 250+ technical parameters that ensure improved conversions. We will share with you our SEO audit report, so you can check areas of potential improvement in detail."
+      },
+      "speedOptimization": {
+        "title": "Speed optimization",
+        "description": "Slow websites lose customers and revenue. Our expert site speed engineers make sure your site loads under 3 seconds to increase targeted traffic and improve conversion rate."
+      },
+      "smm": {
+        "title": "Social media",
+        "description": "Whether you want to enhance your social media presence or drive targeted leads, we create hyper-targeted funnels that drive impactful business growth."
+      },
+      "contentMarketing": {
+        "title": "Content marketing",
+        "description": "We create custom content strategies, develop SEO-friendly marketing collaterals like featured snippets, editorials, blogs, and ads to attract your potential target audience."
+      },
+      "ppc": {
+        "title": "Pay per click",
+        "description": "Start getting immediate results by hiring our PPC experts who know how to transform clicks into revenue. Optimize your PPC campaign with certified PPC experts."
+      },
       "learnMore": "Learn more",
       "viewAll": "View all services →"
     },
     "process": {
       "eyebrow": "Internet Marketing Services",
-      "title": "How we deliver consistent results for every client",
-      "description": "There's no magic to ranking #1 on Google. Our four-step process is disciplined, transparent, and built to compound over time.",
+      "title": "This is how we ensure satisfactory results to our each clients",
+      "description": "There is no magic to take your business #1 at Google or any other search engines. But, our four step unbreakable and army-like disciplined process empower us to deliver results you want.",
       "steps": {
         "discover": {
           "title": "Study your business",
-          "description": "We start by understanding your business, then analyze 50–100 keyword groups against 300+ traffic-driving factors."
+          "description": "We start by understanding your business, collecting and analyzing 50-100 keyword groups. Our experts then create a data-driven strategy by relying on over 300 relevant traffic generating factors."
         },
         "team": {
-          "title": "Build your dedicated team",
-          "description": "We assemble a team of specialists with real experience in your industry — an extension of your in-house team."
+          "title": "Set up your dedicate team",
+          "description": "Depending on your business needs and objectives, we'll align a team of dedicated SEO experts who have experience in your industry. Every individual will work as your in-house marketing team."
         },
         "strategy": {
           "title": "Craft a data-driven strategy",
-          "description": "Our experts build a custom roadmap aligned to your goals, grounded in current data and the latest best practices."
+          "description": "Next, our experts craft a custom SEO roadmap based on your data and business segment. Our experts make sure the plan meets the latest trends and your objective to deliver results you expect."
         },
         "grow": {
           "title": "Review and scale",
-          "description": "We review performance on a regular cadence, report transparently, and adjust the strategy as your business grows."
+          "description": "Finally, it's time to review the performance of the strategy we implemented. Once a week or as per your availability in a month, we'll connect on a sprint call to discuss how things are progressing. And make any changes if needed."
         }
       }
     },
     "comparison": {
-      "eyebrow": "Digital Agency, Built Differently",
-      "title": "Choose a partner focused on profit, not just traffic",
-      "description": "Plenty of agencies say they're different. Here's what actually sets us apart.",
-      "othersLabel": "Other agencies",
+      "eyebrow": "Digital Agency India",
+      "title": "Choose us to drive profit, not just traffic",
+      "description": "1000s of companies say they are different, best, and deliver results. But, our clients say, they have been burned by them. Take a look at how we are different",
+      "othersLabel": "Other SEO companies",
       "usLabel": "Digital SEO Store",
       "rows": {
         "promises": {
           "them": "Make promises they can't keep",
-          "us": "Make realistic, data-backed commitments"
+          "us": "Make realistic commitments"
         },
         "oneSize": {
           "them": "Use one-size-fits-all solutions",
-          "us": "Customize strategy for every client"
+          "us": "Customize strategies for each client"
         },
         "juggle": {
-          "them": "Juggle too many accounts at once",
-          "us": "Dedicate a focused team to your account"
+          "them": "Juggle too many projects at once",
+          "us": "Dedicate a team to each client"
         },
         "communication": {
-          "them": "Go quiet when issues come up",
-          "us": "Stay transparent about goals and deadlines"
+          "them": "Might not communicate issues",
+          "us": "Transparent about goals and deadlines"
         },
         "quickWins": {
-          "them": "Chase quick wins over lasting results",
-          "us": "Prioritize long-term, compounding growth"
+          "them": "Focus on quick wins over long-term success",
+          "us": "Prioritize long-term, quality traffic"
+        },
+        "measure": {
+          "them": "Measure success by rankings and traffic",
+          "us": "Focus on delivering ROI"
+        },
+        "vendor": {
+          "them": "Act like a typical vendor",
+          "us": "Act as an extension of your team"
+        },
+        "strategy2": {
+          "them": "Leave strategy to clients",
+          "us": "Craft proven, results-driven strategies"
+        },
+        "outsource": {
+          "them": "Outsource work to random freelancers",
+          "us": "Thoroughly vet and build expert teams"
         }
-      }
+      },
+      "closingTitle": "Tired of empty promises from SEO agencies?",
+      "closingSubtitle": "Get real results with our proven strategies!",
+      "closingCta": "Get a free consultation"
     },
     "testimonials": {
       "eyebrow": "Testimonials",
-      "title": "What our clients say",
+      "title": "What Our Clients Say",
       "items": {
         "local": {
-          "quote": "Getting found locally was crucial for my business. Digital SEO Store's team took the time to understand my audience and optimize my presence — my site now ranks at the top locally, and walk-in traffic has grown significantly.",
+          "quote": "As a small business owner, getting found locally was crucial for my success. Digital SEO Store's local SEO services have been a game-changer! Their team took the time to understand my business and target audience, optimizing my online presence to attract more local customers. Thanks to their efforts, my website now ranks at the top of local search results, and I've seen a significant increase in walk-in traffic and sales. Highly recommended!",
           "name": "Kelly McMillian"
         },
         "ppc": {
-          "quote": "Before working with Digital SEO Store, our PPC campaigns were wasting money with little to show for it. Their team rebuilt our targeting, ad copy, and bidding — our return on ad spend improved within weeks.",
+          "quote": "Before working with Digital SEO Store, my pay-per-click campaigns were a mess – wasting money and delivering little to no results. Their PPC experts completely revamped our campaigns, optimizing targeting, ad copy, and bid strategies. Within just a few weeks, we started seeing a much higher return on our ad spend, and our sales have skyrocketed. Their data-driven approach and constant campaign monitoring have been invaluable.",
           "name": "Steve Barnett"
         },
         "social": {
-          "quote": "I was skeptical about social media marketing, but their strategic plan changed my mind. We've built a real community, grown brand awareness, and turned our channels into genuine marketing tools.",
+          "quote": "I was skeptical about investing in social media marketing for my business, but the Digital SEO Store's team changed my mind. They developed a strategic plan to boost our social media presence, creating engaging content and targeted ad campaigns. Their efforts have helped us build a strong online community, increase brand awareness, and drive more traffic to our website. Our social media channels have become powerful marketing tools, thanks to their expertise.",
           "name": "Denis Robinson"
         }
       }
     },
+    "blogTeaser": {
+      "eyebrow": "digital marketing experts insights",
+      "title": "Blogs",
+      "description": "Stay updated and keep yourself one step ahead of the competitive edge with the latest happenings in this online world.",
+      "readMore": "Read More"
+    },
     "faq": {
-      "eyebrow": "Frequently Asked",
-      "title": "Questions? We've got answers.",
+      "title": "Often asked questions. Talk to us, if you have more",
       "items": {
         "results": {
           "question": "How quickly can I expect to see results from your SEO efforts?",
-          "answer": "SEO is a long-term game — most clients see noticeable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and scope of work."
+          "answer": "SEO is a long-term game, and results don't happen overnight. It typically takes 3-6 months to start seeing noticeable improvements in search rankings and organic traffic. However, the exact timeframe can vary depending on factors like the competitiveness of your industry, the current state of your website, and the scope of optimization required."
         },
         "tactics": {
-          "question": "What SEO tactics and strategies do you use?",
-          "answer": "A comprehensive, tailored approach: on-page optimization, high-quality content, technical audits, and authoritative link-building — backed by data and adjusted continuously for maximum impact."
+          "question": "What SEO tactics and strategies do you employ?",
+          "answer": "Our SEO approach is comprehensive and tailored to your specific business needs. We focus on on-page optimization, high-quality content creation, technical SEO audits, and link-building from authoritative sources. We also leverage data-driven insights and constantly monitor and adjust our strategies to ensure maximum impact."
+        },
+        "inhouse": {
+          "question": "Do you handle any part of the SEO process in-house or outsource it?",
+          "answer": "We handle the majority of the SEO process in-house with our team of experienced SEO professionals. However, for certain specialized tasks like advanced technical audits or large-scale content creation, we may collaborate with carefully vetted and trusted third-party experts or agencies."
+        },
+        "enterprise": {
+          "question": "Can you manage SEO for large, enterprise-level companies?",
+          "answer": "Absolutely! While we work with businesses of all sizes, we have the resources, expertise, and proven track record to handle SEO for even the largest, most complex enterprise-level organizations. Our team is well-equipped to tackle the unique challenges and scale required for enterprise SEO projects."
+        },
+        "linkbuilding": {
+          "question": "What's your approach to link-building?",
+          "answer": "We understand the importance of high-quality, relevant backlinks in SEO. Our link-building strategies focus on earning links through valuable, shareable content, strategic outreach, and fostering relationships with industry influencers and publications. We never engage in any black-hat or spammy link-building practices that could potentially harm your online presence."
+        },
+        "measure": {
+          "question": "How do you measure the success of your SEO campaigns?",
+          "answer": "We track a variety of metrics to gauge the success of our SEO efforts, including organic search rankings, website traffic, conversion rates, and ultimately, the return on investment (ROI) for your business. We provide regular, transparent reporting and analysis to ensure you understand the impact of our work."
+        },
+        "standout": {
+          "question": "What makes your SEO services stand out from competitors?",
+          "answer": "Our commitment to transparency, personalized strategies, and a data-driven approach sets us apart. We take the time to understand your unique business goals and challenges, and we're upfront about what's achievable and what's not. Our team stays up-to-date with the latest SEO best practices and algorithm updates to ensure we're always delivering effective, future-proof solutions."
+        },
+        "examples": {
+          "question": "Can you share some examples of successful SEO campaigns you've run?",
+          "answer": "We've helped numerous clients across various industries achieve outstanding results through our SEO services. For example, we helped a local plumbing company increase their organic traffic by 87% and generate over $250,000 in additional revenue within the first year. We also helped a national e-commerce brand improve their search visibility for high-value keywords, leading to a 32% boost in online sales."
         },
         "cost": {
           "question": "How much do your SEO services cost?",
-          "answer": "Pricing depends on scope, industry competitiveness, and your goals. We provide a transparent, value-based proposal after an initial consultation — see our Pricing page for starting ranges."
+          "answer": "The cost of our SEO services can vary depending on the scope of work, the competitiveness of your industry, and the specific goals and challenges involved. However, we believe in providing transparent, value-based pricing tailored to each client's unique needs. During our initial consultation, we'll provide you with a detailed proposal and pricing breakdown based on your requirements."
         },
         "guarantee": {
-          "question": "Do you offer any guarantees for your SEO services?",
-          "answer": "We can't guarantee specific rankings — no honest agency can — but we stand behind our work and commit to measurable improvement, with transparent reporting throughout."
+          "question": "Do you offer any guarantees or refunds for your SEO services?",
+          "answer": "While we can't guarantee specific rankings or results (as these are ultimately determined by search engines), we stand behind the quality of our work and our commitment to driving measurable improvements for your business. If we fail to meet the agreed-upon goals and deliverables outlined in our contract, we're willing to discuss potential refunds or adjustments on a case-by-case basis."
         }
-      },
-      "viewAll": "View all FAQs →"
+      }
+    },
+    "signup": {
+      "title": "Ready To take Your Business To The Next Level?",
+      "subtitle": "Start your journey to digital marketing success in just 3 simple steps:",
+      "steps": {
+        "touch": {
+          "title": "Get in Touch",
+          "description": "Submit our simple contact form, and we'll reach out to you promptly to discover more about your business."
+        },
+        "campaigns": {
+          "title": "Start Smart Campaigns",
+          "description": "Our digital marketing experts will partner with you to create clever strategies that propel your business forward."
+        },
+        "growth": {
+          "title": "Enjoy Consistent Growth",
+          "description": "Fortify your online presence, expand your audience, and witness incredible results that improve every month."
+        }
+      }
     },
     "cta": {
       "title": "Tired of empty promises from SEO agencies?",
@@ -980,37 +1078,85 @@
       "general": {
         "title": "General",
         "items": [
-          { "question": "What is SEO, and why does it matter?", "answer": "Search engine optimization is the practice of improving your site so it ranks higher in organic (unpaid) search results. It matters because organic search is often the highest-intent, most cost-efficient channel for finding new customers over the long run." },
-          { "question": "Do you work with businesses outside the US?", "answer": "Yes — we work with clients across the US, UK, Canada, Spain, France, and beyond. Our strategies account for local search behavior and, where relevant, multi-region or multi-language SEO." },
-          { "question": "Do you handle work in-house, or outsource it?", "answer": "The large majority of work is handled in-house by our team of 45+ certified specialists. For a small number of highly specialized tasks, we partner with carefully vetted external experts." },
-          { "question": "Can you support enterprise-level organizations?", "answer": "Absolutely. We work with businesses of every size, and our processes, reporting, and account structure are built to scale to complex, multi-stakeholder organizations." }
+          {
+            "question": "What is SEO, and why does it matter?",
+            "answer": "Search engine optimization is the practice of improving your site so it ranks higher in organic (unpaid) search results. It matters because organic search is often the highest-intent, most cost-efficient channel for finding new customers over the long run."
+          },
+          {
+            "question": "Do you work with businesses outside the US?",
+            "answer": "Yes — we work with clients across the US, UK, Canada, Spain, France, and beyond. Our strategies account for local search behavior and, where relevant, multi-region or multi-language SEO."
+          },
+          {
+            "question": "Do you handle work in-house, or outsource it?",
+            "answer": "The large majority of work is handled in-house by our team of 45+ certified specialists. For a small number of highly specialized tasks, we partner with carefully vetted external experts."
+          },
+          {
+            "question": "Can you support enterprise-level organizations?",
+            "answer": "Absolutely. We work with businesses of every size, and our processes, reporting, and account structure are built to scale to complex, multi-stakeholder organizations."
+          }
         ]
       },
       "results": {
         "title": "Results & Process",
         "items": [
-          { "question": "How quickly can I expect results?", "answer": "SEO is a long-term channel — most clients see measurable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and the scope of work." },
-          { "question": "How do you measure success?", "answer": "We track organic rankings, traffic, conversion rate, and ultimately ROI — and report on all of it transparently, on a regular cadence you can rely on." },
-          { "question": "What's your approach to link building?", "answer": "We earn links through valuable, relevant content and genuine outreach — never black-hat or spammy tactics that put your domain at risk." },
-          { "question": "Do you offer any guarantees?", "answer": "We can't guarantee specific rankings — no honest agency can, since search engines don't sell that outcome. We do commit to a transparent process and measurable progress toward your goals." }
+          {
+            "question": "How quickly can I expect results?",
+            "answer": "SEO is a long-term channel — most clients see measurable improvement in rankings and organic traffic within 3–6 months, depending on your industry, current site health, and the scope of work."
+          },
+          {
+            "question": "How do you measure success?",
+            "answer": "We track organic rankings, traffic, conversion rate, and ultimately ROI — and report on all of it transparently, on a regular cadence you can rely on."
+          },
+          {
+            "question": "What's your approach to link building?",
+            "answer": "We earn links through valuable, relevant content and genuine outreach — never black-hat or spammy tactics that put your domain at risk."
+          },
+          {
+            "question": "Do you offer any guarantees?",
+            "answer": "We can't guarantee specific rankings — no honest agency can, since search engines don't sell that outcome. We do commit to a transparent process and measurable progress toward your goals."
+          }
         ]
       },
       "pricing": {
         "title": "Pricing & Contracts",
         "items": [
-          { "question": "How much do your services cost?", "answer": "It depends on scope, industry competitiveness, and your goals. See our Pricing page for starting ranges, or get a tailored proposal after a free consultation." },
-          { "question": "Are there long-term contracts?", "answer": "We work month-to-month after an initial 3-month minimum — the time it typically takes for a strategy to start showing measurable traction." },
-          { "question": "Can I change my plan later?", "answer": "Yes — most clients start with a smaller scope and expand as results compound. We'll revisit your plan together at any regular strategy call." },
-          { "question": "Do you offer a profit-sharing model?", "answer": "For qualifying US-based businesses, yes — ask about our profit-sharing option during your consultation." }
+          {
+            "question": "How much do your services cost?",
+            "answer": "It depends on scope, industry competitiveness, and your goals. See our Pricing page for starting ranges, or get a tailored proposal after a free consultation."
+          },
+          {
+            "question": "Are there long-term contracts?",
+            "answer": "We work month-to-month after an initial 3-month minimum — the time it typically takes for a strategy to start showing measurable traction."
+          },
+          {
+            "question": "Can I change my plan later?",
+            "answer": "Yes — most clients start with a smaller scope and expand as results compound. We'll revisit your plan together at any regular strategy call."
+          },
+          {
+            "question": "Do you offer a profit-sharing model?",
+            "answer": "For qualifying US-based businesses, yes — ask about our profit-sharing option during your consultation."
+          }
         ]
       },
       "working": {
         "title": "Working With Us",
         "items": [
-          { "question": "Will I have a dedicated point of contact?", "answer": "Yes — every client is assigned a dedicated account manager and a team of specialists who work as an extension of your in-house team." },
-          { "question": "How often will we communicate?", "answer": "Typically a regular strategy call (weekly or bi-weekly depending on your plan), plus transparent reporting and direct access to your team in between." },
-          { "question": "What do you need from us to get started?", "answer": "Access to your website analytics and search console, a conversation about your goals, and a point of contact on your side — we'll handle the rest." },
-          { "question": "Can you also build or redesign our website?", "answer": "Yes — our WordPress Development service builds SEO-first sites designed to rank and convert from day one." }
+          {
+            "question": "Will I have a dedicated point of contact?",
+            "answer": "Yes — every client is assigned a dedicated account manager and a team of specialists who work as an extension of your in-house team."
+          },
+          {
+            "question": "How often will we communicate?",
+            "answer": "Typically a regular strategy call (weekly or bi-weekly depending on your plan), plus transparent reporting and direct access to your team in between."
+          },
+          {
+            "question": "What do you need from us to get started?",
+            "answer": "Access to your website analytics and search console, a conversation about your goals, and a point of contact on your side — we'll handle the rest."
+          },
+          {
+            "question": "Can you also build or redesign our website?",
+            "answer": "Yes — our WordPress Development service builds SEO-first sites designed to rank and convert from day one."
+          }
         ]
       }
     },
@@ -1035,9 +1181,18 @@
       "description": "Want more leads, stronger traffic, or a smarter digital presence? Reach out and let's make it happen — we're ready when you are."
     },
     "offices": {
-      "us": { "label": "United States", "address": "1290 Oconee St, Athens, GA 30605" },
-      "canada": { "label": "Canada", "address": "12473 91A Avenue, Surrey, BC V3V" },
-      "india": { "label": "India", "address": "D-324, Safal Sumel 8, Ahmedabad" }
+      "us": {
+        "label": "United States",
+        "address": "1290 Oconee St, Athens, GA 30605"
+      },
+      "canada": {
+        "label": "Canada",
+        "address": "12473 91A Avenue, Surrey, BC V3V"
+      },
+      "india": {
+        "label": "India",
+        "address": "D-324, Safal Sumel 8, Ahmedabad"
+      }
     },
     "form": {
       "title": "Send us a message",
@@ -1073,12 +1228,30 @@
       "title": "Values that shape everything we do",
       "description": "We don't believe in shortcuts. These principles guide how we serve clients and approach every project.",
       "items": [
-        { "title": "Authenticity", "description": "No fake reviews, no hidden tricks with search engines, no spam. Just solid work focused on what matters." },
-        { "title": "Excellence", "description": "We hold our own work to a higher bar than our clients expect — because good enough rarely is." },
-        { "title": "Honesty", "description": "We tell clients what's realistic, not what's easiest to hear — even when it's a harder conversation." },
-        { "title": "Reliability", "description": "Deadlines, deliverables, and communication you can count on, every time." },
-        { "title": "Integrity", "description": "We do right by clients even when no one's watching — it's the only way we know how to work." },
-        { "title": "Long-term partnership", "description": "We're not chasing one-off projects. We build relationships that compound over years, not months." }
+        {
+          "title": "Authenticity",
+          "description": "No fake reviews, no hidden tricks with search engines, no spam. Just solid work focused on what matters."
+        },
+        {
+          "title": "Excellence",
+          "description": "We hold our own work to a higher bar than our clients expect — because good enough rarely is."
+        },
+        {
+          "title": "Honesty",
+          "description": "We tell clients what's realistic, not what's easiest to hear — even when it's a harder conversation."
+        },
+        {
+          "title": "Reliability",
+          "description": "Deadlines, deliverables, and communication you can count on, every time."
+        },
+        {
+          "title": "Integrity",
+          "description": "We do right by clients even when no one's watching — it's the only way we know how to work."
+        },
+        {
+          "title": "Long-term partnership",
+          "description": "We're not chasing one-off projects. We build relationships that compound over years, not months."
+        }
       ]
     },
     "why": {
@@ -1086,12 +1259,30 @@
       "title": "We don't just deliver results — we exceed expectations",
       "description": "We stand out because we build long-term relationships and strategies that deliver real results.",
       "items": [
-        { "title": "Big-picture thinking", "description": "We look beyond the immediate win to build sustainable, compounding growth." },
-        { "title": "ROI-focused marketing", "description": "Every strategy is designed to deliver a measurable return, not just activity." },
-        { "title": "Global experience", "description": "We've served clients across a wide range of industries and markets worldwide." },
-        { "title": "Custom solutions", "description": "We tailor every strategy to your specific business — never a copy-paste template." },
-        { "title": "Dedicated partnership", "description": "We work with you every step of the way, as a genuine extension of your team." },
-        { "title": "Transparent reporting", "description": "You always know exactly what we're doing and why — no black boxes, ever." }
+        {
+          "title": "Big-picture thinking",
+          "description": "We look beyond the immediate win to build sustainable, compounding growth."
+        },
+        {
+          "title": "ROI-focused marketing",
+          "description": "Every strategy is designed to deliver a measurable return, not just activity."
+        },
+        {
+          "title": "Global experience",
+          "description": "We've served clients across a wide range of industries and markets worldwide."
+        },
+        {
+          "title": "Custom solutions",
+          "description": "We tailor every strategy to your specific business — never a copy-paste template."
+        },
+        {
+          "title": "Dedicated partnership",
+          "description": "We work with you every step of the way, as a genuine extension of your team."
+        },
+        {
+          "title": "Transparent reporting",
+          "description": "You always know exactly what we're doing and why — no black boxes, ever."
+        }
       ]
     },
     "cta": {

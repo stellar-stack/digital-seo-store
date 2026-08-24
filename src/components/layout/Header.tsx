@@ -8,6 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { clsx } from "clsx";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
+import ShimmerRing from "@/components/ui/ShimmerRing";
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 import { services } from "@/config/services";
 
@@ -103,9 +104,11 @@ export default function Header() {
 
         <div className="hidden lg:flex items-center gap-3">
           <LanguageSwitcher />
-          <MagneticButton as="a" href="/contact" variant="solid" className="text-xs px-6 py-3">
-            {t("cta")}
-          </MagneticButton>
+          <ShimmerRing>
+            <MagneticButton as="a" href="/contact" variant="solid" className="text-xs px-6 py-3">
+              {t("cta")}
+            </MagneticButton>
+          </ShimmerRing>
         </div>
 
         <button

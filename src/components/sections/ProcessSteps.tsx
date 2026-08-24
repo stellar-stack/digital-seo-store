@@ -7,17 +7,25 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 const STEP_KEYS = ["discover", "team", "strategy", "grow"] as const;
 
-export default function ProcessSteps() {
-  const t = useTranslations("home.process");
+export default function ProcessSteps({
+  namespace = "home.process",
+  showHeading = true,
+}: {
+  namespace?: string;
+  showHeading?: boolean;
+}) {
+  const t = useTranslations(namespace);
 
   return (
     <section className="bg-mist py-24 md:py-32">
       <Container>
-        <SectionHeading
-          eyebrow={t("eyebrow")}
-          title={t("title")}
-          description={t("description")}
-        />
+        {showHeading && (
+          <SectionHeading
+            eyebrow={t("eyebrow")}
+            title={t("title")}
+            description={t("description")}
+          />
+        )}
 
         <div className="mt-16 grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-line md:grid-cols-4">
           {STEP_KEYS.map((key, i) => (
