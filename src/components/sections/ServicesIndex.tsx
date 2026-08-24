@@ -8,6 +8,7 @@ import { Link } from "@/i18n/navigation";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import MagneticButton from "@/components/ui/MagneticButton";
+import SectionPhoto from "@/components/ui/SectionPhoto";
 
 const SERVICES = [
   { key: "seo", slug: "seo" },
@@ -55,6 +56,12 @@ export default function ServicesIndex() {
           title={tHeading("title")}
           description={tHeading("description")}
           className="max-w-2xl"
+        />
+
+        <SectionPhoto
+          src="/images/home/services-team.jpg"
+          alt="Our team reviewing a client's SEO strategy together"
+          className="mt-12 aspect-[21/9]"
         />
 
         <div className="mt-16 grid gap-x-12 lg:grid-cols-2">

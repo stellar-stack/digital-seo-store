@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
+import SectionPhoto from "@/components/ui/SectionPhoto";
 
 const STEP_KEYS = ["discover", "team", "strategy", "grow"] as const;
 
@@ -26,6 +27,12 @@ export default function ProcessSteps({
             description={t("description")}
           />
         )}
+
+        <SectionPhoto
+          src="/images/home/process-strategy.jpg"
+          alt="Our strategists planning a campaign together"
+          className="mt-12 aspect-[21/9]"
+        />
 
         <div className="mt-16 grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-line md:grid-cols-4">
           {STEP_KEYS.map((key, i) => (

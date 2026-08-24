@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import ContactForm from "@/components/sections/ContactForm";
+import SectionPhoto from "@/components/ui/SectionPhoto";
 
 const STEP_KEYS = ["touch", "campaigns", "growth"] as const;
 
@@ -61,6 +62,14 @@ export default function SignupSection() {
                 </motion.div>
               ))}
             </div>
+
+            <SectionPhoto
+              src="/images/home/signup-success.jpg"
+              alt="Our team celebrating a client's results"
+              tone="dark"
+              className="mt-10 aspect-[4/3]"
+              sizes="(min-width: 1024px) 50vw, 100vw"
+            />
           </div>
 
           <motion.div

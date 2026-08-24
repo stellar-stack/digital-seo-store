@@ -7,6 +7,16 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 const TESTIMONIAL_KEYS = ["local", "ppc", "social"] as const;
 
+function initials(name: string) {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .map((part) => part[0])
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+}
+
 export default function Testimonials() {
   const t = useTranslations("home.testimonials");
 
@@ -37,8 +47,13 @@ export default function Testimonials() {
               <blockquote className="flex-1 text-[0.95rem] leading-relaxed text-charcoal/80">
                 &ldquo;{t(`items.${key}.quote`)}&rdquo;
               </blockquote>
-              <figcaption className="mt-6 text-sm font-semibold text-ink">
-                {t(`items.${key}.name`)}
+              <figcaption className="mt-6 flex items-center gap-3">
+                <span className="font-display flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-amber text-sm font-semibold text-ink">
+                  {initials(t(`items.${key}.name`))}
+                </span>
+                <span className="text-sm font-semibold text-ink">
+                  {t(`items.${key}.name`)}
+                </span>
               </figcaption>
             </motion.figure>
           ))}

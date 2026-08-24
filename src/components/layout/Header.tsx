@@ -160,7 +160,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <LanguageSwitcher dark={isTransparent} />
+            <LanguageSwitcher dark={isTransparent} id="desktop" />
             <FlickerGlow>
               <MagneticButton as="a" href="/contact" variant="solid" className="text-xs px-6 py-3">
                 {t("cta")}
@@ -267,9 +267,7 @@ export default function Header() {
               </div>
 
               <motion.div variants={itemVariants} className="mt-8 flex flex-col gap-5">
-                <div className="flex items-center justify-between">
-                  <LanguageSwitcher dark />
-                </div>
+                <LanguageSwitcher dark full id="mobile" />
                 <MagneticButton as="a" href="/contact" variant="solid" className="w-full">
                   {t("cta")}
                 </MagneticButton>
