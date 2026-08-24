@@ -1178,7 +1178,21 @@
     },
     "info": {
       "title": "Construyamos algo grande juntos",
-      "description": "¿Quieres más leads, más tráfico o una presencia digital más inteligente? Contáctanos y hagámoslo realidad — estamos listos cuando tú lo estés."
+      "description": "¿Quieres más leads, más tráfico o una presencia digital más inteligente? Contáctanos y hagámoslo realidad — estamos listos cuando tú lo estés.",
+      "reassurance": {
+        "speed": {
+          "title": "Respuesta rápida",
+          "description": "Respondemos en un día hábil."
+        },
+        "experts": {
+          "title": "Estrategas reales",
+          "description": "45+ especialistas certificados, no un call center."
+        },
+        "free": {
+          "title": "Sin presión",
+          "description": "Una consulta gratuita y sin compromiso para empezar."
+        }
+      }
     },
     "offices": {
       "us": {
@@ -1203,7 +1217,8 @@
       "subject": "Asunto",
       "message": "Tu mensaje",
       "send": "Enviar mensaje",
-      "sending": "Enviando…"
+      "sending": "Enviando…",
+      "sent": "Mensaje enviado"
     }
   },
   "about": {

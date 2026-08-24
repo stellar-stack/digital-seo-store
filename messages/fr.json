@@ -1178,7 +1178,21 @@
     },
     "info": {
       "title": "Construisons quelque chose de grand ensemble",
-      "description": "Vous voulez plus de leads, un trafic plus fort, ou une présence digitale plus intelligente ? Contactez-nous et donnons vie à votre projet — nous sommes prêts quand vous l'êtes."
+      "description": "Vous voulez plus de leads, un trafic plus fort, ou une présence digitale plus intelligente ? Contactez-nous et donnons vie à votre projet — nous sommes prêts quand vous l'êtes.",
+      "reassurance": {
+        "speed": {
+          "title": "Réponse rapide",
+          "description": "Nous répondons sous un jour ouvré."
+        },
+        "experts": {
+          "title": "De vrais stratèges",
+          "description": "45+ spécialistes certifiés, pas un centre d'appels."
+        },
+        "free": {
+          "title": "Sans pression",
+          "description": "Une consultation gratuite et sans engagement pour commencer."
+        }
+      }
     },
     "offices": {
       "us": {
@@ -1203,7 +1217,8 @@
       "subject": "Sujet",
       "message": "Votre message",
       "send": "Envoyer le message",
-      "sending": "Envoi en cours…"
+      "sending": "Envoi en cours…",
+      "sent": "Message envoyé"
     }
   },
   "about": {

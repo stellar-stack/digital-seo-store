@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -9,6 +9,7 @@ import type { BlogPost } from "@/lib/blog";
 
 export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
   const t = useTranslations("home.blogTeaser");
+  const locale = useLocale();
 
   return (
     <section className="bg-mist py-24 md:py-32">
@@ -33,7 +34,7 @@ export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
                 className="group flex h-full flex-col rounded-3xl border border-line bg-cream p-7 transition-all duration-300 hover:-translate-y-1 hover:border-amber/40 hover:shadow-xl hover:shadow-ink/5"
               >
                 <p className="text-xs font-semibold uppercase tracking-widest text-amber-dark">
-                  {new Date(post.date).toLocaleDateString(undefined, {
+                  {new Date(post.date).toLocaleDateString(locale, {
                     year: "numeric",
                     month: "long",
                     day: "numeric",

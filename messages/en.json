@@ -1178,7 +1178,21 @@
     },
     "info": {
       "title": "Let's build something great together",
-      "description": "Want more leads, stronger traffic, or a smarter digital presence? Reach out and let's make it happen — we're ready when you are."
+      "description": "Want more leads, stronger traffic, or a smarter digital presence? Reach out and let's make it happen — we're ready when you are.",
+      "reassurance": {
+        "speed": {
+          "title": "Quick response",
+          "description": "We reply within one business day."
+        },
+        "experts": {
+          "title": "Real strategists",
+          "description": "45+ certified specialists, not a call center."
+        },
+        "free": {
+          "title": "No pressure",
+          "description": "A free, no-obligation consultation to start."
+        }
+      }
     },
     "offices": {
       "us": {
@@ -1203,7 +1217,8 @@
       "subject": "Subject",
       "message": "Your message",
       "send": "Send message",
-      "sending": "Sending…"
+      "sending": "Sending…",
+      "sent": "Message sent"
     }
   },
   "about": {

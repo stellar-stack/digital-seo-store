@@ -5,6 +5,7 @@ import ServiceHero from "@/components/sections/ServiceHero";
 import PricingGrid from "@/components/sections/PricingGrid";
 import ServiceFAQ from "@/components/sections/ServiceFAQ";
 import CTASection from "@/components/sections/CTASection";
+import MobileStackCard from "@/components/ui/MobileStackCard";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -56,9 +57,15 @@ export default async function PricingPage({
         ctaLabel={tNav("cta")}
         breadcrumbLabel={tCommon("home")}
       />
-      <PricingGrid plans={plans} note={t("note")} />
-      <ServiceFAQ eyebrow={t("faq.eyebrow")} title={t("faq.title")} items={faqItems} />
-      <CTASection title={t("cta.title")} subtitle={t("cta.subtitle")} />
+      <MobileStackCard>
+        <PricingGrid plans={plans} note={t("note")} />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ServiceFAQ eyebrow={t("faq.eyebrow")} title={t("faq.title")} items={faqItems} />
+      </MobileStackCard>
+      <MobileStackCard>
+        <CTASection title={t("cta.title")} subtitle={t("cta.subtitle")} />
+      </MobileStackCard>
     </>
   );
 }

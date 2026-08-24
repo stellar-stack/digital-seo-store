@@ -8,6 +8,8 @@ import { routing } from "@/i18n/routing";
 import SmoothScroll from "@/components/providers/SmoothScroll";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import ScrollProgress from "@/components/layout/ScrollProgress";
+import BackToTop from "@/components/layout/BackToTop";
 import "../globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -69,8 +71,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <SmoothScroll>
             <Header />
-            <main className="flex-1">{children}</main>
+            <main className="flex-1 pt-20">{children}</main>
             <Footer />
+            <ScrollProgress />
+            <BackToTop />
           </SmoothScroll>
         </NextIntlClientProvider>
       </body>

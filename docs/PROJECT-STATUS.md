@@ -87,6 +87,7 @@ Fixed:
 - **Partner/referral program page** — a second acquisition channel the current site doesn't address
 - **AI content-brief generator** — free tool tied to the Content Marketing page, natural upsell
 - **A single bold 3D/WebGL hero moment** — tied to the brand mark or a data motif, used sparingly
+- **Guided two-step contact form** — step 1 asks what the visitor needs help with (SEO/PPC/Local/etc. as large tappable chips) or a budget range, step 2 collects name/email/message, with progress dots at top. Feels like a guided conversation rather than a form dump; captures intent data along the way. Considered and deferred in favor of the current single-step form (an extra step can mean fewer completed submissions for a simple contact form) — revisit if lead volume supports the added friction, or the intent data becomes valuable enough to justify it.
 
 ---
 *Reflects the state of this repository as built. Update as scope changes.*

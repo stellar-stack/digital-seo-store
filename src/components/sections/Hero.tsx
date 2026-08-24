@@ -15,6 +15,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
+import OrbitDots from "@/components/sections/OrbitDots";
 
 const ROTATING_KEYS = [
   "growth",
@@ -103,21 +104,32 @@ export default function Hero() {
     }
 
     gsap.registerPlugin(ScrollTrigger);
+
+    const STEP_COUNT = ROTATING_KEYS.length;
+    let currentStep = 0;
+
+    // Deliberately no custom wheel/touch interception here, and no pausing
+    // of Lenis (the site's global smooth-scroll): both were tried to
+    // guarantee zero skipped steps, but fighting the browser's/Lenis's own
+    // scroll physics with a hand-rolled lock proved fragile in practice
+    // (compounding scroll, then a debounce that could get stuck open on a
+    // trackpad's momentum tail). Skip-resistance instead comes from simply
+    // giving each step a generous scroll distance, so a normal flick's
+    // scroll delta rarely spans more than one step. Everything scrolls
+    // through Lenis exactly like the rest of the site — nothing gets stuck.
     const ctx = gsap.context(() => {
       ScrollTrigger.create({
         trigger: wrapperRef.current,
         start: "top top",
-        end: "+=320%",
-        scrub: 0.6,
+        end: () => "+=" + window.innerHeight * (STEP_COUNT - 1) * 1.6,
+        scrub: 0.5,
         pin: pinRef.current,
         pinSpacing: true,
         onUpdate: (self) => {
           scrollProgress.set(self.progress);
-          const next = Math.min(
-            ROTATING_KEYS.length - 1,
-            Math.floor(self.progress * ROTATING_KEYS.length)
-          );
-          if (next !== stepRef.current) {
+          const next = Math.min(STEP_COUNT - 1, Math.floor(self.progress * STEP_COUNT));
+          if (next !== currentStep) {
+            currentStep = next;
             stepRef.current = next;
             setStepIndex(next);
           }
@@ -132,7 +144,7 @@ export default function Hero() {
   const activeLabel = activeCard.extra ? tExtra(activeCard.stat) : tStat(activeCard.stat);
 
   return (
-    <div ref={wrapperRef} className="relative">
+    <div ref={wrapperRef} data-nav-theme="dark" className="relative -mt-20">
       <motion.section
         ref={pinRef}
         style={{ backgroundColor: reducedMotion ? "#0a0e1a" : bgColor }}
@@ -148,6 +160,7 @@ export default function Hero() {
           className="pointer-events-none absolute -top-32 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-amber blur-[160px]"
         />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] [background-size:32px_32px]" />
+        <OrbitDots reducedMotion={reducedMotion} />
 
         <Container className="relative">
           <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">

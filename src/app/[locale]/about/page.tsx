@@ -6,6 +6,7 @@ import AboutStats from "@/components/sections/AboutStats";
 import ServiceIntro from "@/components/sections/ServiceIntro";
 import ServiceFeatures from "@/components/sections/ServiceFeatures";
 import CTASection from "@/components/sections/CTASection";
+import MobileStackCard from "@/components/ui/MobileStackCard";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -52,24 +53,34 @@ export default async function AboutPage({
         ctaLabel={tNav("cta")}
         breadcrumbLabel={tCommon("home")}
       />
-      <AboutStats />
-      <ServiceIntro
-        title={t("story.title")}
-        paragraphs={[t("story.paragraph1"), t("story.paragraph2")]}
-      />
-      <ServiceFeatures
-        eyebrow={t("values.eyebrow")}
-        title={t("values.title")}
-        description={t("values.description")}
-        items={valuesItems}
-      />
-      <ServiceFeatures
-        eyebrow={t("why.eyebrow")}
-        title={t("why.title")}
-        description={t("why.description")}
-        items={whyItems}
-      />
-      <CTASection title={t("cta.title")} subtitle={t("cta.subtitle")} />
+      <MobileStackCard>
+        <AboutStats />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ServiceIntro
+          title={t("story.title")}
+          paragraphs={[t("story.paragraph1"), t("story.paragraph2")]}
+        />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ServiceFeatures
+          eyebrow={t("values.eyebrow")}
+          title={t("values.title")}
+          description={t("values.description")}
+          items={valuesItems}
+        />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ServiceFeatures
+          eyebrow={t("why.eyebrow")}
+          title={t("why.title")}
+          description={t("why.description")}
+          items={whyItems}
+        />
+      </MobileStackCard>
+      <MobileStackCard>
+        <CTASection title={t("cta.title")} subtitle={t("cta.subtitle")} />
+      </MobileStackCard>
     </>
   );
 }

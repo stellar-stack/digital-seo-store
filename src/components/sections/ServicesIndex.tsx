@@ -67,7 +67,7 @@ export default function ServicesIndex() {
                 }}
                 data-index={i}
                 onMouseEnter={() => setActiveIndex(i)}
-                className="border-b border-line py-6 first:border-t"
+                className="border-b border-line py-10 first:border-t"
               >
                 <Link
                   href={`/services/${s.slug}`}

@@ -10,6 +10,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import BlogTeaser from "@/components/sections/BlogTeaser";
 import FAQPreview from "@/components/sections/FAQPreview";
 import SignupSection from "@/components/sections/SignupSection";
+import MobileStackCard from "@/components/ui/MobileStackCard";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -67,14 +68,30 @@ export default async function HomePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <Hero />
-      <IntroStatement />
-      <ServicesIndex />
-      <ProcessSteps namespace="home.process" />
-      <ComparisonTable showClosing />
-      <Testimonials />
-      <BlogTeaser posts={posts} />
-      <FAQPreview />
-      <SignupSection />
+      <MobileStackCard>
+        <IntroStatement />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ServicesIndex />
+      </MobileStackCard>
+      <MobileStackCard>
+        <ProcessSteps namespace="home.process" />
+      </MobileStackCard>
+      <MobileStackCard round={false}>
+        <ComparisonTable showClosing />
+      </MobileStackCard>
+      <MobileStackCard>
+        <Testimonials />
+      </MobileStackCard>
+      <MobileStackCard>
+        <BlogTeaser posts={posts} />
+      </MobileStackCard>
+      <MobileStackCard>
+        <FAQPreview />
+      </MobileStackCard>
+      <MobileStackCard>
+        <SignupSection />
+      </MobileStackCard>
     </>
   );
 }

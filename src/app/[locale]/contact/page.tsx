@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import ServiceHero from "@/components/sections/ServiceHero";
 import ContactSection from "@/components/sections/ContactSection";
+import MobileStackCard from "@/components/ui/MobileStackCard";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -37,7 +38,9 @@ export default async function ContactPage({
         subtitle={t("hero.subtitle")}
         breadcrumbLabel={tCommon("home")}
       />
-      <ContactSection />
+      <MobileStackCard>
+        <ContactSection />
+      </MobileStackCard>
     </>
   );
 }

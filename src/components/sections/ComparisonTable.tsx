@@ -18,6 +18,30 @@ const ROW_KEYS = [
   "outsource",
 ] as const;
 
+function XIcon() {
+  return (
+    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-white/25" fill="none" aria-hidden>
+      <circle cx="10" cy="10" r="8.5" stroke="currentColor" strokeWidth="1.3" />
+      <path d="M7.2 7.2l5.6 5.6M12.8 7.2l-5.6 5.6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function CheckIcon() {
+  return (
+    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-amber" fill="none" aria-hidden>
+      <circle cx="10" cy="10" r="9" fill="currentColor" fillOpacity="0.16" />
+      <path
+        d="M6 10.3l2.6 2.6L14.2 7"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
 export default function ComparisonTable({ showClosing = false }: { showClosing?: boolean }) {
   const t = useTranslations("home.comparison");
 
@@ -31,29 +55,49 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
           dark
         />
 
-        <div className="mt-16 overflow-hidden rounded-3xl border border-white/10">
-          <div className="grid grid-cols-2 border-b border-white/10 bg-white/[0.03]">
-            <div className="p-6 text-sm font-semibold text-white/40">
-              {t("othersLabel")}
-            </div>
-            <div className="p-6 text-sm font-semibold text-amber">
+        <div className="relative mt-16 rounded-3xl border border-white/10">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-y-0 right-0 w-1/2 rounded-tr-3xl rounded-br-3xl bg-gradient-to-b from-amber/[0.09] via-amber/[0.05] to-amber/[0.09]"
+          />
+
+          <div className="sticky top-20 z-20 grid grid-cols-2 rounded-t-3xl border-b border-white/10 bg-ink/95 backdrop-blur-xl">
+            <div className="p-6 text-sm font-semibold text-white/40">{t("othersLabel")}</div>
+            <div className="flex items-center gap-2 p-6 text-sm font-semibold text-amber">
+              <CheckIcon />
               {t("usLabel")}
             </div>
           </div>
+
           {ROW_KEYS.map((key, i) => (
-            <motion.div
+            <div
               key={key}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true, margin: "-10%" }}
-              transition={{ duration: 0.5, delay: i * 0.05 }}
-              className="grid grid-cols-2 border-b border-white/5 last:border-b-0"
+              className="relative z-10 grid grid-cols-2 border-b border-white/5 last:rounded-b-3xl last:border-b-0"
             >
-              <div className="p-6 text-sm text-white/45">{t(`rows.${key}.them`)}</div>
-              <div className="p-6 text-sm font-medium text-white/90">
-                {t(`rows.${key}.us`)}
+              <motion.div
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true, margin: "-15%" }}
+                transition={{ duration: 0.5, delay: i * 0.06 }}
+                className="flex items-start gap-3 p-6 text-sm text-white/45"
+              >
+                <XIcon />
+                <span className="pt-0.5">{t(`rows.${key}.them`)}</span>
+              </motion.div>
+
+              <div className="overflow-hidden p-6">
+                <motion.div
+                  initial={{ clipPath: "inset(0 0 0 100%)" }}
+                  whileInView={{ clipPath: "inset(0 0 0 0%)" }}
+                  viewport={{ once: true, margin: "-15%" }}
+                  transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: i * 0.06 }}
+                  className="flex items-start gap-3 text-sm font-medium text-white/90"
+                >
+                  <CheckIcon />
+                  <span className="pt-0.5">{t(`rows.${key}.us`)}</span>
+                </motion.div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 

@@ -5,6 +5,39 @@ import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import ContactForm from "@/components/sections/ContactForm";
 
+const REASSURANCE_ICONS = {
+  speed: (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none">
+      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M12 7v5l3.5 2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  experts: (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none">
+      <circle cx="9" cy="9" r="3" stroke="currentColor" strokeWidth="1.6" />
+      <path
+        d="M3.5 19c.8-3 3-4.7 5.5-4.7s4.7 1.7 5.5 4.7M15.5 8a3 3 0 1 1 3.6 4.8M18 14.3c1.9.5 3.1 1.8 3.6 3.7"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  ),
+  free: (
+    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none">
+      <path
+        d="M5 9h14v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V9Z"
+        stroke="currentColor"
+        strokeWidth="1.6"
+        strokeLinejoin="round"
+      />
+      <path d="M3 6h18v3H3zM12 6V4.5a1.5 1.5 0 1 1 1.5 1.5M12 6V4.5A1.5 1.5 0 1 0 10.5 6" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 9v11" stroke="currentColor" strokeWidth="1.6" />
+    </svg>
+  ),
+};
+
 export default function ContactSection() {
   const t = useTranslations("contact");
 
@@ -13,6 +46,12 @@ export default function ContactSection() {
     { label: t("offices.canada.label"), address: t("offices.canada.address") },
     { label: t("offices.india.label"), address: t("offices.india.address") },
   ];
+
+  const reassurance = [
+    { key: "speed", title: t("info.reassurance.speed.title"), description: t("info.reassurance.speed.description") },
+    { key: "experts", title: t("info.reassurance.experts.title"), description: t("info.reassurance.experts.description") },
+    { key: "free", title: t("info.reassurance.free.title"), description: t("info.reassurance.free.description") },
+  ] as const;
 
   return (
     <section className="bg-cream py-20 md:py-28">
@@ -42,6 +81,20 @@ export default function ContactSection() {
               >
                 +1 250 505 6094
               </a>
+            </div>
+
+            <div className="mt-10 space-y-5">
+              {reassurance.map((item) => (
+                <div key={item.key} className="flex items-start gap-4">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-mist text-amber-dark">
+                    {REASSURANCE_ICONS[item.key]}
+                  </span>
+                  <div>
+                    <p className="text-sm font-semibold text-ink">{item.title}</p>
+                    <p className="mt-0.5 text-sm text-muted">{item.description}</p>
+                  </div>
+                </div>
+              ))}
             </div>
 
             <div className="mt-10 space-y-6 border-t border-line pt-8">
