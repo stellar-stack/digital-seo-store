@@ -4,7 +4,8 @@
     "description": "Data-driven SEO, PPC, and digital marketing for ambitious brands across the US, UK, Canada and Europe. Real strategy, transparent reporting, measurable revenue."
   },
   "common": {
-    "home": "Home"
+    "home": "Home",
+    "skipToContent": "Skip to content"
   },
   "nav": {
     "servicesLabel": "Services",
@@ -26,7 +27,19 @@
     "pricing": "Pricing",
     "blog": "Blog",
     "contact": "Contact",
-    "cta": "Book a free consultation"
+    "cta": "Book a free consultation",
+    "megaMenu": {
+      "categories": {
+        "seo": "SEO",
+        "paidGrowth": "Paid & Growth",
+        "contentReputation": "Content & Reputation",
+        "devTeam": "Dev & Team"
+      },
+      "featured": {
+        "label": "Featured",
+        "cta": "See what's included"
+      }
+    }
   },
   "footer": {
     "blurb": "An independent digital marketing agency helping ambitious brands turn search, social, and paid media into a dependable revenue channel — since 2021.",
@@ -54,12 +67,14 @@
       "extraStats": {
         "services": "Core service lines",
         "languages": "Languages served"
-      }
+      },
+      "subtitle": "Data-driven SEO, PPC, and content strategies — delivered by a 45+ person team, transparently and affordably.",
+      "ctaSecondary": "See how we work"
     },
     "intro": {
       "eyebrow": "Digital Marketing Company",
       "title": "Helping businesses grow online",
-      "description": "We offer result-driven B2B & B2C end to end digital marketing services including local SEO, RMS, CRO, PPC, Social Media, and more. (We offer profit-sharing services to businesses in the USA for no upfront marketing cost.)",
+      "description": "We offer result-driven B2B & B2C end-to-end digital marketing services, including <local>Local SEO</local>, <rms>Reputation Management</rms>, <cro>CRO</cro>, <ppc>PPC</ppc>, and <social>Social Media</social>. We also offer profit-sharing services to businesses in the USA, with no upfront marketing cost.",
       "cta": "Get a free consultation"
     },
     "servicesSection": {
@@ -1225,7 +1240,7 @@
     "hero": {
       "eyebrow": "About Us",
       "title": "Empowering businesses with data-driven marketing",
-      "subtitle": "Your affordable, transparent, and results-focused digital marketing partner — since 2021."
+      "subtitle": "Your affordable, transparent, and results-focused digital marketing partner."
     },
     "stats": {
       "experts": "Certified digital experts",
@@ -1235,7 +1250,7 @@
     },
     "story": {
       "title": "Building success with data-driven strategies",
-      "paragraph1": "Digital SEO Store is an industry-focused digital marketing agency helping businesses achieve measurable growth since 2021. Our mission is simple: help businesses attract more customers online and grow with the power of digital marketing — delivered affordably and transparently.",
+      "paragraph1": "Digital SEO Store is an industry-focused digital marketing agency helping businesses achieve measurable growth. Our mission is simple: help businesses attract more customers online and grow with the power of digital marketing — delivered affordably and transparently.",
       "paragraph2": "Our team of 45+ certified digital experts specializes in SEO, PPC, social media, and analytics. Every strategy we craft is backed by data, designed around your specific business, and focused on delivering measurable results — not vanity metrics."
     },
     "values": {
@@ -1269,6 +1284,7 @@
         }
       ]
     },
+    "officesEyebrow": "Where We Work",
     "why": {
       "eyebrow": "Why Choose Digital SEO Store",
       "title": "We don't just deliver results — we exceed expectations",

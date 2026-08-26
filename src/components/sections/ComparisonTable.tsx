@@ -2,9 +2,11 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { clsx } from "clsx";
 import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import MagneticButton from "@/components/ui/MagneticButton";
+import { useHeaderHidden } from "@/components/providers/HeaderVisibility";
 
 const ROW_KEYS = [
   "promises",
@@ -44,9 +46,10 @@ function CheckIcon() {
 
 export default function ComparisonTable({ showClosing = false }: { showClosing?: boolean }) {
   const t = useTranslations("home.comparison");
+  const headerHidden = useHeaderHidden();
 
   return (
-    <section className="bg-ink py-24 md:py-32">
+    <section className="bg-ink py-20 md:py-24">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -55,15 +58,23 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
           dark
         />
 
-        <div className="relative mt-16 rounded-3xl border border-white/10">
+        <div role="table" aria-label={t("title")} className="relative mt-16 rounded-3xl border border-white/10">
           <div
             aria-hidden
             className="pointer-events-none absolute inset-y-0 right-0 w-1/2 rounded-tr-3xl rounded-br-3xl bg-gradient-to-b from-amber/[0.09] via-amber/[0.05] to-amber/[0.09]"
           />
 
-          <div className="sticky top-20 z-20 grid grid-cols-2 rounded-t-3xl border-b border-white/10 bg-ink/95 backdrop-blur-xl">
-            <div className="p-6 text-sm font-semibold text-white/40">{t("othersLabel")}</div>
-            <div className="flex items-center gap-2 p-6 text-sm font-semibold text-amber">
+          <div
+            role="row"
+            className={clsx(
+              "sticky z-20 grid grid-cols-2 rounded-t-3xl border-b border-white/10 bg-ink/95 backdrop-blur-xl transition-[top] duration-300 ease-out",
+              headerHidden ? "top-0" : "top-20"
+            )}
+          >
+            <div role="columnheader" className="p-6 text-sm font-semibold text-white/40">
+              {t("othersLabel")}
+            </div>
+            <div role="columnheader" className="flex items-center gap-2 p-6 text-sm font-semibold text-amber">
               <CheckIcon />
               {t("usLabel")}
             </div>
@@ -72,9 +83,11 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
           {ROW_KEYS.map((key, i) => (
             <div
               key={key}
+              role="row"
               className="relative z-10 grid grid-cols-2 border-b border-white/5 last:rounded-b-3xl last:border-b-0"
             >
               <motion.div
+                role="cell"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true, margin: "-15%" }}
@@ -85,7 +98,7 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
                 <span className="pt-0.5">{t(`rows.${key}.them`)}</span>
               </motion.div>
 
-              <div className="overflow-hidden p-6">
+              <div role="cell" className="overflow-hidden p-6">
                 <motion.div
                   initial={{ clipPath: "inset(0 0 0 100%)" }}
                   whileInView={{ clipPath: "inset(0 0 0 0%)" }}

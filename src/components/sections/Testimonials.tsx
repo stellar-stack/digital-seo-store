@@ -21,7 +21,7 @@ export default function Testimonials() {
   const t = useTranslations("home.testimonials");
 
   return (
-    <section className="bg-cream py-24 md:py-32">
+    <section className="bg-cream py-20 md:py-24">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -39,7 +39,7 @@ export default function Testimonials() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.1 }}
               className="flex h-full flex-col rounded-3xl border border-line bg-white p-8"
             >
-              <div className="mb-5 flex gap-1 text-amber">
+              <div className="mb-5 flex gap-1 text-amber-ink">
                 {"★★★★★".split("").map((star, si) => (
                   <span key={si}>{star}</span>
                 ))}

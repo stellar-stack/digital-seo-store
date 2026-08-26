@@ -15,7 +15,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
-import OrbitDots from "@/components/sections/OrbitDots";
+import DotGridWave from "@/components/sections/DotGridWave";
 
 const ROTATING_KEYS = [
   "growth",
@@ -83,6 +83,11 @@ export default function Hero() {
   const glowOpacity = useTransform(scrollProgress, [0, 1], [0.12, 0.34]);
   const glowScale = useTransform(scrollProgress, [0, 1], [0.85, 1.3]);
   const glowX = useTransform(scrollProgress, [0, 1], ["36%", "64%"]);
+  // A second, larger, cooler-toned shape drifting at its own rate behind
+  // the dot grid — gives the background actual depth instead of one flat
+  // layer, without competing with the amber glow above.
+  const parallaxY = useTransform(scrollProgress, [0, 1], [50, -50]);
+  const parallaxOpacity = useTransform(scrollProgress, [0, 1], [0.05, 0.14]);
 
   function handleCardMouseMove(e: MouseEvent<HTMLDivElement>) {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -148,8 +153,16 @@ export default function Hero() {
       <motion.section
         ref={pinRef}
         style={{ backgroundColor: reducedMotion ? "#0a0e1a" : bgColor }}
-        className="relative overflow-hidden py-24 md:py-32"
+        className="relative overflow-hidden py-20 md:py-24"
       >
+        <motion.div
+          aria-hidden
+          style={{
+            y: reducedMotion ? 0 : parallaxY,
+            opacity: reducedMotion ? 0.08 : parallaxOpacity,
+          }}
+          className="pointer-events-none absolute -bottom-40 -left-24 h-[38rem] w-[38rem] rounded-full bg-white blur-[180px]"
+        />
         <motion.div
           aria-hidden
           style={{
@@ -159,8 +172,7 @@ export default function Hero() {
           }}
           className="pointer-events-none absolute -top-32 h-[34rem] w-[34rem] -translate-x-1/2 rounded-full bg-amber blur-[160px]"
         />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] [background-size:32px_32px]" />
-        <OrbitDots reducedMotion={reducedMotion} />
+        <DotGridWave reducedMotion={reducedMotion} />
 
         <Container className="relative">
           <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
@@ -202,6 +214,15 @@ export default function Hero() {
                 </span>
               </h1>
 
+              <motion.p
+                initial={{ opacity: 0, y: 14 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
+                className="mt-6 max-w-lg text-base leading-relaxed text-white/55"
+              >
+                {t("subtitle")}
+              </motion.p>
+
               <div className="mt-9 flex items-center gap-2" aria-hidden>
                 {ROTATING_KEYS.map((_, i) => (
                   <span
@@ -218,11 +239,35 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
-                className="mt-10"
+                className="mt-10 flex flex-wrap items-center gap-4"
               >
                 <MagneticButton as="a" href="/contact" variant="solid">
                   {t("ctaPrimary")}
                 </MagneticButton>
+                <MagneticButton as="a" href="/about" variant="outlineLight">
+                  {t("ctaSecondary")}
+                </MagneticButton>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.6 }}
+                className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-white/45"
+              >
+                <span>
+                  <span className="font-display font-semibold text-white">45+</span>{" "}
+                  {tStat("experts")}
+                </span>
+                <span className="h-1 w-1 rounded-full bg-white/20" aria-hidden />
+                <span>
+                  <span className="font-display font-semibold text-white">75+</span>{" "}
+                  {tStat("clients")}
+                </span>
+                <span className="h-1 w-1 rounded-full bg-white/20" aria-hidden />
+                <span>
+                  <span className="font-display font-semibold text-white">5+</span> {tStat("years")}
+                </span>
               </motion.div>
             </div>
 
@@ -233,14 +278,26 @@ export default function Hero() {
               className="relative hidden lg:block"
               style={{ perspective: 1200 }}
             >
-              <div className="absolute inset-x-7 top-7 h-[19rem] rounded-[28px] border border-white/8 bg-white/[0.02]" />
-              <div className="absolute inset-x-3.5 top-3.5 h-[19rem] rounded-[28px] border border-white/10 bg-white/[0.035]" />
+              <motion.div
+                key={reducedMotion ? "ghost-a" : `ghost-a-${stepIndex}`}
+                initial={{ opacity: 0, rotate: -9, x: -8, y: 4 }}
+                animate={{ opacity: 1, rotate: -6, x: 0, y: 0 }}
+                transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
+                className="absolute inset-x-4 top-8 h-[19rem] origin-bottom rounded-[28px] border border-white/8 bg-white/[0.02]"
+              />
+              <motion.div
+                key={reducedMotion ? "ghost-b" : `ghost-b-${stepIndex}`}
+                initial={{ opacity: 0, rotate: 7, x: 8, y: 2 }}
+                animate={{ opacity: 1, rotate: 4, x: 0, y: 0 }}
+                transition={{ duration: 0.55, delay: 0.06, ease: [0.16, 1, 0.3, 1] }}
+                className="absolute inset-x-4 top-4 h-[19rem] origin-bottom rounded-[28px] border border-white/10 bg-white/[0.035]"
+              />
 
               <motion.div
                 onMouseMove={handleCardMouseMove}
                 onMouseLeave={handleCardMouseLeave}
                 style={{ rotateX: reducedMotion ? 0 : springRx, rotateY: reducedMotion ? 0 : springRy }}
-                className="relative h-[19rem] rounded-[28px] border border-white/12 bg-white/[0.06] p-8 backdrop-blur-xl [transform-style:preserve-3d]"
+                className="relative h-[19rem] rounded-[28px] border border-white/12 bg-white/[0.06] p-8 shadow-2xl shadow-ink/50 backdrop-blur-xl [transform-style:preserve-3d]"
               >
                 <p className="text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-white/40">
                   {t("panelEyebrow")}

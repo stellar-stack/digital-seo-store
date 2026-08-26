@@ -34,7 +34,7 @@ export default function SectionHeading({
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
           className={clsx(
             "text-xs font-semibold uppercase tracking-[0.2em] mb-4",
-            dark ? "text-amber" : "text-amber-dark"
+            dark ? "text-amber" : "text-amber-ink"
           )}
         >
           {eyebrow}

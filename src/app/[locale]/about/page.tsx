@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import ServiceHero from "@/components/sections/ServiceHero";
-import AboutStats from "@/components/sections/AboutStats";
+import AboutHero from "@/components/sections/AboutHero";
 import ServiceIntro from "@/components/sections/ServiceIntro";
-import ServiceFeatures from "@/components/sections/ServiceFeatures";
+import ValuesList from "@/components/sections/ValuesList";
+import AlternatingFeatureRows from "@/components/sections/AlternatingFeatureRows";
+import OfficesStrip from "@/components/sections/OfficesStrip";
 import CTASection from "@/components/sections/CTASection";
 import MobileStackCard from "@/components/ui/MobileStackCard";
 
@@ -31,8 +32,6 @@ export default async function AboutPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("about");
-  const tNav = await getTranslations("nav");
-  const tCommon = await getTranslations("common");
 
   const valuesItems = [0, 1, 2, 3, 4, 5].map((i) => ({
     title: t(`values.items.${i}.title`),
@@ -46,16 +45,7 @@ export default async function AboutPage({
 
   return (
     <>
-      <ServiceHero
-        eyebrow={t("hero.eyebrow")}
-        title={t("hero.title")}
-        subtitle={t("hero.subtitle")}
-        ctaLabel={tNav("cta")}
-        breadcrumbLabel={tCommon("home")}
-      />
-      <MobileStackCard>
-        <AboutStats />
-      </MobileStackCard>
+      <AboutHero />
       <MobileStackCard>
         <ServiceIntro
           title={t("story.title")}
@@ -63,7 +53,7 @@ export default async function AboutPage({
         />
       </MobileStackCard>
       <MobileStackCard>
-        <ServiceFeatures
+        <ValuesList
           eyebrow={t("values.eyebrow")}
           title={t("values.title")}
           description={t("values.description")}
@@ -71,12 +61,15 @@ export default async function AboutPage({
         />
       </MobileStackCard>
       <MobileStackCard>
-        <ServiceFeatures
+        <AlternatingFeatureRows
           eyebrow={t("why.eyebrow")}
           title={t("why.title")}
           description={t("why.description")}
           items={whyItems}
         />
+      </MobileStackCard>
+      <MobileStackCard>
+        <OfficesStrip />
       </MobileStackCard>
       <MobileStackCard>
         <CTASection title={t("cta.title")} subtitle={t("cta.subtitle")} />

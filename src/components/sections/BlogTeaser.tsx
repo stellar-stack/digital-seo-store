@@ -12,7 +12,7 @@ export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
   const locale = useLocale();
 
   return (
-    <section className="bg-mist py-24 md:py-32">
+    <section className="bg-mist py-20 md:py-24">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -33,7 +33,7 @@ export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
                 href={`/blog/${post.slug}`}
                 className="group flex h-full flex-col rounded-3xl border border-line bg-cream p-7 transition-all duration-300 hover:-translate-y-1 hover:border-amber/40 hover:shadow-xl hover:shadow-ink/5"
               >
-                <p className="text-xs font-semibold uppercase tracking-widest text-amber-dark">
+                <p className="text-xs font-semibold uppercase tracking-widest text-amber-ink">
                   {new Date(post.date).toLocaleDateString(locale, {
                     year: "numeric",
                     month: "long",
@@ -43,7 +43,7 @@ export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
                 <h3 className="font-display mt-4 text-lg font-semibold leading-snug text-ink">
                   {post.title}
                 </h3>
-                <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-amber-dark opacity-0 transition-opacity group-hover:opacity-100">
+                <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-amber-ink opacity-0 transition-opacity group-hover:opacity-100">
                   {t("readMore")}
                   <span className="transition-transform group-hover:translate-x-1">→</span>
                 </span>

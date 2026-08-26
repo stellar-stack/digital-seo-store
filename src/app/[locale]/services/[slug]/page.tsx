@@ -9,6 +9,7 @@ import ServiceFeatures from "@/components/sections/ServiceFeatures";
 import ServiceFAQ from "@/components/sections/ServiceFAQ";
 import CTASection from "@/components/sections/CTASection";
 import MobileStackCard from "@/components/ui/MobileStackCard";
+import { absoluteUrl, organizationRef, breadcrumbList } from "@/lib/seo";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -61,8 +62,32 @@ export default async function ServicePage({
     answer: t(`faq.items.${i}.answer`),
   }));
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: t("hero.title"),
+    description: t("hero.subtitle"),
+    serviceType: t("hero.title"),
+    areaServed: "Worldwide",
+    provider: organizationRef(),
+    url: absoluteUrl(`/services/${service.slug}`, locale),
+  };
+
+  const breadcrumbSchema = breadcrumbList([
+    { name: tCommon("home"), url: absoluteUrl("/", locale) },
+    { name: t("hero.title"), url: absoluteUrl(`/services/${service.slug}`, locale) },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <ServiceHero
         eyebrow={t("hero.eyebrow")}
         title={t("hero.title")}

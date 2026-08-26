@@ -6,6 +6,12 @@
   --color-ink-soft: #101627;
   --color-amber: #f5a623;
   --color-amber-dark: #d98a0f;
+  /* WCAG AA-safe accent for small text/links on light surfaces — amber-dark
+     (#d98a0f) only reaches ~2.8:1 on white/cream, which fails 4.5:1 for
+     body text. Same hue family, deepened for legibility; amber-dark itself
+     stays untouched since it's also used as a button background where a
+     darker fill would reduce contrast against dark button text. */
+  --color-amber-ink: #b45309;
   --color-charcoal: #17181c;
   --color-cream: #faf9f6;
   --color-mist: #f2f1ec;
@@ -20,6 +26,7 @@
   --color-ink-soft: var(--color-ink-soft);
   --color-amber: var(--color-amber);
   --color-amber-dark: var(--color-amber-dark);
+  --color-amber-ink: var(--color-amber-ink);
   --color-charcoal: var(--color-charcoal);
   --color-cream: var(--color-cream);
   --color-mist: var(--color-mist);

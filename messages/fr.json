@@ -4,7 +4,8 @@
     "description": "Référencement, publicité et marketing digital data-driven pour les marques ambitieuses aux États-Unis, au Royaume-Uni, au Canada et en Europe. Une stratégie réelle, un reporting transparent, des résultats mesurables."
   },
   "common": {
-    "home": "Accueil"
+    "home": "Accueil",
+    "skipToContent": "Aller au contenu"
   },
   "nav": {
     "servicesLabel": "Services",
@@ -26,7 +27,19 @@
     "pricing": "Tarifs",
     "blog": "Blog",
     "contact": "Contact",
-    "cta": "Réserver une consultation gratuite"
+    "cta": "Réserver une consultation gratuite",
+    "megaMenu": {
+      "categories": {
+        "seo": "SEO",
+        "paidGrowth": "Publicité et croissance",
+        "contentReputation": "Contenu et réputation",
+        "devTeam": "Développement et équipe"
+      },
+      "featured": {
+        "label": "En vedette",
+        "cta": "Voir ce qui est inclus"
+      }
+    }
   },
   "footer": {
     "blurb": "Une agence de marketing digital indépendante qui aide les marques ambitieuses à transformer la recherche, le social et le paid media en un canal de revenus fiable — depuis 2021.",
@@ -54,12 +67,14 @@
       "extraStats": {
         "services": "Lignes de services principales",
         "languages": "Langues proposées"
-      }
+      },
+      "subtitle": "Des stratégies SEO, PPC et contenu pilotées par la donnée — portées par une équipe de 45+ experts, de façon transparente et abordable.",
+      "ctaSecondary": "Découvrir notre méthode"
     },
     "intro": {
       "eyebrow": "Agence de marketing digital",
       "title": "Nous aidons les entreprises à se développer en ligne",
-      "description": "Nous proposons des services de marketing digital B2B et B2C complets et axés sur les résultats, incluant le SEO local, la RMS, le CRO, le PPC, les réseaux sociaux, et bien plus. (Nous proposons des services à partage de profits pour les entreprises aux États-Unis, sans coût marketing initial.)",
+      "description": "Nous proposons des services de marketing digital B2B et B2C axés sur les résultats, incluant le <local>référencement local</local>, la <rms>gestion de réputation</rms>, l'<cro>optimisation du taux de conversion</cro>, la <ppc>publicité PPC</ppc> et les <social>réseaux sociaux</social>. Nous proposons également des services à commission sur les résultats pour les entreprises aux États-Unis, sans coût marketing initial.",
       "cta": "Obtenir une consultation gratuite"
     },
     "servicesSection": {
@@ -1225,7 +1240,7 @@
     "hero": {
       "eyebrow": "À propos",
       "title": "Un marketing piloté par la donnée, au service de votre croissance",
-      "subtitle": "Votre partenaire marketing digital abordable, transparent et centré sur les résultats — depuis 2021."
+      "subtitle": "Votre partenaire marketing digital abordable, transparent et centré sur les résultats."
     },
     "stats": {
       "experts": "Experts digitaux certifiés",
@@ -1235,7 +1250,7 @@
     },
     "story": {
       "title": "Construire le succès avec des stratégies pilotées par la donnée",
-      "paragraph1": "Digital SEO Store est une agence de marketing digital spécialisée qui aide les entreprises à obtenir une croissance mesurable depuis 2021. Notre mission est simple : aider les entreprises à attirer plus de clients en ligne et à grandir grâce au marketing digital — de façon abordable et transparente.",
+      "paragraph1": "Digital SEO Store est une agence de marketing digital spécialisée qui aide les entreprises à obtenir une croissance mesurable. Notre mission est simple : aider les entreprises à attirer plus de clients en ligne et à grandir grâce au marketing digital — de façon abordable et transparente.",
       "paragraph2": "Notre équipe de plus de 45 experts digitaux certifiés est spécialisée en SEO, PPC, réseaux sociaux et analytique. Chaque stratégie que nous construisons est fondée sur la donnée, conçue pour votre entreprise spécifique, et centrée sur des résultats mesurables — pas des indicateurs de vanité."
     },
     "values": {
@@ -1269,6 +1284,7 @@
         }
       ]
     },
+    "officesEyebrow": "Où nous travaillons",
     "why": {
       "eyebrow": "Pourquoi choisir Digital SEO Store",
       "title": "Nous ne livrons pas seulement des résultats — nous dépassons les attentes",

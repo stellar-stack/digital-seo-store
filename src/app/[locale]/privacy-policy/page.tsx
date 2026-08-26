@@ -45,7 +45,7 @@ export default async function PrivacyPolicyPage({
             day: "numeric",
           })}
         </p>
-        <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-3 prose-a:text-amber-dark prose-strong:text-ink">
+        <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-3 prose-a:text-amber-ink prose-strong:text-ink">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{doc.content}</ReactMarkdown>
         </div>
       </Container>

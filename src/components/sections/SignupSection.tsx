@@ -1,21 +1,23 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Container from "@/components/ui/Container";
 import ContactForm from "@/components/sections/ContactForm";
-import SectionPhoto from "@/components/ui/SectionPhoto";
+import DotGridWave from "@/components/sections/DotGridWave";
 
 const STEP_KEYS = ["touch", "campaigns", "growth"] as const;
 
 export default function SignupSection() {
   const t = useTranslations("home.signup");
+  const reducedMotion = useReducedMotion();
 
   return (
-    <section className="relative overflow-hidden bg-ink py-24 md:py-32">
+    <section className="relative overflow-hidden bg-ink py-20 md:py-24">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-0 h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-amber/15 blur-[140px]" />
       </div>
+      <DotGridWave reducedMotion={!!reducedMotion} />
       <Container className="relative">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_1fr]">
           <div>
@@ -62,14 +64,6 @@ export default function SignupSection() {
                 </motion.div>
               ))}
             </div>
-
-            <SectionPhoto
-              src="/images/home/signup-success.jpg"
-              alt="Our team celebrating a client's results"
-              tone="dark"
-              className="mt-10 aspect-[4/3]"
-              sizes="(min-width: 1024px) 50vw, 100vw"
-            />
           </div>
 
           <motion.div

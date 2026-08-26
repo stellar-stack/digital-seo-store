@@ -71,7 +71,7 @@ function FloatingField({ label, name, type = "text", required, as = "input", row
         transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
         className={clsx(
           "pointer-events-none absolute left-4 font-medium",
-          focused ? "text-amber-dark" : "text-muted"
+          focused ? "text-amber-ink" : "text-muted"
         )}
       >
         {label}
@@ -89,6 +89,7 @@ function FloatingField({ label, name, type = "text", required, as = "input", row
 
 export default function ContactForm() {
   const t = useTranslations("contact.form");
+  const tInfo = useTranslations("contact.info.reassurance");
   const router = useRouter();
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
 
@@ -97,68 +98,101 @@ export default function ContactForm() {
     setStatus("sending");
     setTimeout(() => {
       setStatus("sent");
-      setTimeout(() => router.push("/thank-you"), 900);
+      setTimeout(() => router.push("/thank-you"), 3000);
     }, 600);
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        <FloatingField label={t("name")} name="name" required />
-        <FloatingField label={t("email")} name="email" type="email" required />
-      </div>
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        <FloatingField label={t("phone")} name="phone" type="tel" />
-        <FloatingField label={t("subject")} name="subject" />
-      </div>
-      <FloatingField label={t("message")} name="message" as="textarea" rows={5} />
-
-      <MagneticButton
-        type="submit"
-        variant="solid"
-        disabled={status !== "idle"}
-        className="w-full justify-center gap-2 sm:w-auto"
-      >
-        <AnimatePresence mode="wait" initial={false}>
-          {status === "sent" ? (
-            <motion.span
-              key="sent"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              className="inline-flex items-center gap-2"
-            >
-              <svg viewBox="0 0 20 20" className="h-4 w-4" fill="none">
-                <path
-                  d="M4.5 10.5l3.5 3.5L15.5 6"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-              {t("sent")}
-            </motion.span>
-          ) : status === "sending" ? (
-            <motion.span
-              key="sending"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="inline-flex items-center gap-2"
-            >
-              <motion.span
-                animate={{ rotate: 360 }}
-                transition={{ duration: 0.8, repeat: Infinity, ease: "linear" }}
-                className="h-3.5 w-3.5 rounded-full border-2 border-ink/30 border-t-ink"
+    <AnimatePresence mode="wait" initial={false}>
+      {status === "sent" ? (
+        <motion.div
+          key="success"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+          className="flex flex-col items-center py-10 text-center"
+        >
+          <motion.span
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-amber text-ink"
+          >
+            <svg viewBox="0 0 20 20" className="h-7 w-7" fill="none">
+              <path
+                d="M4.5 10.5l3.5 3.5L15.5 6"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
-              {t("sending")}
-            </motion.span>
-          ) : (
-            <motion.span key="idle" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              {t("send")}
-            </motion.span>
-          )}
-        </AnimatePresence>
-      </MagneticButton>
-    </form>
+            </svg>
+          </motion.span>
+          <motion.h3
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
+            className="font-display mt-6 text-xl font-semibold text-ink"
+          >
+            {t("sent")}
+          </motion.h3>
+          <motion.p
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.35 }}
+            className="mt-2 max-w-xs text-sm text-muted"
+          >
+            {tInfo("speed.description")}
+          </motion.p>
+        </motion.div>
+      ) : (
+        <motion.form
+          key="form"
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.25 }}
+          onSubmit={handleSubmit}
+          className="space-y-5"
+        >
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <FloatingField label={t("name")} name="name" required />
+            <FloatingField label={t("email")} name="email" type="email" required />
+          </div>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+            <FloatingField label={t("phone")} name="phone" type="tel" />
+            <FloatingField label={t("subject")} name="subject" />
+          </div>
+          <FloatingField label={t("message")} name="message" as="textarea" rows={5} />
+
+          <MagneticButton
+            type="submit"
+            variant="solid"
+            disabled={status !== "idle"}
+            className="w-full justify-center gap-2 sm:w-auto"
+          >
+            <AnimatePresence mode="wait" initial={false}>
+              {status === "sending" ? (
+                <motion.span
+                  key="sending"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="inline-flex items-center gap-2"
+                >
+                  <motion.span
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 0.8, repeat: Infinity, ease: "linear" }}
+                    className="h-3.5 w-3.5 rounded-full border-2 border-ink/30 border-t-ink"
+                  />
+                  {t("sending")}
+                </motion.span>
+              ) : (
+                <motion.span key="idle" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                  {t("send")}
+                </motion.span>
+              )}
+            </AnimatePresence>
+          </MagneticButton>
+        </motion.form>
+      )}
+    </AnimatePresence>
   );
 }

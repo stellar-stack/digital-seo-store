@@ -1,0 +1,51 @@
+backend:
+  name: github
+  repo: stellar-stack/digital-seo-store
+  branch: main
+
+# Requires a one-time OAuth registration on GitHub pointed at this site, plus
+# either Decap's hosted auth endpoint or a small self-hosted OAuth proxy —
+# see the README note for exact steps. Nothing below this line needs it to
+# be configured correctly; it only gates the "Login with GitHub" button.
+
+media_folder: "public/images/blog"
+public_folder: "/images/blog"
+
+i18n:
+  structure: multiple_files
+  locales: [en, fr, es]
+  default_locale: en
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    i18n: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        i18n: true
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "text"
+        hint: "Shown on blog index/teaser cards and used as the page meta description."
+        i18n: true
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        i18n: duplicate
+      - label: "Read time"
+        name: "readTime"
+        widget: "string"
+        hint: 'e.g. "6 min read"'
+        i18n: duplicate
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        i18n: true

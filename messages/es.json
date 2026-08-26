@@ -4,7 +4,8 @@
     "description": "SEO, PPC y marketing digital basado en datos para marcas ambiciosas en Estados Unidos, Reino Unido, Canadá y Europa. Estrategia real, informes transparentes, resultados medibles."
   },
   "common": {
-    "home": "Inicio"
+    "home": "Inicio",
+    "skipToContent": "Saltar al contenido"
   },
   "nav": {
     "servicesLabel": "Servicios",
@@ -26,7 +27,19 @@
     "pricing": "Precios",
     "blog": "Blog",
     "contact": "Contacto",
-    "cta": "Reserva una consulta gratuita"
+    "cta": "Reserva una consulta gratuita",
+    "megaMenu": {
+      "categories": {
+        "seo": "SEO",
+        "paidGrowth": "Publicidad y crecimiento",
+        "contentReputation": "Contenido y reputación",
+        "devTeam": "Desarrollo y equipo"
+      },
+      "featured": {
+        "label": "Destacado",
+        "cta": "Ver qué incluye"
+      }
+    }
   },
   "footer": {
     "blurb": "Una agencia de marketing digital independiente que ayuda a marcas ambiciosas a convertir la búsqueda, el social y el paid media en un canal de ingresos fiable — desde 2021.",
@@ -54,12 +67,14 @@
       "extraStats": {
         "services": "Líneas de servicio principales",
         "languages": "Idiomas ofrecidos"
-      }
+      },
+      "subtitle": "Estrategias de SEO, PPC y contenido basadas en datos, ofrecidas por un equipo de más de 45 expertos, de forma transparente y asequible.",
+      "ctaSecondary": "Cómo trabajamos"
     },
     "intro": {
       "eyebrow": "Empresa de marketing digital",
       "title": "Ayudamos a empresas a crecer en internet",
-      "description": "Ofrecemos servicios integrales de marketing digital B2B y B2C orientados a resultados, incluyendo SEO local, RMS, CRO, PPC, redes sociales y mucho más. (Ofrecemos servicios de reparto de beneficios a empresas en EE. UU. sin coste inicial de marketing.)",
+      "description": "Ofrecemos servicios de marketing digital B2B y B2C orientados a resultados, incluyendo <local>SEO local</local>, <rms>gestión de reputación</rms>, <cro>CRO</cro>, <ppc>PPC</ppc> y <social>redes sociales</social>. También ofrecemos servicios de reparto de beneficios para empresas en EE. UU., sin coste inicial de marketing.",
       "cta": "Obtén una consulta gratuita"
     },
     "servicesSection": {
@@ -1225,7 +1240,7 @@
     "hero": {
       "eyebrow": "Nosotros",
       "title": "Impulsamos negocios con marketing basado en datos",
-      "subtitle": "Tu socio de marketing digital accesible, transparente y centrado en resultados — desde 2021."
+      "subtitle": "Tu socio de marketing digital accesible, transparente y centrado en resultados."
     },
     "stats": {
       "experts": "Expertos digitales certificados",
@@ -1235,7 +1250,7 @@
     },
     "story": {
       "title": "Construyendo éxito con estrategias basadas en datos",
-      "paragraph1": "Digital SEO Store es una agencia de marketing digital especializada que ayuda a empresas a lograr un crecimiento medible desde 2021. Nuestra misión es simple: ayudar a las empresas a atraer más clientes online y crecer gracias al marketing digital — de forma accesible y transparente.",
+      "paragraph1": "Digital SEO Store es una agencia de marketing digital especializada que ayuda a empresas a lograr un crecimiento medible. Nuestra misión es simple: ayudar a las empresas a atraer más clientes online y crecer gracias al marketing digital — de forma accesible y transparente.",
       "paragraph2": "Nuestro equipo de más de 45 expertos digitales certificados está especializado en SEO, PPC, redes sociales y analítica. Cada estrategia que creamos está respaldada por datos, diseñada para tu negocio específico y centrada en resultados medibles — no en métricas de vanidad."
     },
     "values": {
@@ -1269,6 +1284,7 @@
         }
       ]
     },
+    "officesEyebrow": "Dónde trabajamos",
     "why": {
       "eyebrow": "Por qué elegir Digital SEO Store",
       "title": "No solo entregamos resultados — superamos expectativas",

@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 type Props = {
   children: React.ReactNode;
   className?: string;
-  variant?: "solid" | "outline" | "ghost";
+  variant?: "solid" | "outline" | "outlineLight" | "ghost";
   strength?: number;
 } & (
   | ({ as?: "button" } & React.ButtonHTMLAttributes<HTMLButtonElement>)
@@ -53,7 +53,8 @@ export default function MagneticButton({
   const variants = {
     solid: "bg-amber text-ink hover:bg-amber-dark",
     outline: "border border-charcoal/20 text-charcoal hover:border-charcoal/50",
-    ghost: "text-charcoal hover:text-amber-dark",
+    outlineLight: "border border-white/25 text-white hover:border-white/50 hover:bg-white/5",
+    ghost: "text-charcoal hover:text-amber-ink",
   };
 
   const sharedProps = {

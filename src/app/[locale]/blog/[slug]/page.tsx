@@ -8,6 +8,7 @@ import { getAllBlogPosts, getBlogPost, getBlogSlugs } from "@/lib/blog";
 import { Link } from "@/i18n/navigation";
 import Container from "@/components/ui/Container";
 import CTASection from "@/components/sections/CTASection";
+import { absoluteUrl, organizationRef, breadcrumbList } from "@/lib/seo";
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -43,8 +44,37 @@ export default async function BlogPostPage({
     .filter((p) => p.slug !== slug)
     .slice(0, 2);
 
+  const postUrl = absoluteUrl(`/blog/${slug}`, locale);
+  const postSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: new Date(post.date).toISOString(),
+    dateModified: new Date(post.date).toISOString(),
+    author: organizationRef(),
+    publisher: organizationRef(),
+    image: absoluteUrl(`/blog/${slug}/opengraph-image`, locale),
+    mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
+    url: postUrl,
+  };
+
+  const breadcrumbSchema = breadcrumbList([
+    { name: tCommon("home"), url: absoluteUrl("/", locale) },
+    { name: tBlog("hero.eyebrow"), url: absoluteUrl("/blog", locale) },
+    { name: post.title, url: postUrl },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(postSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <article className="relative overflow-hidden bg-ink pt-16 pb-20 md:pt-20 md:pb-24">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-amber/15 blur-[130px]" />
@@ -75,7 +105,7 @@ export default async function BlogPostPage({
 
       <div className="bg-cream py-16 md:py-20">
         <Container className="max-w-3xl">
-          <div className="prose prose-neutral max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-a:text-amber-dark prose-strong:text-ink">
+          <div className="prose prose-neutral max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-a:text-amber-ink prose-strong:text-ink">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
           </div>
         </Container>

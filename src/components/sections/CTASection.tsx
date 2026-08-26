@@ -21,7 +21,7 @@ export default function CTASection({
   const resolvedButton = button ?? t("button");
 
   return (
-    <section className="relative overflow-hidden bg-ink py-24 md:py-32">
+    <section className="relative overflow-hidden bg-ink py-20 md:py-24">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber/15 blur-[140px]" />
       </div>
