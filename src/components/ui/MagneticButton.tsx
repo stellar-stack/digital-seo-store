@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 type Props = {
   children: React.ReactNode;
   className?: string;
-  variant?: "solid" | "outline" | "outlineLight" | "ghost";
+  variant?: "solid" | "outline" | "inverted" | "ghost";
   strength?: number;
 } & (
   | ({ as?: "button" } & React.ButtonHTMLAttributes<HTMLButtonElement>)
@@ -51,10 +51,10 @@ export default function MagneticButton({
   const base =
     "relative inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-colors duration-300";
   const variants = {
-    solid: "bg-amber text-ink hover:bg-amber-dark",
+    solid: "bg-blue text-white hover:bg-blue-dark",
     outline: "border border-charcoal/20 text-charcoal hover:border-charcoal/50",
-    outlineLight: "border border-white/25 text-white hover:border-white/50 hover:bg-white/5",
-    ghost: "text-charcoal hover:text-amber-ink",
+    inverted: "bg-white text-blue hover:bg-cream",
+    ghost: "text-charcoal hover:text-blue-ink",
   };
 
   const sharedProps = {

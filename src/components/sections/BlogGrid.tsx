@@ -20,9 +20,9 @@ export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
             >
               <Link
                 href={`/blog/${post.slug}`}
-                className="group flex h-full flex-col rounded-3xl border border-line bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-amber/40 hover:shadow-xl hover:shadow-ink/5"
+                className="group flex h-full flex-col rounded-3xl border border-line bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-blue/40 hover:shadow-xl hover:shadow-ink/5"
               >
-                <p className="text-xs font-semibold uppercase tracking-widest text-amber-ink">
+                <p className="text-xs font-semibold uppercase tracking-widest text-blue-ink">
                   {new Date(post.date).toLocaleDateString(undefined, {
                     year: "numeric",
                     month: "long",
@@ -37,7 +37,7 @@ export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
                 </p>
                 <div className="mt-6 flex items-center justify-between">
                   <span className="text-xs text-muted">{post.readTime}</span>
-                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-amber-ink opacity-0 transition-opacity group-hover:opacity-100">
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-blue-ink opacity-0 transition-opacity group-hover:opacity-100">
                     Read
                     <span className="transition-transform group-hover:translate-x-1">→</span>
                   </span>

@@ -23,7 +23,7 @@ export function renderOgImage({
           justifyContent: "space-between",
           padding: "76px",
           background:
-            "radial-gradient(circle at 78% 8%, rgba(245,166,35,0.35), transparent 55%), #0a0e1a",
+            "radial-gradient(circle at 78% 8%, rgba(33,90,245,0.35), transparent 55%), #0a0e1a",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
@@ -35,8 +35,8 @@ export function renderOgImage({
               width: 56,
               height: 56,
               borderRadius: 14,
-              background: "#f5a623",
-              color: "#0a0e1a",
+              background: "#0071e3",
+              color: "#ffffff",
               fontSize: 30,
               fontWeight: 700,
             }}
@@ -59,7 +59,7 @@ export function renderOgImage({
               style={{
                 fontSize: 20,
                 fontWeight: 600,
-                color: "#f5a623",
+                color: "#0071e3",
                 letterSpacing: 3,
                 marginBottom: 20,
                 textTransform: "uppercase",

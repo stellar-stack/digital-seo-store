@@ -30,8 +30,8 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
               <span
                 aria-hidden
                 className={clsx(
-                  "flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-mist text-amber-dark transition-transform duration-300",
-                  open && "rotate-45 bg-amber/15"
+                  "flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-mist text-blue-dark transition-transform duration-300",
+                  open && "rotate-45 bg-blue/15"
                 )}
               >
                 +

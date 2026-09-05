@@ -19,7 +19,7 @@ function ServicePill({ href, children }: { href: string; children: React.ReactNo
   return (
     <Link
       href={href}
-      className="mx-0.5 inline-flex items-center rounded-full bg-amber/12 px-2.5 py-0.5 align-baseline text-[0.92em] font-semibold text-amber-ink transition-colors hover:bg-amber/20"
+      className="mx-0.5 inline-flex items-center rounded-full bg-blue/12 px-2.5 py-0.5 align-baseline text-[0.92em] font-semibold text-blue-ink transition-colors hover:bg-blue/20"
     >
       {children}
     </Link>
@@ -54,7 +54,7 @@ export default function IntroStatement() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10%" }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-ink"
+              className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-ink"
             >
               {t("eyebrow")}
             </motion.p>
@@ -122,9 +122,9 @@ export default function IntroStatement() {
               <Link
                 key={tile.category}
                 href={tile.href}
-                className="group rounded-3xl border border-line bg-white p-6 transition-colors hover:border-amber/40"
+                className="group rounded-3xl border border-line bg-white p-6 transition-colors hover:border-blue/40"
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-amber-dark transition-colors group-hover:bg-amber/15 [&_svg]:h-5 [&_svg]:w-5">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-blue-dark transition-colors group-hover:bg-blue/15 [&_svg]:h-5 [&_svg]:w-5">
                   {tile.icon}
                 </span>
                 <p className="font-display mt-5 text-base font-semibold text-ink">

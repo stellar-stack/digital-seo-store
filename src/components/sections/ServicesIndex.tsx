@@ -104,7 +104,7 @@ export default function ServicesIndex() {
                     <span
                       className={clsx(
                         "font-display text-sm tabular-nums transition-colors duration-300",
-                        i === activeIndex ? "text-amber-ink" : "text-muted/50"
+                        i === activeIndex ? "text-blue-ink" : "text-muted/50"
                       )}
                     >
                       {String(i + 1).padStart(2, "0")}
@@ -122,7 +122,7 @@ export default function ServicesIndex() {
                     className={clsx(
                       "shrink-0 text-lg transition-all duration-300",
                       i === activeIndex
-                        ? "translate-x-0 text-amber-dark opacity-100"
+                        ? "translate-x-0 text-blue-dark opacity-100"
                         : "-translate-x-1 text-charcoal/20 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
                     )}
                   >
@@ -166,14 +166,14 @@ export default function ServicesIndex() {
                   className="rounded-[28px] border border-line bg-white p-10 shadow-xl shadow-ink/5"
                 >
                   <div className="flex items-start justify-between">
-                    <span className="font-display text-sm text-amber-ink">
+                    <span className="font-display text-sm text-blue-ink">
                       {String(activeIndex + 1).padStart(2, "0")}
                     </span>
                     <motion.span
                       initial={{ opacity: 0, scale: 0.75, rotate: -10 }}
                       animate={{ opacity: 1, scale: 1, rotate: 0 }}
                       transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                      className="flex h-14 w-14 items-center justify-center rounded-2xl bg-amber/10 text-amber-dark [&_svg]:h-7 [&_svg]:w-7"
+                      className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue/10 text-blue-dark [&_svg]:h-7 [&_svg]:w-7"
                     >
                       {ROW_ICONS[active.key]}
                     </motion.span>
@@ -187,7 +187,7 @@ export default function ServicesIndex() {
 
                   <Link
                     href={`/services/${active.slug}`}
-                    className="mt-9 inline-flex items-center gap-2 text-sm font-semibold text-amber-ink transition-colors hover:text-ink"
+                    className="mt-9 inline-flex items-center gap-2 text-sm font-semibold text-blue-ink transition-colors hover:text-ink"
                   >
                     {tCard("learnMore")}
                     <span>→</span>

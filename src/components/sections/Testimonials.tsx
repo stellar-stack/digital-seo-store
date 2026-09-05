@@ -39,7 +39,7 @@ export default function Testimonials() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.1 }}
               className="flex h-full flex-col rounded-3xl border border-line bg-white p-8"
             >
-              <div className="mb-5 flex gap-1 text-amber-ink">
+              <div className="mb-5 flex gap-1 text-blue-ink">
                 {"★★★★★".split("").map((star, si) => (
                   <span key={si}>{star}</span>
                 ))}
@@ -48,7 +48,7 @@ export default function Testimonials() {
                 &ldquo;{t(`items.${key}.quote`)}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3">
-                <span className="font-display flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-amber text-sm font-semibold text-ink">
+                <span className="font-display flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue text-sm font-semibold text-white">
                   {initials(t(`items.${key}.name`))}
                 </span>
                 <span className="text-sm font-semibold text-ink">

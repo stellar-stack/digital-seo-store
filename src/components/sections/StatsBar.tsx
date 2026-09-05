@@ -15,17 +15,11 @@ export default function StatsBar() {
   const t = useTranslations("home.stats");
 
   return (
-    <section className="bg-ink py-16 md:py-20">
+    <section className="bg-mist py-16 md:py-20">
       <Container>
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           {STATS.map((s) => (
-            <StatCounter
-              key={s.key}
-              value={s.value}
-              suffix={s.suffix}
-              label={t(s.key)}
-              dark
-            />
+            <StatCounter key={s.key} value={s.value} suffix={s.suffix} label={t(s.key)} />
           ))}
         </div>
       </Container>

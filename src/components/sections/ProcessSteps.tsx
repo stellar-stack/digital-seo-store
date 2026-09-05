@@ -28,7 +28,7 @@ function StaticStepGrid({ t }: { t: ReturnType<typeof useTranslations> }) {
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: i * 0.1 }}
           className="relative bg-cream p-8"
         >
-          <span className="font-display text-4xl font-semibold text-amber/50">
+          <span className="font-display text-4xl font-semibold text-blue/50">
             {String(i + 1).padStart(2, "0")}
           </span>
           <h3 className="font-display mt-6 text-lg font-semibold text-ink">
@@ -92,7 +92,7 @@ function PinnedStepStory({ t }: { t: ReturnType<typeof useTranslations> }) {
           <div className="relative h-1 w-full overflow-hidden rounded-full bg-line">
             <motion.div
               style={{ scaleX: fillScale }}
-              className="absolute inset-y-0 left-0 h-full w-full origin-left rounded-full bg-amber"
+              className="absolute inset-y-0 left-0 h-full w-full origin-left rounded-full bg-blue"
             />
           </div>
 
@@ -105,7 +105,7 @@ function PinnedStepStory({ t }: { t: ReturnType<typeof useTranslations> }) {
               transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
               className="mt-10"
             >
-              <span className="font-display text-6xl font-semibold text-amber/40">
+              <span className="font-display text-6xl font-semibold text-blue/40">
                 {String(stepIndex + 1).padStart(2, "0")}
               </span>
               <h3 className="font-display mt-6 max-w-md text-3xl font-semibold text-ink md:text-4xl">
@@ -132,7 +132,7 @@ function PinnedStepStory({ t }: { t: ReturnType<typeof useTranslations> }) {
                 <span
                   className={clsx(
                     "font-display text-sm tabular-nums transition-colors duration-300",
-                    active ? "text-amber-ink" : "text-muted/50"
+                    active ? "text-blue-ink" : "text-muted/50"
                   )}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -187,7 +187,7 @@ export default function ProcessSteps({
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-10%" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="mt-10 max-w-2xl border-l-4 border-amber pl-6 md:pl-8"
+          className="mt-10 max-w-2xl border-l-4 border-blue pl-6 md:pl-8"
         >
           <p className="text-2xl font-medium leading-snug text-ink md:text-3xl">
             {t("description")}

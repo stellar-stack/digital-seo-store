@@ -1397,5 +1397,10 @@
       "title": "Vous ne savez pas quelle offre vous convient ?",
       "subtitle": "Réservez une consultation gratuite et nous vous recommanderons un périmètre adapté à vos objectifs — sans engagement."
     }
+  },
+  "localeSuggestion": {
+    "message": "Il semble que vous préfériez naviguer en {language}.",
+    "switch": "Passer en {language}",
+    "dismiss": "Non merci"
   }
 }

@@ -9,8 +9,17 @@ export default function BackToTop() {
   const reducedMotion = useReducedMotion();
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > window.innerHeight * 0.8);
-    onScroll();
+    let ticking = false;
+    const update = () => {
+      ticking = false;
+      setVisible(window.scrollY > window.innerHeight * 0.8);
+    };
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    };
+    update();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -28,7 +37,7 @@ export default function BackToTop() {
           transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
           whileHover={reducedMotion ? undefined : { scale: 1.08 }}
           whileTap={reducedMotion ? undefined : { scale: 0.94 }}
-          className="fixed bottom-6 right-4 z-30 flex h-11 w-11 items-center justify-center rounded-full bg-ink/70 text-white shadow-lg shadow-ink/20 ring-1 ring-white/10 backdrop-blur-md md:bottom-9 md:right-6 md:h-12 md:w-12"
+          className="fixed bottom-6 right-4 z-30 flex h-11 w-11 items-center justify-center rounded-full border border-line bg-white/90 text-charcoal shadow-lg shadow-ink/10 backdrop-blur-md md:bottom-9 md:right-6 md:h-12 md:w-12"
         >
           <svg viewBox="0 0 20 20" className="h-4 w-4 md:h-5 md:w-5" fill="none">
             <path

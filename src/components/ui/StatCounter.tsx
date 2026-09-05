@@ -37,7 +37,7 @@ export default function StatCounter({
       {icon && (
         <span
           className={`mb-3 flex h-9 w-9 items-center justify-center rounded-lg [&_svg]:h-5 [&_svg]:w-5 ${
-            dark ? "bg-white/10 text-amber" : "bg-mist text-amber-dark"
+            dark ? "bg-white/10 text-blue" : "bg-mist text-blue-dark"
           }`}
         >
           {icon}

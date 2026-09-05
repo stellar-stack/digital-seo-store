@@ -29,7 +29,7 @@ export default function ServiceFeatures({
               transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1], delay: (i % 3) * 0.08 }}
               className="rounded-2xl border border-line bg-cream p-6"
             >
-              <span className="mb-4 block h-1.5 w-8 rounded-full bg-amber" />
+              <span className="mb-4 block h-1.5 w-8 rounded-full bg-blue" />
               <h3 className="font-display text-base font-semibold text-ink">
                 {item.title}
               </h3>

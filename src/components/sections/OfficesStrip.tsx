@@ -37,13 +37,13 @@ export default function OfficesStrip() {
   return (
     <section className="bg-cream py-20 md:py-24">
       <Container>
-        <p className="mb-8 text-center text-xs font-semibold uppercase tracking-[0.2em] text-amber-ink">
+        <p className="mb-8 text-center text-xs font-semibold uppercase tracking-[0.2em] text-blue-ink">
           {tAbout("officesEyebrow")}
         </p>
 
         <div className="mx-auto mb-12 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-8">
           {OFFICE_KEYS.map((key) => (
-            <div key={key} className="border-t-2 border-amber pt-4 text-center sm:text-left">
+            <div key={key} className="border-t-2 border-blue pt-4 text-center sm:text-left">
               <p className="font-display text-sm font-semibold text-ink">{t(`${key}.label`)}</p>
               <p className="mt-1 text-sm leading-relaxed text-muted">{t(`${key}.address`)}</p>
             </div>
@@ -68,7 +68,7 @@ export default function OfficesStrip() {
               <circle key={`d${i}`} cx={x} cy={y} r={dotRadius} fill="#ddd9cc" />
             ))}
             {highlightDots.map(([x, y], i) => (
-              <circle key={`h${i}`} cx={x} cy={y} r={dotRadius * 1.35} fill="#f5a623" fillOpacity={0.6} />
+              <circle key={`h${i}`} cx={x} cy={y} r={dotRadius * 1.35} fill="#0071e3" fillOpacity={0.6} />
             ))}
           </svg>
 
@@ -99,14 +99,14 @@ export default function OfficesStrip() {
                   {!reducedMotion && (
                     <motion.span
                       aria-hidden
-                      className="absolute inline-block h-2.5 w-2.5 rounded-full bg-amber-ink/40"
+                      className="absolute inline-block h-2.5 w-2.5 rounded-full bg-blue-ink/40"
                       animate={{ scale: [1, 2.6], opacity: [0.6, 0] }}
                       transition={{ duration: 2.2, repeat: Infinity, ease: "easeOut", delay: i * 0.3 }}
                     />
                   )}
                   <span
                     aria-hidden
-                    className="relative h-2.5 w-2.5 rounded-full border-2 border-cream bg-amber-ink shadow-sm"
+                    className="relative h-2.5 w-2.5 rounded-full border-2 border-cream bg-blue-ink shadow-sm"
                   />
                 </button>
 

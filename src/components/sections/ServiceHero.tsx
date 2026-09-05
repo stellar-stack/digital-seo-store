@@ -21,35 +21,35 @@ export default function ServiceHero({
   breadcrumbLabel: string;
 }) {
   return (
-    <section className="relative overflow-hidden bg-ink pt-16 pb-24 md:pt-20 md:pb-28">
+    <section className="relative overflow-hidden bg-cream pt-4 pb-24 md:pt-6 md:pb-28">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-amber/15 blur-[130px]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] [background-size:32px_32px]" />
+        <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(10,14,26,0.04)_1px,transparent_0)] [background-size:32px_32px]" />
       </div>
       <Container className="relative">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="mb-8 flex items-center gap-2 text-xs font-medium text-white/40"
+          className="mb-8 flex items-center gap-2 text-xs font-medium text-muted"
         >
-          <Link href="/" className="hover:text-white/70">
+          <Link href="/" className="hover:text-ink">
             {breadcrumbLabel}
           </Link>
           <span>/</span>
-          <span className="text-white/60">{title}</span>
+          <span className="text-charcoal/70">{title}</span>
         </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-amber mb-6"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-blue mb-6"
         >
           {eyebrow}
         </motion.p>
 
-        <h1 className="font-display max-w-3xl text-4xl font-semibold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl">
+        <h1 className="font-display max-w-3xl text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-6xl">
           <span className="block overflow-hidden">
             <motion.span
               initial={{ y: "100%" }}
@@ -66,7 +66,7 @@ export default function ServiceHero({
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.35 }}
-          className="mt-7 max-w-xl text-base leading-relaxed text-white/55 sm:text-lg"
+          className="mt-7 max-w-xl text-base leading-relaxed text-muted sm:text-lg"
         >
           {subtitle}
         </motion.p>

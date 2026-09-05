@@ -67,11 +67,11 @@ export default function DotGridWave({ reducedMotion = false }: { reducedMotion?:
           const dist = Math.abs(phase - waveT);
           const glow = Math.max(0, 1 - dist / BAND_WIDTH);
 
-          const opacity = 0.07 + glow * 0.56;
+          const opacity = 0.04 + glow * 0.3;
           const radius = DOT_RADIUS + glow * (ACTIVE_RADIUS - DOT_RADIUS);
 
           ctx!.fillStyle =
-            glow > 0.35 ? `rgba(245, 166, 35, ${opacity})` : `rgba(255, 255, 255, ${opacity})`;
+            glow > 0.35 ? `rgba(0, 113, 227, ${opacity})` : `rgba(10, 14, 26, ${opacity})`;
           ctx!.beginPath();
           ctx!.arc(x, y, radius, 0, Math.PI * 2);
           ctx!.fill();

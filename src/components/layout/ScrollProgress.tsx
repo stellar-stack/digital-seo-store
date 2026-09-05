@@ -33,11 +33,11 @@ export default function ScrollProgress() {
   return (
     <div
       aria-hidden
-      className="fixed right-3 top-1/2 z-30 flex -translate-y-1/2 items-center rounded-full bg-ink/70 p-[7px] shadow-lg shadow-ink/10 backdrop-blur-md md:right-6"
+      className="fixed right-3 top-1/2 z-30 flex -translate-y-1/2 items-center rounded-full border border-line bg-white/90 p-[7px] shadow-lg shadow-ink/10 backdrop-blur-md md:right-6"
     >
-      <div className="relative h-24 w-[3px] overflow-hidden rounded-full bg-white/15 md:h-32">
+      <div className="relative h-24 w-[3px] overflow-hidden rounded-full bg-line md:h-32">
         <motion.div
-          className="absolute inset-x-0 top-0 h-full origin-top rounded-full bg-amber"
+          className="absolute inset-x-0 top-0 h-full origin-top rounded-full bg-blue"
           style={{ scaleY: progress }}
         />
       </div>

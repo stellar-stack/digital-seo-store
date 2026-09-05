@@ -28,7 +28,7 @@ export default function FlickerGlow({
           key={i}
           aria-hidden
           className={clsx(
-            "pointer-events-none absolute rounded-full border-2 border-amber",
+            "pointer-events-none absolute rounded-full border-2 border-blue",
             ring.inset
           )}
           initial={{ opacity: 0 }}

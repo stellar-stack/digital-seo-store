@@ -36,7 +36,7 @@ function FloatingField({ label, name, type = "text", required, as = "input", row
 
   const fieldClass = clsx(
     "peer w-full rounded-xl border bg-white px-4 pt-6 pb-2.5 text-sm text-charcoal outline-none transition-colors duration-300",
-    focused ? "border-amber" : "border-line"
+    focused ? "border-blue" : "border-line"
   );
 
   return (
@@ -71,7 +71,7 @@ function FloatingField({ label, name, type = "text", required, as = "input", row
         transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
         className={clsx(
           "pointer-events-none absolute left-4 font-medium",
-          focused ? "text-amber-ink" : "text-muted"
+          focused ? "text-blue-ink" : "text-muted"
         )}
       >
         {label}
@@ -81,7 +81,7 @@ function FloatingField({ label, name, type = "text", required, as = "input", row
         initial={false}
         animate={{ opacity: focused ? 1 : 0 }}
         transition={{ duration: 0.2 }}
-        className="pointer-events-none absolute inset-0 rounded-xl ring-2 ring-amber/25"
+        className="pointer-events-none absolute inset-0 rounded-xl ring-2 ring-blue/25"
       />
     </div>
   );
@@ -116,7 +116,7 @@ export default function ContactForm() {
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-            className="flex h-16 w-16 items-center justify-center rounded-full bg-amber text-ink"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-blue text-white"
           >
             <svg viewBox="0 0 20 20" className="h-7 w-7" fill="none">
               <path

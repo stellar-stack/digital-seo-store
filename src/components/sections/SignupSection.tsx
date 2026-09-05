@@ -13,9 +13,9 @@ export default function SignupSection() {
   const reducedMotion = useReducedMotion();
 
   return (
-    <section className="relative overflow-hidden bg-ink py-20 md:py-24">
+    <section className="relative overflow-hidden bg-mist py-20 md:py-24">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute left-1/2 top-0 h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-amber/15 blur-[140px]" />
+        <div className="absolute left-1/2 top-0 h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-blue/8 blur-[140px]" />
       </div>
       <DotGridWave reducedMotion={!!reducedMotion} />
       <Container className="relative">
@@ -26,7 +26,7 @@ export default function SignupSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10%" }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="font-display max-w-md text-3xl font-semibold leading-tight text-white md:text-4xl"
+              className="font-display max-w-md text-3xl font-semibold leading-tight text-ink md:text-4xl"
             >
               {t("title")}
             </motion.h2>
@@ -35,7 +35,7 @@ export default function SignupSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10%" }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-              className="mt-5 max-w-md text-white/55"
+              className="mt-5 max-w-md text-muted"
             >
               {t("subtitle")}
             </motion.p>
@@ -50,14 +50,14 @@ export default function SignupSection() {
                   transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.15 + i * 0.1 }}
                   className="flex gap-5"
                 >
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-amber/15 font-display text-sm font-semibold text-amber">
+                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue/12 font-display text-sm font-semibold text-blue-ink">
                     {i + 1}
                   </span>
                   <div>
-                    <h3 className="font-display text-base font-semibold text-white">
+                    <h3 className="font-display text-base font-semibold text-ink">
                       {t(`steps.${key}.title`)}
                     </h3>
-                    <p className="mt-1.5 text-sm leading-relaxed text-white/50">
+                    <p className="mt-1.5 text-sm leading-relaxed text-muted">
                       {t(`steps.${key}.description`)}
                     </p>
                   </div>
@@ -71,7 +71,7 @@ export default function SignupSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10%" }}
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-            className="rounded-3xl bg-white p-8 md:p-10"
+            className="rounded-3xl border border-line bg-white p-8 shadow-sm md:p-10"
           >
             <ContactForm />
           </motion.div>

@@ -71,13 +71,13 @@ export default function ContactSection() {
             <div className="mt-9 space-y-2">
               <a
                 href="mailto:hello@digitalseostore.com"
-                className="block text-lg font-semibold text-ink hover:text-amber-ink transition-colors"
+                className="block text-lg font-semibold text-ink hover:text-blue-ink transition-colors"
               >
                 hello@digitalseostore.com
               </a>
               <a
                 href="tel:+12505056094"
-                className="block text-lg font-semibold text-ink hover:text-amber-ink transition-colors"
+                className="block text-lg font-semibold text-ink hover:text-blue-ink transition-colors"
               >
                 +1 250 505 6094
               </a>
@@ -86,7 +86,7 @@ export default function ContactSection() {
             <div className="mt-10 space-y-5">
               {reassurance.map((item) => (
                 <div key={item.key} className="flex items-start gap-4">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-mist text-amber-dark">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-mist text-blue-dark">
                     {REASSURANCE_ICONS[item.key]}
                   </span>
                   <div>
@@ -100,7 +100,7 @@ export default function ContactSection() {
             <div className="mt-10 space-y-6 border-t border-line pt-8">
               {offices.map((office) => (
                 <div key={office.label}>
-                  <p className="text-xs font-semibold uppercase tracking-widest text-amber-ink">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-blue-ink">
                     {office.label}
                   </p>
                   <p className="mt-1.5 text-sm text-muted">{office.address}</p>

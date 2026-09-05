@@ -75,21 +75,21 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <article className="relative overflow-hidden bg-ink pt-16 pb-20 md:pt-20 md:pb-24">
+      <article className="relative overflow-hidden bg-cream pt-4 pb-20 md:pt-6 md:pb-24">
         <div className="pointer-events-none absolute inset-0">
-          <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-amber/15 blur-[130px]" />
+          <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
         </div>
         <Container className="relative max-w-3xl">
-          <div className="mb-8 flex items-center gap-2 text-xs font-medium text-white/40">
-            <Link href="/" className="hover:text-white/70">
+          <div className="mb-8 flex items-center gap-2 text-xs font-medium text-muted">
+            <Link href="/" className="hover:text-ink">
               {tCommon("home")}
             </Link>
             <span>/</span>
-            <Link href="/blog" className="hover:text-white/70">
+            <Link href="/blog" className="hover:text-ink">
               {tBlog("hero.eyebrow")}
             </Link>
           </div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-amber">
+          <p className="text-xs font-semibold uppercase tracking-widest text-blue">
             {new Date(post.date).toLocaleDateString(undefined, {
               year: "numeric",
               month: "long",
@@ -97,7 +97,7 @@ export default async function BlogPostPage({
             })}{" "}
             · {post.readTime}
           </p>
-          <h1 className="font-display mt-5 text-3xl font-semibold leading-tight text-white sm:text-4xl lg:text-5xl">
+          <h1 className="font-display mt-5 text-3xl font-semibold leading-tight text-ink sm:text-4xl lg:text-5xl">
             {post.title}
           </h1>
         </Container>
@@ -105,7 +105,7 @@ export default async function BlogPostPage({
 
       <div className="bg-cream py-16 md:py-20">
         <Container className="max-w-3xl">
-          <div className="prose prose-neutral max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-a:text-amber-ink prose-strong:text-ink">
+          <div className="prose prose-neutral max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-a:text-blue-ink prose-strong:text-ink">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
           </div>
         </Container>
@@ -122,7 +122,7 @@ export default async function BlogPostPage({
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}`}
-                  className="rounded-2xl border border-line bg-white p-5 text-sm font-semibold text-ink transition-colors hover:border-amber/40"
+                  className="rounded-2xl border border-line bg-white p-5 text-sm font-semibold text-ink transition-colors hover:border-blue/40"
                 >
                   {p.title}
                 </Link>

@@ -30,11 +30,10 @@ export default function AboutHero() {
   const words = t("hero.title").split(" ");
 
   return (
-    <div data-nav-theme="dark" className="relative -mt-20">
-    <section className="relative overflow-hidden bg-ink pt-36 pb-24 md:pt-40 md:pb-28">
+    <section className="relative overflow-hidden bg-cream pt-4 pb-24 md:pt-6 md:pb-28">
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-amber/15 blur-[130px]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.05)_1px,transparent_0)] [background-size:32px_32px]" />
+        <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(10,14,26,0.04)_1px,transparent_0)] [background-size:32px_32px]" />
       </div>
 
       <Container className="relative">
@@ -42,20 +41,20 @@ export default function AboutHero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="mb-8 flex items-center gap-2 text-xs font-medium text-white/40"
+          className="mb-8 flex items-center gap-2 text-xs font-medium text-muted"
         >
-          <Link href="/" className="hover:text-white/70">
+          <Link href="/" className="hover:text-ink">
             {tCommon("home")}
           </Link>
           <span>/</span>
-          <span className="text-white/60">{t("hero.title")}</span>
+          <span className="text-charcoal/70">{t("hero.title")}</span>
         </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-amber mb-6"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-blue mb-6"
         >
           {t("hero.eyebrow")}
         </motion.p>
@@ -64,7 +63,7 @@ export default function AboutHero() {
           initial="hidden"
           animate="show"
           transition={{ staggerChildren: 0.07 }}
-          className="font-display max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-[3.4rem]"
+          className="font-display max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]"
         >
           {words.map((word, i) => (
             <span key={i}>
@@ -82,7 +81,7 @@ export default function AboutHero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
-          className="mt-7 max-w-xl text-base leading-relaxed text-white/55 sm:text-lg"
+          className="mt-7 max-w-xl text-base leading-relaxed text-muted sm:text-lg"
         >
           {t("hero.subtitle")}
         </motion.p>
@@ -102,22 +101,20 @@ export default function AboutHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.75 }}
-          className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 sm:grid-cols-4"
+          className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4"
         >
           {STATS.map((s, i) => (
-            <div key={s.key} className="bg-ink/95 p-6">
+            <div key={s.key} className="bg-white p-6">
               <StatCounter
                 value={s.value}
                 suffix={s.suffix}
                 label={tStats(s.key)}
                 icon={STAT_ICONS[i]}
-                dark
               />
             </div>
           ))}
         </motion.div>
       </Container>
     </section>
-    </div>
   );
 }

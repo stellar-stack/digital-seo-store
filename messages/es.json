@@ -1397,5 +1397,10 @@
       "title": "¿No sabes qué plan es el adecuado para ti?",
       "subtitle": "Reserva una consulta gratuita y te recomendaremos un alcance según tus objetivos — sin compromiso."
     }
+  },
+  "localeSuggestion": {
+    "message": "Parece que prefieres navegar en {language}.",
+    "switch": "Cambiar a {language}",
+    "dismiss": "No, gracias"
   }
 }

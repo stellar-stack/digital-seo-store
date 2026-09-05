@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { hasLocale } from "next-intl";
@@ -11,19 +10,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ScrollProgress from "@/components/layout/ScrollProgress";
 import BackToTop from "@/components/layout/BackToTop";
+import LocaleSuggestion from "@/components/layout/LocaleSuggestion";
 import "../globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -65,14 +53,11 @@ export default async function LocaleLayout({
   const tCommon = await getTranslations({ locale, namespace: "common" });
 
   return (
-    <html
-      lang={locale}
-      className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased`}
-    >
+    <html lang={locale} className="h-full antialiased">
       <body className="min-h-full flex flex-col bg-cream text-charcoal">
         <a
           href="#main-content"
-          className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-full bg-amber px-5 py-2.5 text-sm font-semibold text-ink transition-transform focus:translate-y-0"
+          className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-full bg-blue px-5 py-2.5 text-sm font-semibold text-white transition-transform focus:translate-y-0"
         >
           {tCommon("skipToContent")}
         </a>
@@ -86,6 +71,7 @@ export default async function LocaleLayout({
               <Footer />
               <ScrollProgress />
               <BackToTop />
+              <LocaleSuggestion />
             </HeaderVisibilityProvider>
           </SmoothScroll>
         </NextIntlClientProvider>

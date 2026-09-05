@@ -33,7 +33,7 @@ export default async function PrivacyPolicyPage({
   if (!doc) notFound();
 
   return (
-    <div className="bg-cream py-20 md:py-28">
+    <div className="bg-cream pt-4 pb-20 md:pt-6 md:pb-28">
       <Container className="max-w-3xl">
         <h1 className="font-display text-3xl font-semibold text-ink md:text-4xl">
           {doc.title}
@@ -45,7 +45,7 @@ export default async function PrivacyPolicyPage({
             day: "numeric",
           })}
         </p>
-        <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-3 prose-a:text-amber-ink prose-strong:text-ink">
+        <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-xl prose-h2:mt-10 prose-h2:mb-3 prose-a:text-blue-ink prose-strong:text-ink">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{doc.content}</ReactMarkdown>
         </div>
       </Container>

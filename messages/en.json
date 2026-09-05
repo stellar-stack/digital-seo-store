@@ -1397,5 +1397,10 @@
       "title": "Not sure which plan is right for you?",
       "subtitle": "Book a free consultation and we'll recommend a scope based on your goals — no obligation."
     }
+  },
+  "localeSuggestion": {
+    "message": "It looks like you might prefer browsing in {language}.",
+    "switch": "Switch to {language}",
+    "dismiss": "No thanks"
   }
 }

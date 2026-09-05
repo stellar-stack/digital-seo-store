@@ -31,7 +31,7 @@ export default function ValuesList({
               className="flex flex-col gap-3 border-b border-line py-9 sm:flex-row sm:items-start sm:gap-8"
             >
               <div className="sm:w-24 sm:shrink-0">
-                <span className="font-display text-3xl font-semibold text-amber-ink md:text-4xl">
+                <span className="font-display text-3xl font-semibold text-blue-ink md:text-4xl">
                   {String(i + 1).padStart(2, "0")}
                 </span>
               </div>

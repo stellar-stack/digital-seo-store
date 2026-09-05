@@ -4,14 +4,11 @@
 :root {
   --color-ink: #0a0e1a;
   --color-ink-soft: #101627;
-  --color-amber: #f5a623;
-  --color-amber-dark: #d98a0f;
-  /* WCAG AA-safe accent for small text/links on light surfaces — amber-dark
-     (#d98a0f) only reaches ~2.8:1 on white/cream, which fails 4.5:1 for
-     body text. Same hue family, deepened for legibility; amber-dark itself
-     stays untouched since it's also used as a button background where a
-     darker fill would reduce contrast against dark button text. */
-  --color-amber-ink: #b45309;
+  /* Apple's own link/button blue — a more restrained, "classic" accent
+     than the earlier vivid azure. Passes AA on cream/white at ~4.7:1. */
+  --color-blue: #0071e3;
+  --color-blue-dark: #0058b0;
+  --color-blue-ink: #005ecb;
   --color-charcoal: #17181c;
   --color-cream: #faf9f6;
   --color-mist: #f2f1ec;
@@ -19,14 +16,23 @@
   --color-line-dark: rgba(255, 255, 255, 0.12);
   --color-muted: #6b6b72;
   --color-muted-dark: #9a9dac;
+
+  /* Real San Francisco on Apple devices (the actual Apple font, invoked via
+     the OS, not a bundled/licensed copy), each other platform's own native
+     UI font otherwise — one consistent family for both display and body
+     copy, the way Apple's own type system varies only weight, not typeface. */
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
 }
 
 @theme inline {
   --color-ink: var(--color-ink);
   --color-ink-soft: var(--color-ink-soft);
-  --color-amber: var(--color-amber);
-  --color-amber-dark: var(--color-amber-dark);
-  --color-amber-ink: var(--color-amber-ink);
+  --color-blue: var(--color-blue);
+  --color-blue-dark: var(--color-blue-dark);
+  --color-blue-ink: var(--color-blue-ink);
   --color-charcoal: var(--color-charcoal);
   --color-cream: var(--color-cream);
   --color-mist: var(--color-mist);
@@ -35,14 +41,14 @@
   --color-muted: var(--color-muted);
   --color-muted-dark: var(--color-muted-dark);
 
-  --font-display: var(--font-space-grotesk);
-  --font-sans: var(--font-inter);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
 
   --ease-signature: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -56,8 +62,8 @@ body {
 }
 
 ::selection {
-  background: var(--color-amber);
-  color: var(--color-ink);
+  background: var(--color-blue);
+  color: white;
 }
 
 @media (prefers-reduced-motion: reduce) {

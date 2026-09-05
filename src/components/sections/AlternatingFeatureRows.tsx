@@ -30,7 +30,7 @@ export default function AlternatingFeatureRows({
               transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1], delay: (i % 4) * 0.06 }}
               className="border-t border-line pt-6"
             >
-              <span className="font-display text-xs font-semibold tracking-[0.2em] text-amber-ink">
+              <span className="font-display text-xs font-semibold tracking-[0.2em] text-blue-ink">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-3 font-display text-xl font-semibold text-ink md:text-2xl">
