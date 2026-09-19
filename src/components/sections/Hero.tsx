@@ -10,25 +10,19 @@ import DotGridWave from "@/components/sections/DotGridWave";
 
 const STEP_INTERVAL_MS = 3400;
 
-const ROTATING_KEYS = [
-  "growth",
-  "sales",
-  "traffic",
-  "recover",
-  "rank",
-  "results",
-] as const;
+// The hero's headline is a single fixed title now (no rotating phrase list
+// in the current content), but the right-hand editorial stat panel still
+// gets to cycle — through the same four "Proof" numbers shown just below
+// in StatsBar, so it doesn't invent anything new.
+const STAT_KEYS = ["businesses", "experience", "industries", "countries"] as const;
+const STAT_VALUES: Record<(typeof STAT_KEYS)[number], number> = {
+  businesses: 250,
+  experience: 30,
+  industries: 30,
+  countries: 50,
+};
 
-const CARDS = [
-  { value: 45, suffix: "+", stat: "experts", extra: false },
-  { value: 75, suffix: "+", stat: "clients", extra: false },
-  { value: 5, suffix: "+", stat: "years", extra: false },
-  { value: 3, suffix: "", stat: "offices", extra: false },
-  { value: 9, suffix: "", stat: "services", extra: true },
-  { value: 3, suffix: "", stat: "languages", extra: true },
-] as const;
-
-function BigStat({ value, suffix }: { value: number; suffix: string }) {
+function BigStat({ value }: { value: number }) {
   const [display, setDisplay] = useState(0);
 
   useEffect(() => {
@@ -43,23 +37,21 @@ function BigStat({ value, suffix }: { value: number; suffix: string }) {
   return (
     <p className="font-display text-[5.5rem] font-semibold leading-[0.95] tabular-nums text-ink xl:text-[7rem]">
       {display}
-      {suffix}
+      <span className="text-blue">+</span>
     </p>
   );
 }
 
 export default function Hero() {
   const t = useTranslations("home.hero");
-  const tStat = useTranslations("about.stats");
-  const tExtra = useTranslations("home.hero.extraStats");
+  const tStat = useTranslations("home.stats");
 
   const [stepIndex, setStepIndex] = useState(0);
   const [reducedMotion, setReducedMotion] = useState(false);
 
-  const STEP_COUNT = ROTATING_KEYS.length;
+  const STEP_COUNT = STAT_KEYS.length;
   const progress = useMotionValue(0);
   const bgColor = useTransform(progress, [0, 1], ["#ffffff", "#f7f9ff"]);
-  const wordColor = useTransform(progress, [0, 1], ["#4da3f0", "#0071e3"]);
   const glowOpacity = useTransform(progress, [0, 1], [0.05, 0.12]);
   const glowScale = useTransform(progress, [0, 1], [0.85, 1.3]);
   const glowX = useTransform(progress, [0, 1], ["36%", "64%"]);
@@ -69,10 +61,8 @@ export default function Hero() {
   const parallaxY = useTransform(progress, [0, 1], [50, -50]);
   const parallaxOpacity = useTransform(progress, [0, 1], [0.02, 0.05]);
 
-  // No scroll-pin, no scroll-jacking: the rotating word/stat/background
-  // simply plays on its own timer, so scrolling past the hero is 100%
-  // native. Each step still smoothly morphs the background/glow toward the
-  // next point in the same progress range the old scroll-scrub used.
+  // No scroll-pin, no scroll-jacking: the stat panel simply plays on its
+  // own timer, so scrolling past the hero is 100% native.
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setReducedMotion(true);
@@ -95,8 +85,13 @@ export default function Hero() {
     return () => controls.stop();
   }, [stepIndex, reducedMotion, progress, STEP_COUNT]);
 
-  const activeCard = CARDS[stepIndex];
-  const activeLabel = activeCard.extra ? tExtra(activeCard.stat) : tStat(activeCard.stat);
+  const activeStatKey = STAT_KEYS[stepIndex];
+
+  // The title's last word gets the hand-drawn underline accent — a loose,
+  // imperfect marker-stroke, not a machine-straight line.
+  const titleWords = t("title").split(" ");
+  const titleLastWord = titleWords[titleWords.length - 1];
+  const titleLeadingWords = titleWords.slice(0, -1).join(" ");
 
   return (
     <div className="relative">
@@ -143,44 +138,28 @@ export default function Hero() {
                     transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
                     className="block"
                   >
-                    {t("titleStatic")}
+                    {titleLeadingWords}{" "}
+                    <span className="relative inline-block whitespace-nowrap">
+                      {titleLastWord}
+                      <svg
+                        aria-hidden
+                        viewBox="0 0 220 24"
+                        preserveAspectRatio="none"
+                        className="pointer-events-none absolute -bottom-2 left-0 h-4 w-full sm:-bottom-3 sm:h-5"
+                      >
+                        <motion.path
+                          d="M4,14 C30,6 55,18 85,10 C115,4 140,16 170,9 C190,5 205,12 216,8"
+                          fill="none"
+                          stroke="#0071e3"
+                          strokeWidth="6"
+                          strokeLinecap="round"
+                          initial={{ pathLength: 0, opacity: 0 }}
+                          animate={{ pathLength: 1, opacity: 0.5 }}
+                          transition={{ duration: 0.7, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                        />
+                      </svg>
+                    </span>
                   </motion.span>
-                </span>
-                <span className="relative mt-1 block min-h-[2.55em] overflow-hidden">
-                  <AnimatePresence mode="wait">
-                    <motion.span
-                      key={stepIndex}
-                      initial={{ y: 34, opacity: 0 }}
-                      animate={{ y: 0, opacity: 1 }}
-                      exit={{ y: -34, opacity: 0 }}
-                      transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                      style={{ color: reducedMotion ? "#0071e3" : wordColor }}
-                      className="absolute left-0 top-0 block"
-                    >
-                      <span className="relative inline-block">
-                        {t(`rotating.${ROTATING_KEYS[stepIndex]}`)}
-                        {/* A loose, imperfect marker-stroke under the word — hand-made,
-                            not a machine-straight underline. */}
-                        <svg
-                          aria-hidden
-                          viewBox="0 0 220 24"
-                          preserveAspectRatio="none"
-                          className="pointer-events-none absolute -bottom-2 left-0 h-4 w-full sm:-bottom-3 sm:h-5"
-                        >
-                          <motion.path
-                            d="M4,14 C30,6 55,18 85,10 C115,4 140,16 170,9 C190,5 205,12 216,8"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="6"
-                            strokeLinecap="round"
-                            initial={{ pathLength: 0, opacity: 0 }}
-                            animate={{ pathLength: 1, opacity: 0.5 }}
-                            transition={{ duration: 0.7, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-                          />
-                        </svg>
-                      </span>
-                    </motion.span>
-                  </AnimatePresence>
                 </span>
               </h1>
 
@@ -190,26 +169,23 @@ export default function Hero() {
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
                 className="mt-6 max-w-lg text-base leading-relaxed text-muted"
               >
-                {t("subtitle")}
+                {t("description")}
               </motion.p>
 
-              <div className="mt-9 flex items-center gap-2" aria-hidden>
-                {ROTATING_KEYS.map((_, i) => (
-                  <span
-                    key={i}
-                    className={clsx(
-                      "h-1 rounded-full transition-all duration-500 ease-out",
-                      i === stepIndex ? "w-9 bg-blue" : "w-4 bg-line"
-                    )}
-                  />
-                ))}
-              </div>
+              <motion.p
+                initial={{ opacity: 0, y: 14 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
+                className="mt-6 max-w-md border-l-2 border-blue pl-4 font-display text-lg font-semibold leading-snug text-ink"
+              >
+                {t("subDescription")}
+              </motion.p>
 
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
-                className="mt-10 flex flex-wrap items-center gap-4"
+                className="mt-9 flex flex-wrap items-center gap-4"
               >
                 <MagneticButton as="a" href="/contact" variant="solid">
                   {t("ctaPrimary")}
@@ -217,27 +193,6 @@ export default function Hero() {
                 <MagneticButton as="a" href="/about" variant="outline">
                   {t("ctaSecondary")}
                 </MagneticButton>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.6 }}
-                className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted"
-              >
-                <span>
-                  <span className="font-display font-semibold text-ink">45+</span>{" "}
-                  {tStat("experts")}
-                </span>
-                <span className="h-1 w-1 rounded-full bg-line" aria-hidden />
-                <span>
-                  <span className="font-display font-semibold text-ink">75+</span>{" "}
-                  {tStat("clients")}
-                </span>
-                <span className="h-1 w-1 rounded-full bg-line" aria-hidden />
-                <span>
-                  <span className="font-display font-semibold text-ink">5+</span> {tStat("years")}
-                </span>
               </motion.div>
             </div>
 
@@ -260,10 +215,22 @@ export default function Hero() {
                   transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
                   className="mt-5"
                 >
-                  <BigStat value={activeCard.value} suffix={activeCard.suffix} />
-                  <p className="mt-3 text-lg text-muted">{activeLabel}</p>
+                  <BigStat value={STAT_VALUES[activeStatKey]} />
+                  <p className="mt-3 text-lg text-muted">{tStat(activeStatKey)}</p>
                 </motion.div>
               </AnimatePresence>
+
+              <div className="mt-8 flex items-center gap-2" aria-hidden>
+                {STAT_KEYS.map((_, i) => (
+                  <span
+                    key={i}
+                    className={clsx(
+                      "h-1 rounded-full transition-all duration-500 ease-out",
+                      i === stepIndex ? "w-9 bg-blue" : "w-4 bg-line"
+                    )}
+                  />
+                ))}
+              </div>
             </motion.div>
           </div>
         </Container>

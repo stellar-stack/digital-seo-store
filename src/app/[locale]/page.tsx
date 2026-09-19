@@ -2,7 +2,11 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { getAllBlogPosts } from "@/lib/blog";
 import Hero from "@/components/sections/Hero";
-import IntroStatement from "@/components/sections/IntroStatement";
+import StatsBar from "@/components/sections/StatsBar";
+import ToolsStrip from "@/components/sections/ToolsStrip";
+import SearchShiftSection from "@/components/sections/SearchShiftSection";
+import EcosystemSection from "@/components/sections/EcosystemSection";
+import IndustriesSection from "@/components/sections/IndustriesSection";
 import ServicesIndex from "@/components/sections/ServicesIndex";
 import ProcessSteps from "@/components/sections/ProcessSteps";
 import ComparisonTable from "@/components/sections/ComparisonTable";
@@ -68,8 +72,16 @@ export default async function HomePage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <Hero />
+      <StatsBar />
+      <ToolsStrip />
       <MobileStackCard>
-        <IntroStatement />
+        <SearchShiftSection />
+      </MobileStackCard>
+      <MobileStackCard>
+        <EcosystemSection />
+      </MobileStackCard>
+      <MobileStackCard>
+        <IndustriesSection />
       </MobileStackCard>
       <MobileStackCard>
         <ServicesIndex />

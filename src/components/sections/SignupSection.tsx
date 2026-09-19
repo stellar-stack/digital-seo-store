@@ -73,7 +73,13 @@ export default function SignupSection() {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
             className="rounded-3xl border border-line bg-white p-8 shadow-sm md:p-10"
           >
-            <ContactForm />
+            <h3 className="font-display text-xl font-semibold text-ink md:text-2xl">
+              {t("formTitle")}
+            </h3>
+            <p className="mt-2 text-sm text-muted md:text-base">{t("formSubtitle")}</p>
+            <div className="mt-7">
+              <ContactForm />
+            </div>
           </motion.div>
         </div>
       </Container>

@@ -4,7 +4,6 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
-import SmoothScroll from "@/components/providers/SmoothScroll";
 import { HeaderVisibilityProvider } from "@/components/providers/HeaderVisibility";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -62,18 +61,16 @@ export default async function LocaleLayout({
           {tCommon("skipToContent")}
         </a>
         <NextIntlClientProvider messages={messages}>
-          <SmoothScroll>
-            <HeaderVisibilityProvider>
-              <Header />
-              <main id="main-content" className="flex-1 pt-20">
-                {children}
-              </main>
-              <Footer />
-              <ScrollProgress />
-              <BackToTop />
-              <LocaleSuggestion />
-            </HeaderVisibilityProvider>
-          </SmoothScroll>
+          <HeaderVisibilityProvider>
+            <Header />
+            <main id="main-content" className="flex-1 pt-20">
+              {children}
+            </main>
+            <Footer />
+            <ScrollProgress />
+            <BackToTop />
+            <LocaleSuggestion />
+          </HeaderVisibilityProvider>
         </NextIntlClientProvider>
       </body>
     </html>

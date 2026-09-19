@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
-import { scrollToTop } from "@/components/providers/SmoothScroll";
+
+function scrollToTop() {
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({ top: 0, behavior: prefersReducedMotion ? "auto" : "smooth" });
+}
 
 export default function BackToTop() {
   const [visible, setVisible] = useState(false);

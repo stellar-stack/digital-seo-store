@@ -52,24 +52,104 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Agencia de marketing digital enfocada en el ROI",
-      "titleStatic": "Por fin, una empresa de SEO que",
-      "rotating": {
-        "growth": "Impulsa un crecimiento exponencial",
-        "sales": "Genera ventas digitales directas",
-        "traffic": "Aumenta el tráfico orgánico",
-        "recover": "Recupera el tráfico perdido",
-        "rank": "Posiciona tu web y tu app",
-        "results": "Ofrece resultados reales"
-      },
-      "ctaPrimary": "Obtén una consulta gratuita",
-      "panelEyebrow": "Nuestro historial",
-      "extraStats": {
-        "services": "Líneas de servicio principales",
-        "languages": "Idiomas ofrecidos"
-      },
-      "subtitle": "Estrategias de SEO, PPC y contenido basadas en datos, ofrecidas por un equipo de más de 45 expertos, de forma transparente y asequible.",
-      "ctaSecondary": "Cómo trabajamos"
+      "eyebrow": "Agencia de marketing digital",
+      "title": "Tu socio de crecimiento en la era de la búsqueda con IA",
+      "description": "Ayudamos a las empresas a atraer a la audiencia adecuada, ganar más clientes y aumentar sus ingresos mediante SEO 2.0, optimización para búsqueda con IA, paid media, contenido y estrategia de conversión.",
+      "subDescription": "Ofrecemos resultados, no solo informes, promesas y métricas vanidosas",
+      "ctaPrimary": "Habla sobre el crecimiento de tu proyecto",
+      "ctaSecondary": "Ver casos de éxito",
+      "panelEyebrow": "Nuestro crecimiento en cifras"
+    },
+    "stats": {
+      "title": "La confianza de empresas en todo el mundo",
+      "businesses": "Empresas impulsadas",
+      "experience": "Años de experiencia combinada en marketing",
+      "industries": "Sectores atendidos",
+      "countries": "Países con clientes"
+    },
+    "tools": {
+      "eyebrow": "Ayudamos a las empresas a crecer con las herramientas que impulsan el mañana",
+      "andMore": "y muchas más",
+      "items": {
+        "search": "Google Search",
+        "chatgpt": "ChatGPT",
+        "googleAds": "Google Ads",
+        "meta": "Meta Ads",
+        "hubspot": "HubSpot",
+        "semrush": "Semrush",
+        "ahrefs": "Ahrefs",
+        "shopify": "Shopify",
+        "wordpress": "WordPress",
+        "figma": "Figma"
+      }
+    },
+    "searchShift": {
+      "titleLine1": "La búsqueda ha cambiado.",
+      "titleLine2": "Tu estrategia de crecimiento también debería hacerlo.",
+      "description": "Las personas ya no descubren negocios solo a través de los motores de búsqueda. Buscan, preguntan, miran, comparan y compran en Google, plataformas de IA, redes sociales, marketplaces y otros canales digitales.",
+      "closing": "DSS te ayuda a que te descubran donde sea que tus clientes estén buscando."
+    },
+    "ecosystem": {
+      "eyebrow": "Visibilidad digital omnicanal",
+      "title": "Donde tus clientes buscan, descubren y deciden",
+      "description": "Desde Google y ChatGPT hasta YouTube, redes sociales, marketplaces y búsqueda local, ayudamos a tu negocio a construir visibilidad en las plataformas que influyen en las decisiones de tus clientes.",
+      "categories": {
+        "search": {
+          "label": "Búsqueda",
+          "items": "Google • Bing • Google Maps"
+        },
+        "ai": {
+          "label": "IA y respuestas",
+          "items": "ChatGPT • Gemini • Perplexity"
+        },
+        "social": {
+          "label": "Social, vídeo y marketplaces",
+          "items": "YouTube • Facebook • Instagram • LinkedIn • TikTok • X • Reddit • Amazon"
+        }
+      }
+    },
+    "industries": {
+      "eyebrow": "Experiencia en marketing digital por sector",
+      "title": "Ayudamos a distintos negocios a dominar su sector",
+      "description": "Cada sector tiene clientes, recorridos de compra, competencia y oportunidades de crecimiento diferentes. Nuestras estrategias se construyen según cómo tus clientes buscan, descubren, comparan y eligen negocios hoy. Desde SEO 2.0 y búsqueda con IA hasta paid media, contenido, social y CRO, conectamos los canales adecuados para ayudar a tu negocio a captar demanda cualificada y convertirla en crecimiento medible.",
+      "items": {
+        "ecommerce": {
+          "name": "Ecommerce",
+          "hook": "Convierte el descubrimiento de producto en ingresos.",
+          "description": "Construye visibilidad en buscadores, plataformas de IA, marketplaces y redes sociales mientras creas un camino más sólido del descubrimiento de producto a la compra.",
+          "tags": "SEO Ecommerce • SEO de producto • Búsqueda IA • CRO • Paid Media"
+        },
+        "saas": {
+          "name": "SaaS y Tecnología",
+          "hook": "Convierte la visibilidad digital en crecimiento sostenible.",
+          "description": "Llega a las audiencias correctas en cada etapa del recorrido del cliente, desde descubrir tu solución hasta convertirse en cliente.",
+          "tags": "SEO 2.0 • Búsqueda IA • Contenido • Paid Media • CRO"
+        },
+        "legal": {
+          "name": "Servicios legales y profesionales",
+          "hook": "Sé visible cuando clientes de alta intención buscan ayuda.",
+          "description": "Construye confianza y visibilidad en búsqueda, plataformas locales y canales de descubrimiento impulsados por IA para atraer consultas más relevantes.",
+          "tags": "SEO local • SEO 2.0 • Contenido • Reputación • CRO"
+        },
+        "realEstate": {
+          "name": "Bienes Raíces",
+          "hook": "Sé descubierto donde comienzan las decisiones inmobiliarias.",
+          "description": "Llega a compradores, vendedores, inversores e inquilinos mediante búsqueda, visibilidad local, contenido y campañas digitales dirigidas.",
+          "tags": "SEO local • SEO 2.0 • Paid Media • Contenido • CRO"
+        },
+        "healthcare": {
+          "name": "Salud",
+          "hook": "Construye visibilidad donde las personas buscan proveedores de confianza.",
+          "description": "Crea una presencia digital que ayude a los pacientes a descubrir, evaluar y elegir tus servicios en búsqueda, local y plataformas de descubrimiento con IA.",
+          "tags": "SEO local • Búsqueda IA • Contenido • Reputación • CRO"
+        },
+        "fintech": {
+          "name": "Fintech y Servicios Financieros",
+          "hook": "Compite por la atención en mercados digitales de alta confianza.",
+          "description": "Construye visibilidad en buscadores, autoridad y demanda cualificada mientras creas experiencias digitales que acompañan a los prospectos con confianza hacia la conversión.",
+          "tags": "SEO técnico • SEO 2.0 • Búsqueda IA • Contenido • CRO"
+        }
+      }
     },
     "intro": {
       "eyebrow": "Empresa de marketing digital",
@@ -87,40 +167,64 @@
     },
     "servicesGrid": {
       "seo": {
-        "title": "Servicios SEO",
-        "description": "Nuestras estrategias basadas en datos dejarán atrás a tu competencia, atraerán nuevos clientes y aumentarán el tráfico de calidad, las ventas y los ingresos. Somos expertos en SEO, optimización de conversión y mucho más."
+        "title": "SEO 2.0 y búsqueda con IA",
+        "hook": "Consigue visibilidad en la búsqueda moderna.",
+        "description": "Combinamos el SEO tradicional con la optimización para búsqueda con IA, AEO, GEO, SEO técnico, contenido y experiencia de búsqueda para que tu negocio siga siendo visible a medida que la búsqueda evoluciona.",
+        "tags": "SEO • AEO • GEO • Búsqueda IA • SEO técnico • SXO"
       },
       "ecommerceSeo": {
         "title": "SEO para eCommerce",
-        "description": "Nuestros expertos en SEO para eCommerce realizan investigación de la competencia, optimización on-page, optimización de la tasa de conversión, optimización de la velocidad del sitio y mucho más para mejorar el posicionamiento de tu web y tus páginas de producto."
-      },
-      "wordpressDevelopment": {
-        "title": "Desarrollo web",
-        "description": "Contrata a nuestros desarrolladores dedicados, verificados y especializados por sector, con décadas de experiencia entregando aplicaciones web y móviles interoperables, robustas y escalables para múltiples industrias."
+        "hook": "Convierte el descubrimiento de producto en ingresos.",
+        "description": "Optimizamos sitios ecommerce, páginas de categoría y fichas de producto para mejorar la visibilidad orgánica, atraer compradores de alta intención y crear más oportunidades de conversión.",
+        "tags": "SEO técnico • SEO de producto • SEO de categoría • CRO • Contenido ecommerce"
       },
       "localSeo": {
         "title": "SEO local",
-        "description": "Aprovechamos años de experiencia probada en SEO junto con técnicas de marketing modernas para negocios con presencia física, atrayendo una audiencia más local."
+        "hook": "Que te encuentren los clientes cercanos.",
+        "description": "Fortalecemos tu presencia local en Google Search, Google Maps y plataformas de descubrimiento local para que los clientes cercanos puedan encontrarte, confiar en ti y elegirte.",
+        "tags": "Google Business Profile • Búsqueda local • Reseñas • Contenido local"
       },
-      "seoAudit": {
-        "title": "Auditoría SEO",
-        "description": "Nuestros servicios de auditoría SEO son 100% transparentes y cubren más de 250 parámetros técnicos que garantizan mejores conversiones. Compartiremos contigo nuestro informe de auditoría SEO para que puedas revisar en detalle las áreas de mejora."
-      },
-      "speedOptimization": {
-        "title": "Optimización de velocidad",
-        "description": "Los sitios web lentos pierden clientes e ingresos. Nuestros expertos en velocidad de carga se aseguran de que tu sitio cargue en menos de 3 segundos para aumentar el tráfico cualificado y mejorar la tasa de conversión."
+      "ppc": {
+        "title": "Paid & Performance Marketing",
+        "hook": "Invierte tu presupuesto donde ocurre el crecimiento.",
+        "description": "Creamos y optimizamos campañas de pago en búsqueda, social y otros canales digitales para llegar a audiencias de alta intención y convertir tu inversión en resultados medibles.",
+        "tags": "PPC • Paid Social • Remarketing • Segmentación de audiencia • Performance Marketing"
       },
       "smm": {
-        "title": "Redes sociales",
-        "description": "Ya sea que quieras potenciar tu presencia en redes sociales o generar leads cualificados, creamos embudos hipersegmentados que impulsan un crecimiento real para tu negocio."
+        "title": "Marketing en redes sociales",
+        "hook": "Convierte la atención en demanda real.",
+        "description": "Creamos estrategias sociales específicas para cada plataforma que mantienen tu marca visible, involucran a la audiencia correcta y crean oportunidades más allá de la búsqueda tradicional.",
+        "tags": "Estrategia social • Contenido • Paid Social • Comunidad • Búsqueda social"
       },
       "contentMarketing": {
         "title": "Marketing de contenidos",
-        "description": "Creamos estrategias de contenido personalizadas y desarrollamos materiales de marketing optimizados para SEO, como featured snippets, artículos editoriales, blogs y anuncios, para atraer a tu público objetivo."
+        "hook": "Crea el contenido que las personas y los buscadores quieren encontrar.",
+        "description": "Desarrollamos contenido estratégico que responde preguntas de los clientes, construye autoridad, fortalece la visibilidad en búsqueda y acerca a los prospectos a la decisión.",
+        "tags": "Estrategia de contenido • Blogs • Liderazgo de pensamiento • Contenido SEO • Contenido para búsqueda IA"
       },
-      "ppc": {
-        "title": "Pago por clic",
-        "description": "Empieza a obtener resultados inmediatos contratando a nuestros expertos en PPC, que saben cómo transformar clics en ingresos. Optimiza tu campaña PPC con especialistas certificados en PPC."
+      "cro": {
+        "title": "Optimización de la tasa de conversión",
+        "hook": "Convierte más visitantes en clientes.",
+        "description": "Identificamos dónde abandonan los usuarios y mejoramos tu web, landing pages y experiencia de usuario para generar más conversiones del tráfico que ya atraes.",
+        "tags": "CRO • Landing Pages • UX • Testing • Personalización"
+      },
+      "wordpressDevelopment": {
+        "title": "Diseño y desarrollo web",
+        "hook": "Construye experiencias digitales pensadas para crecer.",
+        "description": "Creamos sitios rápidos, escalables y orientados a la conversión que dan a tu marketing una base más sólida y facilitan que tus clientes pasen a la acción.",
+        "tags": "Diseño web • WordPress • Desarrollo • UX • Optimización del sitio"
+      },
+      "seoAudit": {
+        "title": "Auditorías SEO y Analítica",
+        "hook": "Descubre qué está frenando tu crecimiento.",
+        "description": "Analizamos tu web, visibilidad en búsqueda, rendimiento técnico y datos de marketing para descubrir oportunidades y darte una ruta clara de mejora.",
+        "tags": "Auditorías SEO • Análisis técnico • Analítica • Reportes • Insights de rendimiento"
+      },
+      "speedOptimization": {
+        "title": "Optimización del sitio y del rendimiento",
+        "hook": "Haz que cada interacción digital trabaje más para ti.",
+        "description": "Desde la velocidad del sitio y el rendimiento técnico hasta la experiencia de usuario y los caminos de conversión, optimizamos los fundamentos que influyen en visibilidad, engagement e ingresos.",
+        "tags": "Optimización de velocidad • Rendimiento técnico • UX • CRO"
       },
       "learnMore": "Más información",
       "viewAll": "Ver todos los servicios →"
@@ -149,7 +253,7 @@
       }
     },
     "comparison": {
-      "eyebrow": "Agencia digital en India",
+      "eyebrow": "Agencia digital en Norwich",
       "title": "Elígenos para generar beneficios, no solo tráfico",
       "description": "Miles de empresas dicen ser diferentes, las mejores, y que entregan resultados. Pero nuestros clientes nos cuentan que antes se han visto decepcionados por ellas. Descubre en qué nos diferenciamos.",
       "othersLabel": "Otras empresas de SEO",
@@ -197,25 +301,55 @@
       "closingCta": "Obtén una consulta gratuita"
     },
     "testimonials": {
-      "eyebrow": "Testimonios",
-      "title": "Lo que dicen nuestros clientes",
+      "eyebrow": "Historias de clientes",
+      "title": "Lo que dicen nuestros clientes sobre crecer con DSS",
       "items": {
-        "local": {
-          "quote": "Como propietaria de una pequeña empresa, que me encontraran localmente era crucial para mi éxito. ¡Los servicios de SEO local de Digital SEO Store han cambiado por completo las reglas del juego! Su equipo se tomó el tiempo de entender mi negocio y mi público objetivo, optimizando mi presencia online para atraer a más clientes locales. Gracias a su trabajo, mi web ahora ocupa los primeros puestos en los resultados de búsqueda locales, y he visto un aumento significativo en las visitas a mi tienda y en las ventas. ¡Muy recomendable!",
-          "name": "Kelly McMillian"
+        "ireland": {
+          "flag": "🇮🇪",
+          "quote": "Llegamos a DSS porque nuestra visibilidad orgánica se había estancado y nos costaba llegar a la audiencia correcta. Su estrategia de SEO nos dio una dirección mucho más clara, especialmente en SEO técnico y contenido. La comunicación ha sido excelente en todo momento, y por fin vemos nuestro crecimiento orgánico avanzando en la dirección correcta.",
+          "role": "Directora de Marketing",
+          "company": "Empresa SaaS, Irlanda"
         },
-        "ppc": {
-          "quote": "Antes de trabajar con Digital SEO Store, mis campañas de pago por clic eran un desastre: desperdiciaban dinero y apenas daban resultados. Sus expertos en PPC renovaron por completo nuestras campañas, optimizando la segmentación, los textos de los anuncios y las estrategias de puja. En solo unas semanas empezamos a ver un retorno mucho mayor de nuestra inversión publicitaria, y nuestras ventas se dispararon. Su enfoque basado en datos y el seguimiento constante de las campañas han sido invaluables.",
-          "name": "Steve Barnett"
+        "usaLegal": {
+          "flag": "🇺🇸",
+          "quote": "DSS nos ayudó a mejorar nuestra presencia en búsqueda local y a dar mucha más estructura a nuestro marketing digital. Empezamos a ver mejor visibilidad para los servicios que más importan a nuestro despacho, junto con consultas más relevantes. Lo que más valoro es que explican qué están haciendo y por qué.",
+          "role": "Socio Director",
+          "company": "Despacho de abogados, EE. UU."
         },
-        "social": {
-          "quote": "Era escéptico respecto a invertir en marketing de redes sociales para mi negocio, pero el equipo de Digital SEO Store me hizo cambiar de opinión. Desarrollaron un plan estratégico para potenciar nuestra presencia en redes sociales, creando contenido atractivo y campañas publicitarias segmentadas. Su trabajo nos ha ayudado a construir una comunidad online sólida, aumentar el reconocimiento de marca y llevar más tráfico a nuestra web. Nuestros canales sociales se han convertido en potentes herramientas de marketing gracias a su experiencia.",
-          "name": "Denis Robinson"
+        "californiaEcommerce": {
+          "flag": "🇺🇸",
+          "quote": "Nuestro sitio ecommerce recibía tráfico, pero no se traducía en suficientes ventas. DSS trabajó en el SEO de nuestros productos y categorías junto con CRO, y la diferencia ha sido notable. El equipo mira todo el recorrido del cliente en lugar de centrarse solo en el ranking, algo que se ha sentido muy refrescante.",
+          "role": "Fundador",
+          "company": "Marca ecommerce, California, EE. UU."
+        },
+        "canada": {
+          "flag": "🇨🇦",
+          "quote": "DSS nos ayudó a construir una presencia local mucho más fuerte y a mejorar cómo nuestra web capta búsquedas inmobiliarias de alta intención. Hemos visto mejor visibilidad en nuestras ubicaciones clave y una mejora notable en la calidad de las consultas. El equipo es receptivo, transparente y genuinamente comprometido con nuestro crecimiento.",
+          "role": "Director",
+          "company": "Inmobiliaria, Canadá"
+        },
+        "india": {
+          "flag": "🇮🇳",
+          "quote": "Necesitábamos más que solo mejores posiciones. DSS nos ayudó a mejorar nuestro SEO local, la experiencia de la web y el contenido para que los pacientes pudieran encontrar la información correcta más fácilmente. El equipo ha sido consistente, transparente y muy fácil de tratar. Ahora tenemos una base digital mucho más sólida.",
+          "role": "Gerente de Marketing",
+          "company": "Empresa de salud, India"
+        },
+        "australia": {
+          "flag": "🇦🇺",
+          "quote": "DSS nos ayudó a conseguir mucha más visibilidad en un mercado local muy competitivo. Su estrategia de SEO local y contenido facilitó que los clientes nos encontraran cuando buscaban activamente nuestros servicios. También hemos notado una mejora en la calidad de los leads que llegan a través de la web.",
+          "role": "Propietario",
+          "company": "Empresa de servicios del hogar, Australia"
+        },
+        "newZealand": {
+          "flag": "🇳🇿",
+          "quote": "Lo que más destacó de DSS fue cómo conectaron SEO, contenido y conversión en lugar de tratarlos como actividades separadas. Se tomaron el tiempo de entender nuestro negocio y construyeron la estrategia alrededor de nuestros objetivos reales. Ahora tenemos una estrategia digital más clara y mucha mejor visibilidad en nuestro mercado objetivo.",
+          "role": "Fundador",
+          "company": "Empresa de servicios profesionales, Nueva Zelanda"
         }
       }
     },
     "blogTeaser": {
-      "eyebrow": "perspectivas de expertos en marketing digital",
+      "eyebrow": "Agencia SEO para Australia",
       "title": "Blog",
       "description": "Mantente actualizado y ve un paso por delante de la competencia con las últimas novedades del mundo online.",
       "readMore": "Leer más"
@@ -266,6 +400,8 @@
       }
     },
     "signup": {
+      "formTitle": "¡Solicita una propuesta gratuita ahora!",
+      "formSubtitle": "Colabora con Digital SEO Store y haz crecer tu negocio.",
       "title": "¿Listo para llevar tu negocio al siguiente nivel?",
       "subtitle": "Comienza tu camino hacia el éxito en marketing digital en solo 3 sencillos pasos:",
       "steps": {

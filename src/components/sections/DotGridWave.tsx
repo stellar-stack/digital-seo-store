@@ -92,9 +92,9 @@ export default function DotGridWave({ reducedMotion = false }: { reducedMotion?:
     }
 
     // The per-dot redraw used to run forever regardless of scroll position —
-    // real, continuous main-thread cost competing with Lenis/ScrollTrigger
-    // on every frame even while this section was scrolled far out of view.
-    // Only spend that cost while the canvas is actually on/near screen.
+    // real, continuous main-thread cost on every frame even while this
+    // section was scrolled far out of view. Only spend that cost while the
+    // canvas is actually on/near screen.
     const observer = new IntersectionObserver(
       ([entry]) => {
         visible = entry.isIntersecting;

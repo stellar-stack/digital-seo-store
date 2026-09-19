@@ -14,13 +14,14 @@ import { SERVICE_ICONS } from "@/components/icons/ServiceIcons";
 const SERVICES = [
   { key: "seo", slug: "seo" },
   { key: "ecommerceSeo", slug: "ecommerce-seo" },
-  { key: "wordpressDevelopment", slug: "wordpress-development" },
   { key: "localSeo", slug: "local-seo" },
-  { key: "seoAudit", slug: "seo-audit" },
-  { key: "speedOptimization", slug: "seo-audit" },
+  { key: "ppc", slug: "ppc" },
   { key: "smm", slug: "social-media-marketing" },
   { key: "contentMarketing", slug: "content-marketing" },
-  { key: "ppc", slug: "ppc" },
+  { key: "cro", slug: "cro" },
+  { key: "wordpressDevelopment", slug: "wordpress-development" },
+  { key: "seoAudit", slug: "seo-audit" },
+  { key: "speedOptimization", slug: "seo-audit" },
 ] as const;
 
 const SPEED_ICON = (
@@ -45,6 +46,7 @@ const ROW_ICONS: Record<(typeof SERVICES)[number]["key"], React.ReactNode> = {
   smm: SERVICE_ICONS.smm,
   contentMarketing: SERVICE_ICONS.contentMarketing,
   ppc: SERVICE_ICONS.ppc,
+  cro: SERVICE_ICONS.cro,
 };
 
 export default function ServicesIndex() {
@@ -75,7 +77,7 @@ export default function ServicesIndex() {
   const active = SERVICES[activeIndex];
 
   return (
-    <section className="relative bg-cream py-20 md:py-24">
+    <section className="relative bg-mist py-20 md:py-24">
       <Container className="relative">
         <SectionHeading
           eyebrow={tHeading("eyebrow")}
@@ -139,8 +141,14 @@ export default function ServicesIndex() {
                       transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
                       className="overflow-hidden lg:hidden"
                     >
-                      <p className="pt-4 pr-8 text-sm leading-relaxed text-muted">
+                      <p className="pt-4 pr-8 text-sm font-semibold text-blue-ink">
+                        {tCard(`${s.key}.hook` as never)}
+                      </p>
+                      <p className="mt-2 pr-8 text-sm leading-relaxed text-muted">
                         {tCard(`${s.key}.description` as never)}
+                      </p>
+                      <p className="mt-3 pr-8 text-xs leading-relaxed text-muted/80">
+                        {tCard(`${s.key}.tags` as never)}
                       </p>
                     </motion.div>
                   )}
@@ -181,8 +189,14 @@ export default function ServicesIndex() {
                   <h3 className="font-display mt-4 text-2xl font-semibold text-ink">
                     {tCard(`${active.key}.title` as never)}
                   </h3>
-                  <p className="mt-4 text-base leading-relaxed text-muted">
+                  <p className="mt-3 text-sm font-semibold text-blue-ink">
+                    {tCard(`${active.key}.hook` as never)}
+                  </p>
+                  <p className="mt-3 text-base leading-relaxed text-muted">
                     {tCard(`${active.key}.description` as never)}
+                  </p>
+                  <p className="mt-4 text-xs leading-relaxed text-muted/80">
+                    {tCard(`${active.key}.tags` as never)}
                   </p>
 
                   <Link
@@ -203,7 +217,7 @@ export default function ServicesIndex() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-10%" }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="mt-16 rounded-3xl border border-line bg-mist px-8 py-10 text-center sm:px-14"
+          className="mt-16 rounded-3xl border border-line bg-white px-8 py-10 text-center sm:px-14"
         >
           <h3 className="font-display text-xl font-semibold text-ink sm:text-2xl">
             {tHeading("closingTitle")}
