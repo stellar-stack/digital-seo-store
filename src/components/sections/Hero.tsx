@@ -97,7 +97,7 @@ export default function Hero() {
     <div className="relative">
       <motion.section
         style={{ backgroundColor: reducedMotion ? "#ffffff" : bgColor }}
-        className="relative overflow-hidden pt-4 pb-20 md:pt-6 md:pb-24"
+        className="relative overflow-hidden hero-y"
       >
         <motion.div
           aria-hidden
@@ -119,7 +119,7 @@ export default function Hero() {
         <DotGridWave reducedMotion={reducedMotion} />
 
         <Container className="relative">
-          <div className="grid gap-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
               <motion.p
                 initial={{ opacity: 0, y: 14 }}

@@ -81,7 +81,10 @@
         "shopify": "Shopify",
         "wordpress": "WordPress",
         "figma": "Figma"
-      }
+      },
+      "previous": "Logos anteriores",
+      "next": "Logos siguientes",
+      "slide": "Mostrar logos {n}"
     },
     "searchShift": {
       "titleLine1": "La búsqueda ha cambiado.",
@@ -158,8 +161,8 @@
       "cta": "Obtén una consulta gratuita"
     },
     "servicesSection": {
-      "eyebrow": "Servicios de marketing digital",
-      "title": "Servicios para ayudarte a crecer en internet",
+      "eyebrow": "SERVICIOS DE MARKETING DIGITAL",
+      "title": "Todo lo que necesitas para crecer en internet",
       "description": "Ayudamos a empresas de diversos sectores con nuestra estrategia de marketing digital integrada y basada en datos para alcanzar sus objetivos de marketing y generar cantidades enormes de tráfico. Esto lo logramos gracias a nuestra cultura de honestidad, transparencia total y decisiones basadas en evidencia.",
       "closingTitle": "Lleva tu negocio por delante de tu competencia con nuestros servicios de marketing especializados por nicho",
       "closingSubtitle": "Solo nos asociamos con empresas cuando tenemos la certeza absoluta de poder entregar resultados",

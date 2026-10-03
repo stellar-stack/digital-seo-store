@@ -7,20 +7,28 @@ import Container from "@/components/ui/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import type { BlogPost } from "@/lib/blog";
 
-export default function BlogTeaser({ posts }: { posts: BlogPost[] }) {
+export default function BlogTeaser({
+  posts,
+  title,
+  description,
+}: {
+  posts: BlogPost[];
+  title?: string;
+  description?: string;
+}) {
   const t = useTranslations("home.blogTeaser");
   const locale = useLocale();
 
   return (
-    <section className="bg-mist py-20 md:py-24">
+    <section className="bg-mist section-y">
       <Container>
         <SectionHeading
-          eyebrow={t("eyebrow")}
-          title={t("title")}
-          description={t("description")}
+          eyebrow={title ? undefined : t("eyebrow")}
+          title={title ?? t("title")}
+          description={title ? description : t("description")}
         />
 
-        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="stack-gap grid grid-cols-1 gap-6 md:grid-cols-3">
           {posts.map((post, i) => (
             <motion.div
               key={post.slug}

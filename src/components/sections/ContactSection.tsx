@@ -54,9 +54,9 @@ export default function ContactSection() {
   ] as const;
 
   return (
-    <section className="bg-cream py-20 md:py-28">
+    <section className="bg-cream section-y">
       <Container>
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[0.85fr_1.15fr]">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[0.85fr_1.15fr]">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

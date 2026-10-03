@@ -16,7 +16,7 @@ export default function StatsBar() {
   const t = useTranslations("home.stats");
 
   return (
-    <section className="bg-mist py-16 md:py-20">
+    <section className="bg-mist section-y">
       <Container>
         <motion.h2
           initial={{ opacity: 0, y: 16 }}

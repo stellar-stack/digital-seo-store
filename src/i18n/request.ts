@@ -8,8 +8,15 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  return {
-    locale,
-    messages: (await import(`../../messages/${locale}.json`)).default,
-  };
+  const messages = (await import(`../../messages/${locale}.json`)).default;
+
+  // These page copies are English-only for now; fr/es render them in English.
+  if (locale !== routing.defaultLocale) {
+    const en = (await import(`../../messages/${routing.defaultLocale}.json`)).default;
+    for (const ns of ["seoServicesPage", "localSeoPage", "ecommerceSeoPage", "seoAuditPage", "ppcServicesPage", "semServicesPage", "croServicesPage", "wordpressServicesPage", "hireServicesPage", "socialServicesPage", "contentServicesPage", "reputationServicesPage"]) {
+      if (!messages[ns]) messages[ns] = en[ns];
+    }
+  }
+
+  return { locale, messages };
 });

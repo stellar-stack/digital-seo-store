@@ -66,7 +66,7 @@ export default function LocaleSuggestion() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 16 }}
           transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-          className="fixed inset-x-4 bottom-6 z-40 mx-auto flex max-w-sm flex-col gap-3 rounded-2xl border border-line bg-white p-4 shadow-xl shadow-ink/10 sm:inset-x-auto sm:left-6"
+          className="fixed inset-x-4 bottom-[max(1.5rem,env(safe-area-inset-bottom))] z-40 mx-auto flex max-w-sm flex-col gap-3 rounded-2xl border border-line bg-white p-4 shadow-xl shadow-ink/10 sm:inset-x-auto sm:left-6"
         >
           <p className="text-sm text-charcoal">
             {t("message", { language: LANGUAGE_NAMES[suggested] })}

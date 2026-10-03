@@ -79,7 +79,7 @@ export default function IndustriesSection() {
   const t = useTranslations("home.industries");
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         <SectionHeading
           eyebrow={t("eyebrow")}
@@ -88,7 +88,7 @@ export default function IndustriesSection() {
           className="max-w-3xl"
         />
 
-        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="stack-gap grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {INDUSTRIES.map((industry, i) => (
             <motion.div
               key={industry.key}

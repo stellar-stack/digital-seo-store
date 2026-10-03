@@ -7,7 +7,7 @@ import type { BlogPost } from "@/lib/blog";
 
 export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
   return (
-    <section className="bg-cream py-16 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {posts.map((post, i) => (

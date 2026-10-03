@@ -30,7 +30,7 @@ export default function AboutHero() {
   const words = t("hero.title").split(" ");
 
   return (
-    <section className="relative overflow-hidden bg-cream pt-4 pb-24 md:pt-6 md:pb-28">
+    <section className="relative overflow-hidden bg-cream hero-y">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(10,14,26,0.04)_1px,transparent_0)] [background-size:32px_32px]" />
@@ -101,7 +101,7 @@ export default function AboutHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.75 }}
-          className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4"
+          className="stack-gap grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4"
         >
           {STATS.map((s, i) => (
             <div key={s.key} className="bg-white p-6">

@@ -10,7 +10,7 @@ export default function FAQCategories({
   categories: { title: string; items: FAQItem[] }[];
 }) {
   return (
-    <section className="bg-cream py-16 md:py-20">
+    <section className="bg-cream section-y">
       <Container className="max-w-4xl">
         <div className="space-y-16">
           {categories.map((cat, ci) => (

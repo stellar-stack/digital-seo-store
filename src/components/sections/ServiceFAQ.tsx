@@ -6,16 +6,20 @@ export default function ServiceFAQ({
   eyebrow,
   title,
   items,
+  id,
+  tone = "cream",
 }: {
-  eyebrow: string;
-  title: string;
+  id?: string;
+  tone?: "cream" | "white";
+  eyebrow?: string;
+  title?: string;
   items: FAQItem[];
 }) {
   return (
-    <section className="bg-cream py-20 md:py-28">
+    <section id={id} className={`scroll-mt-24 section-y ${tone === "white" ? "bg-white" : "bg-cream"}`}>
       <Container className="max-w-4xl">
-        <SectionHeading eyebrow={eyebrow} title={title} align="center" />
-        <div className="mt-12">
+        {title && <SectionHeading eyebrow={eyebrow} title={title} align="center" />}
+        <div className={title ? "mt-12" : undefined}>
           <FAQAccordion items={items} />
         </div>
       </Container>

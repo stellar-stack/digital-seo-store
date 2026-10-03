@@ -35,7 +35,7 @@ export default function OfficesStrip() {
   const [active, setActive] = useState<string | null>(null);
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         <p className="mb-8 text-center text-xs font-semibold uppercase tracking-[0.2em] text-blue-ink">
           {tAbout("officesEyebrow")}

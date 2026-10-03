@@ -8,7 +8,7 @@ export default function SearchShiftSection() {
   const t = useTranslations("home.searchShift");
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container className="max-w-3xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

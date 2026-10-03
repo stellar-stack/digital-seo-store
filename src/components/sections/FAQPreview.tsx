@@ -27,7 +27,7 @@ export default function FAQPreview() {
   }));
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container className="max-w-4xl">
         <SectionHeading title={t("title")} align="center" />
         <div className="mt-14">

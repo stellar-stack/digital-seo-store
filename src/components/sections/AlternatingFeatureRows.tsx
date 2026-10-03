@@ -16,11 +16,11 @@ export default function AlternatingFeatureRows({
   items: { title: string; description: string }[];
 }) {
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         <SectionHeading eyebrow={eyebrow} title={title} description={description} />
 
-        <div className="mt-16 grid gap-x-12 gap-y-14 sm:grid-cols-2">
+        <div className="stack-gap grid gap-x-12 gap-y-10 sm:grid-cols-2">
           {items.map((item, i) => (
             <motion.div
               key={i}

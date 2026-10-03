@@ -90,3 +90,19 @@ body {
   }
 }
 
+
+/* Layout rhythm: one fluid scale for every device (phone 360 to large desktop).
+   Sections use section-y; the page header uses hero-y; a heading's content sits
+   at stack-gap so related items read as one group, while sections stay separated. */
+.section-y {
+  padding-block: clamp(2.5rem, 4.5vw, 4.5rem);
+}
+
+.hero-y {
+  padding-top: clamp(1.5rem, 3vw, 2.5rem);
+  padding-bottom: clamp(3rem, 5.5vw, 5rem);
+}
+
+.stack-gap {
+  margin-top: clamp(1.75rem, 3vw, 2.75rem);
+}

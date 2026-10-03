@@ -16,10 +16,10 @@ export default function ServiceFeatures({
   items: { title: string; description: string }[];
 }) {
   return (
-    <section className="bg-mist py-20 md:py-28">
+    <section className="bg-mist section-y">
       <Container>
         <SectionHeading eyebrow={eyebrow} title={title} description={description} />
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="stack-gap grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => (
             <motion.div
               key={i}

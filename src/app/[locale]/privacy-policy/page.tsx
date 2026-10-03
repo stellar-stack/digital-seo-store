@@ -33,7 +33,7 @@ export default async function PrivacyPolicyPage({
   if (!doc) notFound();
 
   return (
-    <div className="bg-cream pt-4 pb-20 md:pt-6 md:pb-28">
+    <div className="bg-cream hero-y">
       <Container className="max-w-3xl">
         <h1 className="font-display text-3xl font-semibold text-ink md:text-4xl">
           {doc.title}

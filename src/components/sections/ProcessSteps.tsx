@@ -17,7 +17,7 @@ export default function ProcessSteps({
   const t = useTranslations(namespace);
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         {showHeading && <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />}
 
@@ -28,12 +28,12 @@ export default function ProcessSteps({
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
           className="mt-10 max-w-2xl border-l-4 border-blue pl-6 md:pl-8"
         >
-          <p className="text-2xl font-medium leading-snug text-ink md:text-3xl">
+          <p className="text-base leading-relaxed text-muted md:text-lg">
             {t("description")}
           </p>
         </motion.blockquote>
 
-        <div className="relative mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="relative stack-gap grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
           <div
             aria-hidden
             className="absolute top-[2.1rem] right-0 left-0 hidden h-px bg-line lg:block"

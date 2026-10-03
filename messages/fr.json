@@ -81,7 +81,10 @@
         "shopify": "Shopify",
         "wordpress": "WordPress",
         "figma": "Figma"
-      }
+      },
+      "previous": "Logos précédents",
+      "next": "Logos suivants",
+      "slide": "Afficher les logos {n}"
     },
     "searchShift": {
       "titleLine1": "La recherche a changé.",
@@ -158,8 +161,8 @@
       "cta": "Obtenir une consultation gratuite"
     },
     "servicesSection": {
-      "eyebrow": "Services de marketing digital",
-      "title": "Des services pour vous aider à grandir en ligne",
+      "eyebrow": "SERVICES DE MARKETING DIGITAL",
+      "title": "Tout ce dont vous avez besoin pour grandir en ligne",
       "description": "Nous aidons des entreprises de tous secteurs grâce à notre stratégie marketing intégrée et pilotée par la donnée, afin d'atteindre leurs objectifs marketing et de générer un trafic considérable. Cela s'appuie sur notre culture de l'honnêteté, une transparence à 100 % et des décisions fondées sur des preuves.",
       "closingTitle": "Prenez de l'avance sur vos concurrents grâce à nos services marketing spécialisés par secteur",
       "closingSubtitle": "Nous ne collaborons avec une entreprise que si nous sommes certains à 100 % de pouvoir délivrer des résultats",

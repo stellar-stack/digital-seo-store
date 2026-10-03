@@ -41,7 +41,8 @@ export default function BackToTop() {
           transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
           whileHover={reducedMotion ? undefined : { scale: 1.08 }}
           whileTap={reducedMotion ? undefined : { scale: 0.94 }}
-          className="fixed bottom-6 right-4 z-30 flex h-11 w-11 items-center justify-center rounded-full border border-line bg-white/90 text-charcoal shadow-lg shadow-ink/10 backdrop-blur-md md:bottom-9 md:right-6 md:h-12 md:w-12"
+          style={{ bottom: "max(1.5rem, env(safe-area-inset-bottom))", right: "max(1rem, env(safe-area-inset-right))" }}
+          className="fixed z-30 flex h-11 w-11 items-center justify-center rounded-full border border-line bg-white/90 text-charcoal shadow-lg shadow-ink/10 backdrop-blur-md md:bottom-9 md:right-6 md:h-12 md:w-12"
         >
           <svg viewBox="0 0 20 20" className="h-4 w-4 md:h-5 md:w-5" fill="none">
             <path

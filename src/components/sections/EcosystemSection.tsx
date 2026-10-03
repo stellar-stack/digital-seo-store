@@ -36,7 +36,7 @@ export default function EcosystemSection() {
   const marqueeItems = [...PLATFORMS, ...PLATFORMS];
 
   return (
-    <section className="bg-mist py-20 md:py-24">
+    <section className="bg-mist section-y">
       <Container>
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
       </Container>
@@ -74,7 +74,7 @@ export default function EcosystemSection() {
       </div>
 
       <Container>
-        <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-3">
+        <div className="stack-gap grid grid-cols-1 gap-6 sm:grid-cols-3">
           {CATEGORY_KEYS.map((key, i) => (
             <motion.div
               key={key}

@@ -9,10 +9,12 @@ export default function CTASection({
   title,
   subtitle,
   button,
+  id,
 }: {
   title?: string;
   subtitle?: string;
   button?: string;
+  id?: string;
 } = {}) {
   const t = useTranslations("home.cta");
 
@@ -21,7 +23,7 @@ export default function CTASection({
   const resolvedButton = button ?? t("button");
 
   return (
-    <section className="relative overflow-hidden bg-blue py-20 md:py-24">
+    <section id={id} className="relative scroll-mt-24 overflow-hidden bg-blue section-y">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10 blur-[140px]" />
       </div>
@@ -35,15 +37,17 @@ export default function CTASection({
         >
           {resolvedTitle}
         </motion.h2>
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-10%" }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-          className="mx-auto mt-5 max-w-lg text-white/70"
-        >
-          {resolvedSubtitle}
-        </motion.p>
+        {resolvedSubtitle && (
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-10%" }}
+            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
+            className="mx-auto mt-5 max-w-lg text-white/70"
+          >
+            {resolvedSubtitle}
+          </motion.p>
+        )}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}

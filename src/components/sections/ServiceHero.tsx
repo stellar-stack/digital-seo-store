@@ -21,7 +21,7 @@ export default function ServiceHero({
   breadcrumbLabel: string;
 }) {
   return (
-    <section className="relative overflow-hidden bg-cream pt-4 pb-24 md:pt-6 md:pb-28">
+    <section className="relative overflow-hidden bg-cream hero-y">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(10,14,26,0.04)_1px,transparent_0)] [background-size:32px_32px]" />

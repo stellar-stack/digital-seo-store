@@ -19,11 +19,11 @@ export default function Testimonials() {
   const t = useTranslations("home.testimonials");
 
   return (
-    <section className="bg-cream py-20 md:py-24">
+    <section className="bg-cream section-y">
       <Container>
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} align="center" />
 
-        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="stack-gap grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {TESTIMONIAL_KEYS.map((key, i) => (
             <motion.figure
               key={key}

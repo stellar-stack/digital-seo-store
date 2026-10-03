@@ -75,7 +75,7 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <article className="relative overflow-hidden bg-cream pt-4 pb-20 md:pt-6 md:pb-24">
+      <article className="relative overflow-hidden bg-cream hero-y">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-32 right-0 h-[28rem] w-[28rem] rounded-full bg-blue/8 blur-[130px]" />
         </div>
@@ -103,7 +103,7 @@ export default async function BlogPostPage({
         </Container>
       </article>
 
-      <div className="bg-cream py-16 md:py-20">
+      <div className="bg-cream section-y">
         <Container className="max-w-3xl">
           <div className="prose prose-neutral max-w-none prose-headings:font-display prose-headings:font-semibold prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-a:text-blue-ink prose-strong:text-ink">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>

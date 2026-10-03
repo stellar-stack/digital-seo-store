@@ -49,7 +49,7 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
   const headerHidden = useHeaderHidden();
 
   return (
-    <section className="bg-mist py-20 md:py-24">
+    <section className="bg-mist section-y">
       <Container>
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
 

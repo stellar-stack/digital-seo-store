@@ -13,13 +13,13 @@ export default function SignupSection() {
   const reducedMotion = useReducedMotion();
 
   return (
-    <section className="relative overflow-hidden bg-mist py-20 md:py-24">
+    <section className="relative overflow-hidden bg-mist section-y">
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-0 h-[30rem] w-[30rem] -translate-x-1/2 rounded-full bg-blue/8 blur-[140px]" />
       </div>
       <DotGridWave reducedMotion={!!reducedMotion} />
       <Container className="relative">
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_1fr]">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1fr]">
           <div>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}

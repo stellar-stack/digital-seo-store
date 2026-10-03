@@ -16,7 +16,7 @@ export default function ValuesList({
   items: { title: string; description: string }[];
 }) {
   return (
-    <section className="bg-mist py-20 md:py-24">
+    <section className="bg-mist section-y">
       <Container>
         <SectionHeading eyebrow={eyebrow} title={title} description={description} />
 

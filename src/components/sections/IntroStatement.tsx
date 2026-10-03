@@ -43,11 +43,11 @@ export default function IntroStatement() {
   });
 
   return (
-    <section className="relative overflow-hidden bg-cream py-20 md:py-24">
+    <section className="relative overflow-hidden bg-cream section-y">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(23,24,28,0.05)_1px,transparent_0)] [background-size:32px_32px]" />
 
       <Container className="relative">
-        <div className="grid gap-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+        <div className="grid gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
           <div>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -90,8 +90,8 @@ export default function IntroStatement() {
                 rms: (chunks) => (
                   <ServicePill href="/services/reputation-management">{chunks}</ServicePill>
                 ),
-                cro: (chunks) => <ServicePill href="/services/cro">{chunks}</ServicePill>,
-                ppc: (chunks) => <ServicePill href="/services/ppc">{chunks}</ServicePill>,
+                cro: (chunks) => <ServicePill href="/services/conversion-rate-optimization">{chunks}</ServicePill>,
+                ppc: (chunks) => <ServicePill href="/services/ppc-management-services">{chunks}</ServicePill>,
                 social: (chunks) => (
                   <ServicePill href="/services/social-media-marketing">{chunks}</ServicePill>
                 ),

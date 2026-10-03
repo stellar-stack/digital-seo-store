@@ -11,7 +11,7 @@ export default function ServiceIntro({
   paragraphs: string[];
 }) {
   return (
-    <section className="bg-cream py-20 md:py-28">
+    <section className="bg-cream section-y">
       <Container>
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <motion.h2
