@@ -13,7 +13,7 @@ const TESTIMONIALS = [
   { key: "usaLegal", photo: "/images/testimonials/usa-legal.jpg", hasName: true },
   { key: "californiaEcommerce", photo: "/images/testimonials/california-ecommerce.jpg", hasName: true },
   { key: "canada", photo: "/images/testimonials/canada.jpg", hasName: true },
-  { key: "india", photo: "/images/testimonials/india.jpg", hasName: false },
+  { key: "india", photo: "/images/testimonials/india.jpg", hasName: true },
   { key: "australia", photo: "/images/testimonials/india-ioi.jpg", hasName: true },
   { key: "newZealand", photo: "/images/testimonials/new-zealand.jpg", hasName: true },
 ] as const;
