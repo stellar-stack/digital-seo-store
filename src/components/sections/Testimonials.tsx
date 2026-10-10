@@ -52,7 +52,45 @@ export default function Testimonials() {
   }, [index, paused, reduceMotion, count]);
 
   const item = TESTIMONIALS[index];
-  const base = `items.${item.key}`;
+
+  const renderBody = (tm: (typeof TESTIMONIALS)[number]) => (
+    <>
+                  <svg viewBox="0 0 32 24" className="h-6 w-8 text-blue/25" fill="currentColor" aria-hidden>
+                    <path d="M0 24V14.4C0 6.4 4.8 1.3 12 0l1.4 3.2C9.2 4.6 7 7.5 6.8 11.2H12V24H0Zm19.6 0V14.4c0-8 4.8-13.1 12-14.4L33 3.2c-4.2 1.4-6.4 4.3-6.6 8H31.6V24H19.6Z" />
+                  </svg>
+
+                  <blockquote className="mt-6 max-w-3xl font-display text-lg leading-relaxed text-ink sm:text-xl md:text-[1.4rem] md:leading-[1.6]">
+                    {t(`items.${tm.key}.quote`)}
+                  </blockquote>
+
+                  <figcaption className="mt-8 flex flex-col items-center gap-3 md:mt-10 md:flex-row md:gap-4 md:text-left">
+                    <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full ring-4 ring-cream">
+                      <Image
+                        src={tm.photo}
+                        alt={tm.hasName ? t(`items.${tm.key}.name`) : t(`items.${tm.key}.role`)}
+                        fill
+                        sizes="64px"
+                        className="object-cover object-[50%_30%]"
+                      />
+                    </span>
+                    <span>
+                      {tm.hasName && (
+                        <span className="block font-display text-base font-semibold text-ink">{t(`items.${tm.key}.name`)}</span>
+                      )}
+                      <span className={clsx("block text-sm", tm.hasName ? "text-charcoal/80" : "font-display text-base font-semibold text-ink")}>
+                        {t(`items.${tm.key}.role`)}
+                      </span>
+                      <span className="mt-0.5 block text-sm text-muted">
+                        <span aria-hidden className="mr-1.5">{t(`items.${tm.key}.flag`)}</span>
+                        {t(`items.${tm.key}.company`)}
+                      </span>
+                    </span>
+                  </figcaption>
+    </>
+  );
+
+  const figureClass =
+    "flex flex-col items-center px-6 py-10 text-center sm:px-12 md:px-16 md:py-14 [grid-area:1/1]";
 
   const arrowClass =
     "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-line bg-white text-charcoal shadow-[0_1px_2px_rgba(10,14,26,0.06)] transition-colors duration-300 hover:border-blue/40 hover:text-blue focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue";
@@ -77,7 +115,12 @@ export default function Testimonials() {
               <Arrow dir="prev" />
             </button>
 
-            <div className="relative min-w-0 flex-1 overflow-hidden rounded-[2rem] border border-line bg-white shadow-[0_24px_60px_-40px_rgba(10,14,26,0.35)]">
+            <div className="relative grid min-w-0 flex-1 overflow-hidden rounded-[2rem] border border-line bg-white shadow-[0_24px_60px_-40px_rgba(10,14,26,0.35)]">
+              {TESTIMONIALS.map((tm) => (
+                <div key={tm.key} aria-hidden className={clsx(figureClass, "invisible pointer-events-none")}>
+                  {renderBody(tm)}
+                </div>
+              ))}
               <AnimatePresence mode="popLayout" initial={false} custom={dir}>
                 <motion.figure
                   key={item.key}
@@ -100,39 +143,9 @@ export default function Testimonials() {
                   }}
                   aria-roledescription="slide"
                   aria-label={`${index + 1} / ${count}`}
-                  className="flex cursor-grab flex-col items-center px-6 py-10 text-center active:cursor-grabbing sm:px-12 md:px-16 md:py-14"
+                  className={clsx(figureClass, "cursor-grab active:cursor-grabbing")}
                 >
-                  <svg viewBox="0 0 32 24" className="h-6 w-8 text-blue/25" fill="currentColor" aria-hidden>
-                    <path d="M0 24V14.4C0 6.4 4.8 1.3 12 0l1.4 3.2C9.2 4.6 7 7.5 6.8 11.2H12V24H0Zm19.6 0V14.4c0-8 4.8-13.1 12-14.4L33 3.2c-4.2 1.4-6.4 4.3-6.6 8H31.6V24H19.6Z" />
-                  </svg>
-
-                  <blockquote className="mt-6 max-w-3xl font-display text-lg leading-relaxed text-ink sm:text-xl md:text-[1.4rem] md:leading-[1.6]">
-                    {t(`${base}.quote`)}
-                  </blockquote>
-
-                  <figcaption className="mt-8 flex flex-col items-center gap-3 md:mt-10 md:flex-row md:gap-4 md:text-left">
-                    <span className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full ring-4 ring-cream">
-                      <Image
-                        src={item.photo}
-                        alt={item.hasName ? t(`${base}.name`) : t(`${base}.role`)}
-                        fill
-                        sizes="64px"
-                        className="object-cover object-[50%_30%]"
-                      />
-                    </span>
-                    <span>
-                      {item.hasName && (
-                        <span className="block font-display text-base font-semibold text-ink">{t(`${base}.name`)}</span>
-                      )}
-                      <span className={clsx("block text-sm", item.hasName ? "text-charcoal/80" : "font-display text-base font-semibold text-ink")}>
-                        {t(`${base}.role`)}
-                      </span>
-                      <span className="mt-0.5 block text-sm text-muted">
-                        <span aria-hidden className="mr-1.5">{t(`${base}.flag`)}</span>
-                        {t(`${base}.company`)}
-                      </span>
-                    </span>
-                  </figcaption>
+                  {renderBody(item)}
                 </motion.figure>
               </AnimatePresence>
             </div>
