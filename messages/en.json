@@ -83,8 +83,7 @@
         "figma": "Figma"
       },
       "previous": "Previous logos",
-      "next": "Next logos",
-      "slide": "Show logos {n}"
+      "next": "Next logos"
     },
     "searchShift": {
       "titleLine1": "Search Has Changed.",
@@ -311,25 +310,29 @@
           "flag": "🇮🇪",
           "quote": "We came to DSS because our organic visibility had plateaued and we were struggling to reach the right audience. Their SEO strategy gave us a much clearer direction, especially around technical SEO and content. Communication has been excellent throughout, and we can finally see our organic growth moving in the right direction.",
           "role": "Marketing Director",
-          "company": "SaaS Company, Ireland"
+          "company": "SaaS Company, Ireland",
+          "name": "Eoin McCarthy"
         },
         "usaLegal": {
           "flag": "🇺🇸",
           "quote": "DSS helped us improve our local search presence and bring much more structure to our digital marketing. We started seeing better visibility for the services that matter most to our firm, along with more relevant enquiries. What I appreciate most is that they explain what they are doing and why.",
           "role": "Managing Partner",
-          "company": "Law Firm, USA"
+          "company": "Law Firm, USA",
+          "name": "Sean Murphy"
         },
         "californiaEcommerce": {
           "flag": "🇺🇸",
           "quote": "Our ecommerce site was getting traffic, but it was not translating into enough sales. DSS worked on our product and category SEO along with CRO, and the difference has been noticeable. The team looks at the entire customer journey instead of focusing only on rankings, which has been a refreshing experience.",
           "role": "Founder",
-          "company": "Ecommerce Brand, California, USA"
+          "company": "Ecommerce Brand, California, USA",
+          "name": "Laura Bennett"
         },
         "canada": {
           "flag": "🇨🇦",
           "quote": "DSS helped us build a much stronger local presence and improve the way our website targets high intent property searches. We have seen better visibility across our key locations and a noticeable improvement in the quality of enquiries. The team is responsive, transparent and genuinely invested in our growth.",
           "role": "Director",
-          "company": "Real Estate Company, Canada"
+          "company": "Real Estate Company, Canada",
+          "name": "Patrick Sullivan"
         },
         "india": {
           "flag": "🇮🇳",
@@ -338,18 +341,22 @@
           "company": "Healthcare Business, India"
         },
         "australia": {
-          "flag": "🇦🇺",
+          "flag": "🇮🇳",
           "quote": "DSS helped us get much more visibility in a very competitive local market. Their local SEO and content strategy made it easier for customers to find us when they were actively looking for our services. We have also noticed an improvement in the quality of leads coming through the website.",
-          "role": "Business Owner",
-          "company": "Home Services Company, Australia"
+          "role": "Founder",
+          "company": "IOI Select Stays | INNOVATIVE INDIA | IOI Private, India",
+          "name": "Avtarit Arora"
         },
         "newZealand": {
           "flag": "🇳🇿",
           "quote": "What stood out about DSS was the way they connected SEO, content and conversion rather than treating them as separate activities. They took the time to understand our business and built the strategy around our actual goals. We now have a clearer digital strategy and much better visibility in our target market.",
           "role": "Founder",
-          "company": "Professional Services Company, New Zealand"
+          "company": "Professional Services Company, New Zealand",
+          "name": "Thomas Walker"
         }
-      }
+      },
+      "previous": "Previous testimonial",
+      "next": "Next testimonial"
     },
     "blogTeaser": {
       "eyebrow": "The Blog",

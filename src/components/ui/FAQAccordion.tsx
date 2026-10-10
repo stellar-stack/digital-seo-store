@@ -77,10 +77,12 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
                 aria-hidden
                 className={clsx(
                   "flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-mist text-blue-dark transition-transform duration-300",
-                  open && "rotate-45 bg-blue/15"
+                  open && "rotate-180 bg-blue/15"
                 )}
               >
-                +
+                <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none">
+                  <path d="M3.5 6 8 10.5 12.5 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </span>
             </button>
             <AnimatePresence initial={false}>

@@ -83,8 +83,7 @@
         "figma": "Figma"
       },
       "previous": "Logos précédents",
-      "next": "Logos suivants",
-      "slide": "Afficher les logos {n}"
+      "next": "Logos suivants"
     },
     "searchShift": {
       "titleLine1": "La recherche a changé.",
@@ -311,25 +310,29 @@
           "flag": "🇮🇪",
           "quote": "Nous sommes venus chez DSS car notre visibilité organique avait stagné et nous avions du mal à toucher la bonne audience. Leur stratégie SEO nous a donné une direction beaucoup plus claire, notamment sur le SEO technique et le contenu. La communication a été excellente tout au long, et nous voyons enfin notre croissance organique aller dans la bonne direction.",
           "role": "Directrice Marketing",
-          "company": "Entreprise SaaS, Irlande"
+          "company": "Entreprise SaaS, Irlande",
+          "name": "Eoin McCarthy"
         },
         "usaLegal": {
           "flag": "🇺🇸",
           "quote": "DSS nous a aidés à améliorer notre présence en recherche locale et à apporter bien plus de structure à notre marketing digital. Nous avons vu une meilleure visibilité pour les services les plus importants pour notre cabinet, ainsi que des demandes plus pertinentes. Ce que j'apprécie le plus, c'est qu'ils expliquent ce qu'ils font et pourquoi.",
           "role": "Associé Gérant",
-          "company": "Cabinet d'avocats, États-Unis"
+          "company": "Cabinet d'avocats, États-Unis",
+          "name": "Sean Murphy"
         },
         "californiaEcommerce": {
           "flag": "🇺🇸",
           "quote": "Notre site ecommerce recevait du trafic, mais cela ne se traduisait pas en assez de ventes. DSS a travaillé sur le SEO de nos produits et catégories ainsi que sur la CRO, et la différence a été notable. L'équipe considère l'ensemble du parcours client plutôt que de se concentrer uniquement sur le classement, ce qui a été rafraîchissant.",
           "role": "Fondateur",
-          "company": "Marque ecommerce, Californie, États-Unis"
+          "company": "Marque ecommerce, Californie, États-Unis",
+          "name": "Laura Bennett"
         },
         "canada": {
           "flag": "🇨🇦",
           "quote": "DSS nous a aidés à construire une présence locale bien plus forte et à améliorer la façon dont notre site cible les recherches immobilières à forte intention. Nous avons constaté une meilleure visibilité sur nos zones clés et une amélioration notable de la qualité des demandes. L'équipe est réactive, transparente et véritablement investie dans notre croissance.",
           "role": "Directeur",
-          "company": "Agence immobilière, Canada"
+          "company": "Agence immobilière, Canada",
+          "name": "Patrick Sullivan"
         },
         "india": {
           "flag": "🇮🇳",
@@ -338,18 +341,22 @@
           "company": "Établissement de santé, Inde"
         },
         "australia": {
-          "flag": "🇦🇺",
+          "flag": "🇮🇳",
           "quote": "DSS nous a aidés à obtenir bien plus de visibilité sur un marché local très concurrentiel. Leur stratégie de SEO local et de contenu a facilité la découverte de nos services par les clients qui les recherchaient activement. Nous avons aussi constaté une amélioration de la qualité des leads via le site.",
-          "role": "Propriétaire",
-          "company": "Entreprise de services à domicile, Australie"
+          "role": "Fondateur",
+          "company": "IOI Select Stays | INNOVATIVE INDIA | IOI Private, India",
+          "name": "Avtarit Arora"
         },
         "newZealand": {
           "flag": "🇳🇿",
           "quote": "Ce qui a marqué chez DSS, c'est la façon dont ils ont connecté SEO, contenu et conversion plutôt que de les traiter comme des activités séparées. Ils ont pris le temps de comprendre notre entreprise et ont construit la stratégie autour de nos objectifs réels. Nous avons désormais une stratégie digitale plus claire et une bien meilleure visibilité sur notre marché cible.",
           "role": "Fondateur",
-          "company": "Cabinet de services professionnels, Nouvelle-Zélande"
+          "company": "Cabinet de services professionnels, Nouvelle-Zélande",
+          "name": "Thomas Walker"
         }
-      }
+      },
+      "previous": "Témoignage précédent",
+      "next": "Témoignage suivant"
     },
     "blogTeaser": {
       "eyebrow": "Agence SEO pour l'Australie",

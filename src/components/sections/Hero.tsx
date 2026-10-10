@@ -1,55 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useMotionValue, useTransform, animate } from "framer-motion";
+import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { clsx } from "clsx";
+import Image from "next/image";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
 import DotGridWave from "@/components/sections/DotGridWave";
 
 const STEP_INTERVAL_MS = 3400;
 
-// The hero's headline is a single fixed title now (no rotating phrase list
-// in the current content), but the right-hand editorial stat panel still
-// gets to cycle — through the same four "Proof" numbers shown just below
-// in StatsBar, so it doesn't invent anything new.
-const STAT_KEYS = ["businesses", "experience", "industries", "countries"] as const;
-const STAT_VALUES: Record<(typeof STAT_KEYS)[number], number> = {
-  businesses: 250,
-  experience: 30,
-  industries: 30,
-  countries: 50,
-};
-
-function BigStat({ value }: { value: number }) {
-  const [display, setDisplay] = useState(0);
-
-  useEffect(() => {
-    const controls = animate(0, value, {
-      duration: 1,
-      ease: [0.16, 1, 0.3, 1],
-      onUpdate: (v) => setDisplay(Math.round(v)),
-    });
-    return () => controls.stop();
-  }, [value]);
-
-  return (
-    <p className="font-display text-[5.5rem] font-semibold leading-[0.95] tabular-nums text-ink xl:text-[7rem]">
-      {display}
-      <span className="text-blue">+</span>
-    </p>
-  );
-}
+// The background glow drifts through four positions on a timer.
+const STEP_COUNT = 4;
 
 export default function Hero() {
   const t = useTranslations("home.hero");
-  const tStat = useTranslations("home.stats");
 
   const [stepIndex, setStepIndex] = useState(0);
   const [reducedMotion, setReducedMotion] = useState(false);
 
-  const STEP_COUNT = STAT_KEYS.length;
   const progress = useMotionValue(0);
   const bgColor = useTransform(progress, [0, 1], ["#ffffff", "#f7f9ff"]);
   const glowOpacity = useTransform(progress, [0, 1], [0.05, 0.12]);
@@ -61,8 +30,8 @@ export default function Hero() {
   const parallaxY = useTransform(progress, [0, 1], [50, -50]);
   const parallaxOpacity = useTransform(progress, [0, 1], [0.02, 0.05]);
 
-  // No scroll-pin, no scroll-jacking: the stat panel simply plays on its
-  // own timer, so scrolling past the hero is 100% native.
+  // No scroll-pin, no scroll-jacking: the glow simply plays on its own
+  // timer, so scrolling past the hero is 100% native.
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       setReducedMotion(true);
@@ -74,7 +43,7 @@ export default function Hero() {
     }, STEP_INTERVAL_MS);
 
     return () => clearInterval(id);
-  }, [STEP_COUNT]);
+  }, []);
 
   useEffect(() => {
     if (reducedMotion) return;
@@ -83,9 +52,7 @@ export default function Hero() {
       ease: [0.16, 1, 0.3, 1],
     });
     return () => controls.stop();
-  }, [stepIndex, reducedMotion, progress, STEP_COUNT]);
-
-  const activeStatKey = STAT_KEYS[stepIndex];
+  }, [stepIndex, reducedMotion, progress]);
 
   // The title's last word gets the hand-drawn underline accent — a loose,
   // imperfect marker-stroke, not a machine-straight line.
@@ -119,7 +86,7 @@ export default function Hero() {
         <DotGridWave reducedMotion={reducedMotion} />
 
         <Container className="relative">
-          <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div className="grid items-center gap-10 lg:grid-cols-[1fr_1.05fr] lg:gap-8">
             <div>
               <motion.p
                 initial={{ opacity: 0, y: 14 }}
@@ -197,40 +164,26 @@ export default function Hero() {
             </div>
 
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
-              className="relative hidden lg:block"
+              initial={{ opacity: 0, y: 24, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
+              className="relative mx-auto w-full max-w-[40rem] lg:max-w-none"
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted">
-                {t("panelEyebrow")}
-              </p>
-
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={stepIndex}
-                  initial={{ opacity: 0, y: 16 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -16 }}
-                  transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-                  className="mt-5"
-                >
-                  <BigStat value={STAT_VALUES[activeStatKey]} />
-                  <p className="mt-3 text-lg text-muted">{tStat(activeStatKey)}</p>
-                </motion.div>
-              </AnimatePresence>
-
-              <div className="mt-8 flex items-center gap-2" aria-hidden>
-                {STAT_KEYS.map((_, i) => (
-                  <span
-                    key={i}
-                    className={clsx(
-                      "h-1 rounded-full transition-all duration-500 ease-out",
-                      i === stepIndex ? "w-9 bg-blue" : "w-4 bg-line"
-                    )}
-                  />
-                ))}
-              </div>
+              <motion.div
+                animate={reducedMotion ? undefined : { y: [0, -6, 0] }}
+                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+                className="relative aspect-[3/2]"
+              >
+                <Image
+                  src="/images/home/hero-growth-engine.png"
+                  alt=""
+                  fill
+                  priority
+                  quality={90}
+                  sizes="(min-width: 1280px) 640px, (min-width: 1024px) 50vw, (min-width: 640px) 40rem, 100vw"
+                  className="object-contain"
+                />
+              </motion.div>
             </motion.div>
           </div>
         </Container>

@@ -83,8 +83,7 @@
         "figma": "Figma"
       },
       "previous": "Logos anteriores",
-      "next": "Logos siguientes",
-      "slide": "Mostrar logos {n}"
+      "next": "Logos siguientes"
     },
     "searchShift": {
       "titleLine1": "La búsqueda ha cambiado.",
@@ -311,25 +310,29 @@
           "flag": "🇮🇪",
           "quote": "Llegamos a DSS porque nuestra visibilidad orgánica se había estancado y nos costaba llegar a la audiencia correcta. Su estrategia de SEO nos dio una dirección mucho más clara, especialmente en SEO técnico y contenido. La comunicación ha sido excelente en todo momento, y por fin vemos nuestro crecimiento orgánico avanzando en la dirección correcta.",
           "role": "Directora de Marketing",
-          "company": "Empresa SaaS, Irlanda"
+          "company": "Empresa SaaS, Irlanda",
+          "name": "Eoin McCarthy"
         },
         "usaLegal": {
           "flag": "🇺🇸",
           "quote": "DSS nos ayudó a mejorar nuestra presencia en búsqueda local y a dar mucha más estructura a nuestro marketing digital. Empezamos a ver mejor visibilidad para los servicios que más importan a nuestro despacho, junto con consultas más relevantes. Lo que más valoro es que explican qué están haciendo y por qué.",
           "role": "Socio Director",
-          "company": "Despacho de abogados, EE. UU."
+          "company": "Despacho de abogados, EE. UU.",
+          "name": "Sean Murphy"
         },
         "californiaEcommerce": {
           "flag": "🇺🇸",
           "quote": "Nuestro sitio ecommerce recibía tráfico, pero no se traducía en suficientes ventas. DSS trabajó en el SEO de nuestros productos y categorías junto con CRO, y la diferencia ha sido notable. El equipo mira todo el recorrido del cliente en lugar de centrarse solo en el ranking, algo que se ha sentido muy refrescante.",
           "role": "Fundador",
-          "company": "Marca ecommerce, California, EE. UU."
+          "company": "Marca ecommerce, California, EE. UU.",
+          "name": "Laura Bennett"
         },
         "canada": {
           "flag": "🇨🇦",
           "quote": "DSS nos ayudó a construir una presencia local mucho más fuerte y a mejorar cómo nuestra web capta búsquedas inmobiliarias de alta intención. Hemos visto mejor visibilidad en nuestras ubicaciones clave y una mejora notable en la calidad de las consultas. El equipo es receptivo, transparente y genuinamente comprometido con nuestro crecimiento.",
           "role": "Director",
-          "company": "Inmobiliaria, Canadá"
+          "company": "Inmobiliaria, Canadá",
+          "name": "Patrick Sullivan"
         },
         "india": {
           "flag": "🇮🇳",
@@ -338,18 +341,22 @@
           "company": "Empresa de salud, India"
         },
         "australia": {
-          "flag": "🇦🇺",
+          "flag": "🇮🇳",
           "quote": "DSS nos ayudó a conseguir mucha más visibilidad en un mercado local muy competitivo. Su estrategia de SEO local y contenido facilitó que los clientes nos encontraran cuando buscaban activamente nuestros servicios. También hemos notado una mejora en la calidad de los leads que llegan a través de la web.",
-          "role": "Propietario",
-          "company": "Empresa de servicios del hogar, Australia"
+          "role": "Fundador",
+          "company": "IOI Select Stays | INNOVATIVE INDIA | IOI Private, India",
+          "name": "Avtarit Arora"
         },
         "newZealand": {
           "flag": "🇳🇿",
           "quote": "Lo que más destacó de DSS fue cómo conectaron SEO, contenido y conversión en lugar de tratarlos como actividades separadas. Se tomaron el tiempo de entender nuestro negocio y construyeron la estrategia alrededor de nuestros objetivos reales. Ahora tenemos una estrategia digital más clara y mucha mejor visibilidad en nuestro mercado objetivo.",
           "role": "Fundador",
-          "company": "Empresa de servicios profesionales, Nueva Zelanda"
+          "company": "Empresa de servicios profesionales, Nueva Zelanda",
+          "name": "Thomas Walker"
         }
-      }
+      },
+      "previous": "Testimonio anterior",
+      "next": "Testimonio siguiente"
     },
     "blogTeaser": {
       "eyebrow": "Agencia SEO para Australia",

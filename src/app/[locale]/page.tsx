@@ -75,6 +75,9 @@ export default async function HomePage({
       <StatsBar />
       <ToolsStrip />
       <MobileStackCard>
+        <ServicesIndex />
+      </MobileStackCard>
+      <MobileStackCard>
         <SearchShiftSection />
       </MobileStackCard>
       <MobileStackCard>
@@ -82,9 +85,6 @@ export default async function HomePage({
       </MobileStackCard>
       <MobileStackCard>
         <IndustriesSection />
-      </MobileStackCard>
-      <MobileStackCard>
-        <ServicesIndex />
       </MobileStackCard>
       <MobileStackCard>
         <ProcessSteps namespace="home.process" />
