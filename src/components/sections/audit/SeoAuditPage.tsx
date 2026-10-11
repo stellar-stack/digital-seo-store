@@ -155,7 +155,7 @@ export default async function SeoAuditPage({ locale }: { locale: string }) {
         />
       </MobileStackCard>
       <MobileStackCard>
-        <BlogTeaser posts={posts} />
+        <BlogTeaser posts={posts} tone="mist" />
       </MobileStackCard>
       <MobileStackCard>
         <ServiceFAQ title={t("faq.title")} items={faqItems} />

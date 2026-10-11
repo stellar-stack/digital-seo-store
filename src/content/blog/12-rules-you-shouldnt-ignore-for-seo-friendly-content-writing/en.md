@@ -3,6 +3,9 @@ title: "12 Rules You Shouldn't Ignore For SEO-Friendly Content Writing"
 excerpt: "A practical, no-fluff guide to the keyword research, on-page structure, and writing habits that turn content into pages that actually rank."
 date: "2022-11-27"
 readTime: "9 min read"
+image: "/images/blog/increase-domain-authority.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 SEO content writing isn't guesswork, and it isn't a closely guarded secret either — it's a discipline anyone can learn. A website without SEO-friendly, purposeful content has little chance of being found, no matter how good the product or service behind it is.

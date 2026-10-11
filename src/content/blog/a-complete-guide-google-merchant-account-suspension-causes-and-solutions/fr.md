@@ -3,6 +3,9 @@ title: "Guide Complet : Causes et Solutions de Suspension d'un Compte Google Mer
 excerpt: "Un guide pratique sur les raisons de suspension des comptes Google Merchant Center, leurs causes les plus fréquentes et la marche à suivre pour obtenir une réintégration."
 date: "2022-03-21"
 readTime: "7 min de lecture"
+image: "/images/blog/google-merchant-suspension.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 Découvrir que son compte Google Merchant Center a été suspendu est toujours déstabilisant, surtout lorsque Google n'explique pas pourquoi. Que votre boutique en ligne tourne sous Magento, Shopify ou toute autre plateforme, si Google a suspendu votre compte Merchant Center, sachez que vous n'êtes pas seul. Ces suspensions sont fréquentes et, dans la plupart des cas, réversibles. Mais il n'existe pas de solution unique applicable à toutes les situations, car Google n'est pas tenu de communiquer la raison exacte de sa décision. Ce que vous pouvez faire, en revanche, c'est comprendre comment fonctionne ce processus et quels éléments déclenchent le plus souvent une suspension, afin d'agir sur des bases solides plutôt qu'à l'aveugle. Ce guide détaille le déroulement d'une suspension, les causes les plus courantes que nous observons sur les comptes, et la marche à suivre pour y répondre efficacement.

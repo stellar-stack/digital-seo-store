@@ -363,7 +363,9 @@
       "eyebrow": "The Blog",
       "title": "Insights for the New Search Era & Digital Growth",
       "description": "Stay updated and keep yourself one step ahead of the competitive edge with the latest happenings in this online world.",
-      "readMore": "Read More"
+      "readMore": "Read More",
+      "showMore": "Show more",
+      "lastUpdated": "Last Updated:"
     },
     "faq": {
       "title": "Often asked questions. Talk to us, if you have more",
@@ -1228,6 +1230,21 @@
       "eyebrow": "Blog",
       "title": "Digital marketing insights",
       "subtitle": "Stay ahead of the curve with practical, no-fluff guidance on SEO, PPC, and growth marketing from our team."
+    },
+    "post": {
+      "navigation": "Navigation",
+      "humanBadge": "All our content written by humans for humans",
+      "writtenBy": "Written by",
+      "reviewedBy": "Reviewed by",
+      "showAllToc": "Show all table of contents",
+      "share": "Share",
+      "shareOn": "Share on {network}",
+      "newsletterAccent": "Subscribe",
+      "newsletterRest": "to our newsletter",
+      "emailPlaceholder": "Your Email",
+      "subscribe": "Subscribe",
+      "author": "Author",
+      "onLinkedin": "{name} on LinkedIn"
     }
   },
   "faqPage": {

@@ -3,6 +3,9 @@ title: "12 règles incontournables pour rédiger un contenu optimisé pour le SE
 excerpt: "Un guide concret sur la recherche de mots-clés, la structure on-page et les réflexes rédactionnels qui transforment un contenu en page réellement bien positionnée."
 date: "2022-11-27"
 readTime: "9 min de lecture"
+image: "/images/blog/increase-domain-authority.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 La rédaction de contenu SEO n'est ni un exercice hasardeux, ni un secret bien gardé : c'est une discipline que l'on peut apprendre. Un site sans contenu pertinent et optimisé pour le référencement a peu de chances d'être trouvé, aussi bon que soit le produit ou le service qu'il présente.

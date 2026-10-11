@@ -3,6 +3,9 @@ title: "Comment augmenter l'autorité de domaine : 11 méthodes éprouvées"
 excerpt: "Un guide pratique pour comprendre l'autorité de domaine et les onze stratégies de netlinking, techniques et éditoriales qui l'augmentent durablement."
 date: "2025-10-02"
 readTime: "9 min de lecture"
+image: "/images/blog/increase-domain-authority.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 Deux pages peuvent cibler le même mot-clé, appliquer les mêmes bonnes pratiques SEO on-page, et pourtant se retrouver à des positions très différentes sur Google. L'une des raisons est l'autorité de domaine — une mesure de la confiance et du potentiel de classement qu'un site a accumulés au fil du temps.

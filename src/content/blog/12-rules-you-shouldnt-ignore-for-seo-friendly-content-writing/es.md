@@ -3,6 +3,9 @@ title: "12 reglas imprescindibles para redactar contenido optimizado para SEO"
 excerpt: "Una guía práctica sobre investigación de palabras clave, estructura on-page y hábitos de redacción que convierten un contenido en una página que realmente posiciona."
 date: "2022-11-27"
 readTime: "9 min de lectura"
+image: "/images/blog/increase-domain-authority.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 Redactar contenido SEO no es cuestión de azar, ni tampoco un secreto bien guardado: es una disciplina que cualquiera puede aprender. Un sitio web sin contenido relevante y optimizado para buscadores tiene pocas probabilidades de ser encontrado, por bueno que sea el producto o servicio que hay detrás.

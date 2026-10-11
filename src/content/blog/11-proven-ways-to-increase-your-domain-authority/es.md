@@ -3,6 +3,9 @@ title: "Cómo aumentar la autoridad de dominio: 11 métodos probados"
 excerpt: "Una guía práctica sobre la autoridad de dominio y las once estrategias de link building, técnicas y de contenido que la aumentan de forma duradera."
 date: "2025-10-02"
 readTime: "9 min de lectura"
+image: "/images/blog/increase-domain-authority.jpg"
+author: "jane-doe"
+reviewer: "john-smith"
 ---
 
 Dos páginas pueden apuntar a la misma palabra clave, aplicar las mismas buenas prácticas de SEO on-page y aun así ocupar posiciones muy distintas en Google. Una de las razones es la autoridad de dominio: una medida de la confianza y el potencial de posicionamiento que un sitio ha acumulado con el tiempo.

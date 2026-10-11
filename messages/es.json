@@ -363,7 +363,9 @@
       "eyebrow": "Agencia SEO para Australia",
       "title": "Blog",
       "description": "Mantente actualizado y ve un paso por delante de la competencia con las últimas novedades del mundo online.",
-      "readMore": "Leer más"
+      "readMore": "Leer más",
+      "showMore": "Ver más",
+      "lastUpdated": "Última actualización:"
     },
     "faq": {
       "title": "Preguntas frecuentes. Contáctanos si tienes más dudas",
@@ -1228,6 +1230,21 @@
       "eyebrow": "Blog",
       "title": "Ideas sobre marketing digital",
       "subtitle": "Mantente a la vanguardia con consejos prácticos y sin rodeos sobre SEO, PPC y marketing de crecimiento de nuestro equipo."
+    },
+    "post": {
+      "navigation": "Navegación",
+      "humanBadge": "Todo nuestro contenido está escrito por humanos para humanos",
+      "writtenBy": "Escrito por",
+      "reviewedBy": "Revisado por",
+      "showAllToc": "Mostrar toda la tabla de contenidos",
+      "share": "Compartir",
+      "shareOn": "Compartir en {network}",
+      "newsletterAccent": "Suscríbete",
+      "newsletterRest": "a nuestro boletín",
+      "emailPlaceholder": "Tu correo electrónico",
+      "subscribe": "Suscribirse",
+      "author": "Autor",
+      "onLinkedin": "{name} en LinkedIn"
     }
   },
   "faqPage": {

@@ -131,7 +131,7 @@ export default async function PpcServicesPage({ locale }: { locale: string }) {
         />
       </MobileStackCard>
       <MobileStackCard>
-        <BlogTeaser posts={posts} />
+        <BlogTeaser posts={posts} tone="mist" />
       </MobileStackCard>
       <MobileStackCard>
         <ServiceFAQ items={faqItems} />

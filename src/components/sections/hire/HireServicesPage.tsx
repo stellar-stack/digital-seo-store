@@ -128,7 +128,7 @@ export default async function HireServicesPage({ locale }: { locale: string }) {
         />
       </MobileStackCard>
       <MobileStackCard>
-        <BlogTeaser posts={posts} title={t("blog.title")} description={t("blog.description")} />
+        <BlogTeaser posts={posts} title={t("blog.title")} description={t("blog.description")} tone="mist" />
       </MobileStackCard>
       <MobileStackCard>
         <ServiceFAQ title={t("faq.title")} items={faqItems} />

@@ -9,6 +9,9 @@ export type BlogFrontmatter = {
   excerpt: string;
   date: string;
   readTime: string;
+  image?: string;
+  author?: string;
+  reviewer?: string;
 };
 
 export type BlogPost = BlogFrontmatter & {
@@ -39,6 +42,9 @@ export function getBlogPost(slug: string, locale: string): BlogPost | null {
     excerpt: data.excerpt,
     date: data.date,
     readTime: data.readTime,
+    image: data.image,
+    author: data.author,
+    reviewer: data.reviewer,
     content,
   };
 }
