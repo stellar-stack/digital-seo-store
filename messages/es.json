@@ -24,7 +24,7 @@
       "hireSeoExperts": "Contratar expertos SEO"
     },
     "about": "Nosotros",
-    "pricing": "Precios",
+    "answers": "Respuestas",
     "blog": "Blog",
     "contact": "Contacto",
     "cta": "Reserva una consulta gratuita",
@@ -1485,83 +1485,6 @@
     "cta": {
       "title": "¿Listo para hacer crecer tu negocio? Trabajemos juntos.",
       "subtitle": "Te ayudaremos a construir una estrategia basada en datos y alineada con tus objetivos — con el apoyo que necesitas en cada paso."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "eyebrow": "Precios",
-      "title": "Precios claros, construidos en torno a resultados",
-      "subtitle": "Sin cuotas ocultas, sin tarifas ambiguas. Elige un punto de partida abajo y ajustaremos el alcance a tus objetivos en una consulta gratuita."
-    },
-    "plans": [
-      {
-        "name": "Starter",
-        "price": "2.450 $",
-        "period": "/mes",
-        "description": "Para negocios en crecimiento listos para construir una base SEO sólida.",
-        "features": [
-          "Auditoría SEO técnica y on-page completa",
-          "Investigación de palabras clave y estrategia",
-          "Optimización on-page (hasta 10 páginas)",
-          "Construcción de enlaces mensual",
-          "Informe de rendimiento mensual",
-          "Gestor de cuenta dedicado"
-        ],
-        "cta": "Empezar"
-      },
-      {
-        "name": "Growth",
-        "price": "5.990 $",
-        "period": "/mes",
-        "description": "Nuestro plan más popular para escalar tus ingresos orgánicos.",
-        "features": [
-          "Todo lo incluido en Starter",
-          "Optimización on-page ampliada (hasta 30 páginas)",
-          "Producción de contenido orientado a SEO",
-          "Construcción de enlaces acelerada",
-          "Fundamentos de optimización de conversión",
-          "Llamadas de estrategia quincenales"
-        ],
-        "cta": "Empezar"
-      },
-      {
-        "name": "Enterprise",
-        "price": "8.950 $",
-        "period": "/mes",
-        "description": "Para marcas consolidadas con necesidades SEO complejas y de alto impacto.",
-        "features": [
-          "Todo lo incluido en Growth",
-          "Optimización de páginas ilimitada",
-          "Equipo dedicado de contenido y enlaces",
-          "SEO técnico avanzado y migraciones de sitio",
-          "Panel de informes personalizado",
-          "Llamadas de estrategia semanales"
-        ],
-        "cta": "Hablar con ventas"
-      }
-    ],
-    "note": "¿Necesitas algo más específico — un proyecto puntual, una migración de sitio o un alcance a medida? Contáctanos para una propuesta personalizada.",
-    "faq": {
-      "eyebrow": "Preguntas sobre precios",
-      "title": "Preguntas frecuentes sobre nuestros precios",
-      "items": [
-        {
-          "question": "¿Hay contratos a largo plazo?",
-          "answer": "Trabajamos con acuerdos mes a mes tras un compromiso inicial mínimo de 3 meses — el tiempo que suele tardar una estrategia SEO en mostrar resultados medibles."
-        },
-        {
-          "question": "¿Qué incluye la consulta gratuita?",
-          "answer": "Una revisión de tu sitio actual y visibilidad en buscadores, una conversación sobre tus objetivos, y una recomendación clara sobre qué plan (o alcance a medida) se ajusta a tu negocio — sin presión ni compromiso."
-        },
-        {
-          "question": "¿Puedo cambiar de plan a medida que mi negocio crece?",
-          "answer": "Sí — la mayoría de nuestros clientes empiezan con un plan más pequeño y escalan a medida que los resultados se acumulan. Revisamos tu plan juntos en cada llamada de estrategia."
-        }
-      ]
-    },
-    "cta": {
-      "title": "¿No sabes qué plan es el adecuado para ti?",
-      "subtitle": "Reserva una consulta gratuita y te recomendaremos un alcance según tus objetivos — sin compromiso."
     }
   },
   "localeSuggestion": {

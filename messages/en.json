@@ -24,7 +24,7 @@
       "hireSeoExperts": "Hire SEO Experts"
     },
     "about": "About",
-    "pricing": "Pricing",
+    "answers": "Answers",
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Book a free consultation",
@@ -1345,6 +1345,14 @@
       "subtitle": "Talk to us directly — we're happy to walk through anything specific to your business."
     }
   },
+  "answersPage": {
+    "title": "FAQs for Digital SEO Store",
+    "searchPlaceholder": "Type your keyword to search...",
+    "search": "Search",
+    "clearSearch": "Clear search",
+    "topics": "Topics",
+    "noResults": "No questions match “{query}”."
+  },
   "thankYou": {
     "title": "Thank you — your message is on its way to us.",
     "subtitle": "We'll get back to you within one business day. In the meantime, feel free to explore our services.",
@@ -1485,83 +1493,6 @@
     "cta": {
       "title": "Ready to grow your business? Let's work together.",
       "subtitle": "We'll help you build a data-driven strategy aligned to your goals — with the support you need every step of the way."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "eyebrow": "Pricing",
-      "title": "Straightforward pricing, built around results",
-      "subtitle": "No hidden fees, no vague retainers. Choose a starting point below, then we'll tailor the scope to your goals during a free consultation."
-    },
-    "plans": [
-      {
-        "name": "Starter",
-        "price": "$2,450",
-        "period": "/month",
-        "description": "For growing businesses ready to build a real SEO foundation.",
-        "features": [
-          "Full technical & on-page SEO audit",
-          "Keyword research & strategy",
-          "On-page optimization (up to 10 pages)",
-          "Monthly link building",
-          "Monthly performance reporting",
-          "Dedicated account manager"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "name": "Growth",
-        "price": "$5,990",
-        "period": "/month",
-        "description": "Our most popular plan for scaling organic revenue.",
-        "features": [
-          "Everything in Starter",
-          "Expanded on-page optimization (up to 30 pages)",
-          "SEO-driven content production",
-          "Accelerated link building",
-          "Conversion rate optimization basics",
-          "Bi-weekly strategy calls"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "name": "Enterprise",
-        "price": "$8,950",
-        "period": "/month",
-        "description": "For established brands with complex, high-stakes SEO needs.",
-        "features": [
-          "Everything in Growth",
-          "Unlimited page optimization",
-          "Dedicated content & outreach team",
-          "Advanced technical SEO & site migrations",
-          "Custom reporting dashboard",
-          "Weekly strategy calls"
-        ],
-        "cta": "Talk to sales"
-      }
-    ],
-    "note": "Need something more specific — a single project, a site migration, or a custom scope? Contact us for a tailored proposal.",
-    "faq": {
-      "eyebrow": "Pricing FAQs",
-      "title": "Questions about our pricing",
-      "items": [
-        {
-          "question": "Are there any long-term contracts?",
-          "answer": "We work on month-to-month agreements after an initial 3-month minimum — the time it typically takes for an SEO strategy to start showing measurable traction."
-        },
-        {
-          "question": "What's included in the free consultation?",
-          "answer": "A review of your current site and search visibility, a discussion of your goals, and a clear recommendation on which plan (or custom scope) fits your business — no pressure, no obligation."
-        },
-        {
-          "question": "Can I switch plans as my business grows?",
-          "answer": "Yes — most clients start smaller and scale up as results compound. We'll revisit your plan together at any regular strategy call."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Not sure which plan is right for you?",
-      "subtitle": "Book a free consultation and we'll recommend a scope based on your goals — no obligation."
     }
   },
   "localeSuggestion": {

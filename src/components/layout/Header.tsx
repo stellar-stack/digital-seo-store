@@ -79,7 +79,7 @@ export default function Header() {
 
   const links = [
     { href: "/about", label: t("about") },
-    { href: "/pricing", label: t("pricing") },
+    { href: "/answers", label: t("answers") },
     { href: "/blog", label: t("blog") },
   ];
 

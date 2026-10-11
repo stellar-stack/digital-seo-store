@@ -35,6 +35,11 @@ const nextConfig: NextConfig = {
         destination: "/:locale/services/conversion-rate-optimization",
         permanent: true,
       },
+      {
+        source: "/:locale(en|fr|es)/pricing",
+        destination: "/:locale/answers",
+        permanent: true,
+      },
     ];
   },
 };

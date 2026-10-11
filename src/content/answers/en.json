@@ -1,0 +1,1698 @@
+{
+  "categories": [
+    {
+      "id": "search-engine-optimization",
+      "title": "Search Engine Optimization",
+      "items": [
+        {
+          "id": "what-is-search-engine-optimization",
+          "question": "What is Search Engine Optimization?",
+          "answer": "Search Engine Optimization (SEO) is a process of optimizing web pages in order to rank higher on search engine result pages."
+        },
+        {
+          "id": "what-is-the-history-of-seo",
+          "question": "What is The History of SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-does-seo-work",
+          "question": "How does SEO work?",
+          "answer": null
+        },
+        {
+          "id": "why-is-seo-so-important",
+          "question": "Why is SEO so important?",
+          "answer": null
+        },
+        {
+          "id": "what-is-optimization-in-search-engines",
+          "question": "What is Optimization in Search Engines?",
+          "answer": null
+        },
+        {
+          "id": "how-can-you-choose-the-right-keywords-for-seo",
+          "question": "How Can You Choose The Right Keywords for SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-seo-tools",
+          "question": "What are the best SEO tools?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-search-engine-optimization-strategy",
+          "question": "What is the best Search Engine Optimization strategy?",
+          "answer": null
+        },
+        {
+          "id": "why-is-seo-important-for-your-website",
+          "question": "Why is SEO important for your website?",
+          "answer": null
+        },
+        {
+          "id": "what-are-types-of-seo",
+          "question": "What are types of SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-black-hat-seo",
+          "question": "What is Black-Hat SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-white-hat-seo",
+          "question": "What is White-Hat SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-scope-of-seo",
+          "question": "What is the scope of SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-cost-of-seo",
+          "question": "What is the Cost of SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-to-learn-seo",
+          "question": "How to learn SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-seo-in-digital-marketing",
+          "question": "What is SEO in Digital Marketing?",
+          "answer": null
+        },
+        {
+          "id": "is-seo-a-part-of-digital-marketing",
+          "question": "Is SEO a part of Digital Marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-are-seo-techniques",
+          "question": "What Are SEO Techniques?",
+          "answer": null
+        },
+        {
+          "id": "how-long-does-it-take-for-seo-to-work",
+          "question": "How Long Does it Take for SEO to Work?",
+          "answer": null
+        },
+        {
+          "id": "what-it-meant-by-website-optimization",
+          "question": "What it Meant by Website Optimization?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-3-important-components-in-seo-strategy",
+          "question": "What Are the 3 Important Components in SEO Strategy?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-optimize-keywords-for-seo",
+          "question": "How Do I Optimize Keywords for SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-seo-social-media-optimization",
+          "question": "What is SEO Social Media Optimization?",
+          "answer": null
+        },
+        {
+          "id": "what-is-seo-hosting",
+          "question": "What is SEO Hosting?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-importance-of-seo-in-todays-business",
+          "question": "What is the Importance of SEO in Today’s Business?",
+          "answer": null
+        },
+        {
+          "id": "whats-the-difference-between-seo-and-online-marketing",
+          "question": "What’s The Difference Between SEO and Online Marketing?",
+          "answer": null
+        },
+        {
+          "id": "whats-the-difference-between-pay-per-click-ppc-and-seo",
+          "question": "What’s The Difference Between Pay-per-click(PPC) and SEO?",
+          "answer": null
+        },
+        {
+          "id": "is-search-engine-optimization-easy",
+          "question": "Is Search Engine Optimization Easy?",
+          "answer": null
+        },
+        {
+          "id": "can-we-do-seo-by-self-or-hire-seo-professionals",
+          "question": "Can We Do SEO by Self or Hire SEO Professionals?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-outsourcing-seo-to-a-company",
+          "question": "What Are The Benefits of Outsourcing SEO to A Company?",
+          "answer": null
+        },
+        {
+          "id": "is-seo-being-effective-to-increase-sales",
+          "question": "Is SEO Being Effective to Increase Sales?",
+          "answer": null
+        },
+        {
+          "id": "what-are-some-common-misconceptions-about-seo",
+          "question": "What Are Some Common Misconceptions About SEO?",
+          "answer": null
+        },
+        {
+          "id": "does-seo-change-every-day",
+          "question": "Does SEO Change Every Day?",
+          "answer": null
+        },
+        {
+          "id": "who-are-pioneers-of-seo",
+          "question": "Who Are Pioneers of SEO?",
+          "answer": null
+        },
+        {
+          "id": "latest-updates-in-seo-2023",
+          "question": "Latest Updates in SEO 2023?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-manage-on-page-seo-in-wordpress",
+          "question": "How Do You Manage On-Page SEO in WordPress?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-choose-the-best-seo-company",
+          "question": "How Do I Choose The Best SEO Company?",
+          "answer": null
+        },
+        {
+          "id": "what-seo-services-does-seo-company-offer",
+          "question": "What SEO Services Does SEO Company Offer?",
+          "answer": null
+        },
+        {
+          "id": "why-do-a-b-testing-of-serp-title-description-to-improve-click-through",
+          "question": "Why Do A/B Testing of SERP Title & Description to Improve Click Through",
+          "answer": null
+        },
+        {
+          "id": "how-does-bounce-rate-affect-seo",
+          "question": "How Does Bounce Rate Affect SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-to-map-keywords-for-target-pages",
+          "question": "How to Map Keywords for Target Pages?",
+          "answer": null
+        },
+        {
+          "id": "how-to-optimize-robot-txt",
+          "question": "How to Optimize Robot.txt?",
+          "answer": null
+        },
+        {
+          "id": "why-should-i-hire-a-professional-seo-services-company",
+          "question": "Why Should I Hire A Professional SEO Services Company?",
+          "answer": null
+        },
+        {
+          "id": "why-should-i-choose-a-digital-seo-store-for-professional-seo-services",
+          "question": "Why Should I Choose a Digital SEO Store for Professional SEO Services?",
+          "answer": null
+        },
+        {
+          "id": "how-can-a-professional-seo-service-company-help-you-achieve-target",
+          "question": "How Can A Professional SEO Service Company Help You Achieve Target?",
+          "answer": null
+        },
+        {
+          "id": "how-will-seo-increase-your-business-revenues",
+          "question": "How Will SEO Increase Your Business Revenues?",
+          "answer": null
+        },
+        {
+          "id": "will-internal-links-help-seo-ranking",
+          "question": "Will Internal Links Help SEO Ranking?",
+          "answer": null
+        },
+        {
+          "id": "what-is-schema-data-in-seo",
+          "question": "What is Schema Data in SEO?",
+          "answer": null
+        },
+        {
+          "id": "why-do-seo-companies-do-competitors-analysis",
+          "question": "Why Do SEO Companies Do Competitors’ Analysis?",
+          "answer": null
+        },
+        {
+          "id": "does-seo-and-website-maintenance-go-hand-in-hand",
+          "question": "Does SEO And Website Maintenance Go Hand-in-Hand?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "local-seo",
+      "title": "Local SEO",
+      "items": [
+        {
+          "id": "what-is-local-seo",
+          "question": "What is Local SEO?",
+          "answer": "Local SEO is a type of SEO that helps businesses found in local search results on Google. Whenever any searcher nearby your business searches on Google for product or services you’re providing Local SEO will rank you on page for them."
+        },
+        {
+          "id": "what-is-the-purpose-of-local-seo",
+          "question": "What is The Purpose of Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-do-local-seo",
+          "question": "How Do I Do Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-local-seo-v-s-seo",
+          "question": "What is Local SEO V/S SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-differences-between-local-seo-and-global-seo",
+          "question": "What Are The Differences Between Local SEO And Global SEO?",
+          "answer": null
+        },
+        {
+          "id": "is-local-seo-better-than-paid-search",
+          "question": "Is Local SEO Better Than Paid Search?",
+          "answer": null
+        },
+        {
+          "id": "why-is-local-seo-important",
+          "question": "Why is Local SEO Important?",
+          "answer": null
+        },
+        {
+          "id": "what-are-local-seo-strategies",
+          "question": "What are Local SEO Strategies?",
+          "answer": null
+        },
+        {
+          "id": "what-is-local-seo-keyword-research",
+          "question": "What is Local SEO Keyword Research?",
+          "answer": null
+        },
+        {
+          "id": "how-is-local-seo-measured",
+          "question": "How is Local SEO Measured?",
+          "answer": null
+        },
+        {
+          "id": "who-needs-local-seo",
+          "question": "Who Needs Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-local-seo-tools",
+          "question": "What Are The Best Local SEO Tools?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-businesses-to-target-for-local-seo",
+          "question": "What Are The Best Businesses to Target for Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-can-local-seo-increase-sales",
+          "question": "How Can Local SEO Increase Sales?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-take-advantage-of-local-seo-for-my-business",
+          "question": "How Do I Take Advantage of Local SEO for My Business?",
+          "answer": null
+        },
+        {
+          "id": "what-is-local-seo-for-small-businesses",
+          "question": "What is Local SEO for Small Businesses?",
+          "answer": null
+        },
+        {
+          "id": "is-local-seo-important-for-small-business-websites",
+          "question": "Is local SEO Important for Small Business Websites?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-way-to-rank-local-businesses-in-local-seo",
+          "question": "What is the best way to rank local businesses in local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-can-i-improve-my-local-seo-results",
+          "question": "How can I improve my local SEO results?",
+          "answer": null
+        },
+        {
+          "id": "what-is-google-my-business",
+          "question": "What is Google My Business?",
+          "answer": null
+        },
+        {
+          "id": "how-to-create-google-my-business-account-for-local-seo",
+          "question": "How to create Google My Business Account for local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-to-optimize-websites-for-local-seo",
+          "question": "How to Optimize Websites for Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-much-do-seo-companies-charge-for-local-seo",
+          "question": "How much do SEO companies charge for local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-dominate-local-seo-search-rankings",
+          "question": "How do I dominate local SEO search rankings?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-local-seo-ranking-factor",
+          "question": "What is The Best Local SEO Ranking Factor?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-find-the-best-local-seo-company",
+          "question": "How Do I Find The Best Local SEO Company?",
+          "answer": null
+        },
+        {
+          "id": "what-are-some-uncommon-local-seo-mistakes",
+          "question": "What Are Some Uncommon Local SEO Mistakes?",
+          "answer": null
+        },
+        {
+          "id": "what-are-some-common-local-seo-mistakes",
+          "question": "What Are Some Common Local SEO Mistakes?",
+          "answer": null
+        },
+        {
+          "id": "in-local-seo-what-is-the-best-local-seo-software-for-rank-tracking-citation-building-and-client-reporting",
+          "question": "In Local SEO, What Is The Best Local SEO Software for Rank Tracking, Citation Building, And Client Reporting?",
+          "answer": null
+        },
+        {
+          "id": "what-are-citation-sites-and-their-role-in-local-seo",
+          "question": "What Are Citation Sites And Their Role in Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-url-structure-for-local-seo",
+          "question": "What Is the Best URL Structure for Local SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-seo-cost-in-the-usa",
+          "question": "How much does SEO cost in the USA?",
+          "answer": null
+        },
+        {
+          "id": "is-local-seo-still-relevant",
+          "question": "Is local SEO still relevant?",
+          "answer": null
+        },
+        {
+          "id": "how-much-should-i-pay-for-local-seo",
+          "question": "How much should I pay for local SEO?",
+          "answer": null
+        },
+        {
+          "id": "why-is-google-my-business-a-big-part-of-local-seo",
+          "question": "Why is Google My Business a big part of local SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-services-does-the-local-seo-company-provide",
+          "question": "What services does the local SEO company provide?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media",
+      "items": [
+        {
+          "id": "what-is-social-media-marketing",
+          "question": "What is social media marketing?",
+          "answer": "Social media marketing is a branch of digital marketing that uses social media platforms to market products and services. This will help you communicate brand message directly to your audience and increase brand awareness."
+        },
+        {
+          "id": "what-is-the-role-of-social-media-in-marketing",
+          "question": "What is the role of social media in marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-are-social-media-marketing-examples",
+          "question": "What are social media marketing examples?",
+          "answer": null
+        },
+        {
+          "id": "is-social-media-marketing-different-from-digital-marketing",
+          "question": "Is social media marketing different from digital marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-can-social-media-marketing-help-you-build-a-brand",
+          "question": "How can social media marketing help you build a brand?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-social-media-marketing",
+          "question": "What Are the Benefits of Social Media Marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-most-powerful-social-media-marketing-strategy",
+          "question": "What Is the Most Powerful Social Media Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-factors-make-social-media-successful",
+          "question": "What Factors Make Social Media Successful?",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-is-best-for-your-business",
+          "question": "Which Social Media Is Best for Your Business?",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-is-most-popular-facebook",
+          "question": "Which Social Media is Most Popular? Facebook",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-has-the-most-users",
+          "question": "Which Social Media Has the Most Users?",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-pays-the-most",
+          "question": "Which Social Media Pays The Most?",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-is-best-for-marketing",
+          "question": "Which Social Media Is Best for Marketing?",
+          "answer": null
+        },
+        {
+          "id": "which-are-the-best-social-media-marketing-tools",
+          "question": "Which Are the Best Social Media Marketing Tools?",
+          "answer": null
+        },
+        {
+          "id": "how-is-social-media-important-for-businesses",
+          "question": "How Is Social Media Important for Businesses?",
+          "answer": null
+        },
+        {
+          "id": "why-is-social-media-important-for-business-communication",
+          "question": "Why Is Social Media Important for Business Communication?",
+          "answer": null
+        },
+        {
+          "id": "what-social-media-is-best-for-marketing",
+          "question": "What Social Media Is Best for Marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-can-social-media-improve-business",
+          "question": "How Can Social Media Improve Business?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-create-social-media-for-my-business",
+          "question": "How Do I Create Social Media for My Business?",
+          "answer": null
+        },
+        {
+          "id": "how-to-use-social-media-for-business",
+          "question": "How To Use Social Media for Business?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-strategies-for-social-media-marketing",
+          "question": "What are the best strategies for social media marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-improve-my-social-media-presence",
+          "question": "How do I improve my social media presence?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-most-common-mistakes-businesses-make-with-their-social-media-strategies",
+          "question": "What are the most common mistakes businesses make with their social media strategies?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-use-social-media-to-promote-your-business",
+          "question": "How do you use social media to promote your business?",
+          "answer": null
+        },
+        {
+          "id": "how-does-social-media-help-seo",
+          "question": "How does social media help SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-does-social-media-help-businesses-in-increasing-their-revenue",
+          "question": "How does social media help businesses in increasing their revenue?",
+          "answer": null
+        },
+        {
+          "id": "how-does-social-media-attract-customers",
+          "question": "How does social media attract customers?",
+          "answer": null
+        },
+        {
+          "id": "how-many-businesses-use-social-media",
+          "question": "How many businesses use social media?",
+          "answer": null
+        },
+        {
+          "id": "how-can-social-media-help-to-grow-businesses",
+          "question": "How can social media help to grow businesses?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-get-good-business-from-social-media",
+          "question": "How do I get good business from social media?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-risk-of-not-using-social-media-for-business",
+          "question": "What is the risk of not using social media for business?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-time-to-post-on-social-media-for-business",
+          "question": "What is the best time to post on social media for business?",
+          "answer": null
+        },
+        {
+          "id": "how-to-promote-social-media-posts-without-paid-promotion",
+          "question": "How to promote social media posts without paid promotion?",
+          "answer": null
+        },
+        {
+          "id": "whats-the-biggest-pain-point-for-a-small-business-using-social-media-for-marketing",
+          "question": "What’s the biggest pain-point for a small business using social media for marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-do-businesses-maintain-an-active-social-media-presence",
+          "question": "How do businesses maintain an active social media presence?",
+          "answer": null
+        },
+        {
+          "id": "is-google-better-than-social-media-for-business-marketing",
+          "question": "Is Google better than social media for business marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-to-share-content-on-social-media-for-business-promotion",
+          "question": "How to share content on social media for business promotion?",
+          "answer": null
+        },
+        {
+          "id": "which-social-media-platform-is-best-for-your-business",
+          "question": "Which social media platform is best for your business?",
+          "answer": null
+        },
+        {
+          "id": "does-internet-marketing-require-social-media-marketing",
+          "question": "Does internet marketing require social media marketing?",
+          "answer": null
+        },
+        {
+          "id": "is-social-media-marketing-better-for-b2b",
+          "question": "Is social media marketing better for B2B?",
+          "answer": null
+        },
+        {
+          "id": "are-social-media-influencers-helpful-for-business",
+          "question": "Are social media influencers helpful for business?",
+          "answer": null
+        },
+        {
+          "id": "how-does-social-media-help-you-rank-on-search-engines",
+          "question": "How does social media help you rank on search engines?",
+          "answer": null
+        },
+        {
+          "id": "how-social-media-channels-help-you-get-traffic-on-websites",
+          "question": "How social media channels help you get traffic on websites?",
+          "answer": null
+        },
+        {
+          "id": "how-to-optimize-social-media-campaigns",
+          "question": "How to optimize social media campaigns?",
+          "answer": null
+        },
+        {
+          "id": "what-you-shouldnt-do-for-social-media-marketing",
+          "question": "What you shouldn’t do for social media marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-is-social-media-management",
+          "question": "What is social media management?",
+          "answer": null
+        },
+        {
+          "id": "what-is-social-media-advertising",
+          "question": "What is social media advertising?",
+          "answer": null
+        },
+        {
+          "id": "why-is-social-media-advertising-important",
+          "question": "Why is social media advertising important?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-uses-of-social-media-advertising",
+          "question": "What are the uses of social media advertising?",
+          "answer": null
+        },
+        {
+          "id": "how-to-manage-social-media-brands",
+          "question": "How to manage social media brands?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "e-commerce-seo",
+      "title": "E-commerce SEO",
+      "items": [
+        {
+          "id": "what-is-e-commerce-seo",
+          "question": "What is E-commerce SEO?",
+          "answer": "E-commerce SEO is search engine optimization for e-commerce websites Creating and optimizing web pages that help your website rank for the search queries. . So your e-commerce site can be visible whenever any user searches for the products and services you’re selling."
+        },
+        {
+          "id": "how-do-i-seo-my-e-commerce-website",
+          "question": "How do I SEO my E-commerce website?",
+          "answer": null
+        },
+        {
+          "id": "is-seo-worth-it-for-e-commerce",
+          "question": "Is SEO worth it for e-commerce?",
+          "answer": null
+        },
+        {
+          "id": "how-is-seo-for-e-commerce-different",
+          "question": "How is SEO for E-commerce different?",
+          "answer": null
+        },
+        {
+          "id": "is-seo-important-for-e-commerce",
+          "question": "Is SEO important for E-commerce?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-e-commerce-seo-cost",
+          "question": "How Much Does E-commerce SEO Cost?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-seo-my-product-page",
+          "question": "How Do I SEO My Product Page?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-seo-my-category-page",
+          "question": "How Do I SEO My Category Page?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-choose-keywords-for-my-e-commerce-website",
+          "question": "How Do I Choose Keywords for My E-commerce Website?",
+          "answer": null
+        },
+        {
+          "id": "which-is-better-for-e-commerce-on-page-seo-or-link-building",
+          "question": "Which is Better for E-commerce On-Page SEO or Link-building?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-seo-for-e-commerce",
+          "question": "What are the Benefits of SEO for E-commerce?",
+          "answer": null
+        },
+        {
+          "id": "how-to-optimize-a-large-e-commerce-website",
+          "question": "How to Optimize a Large E-commerce Website?",
+          "answer": null
+        },
+        {
+          "id": "what-is-on-page-seo-for-e-commerce",
+          "question": "What is On-page SEO for E-commerce?",
+          "answer": null
+        },
+        {
+          "id": "what-is-off-page-seo-for-e-commerce",
+          "question": "What is Off-page SEO for E-commerce?",
+          "answer": null
+        },
+        {
+          "id": "which-domain-is-best-for-an-e-commerce-website",
+          "question": "Which Domain is Best for an E-commerce Website?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-e-commerce-seo-resources-out-there",
+          "question": "What are the Best E-commerce SEO Resources Out There?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-write-page-titles-for-e-commerce-seo",
+          "question": "How Do I Write Page Titles for E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-are-characteristics-of-e-commerce-seo",
+          "question": "What are Characteristics of E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-e-commerce-seo-strategy",
+          "question": "What is the Best E-commerce SEO Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-are-precautions-required-in-e-commerce-seo",
+          "question": "What are Precautions Required in E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "what-are-common-e-commerce-seo-services",
+          "question": "What are Common E-commerce SEO Services?",
+          "answer": null
+        },
+        {
+          "id": "is-e-commerce-harder-than-other-seo",
+          "question": "Is E-commerce Harder than Other SEO?",
+          "answer": null
+        },
+        {
+          "id": "why-is-internal-iinking-important-for-e-commerce-seo",
+          "question": "Why is Internal Iinking Important for E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-can-e-commerce-seo-services-help-a-business-increase-its-audience",
+          "question": "How Can E-commerce SEO Services Help a Business Increase Its Audience?",
+          "answer": null
+        },
+        {
+          "id": "what-should-be-my-budget-for-e-commerce-seo-services",
+          "question": "What Should Be My Budget for E-commerce SEO Services?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-conduct-advanced-e-commerce-seo-site-audits",
+          "question": "How Do I Conduct Advanced E-commerce SEO Site Audits?",
+          "answer": null
+        },
+        {
+          "id": "why-is-video-important-for-e-commerce-strategy",
+          "question": "Why is Video Important for E-commerce Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-e-commerce-seo-tips-to-improve-organic-performance",
+          "question": "What are the Best E-commerce SEO Tips to Improve Organic Performance?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-most-seo-friendly-ecommerce-platform",
+          "question": "What is the Most SEO friendly Ecommerce Platform?",
+          "answer": null
+        },
+        {
+          "id": "which-tools-are-best-for-e-commerce-seo",
+          "question": "Which Tools are Best for E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-to-leverage-user-generated-content-to-boost-e-commerce-seo",
+          "question": "How to Leverage User-generated Content to Boost E-commerce SEO?",
+          "answer": null
+        },
+        {
+          "id": "where-to-look-for-seo-plugins-for-e-commerce-sites",
+          "question": "Where to Look for SEO Plugins for E-commerce Sites?",
+          "answer": null
+        },
+        {
+          "id": "whats-included-in-e-commerce-seo-services",
+          "question": "What’s Included in E-commerce SEO Services?",
+          "answer": null
+        },
+        {
+          "id": "does-an-e-commerce-seo-agency-provide-shopify-seo-and-amazon-seo",
+          "question": "Does an e-commerce SEO agency provide Shopify SEO and Amazon SEO?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "seo-audit-services",
+      "title": "SEO Audit Services",
+      "items": [
+        {
+          "id": "what-is-an-seo-audit",
+          "question": "What is An SEO Audit?",
+          "answer": "SEO audit is a process to analyze how your website is performing on search engine result pages. It helps to find out the errors and improve them for better SEO performance of the site. SEO audits the overall comprehensive analysis of the website including content, structure, technical issues, backlinks to find the strengths and weaknesses. So, you can develop a plan to optimize for high ranking on SERP."
+        },
+        {
+          "id": "what-is-an-seo-audit-checklist",
+          "question": "What is An SEO Audit Checklist?",
+          "answer": null
+        },
+        {
+          "id": "why-is-an-seo-audit-important",
+          "question": "Why is an SEO Audit Important?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-performing-an-seo-audit",
+          "question": "What Are The Benefits of Performing An SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-does-seo-audit-help-boost-google-ranking",
+          "question": "How Does SEO Audit Help Boost Google Ranking?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-an-seo-audit-cost",
+          "question": "How Much Does an SEO Audit Cost?",
+          "answer": null
+        },
+        {
+          "id": "is-an-seo-audit-worth-it",
+          "question": "Is an SEO Audit Worth It?",
+          "answer": null
+        },
+        {
+          "id": "can-i-get-a-quality-seo-audit-for-free",
+          "question": "Can I Get a Quality SEO Audit for Free?",
+          "answer": null
+        },
+        {
+          "id": "how-many-types-of-seo-audits-are-out-there",
+          "question": "How Many Types of SEO Audits are Out There?",
+          "answer": null
+        },
+        {
+          "id": "how-to-do-an-seo-audit-for-your-website",
+          "question": "How to Do an SEO Audit for Your Website?",
+          "answer": null
+        },
+        {
+          "id": "what-should-be-included-in-the-seo-monthly-report",
+          "question": "What Should be Included in the SEO Monthly Report?",
+          "answer": null
+        },
+        {
+          "id": "is-it-an-seo-audit-tool",
+          "question": "Is It an SEO Audit Tool?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-tool-for-seo-audit",
+          "question": "What is the Best Tool for SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-free-seo-audit-tools",
+          "question": "What are the Best Free SEO Audit Tools?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-tools-for-an-advanced-seo-audit",
+          "question": "What are the Best Tools for an Advanced SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-to-do-a-basic-seo-audit",
+          "question": "How To Do a Basic SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-are-steps-in-seo-audit",
+          "question": "What Are Steps in SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "whats-the-difference-between-seo-analysis-and-seo-audit",
+          "question": "What’s the Difference Between SEO Analysis And SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-to-do-a-free-seo-audit",
+          "question": "How To Do a Free SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-should-an-seo-checklist-include",
+          "question": "What Should an SEO Checklist Include?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-seo-checklist-module",
+          "question": "What is the SEO Checklist Module?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-most-advanced-seo-checklist",
+          "question": "What is the Most Advanced SEO Checklist?",
+          "answer": null
+        },
+        {
+          "id": "what-is-an-on-page-seo-audit",
+          "question": "What is an On-page SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-can-be-included-in-on-page-seo",
+          "question": "What Can Be Included in On-page SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-perform-an-on-page-seo-audit",
+          "question": "How Do You Perform an On-page SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-local-seo-audit",
+          "question": "What is a Local SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-to-do-a-local-seo-audit",
+          "question": "How To Do a Local SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-technical-seo-audit",
+          "question": "What is a Technical SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-to-perform-a-technical-seo-audit",
+          "question": "How To Perform a Technical SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-a-technical-seo-audit-cost",
+          "question": "How Much Does a Technical SEO Audit Cost?",
+          "answer": null
+        },
+        {
+          "id": "what-are-best-practices-for-an-seo-audit",
+          "question": "What are Best Practices for an SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-is-an-seo-audit-agency",
+          "question": "What is an SEO Audit Agency?",
+          "answer": null
+        },
+        {
+          "id": "what-are-comprehensive-seo-audits-and-strategies",
+          "question": "What are Comprehensive SEO Audits and Strategies?",
+          "answer": null
+        },
+        {
+          "id": "whats-the-best-seo-audit-software-to-find-thin-content-pages",
+          "question": "What’s the Best SEO Audit Software to Find Thin Content Pages?",
+          "answer": null
+        },
+        {
+          "id": "how-long-does-it-take-to-complete-a-standard-seo-audit",
+          "question": "How Long Does it Take to Complete a Standard SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "how-often-should-you-do-an-seo-audit",
+          "question": "How Often Should You Do an SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-things-you-shouldnt-ignore-when-doing-an-seo-audit",
+          "question": "What are the Things You Shouldn’t Ignore When Doing an SEO Audit?",
+          "answer": null
+        },
+        {
+          "id": "does-seo-audit-give-roi",
+          "question": "Does SEO Audit Give ROI?",
+          "answer": null
+        },
+        {
+          "id": "does-seo-increase-ctr",
+          "question": "Does SEO Increase CTR?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-get-started-with-seo-audit-services",
+          "question": "How Do I Get Started With SEO Audit Services?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "content-marketing-strategies",
+      "title": "Content Marketing Strategies",
+      "items": [
+        {
+          "id": "what-are-content-marketing-strategies",
+          "question": "What are Content Marketing Strategies?",
+          "answer": "Content marketing strategies are strategies for creating, publishing and distributing content via multiple marketing channels to attract and retain a target audience…"
+        },
+        {
+          "id": "what-are-types-of-content-marketing-strategies",
+          "question": "What are Types of Content Marketing Strategies?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-core-of-content-strategy",
+          "question": "What is the Core of Content Strategy?",
+          "answer": null
+        },
+        {
+          "id": "why-are-content-marketing-strategies-important",
+          "question": "Why are Content Marketing Strategies Important?",
+          "answer": null
+        },
+        {
+          "id": "what-are-essential-elements-of-content-marketing-strategies",
+          "question": "What are Essential Elements of Content Marketing Strategies?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-main-categories-of-content-marketing",
+          "question": "What are the Main Categories of Content Marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-should-i-look-for-when-choosing-a-content-marketing-company",
+          "question": "What Should I Look For When Choosing a Content Marketing Company?",
+          "answer": null
+        },
+        {
+          "id": "what-do-content-marketing-agencies-do",
+          "question": "What Do Content Marketing Agencies Do?",
+          "answer": null
+        },
+        {
+          "id": "what-are-kpi-for-content-marketing",
+          "question": "What are KPI For Content Marketing?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-tips-for-content-marketing",
+          "question": "What are the Best Tips for Content Marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-create-a-successful-content-marketing-strategy",
+          "question": "How Do You Create a Successful Content Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-content-strategy-framework",
+          "question": "What is a Content Strategy Framework?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-four-steps-to-creating-a-content-marketing-strategy",
+          "question": "What are the Four Steps to Creating a Content Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-content-strategy-roadmap",
+          "question": "What is a Content Strategy Roadmap?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-ways-to-do-content-marketing",
+          "question": "What are the Best Ways to Do Content Marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-measure-content-marketing",
+          "question": "How Do You Measure Content Marketing?",
+          "answer": null
+        },
+        {
+          "id": "how-important-content-marketing-is-to-seo",
+          "question": "How Important Content Marketing is to SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-develop-content-marketing-strategy",
+          "question": "How Do You Develop Content Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-are-steps-for-content-strategies",
+          "question": "What are steps for content strategies?",
+          "answer": null
+        },
+        {
+          "id": "how-should-i-begin-research-on-a-content-marketing-strategy",
+          "question": "How Should I Begin Research on a Content Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "how-does-your-business-benefit-from-having-a-content-strategy",
+          "question": "How Does Your Business Benefit from Having a Content Strategy?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-evaluate-your-content-marketing-strategy",
+          "question": "How Do You Evaluate Your Content Marketing Strategy?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-create-a-content-plan",
+          "question": "How Do I Create a Content Plan?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-tools-for-content-strategy",
+          "question": "What are the Tools for Content Strategy?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-major-components-of-content-marketing",
+          "question": "What are the Major Components of Content Marketing?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "web-app-development",
+      "title": "Web & App Development",
+      "items": [
+        {
+          "id": "what-is-web-and-app-development",
+          "question": "What is Web and App Development",
+          "answer": "Web and app development is a process of designing and creating the web and mobile applications that users can access on their devices via internet network."
+        },
+        {
+          "id": "is-web-and-app-development-the-same",
+          "question": "Is Web and App Development the Same?",
+          "answer": null
+        },
+        {
+          "id": "is-custom-app-development-worth-it",
+          "question": "Is Custom App Development Worth It?",
+          "answer": null
+        },
+        {
+          "id": "are-there-pricing-options-for-web-and-app-development",
+          "question": "Are There Pricing Options for Web and App Development?",
+          "answer": null
+        },
+        {
+          "id": "which-is-better-web-or-app-development",
+          "question": "Which is Better Web or App Development?",
+          "answer": null
+        },
+        {
+          "id": "can-a-web-developer-build-an-app",
+          "question": "Can a Web Developer Build an App?",
+          "answer": null
+        },
+        {
+          "id": "which-language-is-best-for-app-development",
+          "question": "Which Language is Best for App Development?",
+          "answer": null
+        },
+        {
+          "id": "does-app-development-require-coding",
+          "question": "Does App Development Require Coding?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-make-a-web-app",
+          "question": "How Do I Make a Web App?",
+          "answer": null
+        },
+        {
+          "id": "which-is-an-example-of-web-app-development",
+          "question": "Which is an Example of Web App Development?",
+          "answer": null
+        },
+        {
+          "id": "what-skills-are-needed-for-web-app-developers",
+          "question": "What skills are needed for web app developers?",
+          "answer": null
+        },
+        {
+          "id": "what-types-of-web-apps-can-you-develop",
+          "question": "What types of web apps can you develop?",
+          "answer": null
+        },
+        {
+          "id": "how-long-does-it-take-to-build-a-web-application",
+          "question": "How long does it take to build a web application?",
+          "answer": null
+        },
+        {
+          "id": "what-essential-skills-every-web-app-developer-should-have",
+          "question": "What essential skills every web app developer should have?",
+          "answer": null
+        },
+        {
+          "id": "is-python-used-for-app-development",
+          "question": "Is python used for app development?",
+          "answer": null
+        },
+        {
+          "id": "what-are-web-app-development-services",
+          "question": "What are web app development services?",
+          "answer": null
+        },
+        {
+          "id": "what-is-web-development-and-app-development",
+          "question": "What is web development and app development?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-most-common-web-development-services",
+          "question": "What are the most common web development services?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-different-web-development-services",
+          "question": "What are the different web development services?",
+          "answer": null
+        },
+        {
+          "id": "is-in-house-better-than-outsourcing-web-and-app-development-services",
+          "question": "Is in-house better than outsourcing web and app development services?",
+          "answer": null
+        },
+        {
+          "id": "how-can-you-choose-the-best-in-house-web-and-app-development-team",
+          "question": "How can you choose the best in-house web and app development team?",
+          "answer": null
+        },
+        {
+          "id": "how-to-find-the-best-outsourcing-agency-for-web-and-app-development",
+          "question": "How to find the best outsourcing agency for web and app development?",
+          "answer": null
+        },
+        {
+          "id": "why-is-web-and-app-development-important-for-business",
+          "question": "Why is web and app development important for business?",
+          "answer": null
+        },
+        {
+          "id": "what-is-application-consulting",
+          "question": "What is Application Consulting?",
+          "answer": null
+        },
+        {
+          "id": "what-is-application-development",
+          "question": "What is Application Development?",
+          "answer": null
+        },
+        {
+          "id": "what-is-application-modernization",
+          "question": "What is Application Modernization?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-advanced-technologies-for-app-development",
+          "question": "What are the Advanced Technologies for App Development?",
+          "answer": null
+        },
+        {
+          "id": "whats-included-in-mobile-app-development",
+          "question": "What’s included in mobile app development?",
+          "answer": null
+        },
+        {
+          "id": "whats-included-in-web-app-development",
+          "question": "What’s included in web app development?",
+          "answer": null
+        },
+        {
+          "id": "how-long-does-it-take-to-develop-the-web",
+          "question": "How long does it take to develop the web?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "website-speed-optimization",
+      "title": "Website Speed Optimization",
+      "items": [
+        {
+          "id": "what-is-website-speed-optimization",
+          "question": "What is website speed optimization?",
+          "answer": "Website optimization is improving the page loading time of a website so the website can be high on search engine result pages."
+        },
+        {
+          "id": "how-do-i-optimize-website-speed",
+          "question": "How do I optimize website speed?",
+          "answer": null
+        },
+        {
+          "id": "why-are-website-speed-optimization-services-important-to-website-success",
+          "question": "Why are website speed optimization services important to website success?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-site-speed-optimization",
+          "question": "What are the benefits of site speed optimization?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-good-website-page-speed",
+          "question": "What is a good website page speed?",
+          "answer": null
+        },
+        {
+          "id": "what-are-website-optimization-techniques",
+          "question": "What are website optimization techniques?",
+          "answer": null
+        },
+        {
+          "id": "what-makes-a-website-fast-or-slow",
+          "question": "What makes a website fast or slow?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-fix-a-slow-website-speed",
+          "question": "How do I fix a slow website speed?",
+          "answer": null
+        },
+        {
+          "id": "what-factors-affect-website-speed",
+          "question": "What factors affect website speed?",
+          "answer": null
+        },
+        {
+          "id": "how-can-i-increase-my-website-speed-for-free",
+          "question": "How can I increase my website speed for free?",
+          "answer": null
+        },
+        {
+          "id": "what-are-tools-for-website-speed-optimization",
+          "question": "What are tools for website speed optimization?",
+          "answer": null
+        },
+        {
+          "id": "what-are-tips-to-improve-wordpress-website-speed",
+          "question": "What are tips to improve WordPress website speed?",
+          "answer": null
+        },
+        {
+          "id": "does-page-speed-affect-seo",
+          "question": "Does page speed affect SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-does-website-speed-influence-conversions",
+          "question": "How does website speed influence conversions?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-check-website-speed-optimization-issues",
+          "question": "How do I check website speed optimization issues?",
+          "answer": null
+        },
+        {
+          "id": "how-can-i-speed-up-my-website-with-shopify",
+          "question": "How can I speed up my website with Shopify?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-best-ways-to-do-speed-optimization-for-a-website",
+          "question": "What are the best ways to do speed optimization for a website?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-processes-for-website-speed-optimization",
+          "question": "What are the processes for website speed optimization?",
+          "answer": null
+        },
+        {
+          "id": "are-there-any-online-optimization-tools-for-website-speed",
+          "question": "Are there any online optimization tools for website speed?",
+          "answer": null
+        },
+        {
+          "id": "how-do-i-perform-page-speed-optimization-for-a-webpage-with-images-and-videos",
+          "question": "How do I perform page speed optimization for a webpage with images and videos?",
+          "answer": null
+        },
+        {
+          "id": "how-can-i-practice-page-speed-optimization-without-having-clients",
+          "question": "How can I practice page speed optimization without having clients?",
+          "answer": null
+        },
+        {
+          "id": "how-important-is-website-speed-for-a-business",
+          "question": "How important is website speed for a business?",
+          "answer": null
+        },
+        {
+          "id": "how-do-you-optimize-a-website-s-page-speed-insights",
+          "question": "How do you optimize a website's page speed insights?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-good-file-size-range-for-pngs-and-jpgs-on-a-website-for-an-optimal-loading-speed",
+          "question": "What is a good file size range for PNGs and JPGs on a website for an optimal loading speed?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-website-speed-optimization-cost",
+          "question": "How much does website speed optimization cost?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-difference-between-page-speed-and-site-speed",
+          "question": "What is the difference between page speed and site speed?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-modern-way-to-improve-website-speed",
+          "question": "What is a modern way to improve website speed?",
+          "answer": null
+        },
+        {
+          "id": "how-to-improve-your-google-speed-score",
+          "question": "How to improve your Google speed score?",
+          "answer": null
+        },
+        {
+          "id": "what-are-free-tools-for-website-testing",
+          "question": "What are free tools for website testing?",
+          "answer": null
+        },
+        {
+          "id": "what-is-google-lighthouse",
+          "question": "What is Google Lighthouse?",
+          "answer": null
+        },
+        {
+          "id": "what-is-a-site-speed-checklist",
+          "question": "What is a site speed checklist?",
+          "answer": null
+        },
+        {
+          "id": "why-consider-ongoing-site-speed-optimization",
+          "question": "Why consider ongoing site speed optimization?",
+          "answer": null
+        },
+        {
+          "id": "what-services-do-site-speed-optimization-agencies-provide",
+          "question": "What services do site speed optimization agencies provide?",
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "pay-per-click",
+      "title": "Pay-Per-Click",
+      "items": [
+        {
+          "id": "what-is-pay-per-click",
+          "question": "What is pay-per-click?",
+          "answer": null
+        },
+        {
+          "id": "what-is-an-example-of-pay-per-click",
+          "question": "What is an example of pay-per-click?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-pay-per-click",
+          "question": "What are the benefits of pay per click?",
+          "answer": null
+        },
+        {
+          "id": "what-are-ppc-services",
+          "question": "What are PPC services?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-it-cost-for-pay-per-click",
+          "question": "How much does it cost for pay-per-click?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-pay-per-click-site",
+          "question": "What is the best pay-per-click site?",
+          "answer": null
+        },
+        {
+          "id": "is-pay-per-click-profitable",
+          "question": "Is pay-per-click profitable?",
+          "answer": null
+        },
+        {
+          "id": "how-do-pay-per-clicks-make-money",
+          "question": "How do pay-per-clicks make money?",
+          "answer": null
+        },
+        {
+          "id": "how-do-pay-per-clicks-make-money-2",
+          "question": "How do pay-per-clicks make money?",
+          "answer": null
+        },
+        {
+          "id": "which-is-better-pay-per-click-or-seo",
+          "question": "Which is better: pay-per-click or SEO?",
+          "answer": null
+        },
+        {
+          "id": "why-is-cpc-so-high",
+          "question": "Why is CPC so high?",
+          "answer": null
+        },
+        {
+          "id": "is-a-1-click-rate-good",
+          "question": "Is a 1% click rate good?",
+          "answer": "A good click-through-rate is considered 1.91% for search and 0.35% for display ads. So, 1% CTR is average or below average compared to the 1.91%. However, this can vary depending on the industry, ad type and target audience."
+        },
+        {
+          "id": "what-are-ppc-services-2",
+          "question": "What are PPC services?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-google-pay-per-click",
+          "question": "How much does Google pay per click?",
+          "answer": null
+        },
+        {
+          "id": "how-does-google-pay-per-click-work",
+          "question": "How does Google pay per click work?",
+          "answer": null
+        },
+        {
+          "id": "does-adsense-pay-per-click-or-per-impression",
+          "question": "Does AdSense pay per click or per impression?",
+          "answer": null
+        },
+        {
+          "id": "how-much-does-adsense-pay-per-click",
+          "question": "How much does AdSense pay per click?",
+          "answer": null
+        },
+        {
+          "id": "what-are-various-ways-of-paying-per-click-advertising",
+          "question": "What are various ways of paying per click advertising?",
+          "answer": null
+        },
+        {
+          "id": "what-are-some-alternatives-to-adwords",
+          "question": "What are some alternatives to Adwords?",
+          "answer": null
+        },
+        {
+          "id": "how-to-choose-pay-per-click-ads",
+          "question": "How to choose pay-per-click ads?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-best-pay-per-click-tracking-software",
+          "question": "What is the best pay per click tracking software?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-difference-between-ppc-and-seo",
+          "question": "What is the difference between PPC and SEO?",
+          "answer": null
+        },
+        {
+          "id": "how-does-ppc-affect-traffic",
+          "question": "How does PPC affect traffic?",
+          "answer": null
+        },
+        {
+          "id": "how-do-websites-generate-revenue-using-ppc",
+          "question": "How do websites generate revenue using PPC?",
+          "answer": null
+        },
+        {
+          "id": "how-to-perform-a-ppc-audit",
+          "question": "How to perform a PPC audit?",
+          "answer": null
+        },
+        {
+          "id": "what-are-the-benefits-of-using-a-ppc-company",
+          "question": "What are the benefits of using a PPC company?",
+          "answer": null
+        },
+        {
+          "id": "what-to-look-for-in-a-ppc-service-company",
+          "question": "What to look for in a PPC service company?",
+          "answer": null
+        },
+        {
+          "id": "what-is-the-cost-of-ppc-agency-services",
+          "question": "What is the cost of PPC agency services?",
+          "answer": null
+        },
+        {
+          "id": "how-do-we-choose-the-best-ppc-companies",
+          "question": "How do we choose the best PPC companies?",
+          "answer": null
+        },
+        {
+          "id": "how-does-ppc-increase-conversions-for-business",
+          "question": "How does PPC increase conversions for business?",
+          "answer": null
+        }
+      ]
+    }
+  ]
+}

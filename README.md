@@ -41,6 +41,7 @@ Open http://localhost:3000. Without the Supabase values the site still runs, but
 | `messages/en.json`, `fr.json`, `es.json` | All site text, per language |
 | `src/content/blog/<post>/{en,fr,es}.md` | Blog posts (Markdown with frontmatter) |
 | `src/content/authors.ts` | Blog authors and reviewers (name, role, photo, bio, LinkedIn) |
+| `src/content/answers/en.json` | Answers page: topics, questions and answers |
 | `public/images/` | Images (blog covers in `blog/`, author photos in `authors/`) |
 | `src/actions/forms.ts` | Server code that receives and validates form submissions |
 | `src/lib/supabase.ts` | Saves rows to Supabase |
@@ -63,6 +64,7 @@ Open http://localhost:3000. Without the Supabase values the site still runs, but
 
   `##` headings become the post's Navigation list; the newsletter box appears in the sidebar when the reader reaches the last `##` section.
 - **Authors:** add or edit entries in `src/content/authors.ts`, and put photos in `public/images/authors/`. The current two entries are placeholders.
+- **Answers page (`/answers`):** edit `src/content/answers/en.json`. Each question has an `answer`; while it is `null` the question is listed but does not open. Fill it in to make it expandable, and it is also added to the page's FAQ data for Google. Keep each `id` unique: it is the question's link (`/en/answers#id`). All languages show the English file until translated files are added in `src/lib/answers.ts`.
 
 ---
 

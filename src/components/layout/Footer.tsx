@@ -55,8 +55,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
-                  {tNav("pricing")}
+                <Link href="/answers" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                  {tNav("answers")}
                 </Link>
               </li>
               <li>

@@ -13,7 +13,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   // These page copies are English-only for now; fr/es render them in English.
   if (locale !== routing.defaultLocale) {
     const en = (await import(`../../messages/${routing.defaultLocale}.json`)).default;
-    for (const ns of ["seoServicesPage", "localSeoPage", "ecommerceSeoPage", "seoAuditPage", "ppcServicesPage", "semServicesPage", "croServicesPage", "wordpressServicesPage", "hireServicesPage", "socialServicesPage", "contentServicesPage", "reputationServicesPage"]) {
+    for (const ns of ["seoServicesPage", "localSeoPage", "ecommerceSeoPage", "seoAuditPage", "ppcServicesPage", "semServicesPage", "croServicesPage", "wordpressServicesPage", "hireServicesPage", "socialServicesPage", "contentServicesPage", "reputationServicesPage", "answersPage"]) {
       if (!messages[ns]) messages[ns] = en[ns];
     }
   }

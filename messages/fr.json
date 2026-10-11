@@ -24,7 +24,7 @@
       "hireSeoExperts": "Recruter des experts SEO"
     },
     "about": "À propos",
-    "pricing": "Tarifs",
+    "answers": "Réponses",
     "blog": "Blog",
     "contact": "Contact",
     "cta": "Réserver une consultation gratuite",
@@ -1485,83 +1485,6 @@
     "cta": {
       "title": "Prêt à faire grandir votre entreprise ? Travaillons ensemble.",
       "subtitle": "Nous vous aiderons à construire une stratégie pilotée par la donnée, alignée sur vos objectifs — avec le soutien nécessaire à chaque étape."
-    }
-  },
-  "pricing": {
-    "hero": {
-      "eyebrow": "Tarifs",
-      "title": "Des tarifs clairs, construits autour des résultats",
-      "subtitle": "Pas de frais cachés, pas d'abonnement flou. Choisissez un point de départ ci-dessous, puis nous ajusterons le périmètre à vos objectifs lors d'une consultation gratuite."
-    },
-    "plans": [
-      {
-        "name": "Starter",
-        "price": "2 450 $",
-        "period": "/mois",
-        "description": "Pour les entreprises en croissance prêtes à bâtir de vraies fondations SEO.",
-        "features": [
-          "Audit SEO technique et on-page complet",
-          "Recherche de mots-clés et stratégie",
-          "Optimisation on-page (jusqu'à 10 pages)",
-          "Netlinking mensuel",
-          "Reporting de performance mensuel",
-          "Chargé de compte dédié"
-        ],
-        "cta": "Commencer"
-      },
-      {
-        "name": "Growth",
-        "price": "5 990 $",
-        "period": "/mois",
-        "description": "Notre offre la plus populaire pour faire croître vos revenus organiques.",
-        "features": [
-          "Tout ce qui est inclus dans Starter",
-          "Optimisation on-page étendue (jusqu'à 30 pages)",
-          "Production de contenu orientée SEO",
-          "Netlinking accéléré",
-          "Bases d'optimisation du taux de conversion",
-          "Appels stratégiques bimensuels"
-        ],
-        "cta": "Commencer"
-      },
-      {
-        "name": "Enterprise",
-        "price": "8 950 $",
-        "period": "/mois",
-        "description": "Pour les marques établies avec des besoins SEO complexes et à fort enjeu.",
-        "features": [
-          "Tout ce qui est inclus dans Growth",
-          "Optimisation de pages illimitée",
-          "Équipe dédiée contenu et netlinking",
-          "SEO technique avancé et migrations de site",
-          "Tableau de bord de reporting personnalisé",
-          "Appels stratégiques hebdomadaires"
-        ],
-        "cta": "Contacter les ventes"
-      }
-    ],
-    "note": "Besoin de quelque chose de plus spécifique — un projet ponctuel, une migration de site, ou un périmètre sur mesure ? Contactez-nous pour une proposition personnalisée.",
-    "faq": {
-      "eyebrow": "FAQ Tarifs",
-      "title": "Questions sur nos tarifs",
-      "items": [
-        {
-          "question": "Y a-t-il des engagements à long terme ?",
-          "answer": "Nous fonctionnons avec des accords mensuels après un engagement minimum initial de 3 mois — le temps généralement nécessaire pour qu'une stratégie SEO commence à montrer des résultats mesurables."
-        },
-        {
-          "question": "Que comprend la consultation gratuite ?",
-          "answer": "Une revue de votre site actuel et de votre visibilité dans les moteurs de recherche, une discussion sur vos objectifs, et une recommandation claire sur l'offre (ou le périmètre sur mesure) adaptée à votre entreprise — sans pression, sans engagement."
-        },
-        {
-          "question": "Puis-je changer d'offre à mesure que mon entreprise grandit ?",
-          "answer": "Oui — la plupart de nos clients démarrent avec une offre plus modeste puis évoluent à mesure que les résultats s'accumulent. Nous réévaluons votre offre ensemble à chaque appel stratégique."
-        }
-      ]
-    },
-    "cta": {
-      "title": "Vous ne savez pas quelle offre vous convient ?",
-      "subtitle": "Réservez une consultation gratuite et nous vous recommanderons un périmètre adapté à vos objectifs — sans engagement."
     }
   },
   "localeSuggestion": {
