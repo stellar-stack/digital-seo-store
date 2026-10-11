@@ -1,17 +1,31 @@
 "use client";
 
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 import { useTranslations } from "next-intl";
 import { clsx } from "clsx";
 import { useRouter } from "@/i18n/navigation";
+import FormMeta from "@/components/ui/FormMeta";
+import { subscribeNewsletter } from "@/actions/forms";
 
 export default function NewsletterBox({ className }: { className?: string }) {
   const t = useTranslations("blogPage.post");
   const router = useRouter();
+  const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    router.push("/thank-you");
+    const formData = new FormData(e.currentTarget);
+    setStatus("sending");
+    try {
+      const result = await subscribeNewsletter(formData);
+      if (result.ok) {
+        router.push("/thank-you");
+        return;
+      }
+    } catch {
+      // Fall through to the retry message (network failure or a stale deploy).
+    }
+    setStatus("error");
   }
 
   return (
@@ -25,7 +39,8 @@ export default function NewsletterBox({ className }: { className?: string }) {
           <path d="M70 32.5 82.5 37l1.8-13" />
         </svg>
       </div>
-      <form onSubmit={handleSubmit} className="mt-6 space-y-3">
+      <form onSubmit={handleSubmit} className="relative mt-6 space-y-3">
+        <FormMeta />
         <input
           type="email"
           name="email"
@@ -37,10 +52,16 @@ export default function NewsletterBox({ className }: { className?: string }) {
         />
         <button
           type="submit"
-          className="h-14 w-full rounded-xl bg-blue text-lg font-semibold text-white transition-[background-color,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-blue-dark active:scale-[0.98] active:bg-blue-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
+          disabled={status === "sending"}
+          className="h-14 w-full rounded-xl bg-blue text-lg font-semibold text-white transition-[background-color,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-blue-dark active:scale-[0.98] active:bg-blue-ink disabled:cursor-wait disabled:opacity-70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
         >
           {t("subscribe")}
         </button>
+        {status === "error" && (
+          <p role="alert" className="text-sm font-medium text-[#d70015]">
+            {t("newsletterError")}
+          </p>
+        )}
       </form>
     </div>
   );

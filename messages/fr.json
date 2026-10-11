@@ -1244,7 +1244,8 @@
       "emailPlaceholder": "Votre e-mail",
       "subscribe": "S'abonner",
       "author": "Auteur",
-      "onLinkedin": "{name} sur LinkedIn"
+      "onLinkedin": "{name} sur LinkedIn",
+      "newsletterError": "Une erreur s'est produite et votre inscription n'a pas été enregistrée. Veuillez réessayer."
     }
   },
   "faqPage": {
@@ -1397,7 +1398,8 @@
       "message": "Votre message",
       "send": "Envoyer le message",
       "sending": "Envoi en cours…",
-      "sent": "Message envoyé"
+      "sent": "Message envoyé",
+      "error": "Une erreur s'est produite et votre message n'a pas été envoyé. Veuillez réessayer."
     }
   },
   "about": {

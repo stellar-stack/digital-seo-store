@@ -6,6 +6,8 @@ import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/navigation";
 import { clsx } from "clsx";
 import MagneticButton from "@/components/ui/MagneticButton";
+import FormMeta from "@/components/ui/FormMeta";
+import { submitContact } from "@/actions/forms";
 
 type FieldProps = {
   label: string;
@@ -91,15 +93,24 @@ export default function ContactForm() {
   const t = useTranslations("contact.form");
   const tInfo = useTranslations("contact.info.reassurance");
   const router = useRouter();
-  const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
     setStatus("sending");
-    setTimeout(() => {
-      setStatus("sent");
-      setTimeout(() => router.push("/thank-you"), 3000);
-    }, 600);
+    try {
+      const result = await submitContact(formData);
+      if (result.ok) {
+        setStatus("sent");
+        setTimeout(() => router.push("/thank-you"), 3000);
+        return;
+      }
+    } catch {
+      // Network failure, or a page left open across a deploy: fall through so
+      // the visitor can retry with everything they typed still in place.
+    }
+    setStatus("error");
   }
 
   return (
@@ -151,8 +162,9 @@ export default function ContactForm() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.25 }}
           onSubmit={handleSubmit}
-          className="space-y-5"
+          className="relative space-y-5"
         >
+          <FormMeta />
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <FloatingField label={t("name")} name="name" required />
             <FloatingField label={t("email")} name="email" type="email" required />
@@ -166,7 +178,7 @@ export default function ContactForm() {
           <MagneticButton
             type="submit"
             variant="solid"
-            disabled={status !== "idle"}
+            disabled={status === "sending"}
             className="w-full justify-center gap-2 sm:w-auto"
           >
             <AnimatePresence mode="wait" initial={false}>
@@ -191,6 +203,12 @@ export default function ContactForm() {
               )}
             </AnimatePresence>
           </MagneticButton>
+
+          {status === "error" && (
+            <p role="alert" className="text-sm font-medium text-[#d70015]">
+              {t("error")}
+            </p>
+          )}
         </motion.form>
       )}
     </AnimatePresence>

@@ -1244,7 +1244,8 @@
       "emailPlaceholder": "Your Email",
       "subscribe": "Subscribe",
       "author": "Author",
-      "onLinkedin": "{name} on LinkedIn"
+      "onLinkedin": "{name} on LinkedIn",
+      "newsletterError": "Something went wrong and you weren't subscribed. Please try again."
     }
   },
   "faqPage": {
@@ -1397,7 +1398,8 @@
       "message": "Your message",
       "send": "Send message",
       "sending": "Sending…",
-      "sent": "Message sent"
+      "sent": "Message sent",
+      "error": "Something went wrong and your message wasn't sent. Please try again."
     }
   },
   "about": {

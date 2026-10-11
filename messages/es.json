@@ -1244,7 +1244,8 @@
       "emailPlaceholder": "Tu correo electrónico",
       "subscribe": "Suscribirse",
       "author": "Autor",
-      "onLinkedin": "{name} en LinkedIn"
+      "onLinkedin": "{name} en LinkedIn",
+      "newsletterError": "Algo salió mal y no se completó tu suscripción. Inténtalo de nuevo."
     }
   },
   "faqPage": {
@@ -1397,7 +1398,8 @@
       "message": "Tu mensaje",
       "send": "Enviar mensaje",
       "sending": "Enviando…",
-      "sent": "Mensaje enviado"
+      "sent": "Mensaje enviado",
+      "error": "Algo salió mal y tu mensaje no se envió. Inténtalo de nuevo."
     }
   },
   "about": {
