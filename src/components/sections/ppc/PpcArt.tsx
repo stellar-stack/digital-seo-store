@@ -12,8 +12,8 @@ export function PpcArt({ background = true }: { background?: boolean }) {
     >
       <defs>
         <linearGradient id="ppc-bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#e8f0fc" />
-          <stop offset="100%" stopColor="#d6e5fa" />
+          <stop offset="0%" stopColor="var(--color-art-light)" />
+          <stop offset="100%" stopColor="var(--color-art-soft)" />
         </linearGradient>
       </defs>
       {background && (
@@ -32,10 +32,10 @@ export function PpcArt({ background = true }: { background?: boolean }) {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
       >
-        <circle cx="230" cy="250" r="90" fill="#fff" stroke="#0a4fb0" strokeWidth="3" />
-        <circle cx="230" cy="250" r="58" fill="none" stroke="#0071e3" strokeWidth="10" strokeOpacity="0.18" />
-        <circle cx="230" cy="250" r="30" fill="#0071e3" fillOpacity="0.16" stroke="#0071e3" strokeWidth="3" />
-        <circle cx="230" cy="250" r="7" fill="#0071e3" />
+        <circle cx="230" cy="250" r="90" fill="#fff" stroke="var(--color-art-deep)" strokeWidth="3" />
+        <circle cx="230" cy="250" r="58" fill="none" stroke="var(--color-blue)" strokeWidth="10" strokeOpacity="0.18" />
+        <circle cx="230" cy="250" r="30" fill="var(--color-blue)" fillOpacity="0.16" stroke="var(--color-blue)" strokeWidth="3" />
+        <circle cx="230" cy="250" r="7" fill="var(--color-blue)" />
       </motion.g>
 
       {/* arrow hitting the target */}
@@ -46,7 +46,7 @@ export function PpcArt({ background = true }: { background?: boolean }) {
       >
         <line x1="150" y1="330" x2="222" y2="258" stroke="#0a0e1a" strokeWidth="6" strokeLinecap="round" />
         <path d="M222 258 l-16 4 4-16 z" fill="#0a0e1a" />
-        <path d="M150 330 l-16 20 20-4 4-20z" fill="#0071e3" />
+        <path d="M150 330 l-16 20 20-4 4-20z" fill="var(--color-blue)" />
       </motion.g>
 
       {/* megaphone */}
@@ -55,12 +55,12 @@ export function PpcArt({ background = true }: { background?: boolean }) {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
       >
-        <path d="M340 210 l70-38v170l-70-38z" fill="#0071e3" />
-        <path d="M340 210v94l-34-6a20 20 0 0 1 0-82z" fill="#0a4fb0" />
-        <rect x="352" y="298" width="16" height="34" rx="4" fill="#0a4fb0" />
+        <path d="M340 210 l70-38v170l-70-38z" fill="var(--color-blue)" />
+        <path d="M340 210v94l-34-6a20 20 0 0 1 0-82z" fill="var(--color-art-deep)" />
+        <rect x="352" y="298" width="16" height="34" rx="4" fill="var(--color-art-deep)" />
         <motion.path
           d="M424 190c14 20 14 78 0 98"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="6"
           strokeLinecap="round"
           fill="none"
@@ -70,7 +70,7 @@ export function PpcArt({ background = true }: { background?: boolean }) {
         />
         <motion.path
           d="M444 172c22 30 22 116 0 146"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="6"
           strokeLinecap="round"
           fill="none"
@@ -81,8 +81,8 @@ export function PpcArt({ background = true }: { background?: boolean }) {
         />
       </motion.g>
 
-      <motion.circle cx="120" cy="200" r="7" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
-      <motion.circle cx="500" cy="300" r="6" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
+      <motion.circle cx="120" cy="200" r="7" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
+      <motion.circle cx="500" cy="300" r="6" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
     </svg>
   );
 }

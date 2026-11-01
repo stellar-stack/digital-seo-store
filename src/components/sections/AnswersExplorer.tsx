@@ -5,7 +5,7 @@ import { clsx } from "clsx";
 import Container from "@/components/ui/Container";
 import StickySidebar from "@/components/blog/StickySidebar";
 import { useHeaderHidden } from "@/components/providers/HeaderVisibility";
-import type { AnswerCategory, AnswerItem } from "@/lib/answers";
+import { answerText, type AnswerCategory, type AnswerItem } from "@/lib/answers";
 
 type Labels = {
   title: string;
@@ -92,7 +92,7 @@ function AnswerRow({
           onClick={onToggle}
           aria-expanded={open}
           aria-controls={panelId}
-          className="group flex w-full items-start justify-between gap-6 rounded-md py-5 text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue"
+          className="group flex w-full items-start justify-between gap-6 rounded-md py-5 text-left focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
         >
           <span className="text-base font-medium leading-snug text-ink md:text-[1.0625rem]">
             <Highlight text={item.question} terms={terms} />
@@ -108,14 +108,31 @@ function AnswerRow({
         className={clsx("grid transition-[grid-template-rows] duration-500", EASE, open ? "grid-rows-[1fr]" : "grid-rows-[0fr]")}
       >
         <div className="min-h-0 overflow-hidden">
-          <p
+          <div
             className={clsx(
-              "max-w-[68ch] pb-6 pr-14 text-[0.9375rem] leading-[1.75] text-muted transition-opacity duration-500 md:text-base",
+              "max-w-[68ch] space-y-3.5 pb-6 pr-2 text-[0.9375rem] leading-[1.7] text-muted transition-opacity duration-500 md:pr-14 md:text-base",
               open ? "opacity-100" : "opacity-0"
             )}
           >
-            <Highlight text={item.answer} terms={terms} />
-          </p>
+            {item.answer.map((block, i) =>
+              typeof block === "string" ? (
+                <p key={i}>
+                  <Highlight text={block} terms={terms} />
+                </p>
+              ) : (
+                <ul key={i} className="space-y-2">
+                  {block.list.map((line, k) => (
+                    <li key={k} className="flex items-start gap-3">
+                      <span aria-hidden className="mt-[0.68em] h-[5px] w-[5px] shrink-0 rounded-full bg-blue" />
+                      <span>
+                        <Highlight text={line} terms={terms} />
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              )
+            )}
+          </div>
         </div>
       </div>
     </li>
@@ -148,7 +165,7 @@ export default function AnswersExplorer({
         const answerHits = new Set<string>();
         const items = c.items.filter((item) => {
           const q = fold(item.question);
-          const a = item.answer ? fold(item.answer) : "";
+          const a = fold(answerText(item.answer));
           if (!terms.every((t) => q.includes(t) || a.includes(t))) return false;
           if (!terms.every((t) => q.includes(t))) answerHits.add(item.id);
           return true;
@@ -240,7 +257,7 @@ export default function AnswersExplorer({
 
   return (
     <>
-      <section className="relative overflow-hidden bg-[#f3f6fb]">
+      <section className="relative overflow-hidden bg-tint">
         <Container className="pb-[clamp(3rem,6vw,5rem)] pt-[clamp(3rem,7vw,5.5rem)]">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="font-display animate-rise text-balance text-[2.25rem] font-bold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[3.5rem]">
@@ -251,7 +268,7 @@ export default function AnswersExplorer({
               <div
                 className={clsx(
                   "flex items-center rounded-2xl bg-white shadow-[0_1px_2px_rgba(10,14,26,0.06),0_12px_32px_-16px_rgba(10,14,26,0.22)] ring-1 ring-ink/[0.07] transition-[box-shadow] duration-300",
-                  "focus-within:shadow-[0_0_0_4px_rgba(0,113,227,0.15),0_12px_32px_-16px_rgba(10,14,26,0.22)] focus-within:ring-blue/50"
+                  "focus-within:shadow-[0_0_0_4px_color-mix(in_srgb,var(--color-blue)_15%,transparent),0_12px_32px_-16px_rgba(10,14,26,0.22)] focus-within:ring-blue/50"
                 )}
               >
                 <svg viewBox="0 0 20 20" className="ml-3.5 h-5 w-5 shrink-0 text-muted sm:ml-5" fill="none" aria-hidden>
@@ -278,7 +295,7 @@ export default function AnswersExplorer({
                       inputRef.current?.focus();
                     }}
                     aria-label={labels.clearSearch}
-                    className="mr-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-muted transition-colors hover:bg-mist hover:text-ink focus-visible:outline-2 focus-visible:outline-blue"
+                    className="mr-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-muted transition-colors hover:bg-mist hover:text-ink focus-visible:outline-2 focus-visible:outline-accent"
                   >
                     <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" fill="none" aria-hidden>
                       <path d="m4 4 8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
@@ -288,7 +305,7 @@ export default function AnswersExplorer({
                 <button
                   type="submit"
                   className={clsx(
-                    "m-1.5 h-11 shrink-0 rounded-xl bg-blue px-4 text-[0.9375rem] font-semibold text-white transition-[background-color,transform] duration-300 hover:bg-blue-dark active:scale-[0.97] active:bg-blue-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue sm:m-2 sm:h-12 sm:px-7 sm:text-base",
+                    "m-1.5 h-11 shrink-0 rounded-xl bg-blue px-4 text-[0.9375rem] font-semibold text-on-accent transition-[background-color,transform] duration-300 hover:bg-blue-dark active:scale-[0.97] active:bg-blue-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:m-2 sm:h-12 sm:px-7 sm:text-base",
                     EASE
                   )}
                 >
@@ -326,7 +343,7 @@ export default function AnswersExplorer({
                           aria-disabled={!available || undefined}
                           tabIndex={available ? undefined : -1}
                           className={clsx(
-                            "flex items-baseline justify-between gap-4 rounded-sm py-2.5 text-[0.9375rem] leading-snug transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue",
+                            "flex items-baseline justify-between gap-4 rounded-sm py-2.5 text-[0.9375rem] leading-snug transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent",
                             !available
                               ? "pointer-events-none text-charcoal/35"
                               : active === c.id

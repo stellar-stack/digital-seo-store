@@ -31,7 +31,7 @@ function XIcon() {
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-blue" fill="none" aria-hidden>
+    <svg viewBox="0 0 20 20" className="h-5 w-5 shrink-0 text-accent" fill="none" aria-hidden>
       <circle cx="10" cy="10" r="9" fill="currentColor" fillOpacity="0.16" />
       <path
         d="M6 10.3l2.6 2.6L14.2 7"
@@ -69,7 +69,7 @@ export default function ComparisonTable({ showClosing = false }: { showClosing?:
             <div role="columnheader" className="p-6 text-sm font-semibold text-muted">
               {t("othersLabel")}
             </div>
-            <div role="columnheader" className="flex items-center gap-2 p-6 text-sm font-semibold text-blue">
+            <div role="columnheader" className="flex items-center gap-2 p-6 text-sm font-semibold text-accent">
               <CheckIcon />
               {t("usLabel")}
             </div>

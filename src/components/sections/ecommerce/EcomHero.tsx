@@ -36,7 +36,7 @@ export default function EcomHero({
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-                className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-blue"
+                className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-accent"
               >
                 {eyebrow}
               </motion.p>

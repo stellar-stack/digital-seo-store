@@ -36,12 +36,12 @@ export default function PricingGrid({
               className={clsx(
                 "flex flex-col rounded-3xl p-8",
                 plan.highlighted
-                  ? "bg-blue text-white"
+                  ? "bg-blue text-on-accent"
                   : "border border-line bg-white text-charcoal"
               )}
             >
               {plan.highlighted && (
-                <span className="mb-4 inline-flex w-fit items-center rounded-full bg-white px-3 py-1 text-xs font-semibold text-blue">
+                <span className="mb-4 inline-flex w-fit items-center rounded-full bg-white px-3 py-1 text-xs font-semibold text-accent">
                   Most Popular
                 </span>
               )}
@@ -67,7 +67,7 @@ export default function PricingGrid({
                     <span
                       className={clsx(
                         "mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full text-[10px] font-bold",
-                        plan.highlighted ? "bg-white/25 text-white" : "bg-blue/15 text-blue-dark"
+                        plan.highlighted ? "bg-white/25 text-white" : "bg-blue/15 text-accent-strong"
                       )}
                     >
                       ✓

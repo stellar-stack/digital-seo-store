@@ -86,7 +86,7 @@ export default function BlogTeaser({
         <div className="mt-12 flex justify-center md:mt-14">
           <Link
             href="/blog"
-            className="inline-flex min-w-[15rem] items-center justify-center rounded-xl border-2 border-blue px-10 py-3.5 text-base font-semibold text-blue transition-colors duration-300 hover:bg-blue hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
+            className="inline-flex min-w-[15rem] items-center justify-center rounded-xl border-2 border-blue px-10 py-3.5 text-base font-semibold text-accent transition-colors duration-300 hover:bg-blue hover:text-on-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
           >
             {t("showMore")}
           </Link>

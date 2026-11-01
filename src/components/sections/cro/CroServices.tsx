@@ -49,7 +49,7 @@ export default function CroServices({
               transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1], delay: (i % 3) * 0.07 }}
               className="rounded-2xl border border-line bg-white p-7 shadow-[0_20px_45px_-30px_rgba(10,14,26,0.35)]"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue/10 text-blue-dark [&_svg]:h-[22px] [&_svg]:w-[22px]">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue/10 text-accent-strong [&_svg]:h-[22px] [&_svg]:w-[22px]">
                 {icons[i]}
               </span>
               <h3 className="font-display mt-5 text-lg font-semibold leading-snug text-ink">

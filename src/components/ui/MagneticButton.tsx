@@ -13,12 +13,12 @@ type Props = {
 );
 
 const base =
-  "group relative isolate inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-colors duration-300 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue disabled:pointer-events-none disabled:opacity-60";
+  "group relative isolate inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-colors duration-300 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent disabled:pointer-events-none disabled:opacity-60";
 
 const variants = {
-  solid: "bg-blue text-white duration-500 hover:bg-blue-dark active:bg-blue-ink",
-  outline: "border border-charcoal/20 text-charcoal duration-500 hover:border-blue hover:text-white hover:delay-100",
-  inverted: "bg-white text-blue hover:bg-mist",
+  solid: "bg-blue text-on-accent duration-500 hover:bg-blue-dark active:bg-blue-ink",
+  outline: "border border-charcoal/20 text-charcoal duration-500 hover:border-blue hover:text-on-accent hover:delay-100",
+  inverted: "bg-white text-accent hover:bg-mist",
   ghost: "text-charcoal hover:text-blue-ink",
 };
 

@@ -98,7 +98,7 @@ export default function IndustriesSection() {
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: (i % 3) * 0.08 }}
               className="flex flex-col rounded-3xl border border-line bg-white p-7"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue/10 text-blue-dark [&_svg]:h-5 [&_svg]:w-5">
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue/10 text-accent-strong [&_svg]:h-5 [&_svg]:w-5">
                 {industry.icon}
               </span>
               <h3 className="font-display mt-4 text-lg font-semibold text-ink">

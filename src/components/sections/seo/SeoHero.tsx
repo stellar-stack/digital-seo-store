@@ -40,8 +40,8 @@ function RankingChart() {
     <svg viewBox="0 0 460 260" className="h-full w-full" fill="none" aria-hidden>
       <defs>
         <linearGradient id="seo-area" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="#0071e3" stopOpacity="0.22" />
-          <stop offset="100%" stopColor="#0071e3" stopOpacity="0" />
+          <stop offset="0%" stopColor="var(--color-blue)" stopOpacity="0.22" />
+          <stop offset="100%" stopColor="var(--color-blue)" stopOpacity="0" />
         </linearGradient>
       </defs>
       {[52, 104, 156, 208].map((y) => (
@@ -56,7 +56,7 @@ function RankingChart() {
       />
       <motion.path
         d={LINE}
-        stroke="#0071e3"
+        stroke="var(--color-blue)"
         strokeWidth="3"
         strokeLinecap="round"
         initial={{ pathLength: 0 }}
@@ -75,7 +75,7 @@ function RankingChart() {
           cy={cy}
           r="5"
           fill="#fff"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="2.5"
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -87,7 +87,7 @@ function RankingChart() {
         cx="452"
         cy="18"
         r="8"
-        fill="#0071e3"
+        fill="var(--color-blue)"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.4, delay: 2 }}
@@ -126,7 +126,7 @@ export default function SeoHero({
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-blue"
+              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-accent"
             >
               {eyebrow}
             </motion.p>

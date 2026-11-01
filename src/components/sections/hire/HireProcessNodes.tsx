@@ -34,7 +34,7 @@ export default function HireProcessNodes({
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: i * 0.08 }}
               className="relative flex gap-5 md:flex-col md:gap-5 md:text-center"
             >
-              <span className="relative z-10 flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-blue/30 bg-white font-display text-lg font-semibold text-blue md:mx-auto">
+              <span className="relative z-10 flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-blue/30 bg-white font-display text-lg font-semibold text-accent md:mx-auto">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <p className="pt-3 text-sm leading-relaxed text-muted md:pt-0 md:text-[0.95rem]">{step}</p>

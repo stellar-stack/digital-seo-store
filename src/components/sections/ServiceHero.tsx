@@ -44,7 +44,7 @@ export default function ServiceHero({
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-blue mb-6"
+          className="text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-6"
         >
           {eyebrow}
         </motion.p>

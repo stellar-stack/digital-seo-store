@@ -11,7 +11,7 @@ export default async function NotFound() {
         <div className="absolute left-1/2 top-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue/8 blur-[140px]" />
       </div>
       <Container className="relative text-center">
-        <p className="font-display text-8xl font-semibold text-blue">404</p>
+        <p className="font-display text-8xl font-semibold text-accent">404</p>
         <h1 className="font-display mx-auto mt-6 max-w-lg text-3xl font-semibold text-ink md:text-4xl">
           {t("title")}
         </h1>

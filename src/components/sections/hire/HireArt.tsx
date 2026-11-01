@@ -12,8 +12,8 @@ export function HireArt({ background = true }: { background?: boolean }) {
     >
       <defs>
         <linearGradient id="hire-bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#e8f0fc" />
-          <stop offset="100%" stopColor="#d6e5fa" />
+          <stop offset="0%" stopColor="var(--color-art-light)" />
+          <stop offset="100%" stopColor="var(--color-art-soft)" />
         </linearGradient>
       </defs>
       {background && (
@@ -38,9 +38,9 @@ export function HireArt({ background = true }: { background?: boolean }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: p.d, ease: [0.16, 1, 0.3, 1] }}
         >
-          <rect x="0" y="0" width="100" height="130" rx="18" fill="#fff" stroke="#0a4fb0" strokeWidth="2.5" />
-          <circle cx="50" cy="42" r="20" fill="#0071e3" fillOpacity={i === 1 ? 0.9 : 0.25} />
-          <path d="M22 110 q28 -34 56 0" fill="#0071e3" fillOpacity={i === 1 ? 0.9 : 0.25} />
+          <rect x="0" y="0" width="100" height="130" rx="18" fill="#fff" stroke="var(--color-art-deep)" strokeWidth="2.5" />
+          <circle cx="50" cy="42" r="20" fill="var(--color-blue)" fillOpacity={i === 1 ? 0.9 : 0.25} />
+          <path d="M22 110 q28 -34 56 0" fill="var(--color-blue)" fillOpacity={i === 1 ? 0.9 : 0.25} />
         </motion.g>
         </g>
       ))}
@@ -52,12 +52,12 @@ export function HireArt({ background = true }: { background?: boolean }) {
         transition={{ duration: 0.5, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
         style={{ transformOrigin: "400px 110px" }}
       >
-        <circle cx="400" cy="110" r="30" fill="#0071e3" />
+        <circle cx="400" cy="110" r="30" fill="var(--color-blue)" />
         <path d="M388 110l8 8 16-17" stroke="#fff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
       </motion.g>
 
-      <motion.circle cx="90" cy="110" r="6" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
-      <motion.circle cx="530" cy="250" r="7" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
+      <motion.circle cx="90" cy="110" r="6" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
+      <motion.circle cx="530" cy="250" r="7" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
     </svg>
   );
 }

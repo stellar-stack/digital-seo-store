@@ -19,8 +19,8 @@ export function EcomArt({ background = true }: { background?: boolean }) {
     >
       <defs>
         <linearGradient id="ecom-bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#e8f0fc" />
-          <stop offset="100%" stopColor="#d6e5fa" />
+          <stop offset="0%" stopColor="var(--color-art-light)" />
+          <stop offset="100%" stopColor="var(--color-art-soft)" />
         </linearGradient>
       </defs>
       {background && (
@@ -36,7 +36,7 @@ export function EcomArt({ background = true }: { background?: boolean }) {
       {/* dotted orbit */}
       <path
         d="M96,300 C120,140 300,70 470,130"
-        stroke="#0071e3"
+        stroke="var(--color-blue)"
         strokeOpacity="0.45"
         strokeWidth="2.5"
         strokeDasharray="2 9"
@@ -46,10 +46,10 @@ export function EcomArt({ background = true }: { background?: boolean }) {
 
       {/* shopping bag */}
       <motion.g {...float(0, 6, 5)}>
-        <path d="M232,198 C232,150 264,124 300,124 C336,124 368,150 368,198" stroke="#0a4fb0" strokeWidth="13" strokeLinecap="round" fill="none" />
-        <path d="M168,198 H432 L452,404 Q453,416 441,416 H159 Q147,416 148,404 Z" fill="#0071e3" />
-        <path d="M300,198 H432 L452,404 Q453,416 441,416 H300 Z" fill="#005ecb" />
-        <rect x="168" y="198" width="264" height="14" fill="#0a4fb0" fillOpacity="0.55" />
+        <path d="M232,198 C232,150 264,124 300,124 C336,124 368,150 368,198" stroke="var(--color-art-deep)" strokeWidth="13" strokeLinecap="round" fill="none" />
+        <path d="M168,198 H432 L452,404 Q453,416 441,416 H159 Q147,416 148,404 Z" fill="var(--color-blue)" />
+        <path d="M300,198 H432 L452,404 Q453,416 441,416 H300 Z" fill="var(--color-blue-ink)" />
+        <rect x="168" y="198" width="264" height="14" fill="var(--color-art-deep)" fillOpacity="0.55" />
         <circle cx="236" cy="222" r="7" fill="#fff" />
         <circle cx="364" cy="222" r="7" fill="#fff" />
         <path d="M262,320 Q300,352 338,320" stroke="#fff" strokeWidth="9" strokeLinecap="round" fill="none" />
@@ -61,7 +61,7 @@ export function EcomArt({ background = true }: { background?: boolean }) {
         <circle cx="410" cy="298" r="64" fill="#fff" fillOpacity="0.92" stroke="#0a0e1a" strokeWidth="14" />
         <motion.path
           d="M378,326 L402,298 L420,312 L446,272"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="9"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -72,7 +72,7 @@ export function EcomArt({ background = true }: { background?: boolean }) {
         />
         <motion.path
           d="M430,270 H448 V288"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="9"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -87,21 +87,21 @@ export function EcomArt({ background = true }: { background?: boolean }) {
       <motion.g {...float(0.4, 10, 4.8)}>
         <g transform="translate(96 150) rotate(-12)">
           <rect width="62" height="62" rx="10" fill="#fff" />
-          <path d="M0,22 H62 M31,0 V22" stroke="#0071e3" strokeWidth="5" />
+          <path d="M0,22 H62 M31,0 V22" stroke="var(--color-blue)" strokeWidth="5" />
         </g>
       </motion.g>
       <motion.g {...float(1.2, 8, 5.2)}>
         <g transform="translate(470 150) rotate(10)">
           <path d="M0,10 Q0,0 10,0 H38 L58,28 L38,56 H10 Q0,56 0,46 Z" fill="#fff" />
-          <circle cx="16" cy="28" r="6" fill="#0071e3" />
+          <circle cx="16" cy="28" r="6" fill="var(--color-blue)" />
         </g>
       </motion.g>
       <motion.g {...float(0.9, 7, 4.4)}>
         <circle cx="140" cy="352" r="16" fill="#fff" />
-        <circle cx="140" cy="352" r="6" fill="#0071e3" />
+        <circle cx="140" cy="352" r="6" fill="var(--color-blue)" />
       </motion.g>
-      <motion.circle cx="540" cy="250" r="8" fill="#0071e3" fillOpacity="0.5" {...float(0.3, 6, 3.8)} />
-      <motion.circle cx="70" cy="240" r="6" fill="#0071e3" fillOpacity="0.5" {...float(1.1, 6, 4.1)} />
+      <motion.circle cx="540" cy="250" r="8" fill="var(--color-blue)" fillOpacity="0.5" {...float(0.3, 6, 3.8)} />
+      <motion.circle cx="70" cy="240" r="6" fill="var(--color-blue)" fillOpacity="0.5" {...float(1.1, 6, 4.1)} />
     </svg>
   );
 }

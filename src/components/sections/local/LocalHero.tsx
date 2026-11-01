@@ -32,7 +32,7 @@ function Pin({ x, y, s, delay, main }: { x: number; y: number; s: number; delay:
         <>
           <motion.circle
             r="18"
-            fill="#0071e3"
+            fill="var(--color-blue)"
             fillOpacity="0.18"
             initial={{ scale: 0.6, opacity: 0.9 }}
             animate={{ scale: 2.6, opacity: 0 }}
@@ -40,7 +40,7 @@ function Pin({ x, y, s, delay, main }: { x: number; y: number; s: number; delay:
           />
           <motion.circle
             r="18"
-            fill="#0071e3"
+            fill="var(--color-blue)"
             fillOpacity="0.14"
             initial={{ scale: 0.6, opacity: 0.9 }}
             animate={{ scale: 2.6, opacity: 0 }}
@@ -57,7 +57,7 @@ function Pin({ x, y, s, delay, main }: { x: number; y: number; s: number; delay:
         <g transform={`scale(${s}) translate(0 -24)`}>
           <path
             d="M0,-10 C-14,-10 -22,0 -22,11 C-22,27 0,48 0,48 C0,48 22,27 22,11 C22,0 14,-10 0,-10 Z"
-            fill="#0071e3"
+            fill="var(--color-blue)"
           />
           <circle cx="0" cy="11" r="8" fill="#fff" />
         </g>
@@ -69,10 +69,10 @@ function Pin({ x, y, s, delay, main }: { x: number; y: number; s: number; delay:
 function CityMap() {
   return (
     <svg viewBox="0 0 600 470" className="h-full w-full" aria-hidden preserveAspectRatio="xMidYMid slice">
-      <rect width="600" height="470" fill="#dfe9f6" />
+      <rect width="600" height="470" fill="var(--color-art-line)" />
 
       {BLOCK_BUILDINGS.map(([x, y, w, h], i) => (
-        <rect key={i} x={x} y={y} width={w} height={h} rx="3" fill="#eef4fc" />
+        <rect key={i} x={x} y={y} width={w} height={h} rx="3" fill="var(--color-art-pale)" />
       ))}
 
       <rect x="100" y="92" width="100" height="66" rx="10" fill="#d3e7d6" />
@@ -80,7 +80,7 @@ function CityMap() {
 
       <path
         d="M-20,318 C110,282 200,392 330,338 C455,286 520,372 640,322"
-        stroke="#bcd8f6"
+        stroke="var(--color-art-sky)"
         strokeWidth="40"
         fill="none"
         strokeLinecap="round"
@@ -97,7 +97,7 @@ function CityMap() {
       <motion.path
         d={ROUTE}
         fill="none"
-        stroke="#0071e3"
+        stroke="var(--color-blue)"
         strokeWidth="4"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -146,7 +146,7 @@ export default function LocalHero({
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-blue"
+              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-accent"
             >
               {eyebrow}
             </motion.p>
@@ -159,7 +159,7 @@ export default function LocalHero({
             >
               {before}
               {at !== -1 && (
-                <span className="rounded-lg bg-blue/10 px-2.5 py-0.5 text-blue [box-decoration-break:clone]">
+                <span className="rounded-lg bg-blue/10 px-2.5 py-0.5 text-accent [box-decoration-break:clone]">
                   {HIGHLIGHT}
                 </span>
               )}

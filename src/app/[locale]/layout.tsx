@@ -11,6 +11,7 @@ import ScrollProgress from "@/components/layout/ScrollProgress";
 import BackToTop from "@/components/layout/BackToTop";
 import LocaleSuggestion from "@/components/layout/LocaleSuggestion";
 import "../globals.css";
+import { themeInitScript } from "@/lib/theme";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -59,11 +60,14 @@ export default async function LocaleLayout({
   const tCommon = await getTranslations({ locale, namespace: "common" });
 
   return (
-    <html lang={locale} className="h-full antialiased">
+    <html lang={locale} className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body suppressHydrationWarning className="min-h-full flex flex-col bg-cream text-charcoal">
         <a
           href="#main-content"
-          className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-full bg-blue px-5 py-2.5 text-sm font-semibold text-white transition-transform focus:translate-y-0"
+          className="fixed left-4 top-4 z-[100] -translate-y-24 rounded-full bg-blue px-5 py-2.5 text-sm font-semibold text-on-accent transition-transform focus:translate-y-0"
         >
           {tCommon("skipToContent")}
         </a>

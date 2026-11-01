@@ -73,7 +73,7 @@ export default function AuditReasons({
               viewport={{ once: true, margin: "-8%" }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: (i % 3) * 0.07 }}
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-blue/10 text-blue-dark [&_svg]:h-[22px] [&_svg]:w-[22px]">
+              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-blue/10 text-accent-strong [&_svg]:h-[22px] [&_svg]:w-[22px]">
                 {ICONS[i]}
               </span>
               <h3 className="font-display mt-4 text-xl font-semibold leading-snug text-ink">

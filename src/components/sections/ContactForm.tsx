@@ -127,7 +127,7 @@ export default function ContactForm() {
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
-            className="flex h-16 w-16 items-center justify-center rounded-full bg-blue text-white"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-blue text-on-accent"
           >
             <svg viewBox="0 0 20 20" className="h-7 w-7" fill="none">
               <path

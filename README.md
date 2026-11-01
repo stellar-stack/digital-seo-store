@@ -64,7 +64,18 @@ Open http://localhost:3000. Without the Supabase values the site still runs, but
 
   `##` headings become the post's Navigation list; the newsletter box appears in the sidebar when the reader reaches the last `##` section.
 - **Authors:** add or edit entries in `src/content/authors.ts`, and put photos in `public/images/authors/`. The current two entries are placeholders.
-- **Answers page (`/answers`):** edit `src/content/answers/en.json`. Each question has an `answer`; while it is `null` the question is listed but does not open. Fill it in to make it expandable, and it is also added to the page's FAQ data for Google. Keep each `id` unique: it is the question's link (`/en/answers#id`). All languages show the English file until translated files are added in `src/lib/answers.ts`.
+- **Answers page (`/answers`):** edit `src/content/answers/en.json`. Each question has an `answer`: a list of blocks, where a string is a paragraph and `{ "list": [...] }` is a bullet list. While it is `null` the question is listed but does not open. Fill it in to make it expandable, and it is also added to the page's FAQ data for Google. Keep each `id` unique: it is the question's link (`/en/answers#id`). All languages show the English file until translated files are added in `src/lib/answers.ts`.
+
+---
+
+## Themes
+
+Visitors can switch between the blue theme and the original orange theme with the two colour dots in the header (under Theme in the mobile menu). The choice is saved in their browser.
+
+- Colours live in `src/app/globals.css`: `:root` holds the blue theme and `:root[data-theme="orange"]` overrides it. The `blue` token names mean "the accent colour" in both themes.
+- Use `text-accent` for coloured text and `text-on-accent` for text sitting on an accent fill. They exist because orange needs a darker text colour and dark text on top of it.
+- Artwork that differs per theme uses both versions with the `only-blue` and `only-orange` classes (see `src/components/ui/Logo.tsx`).
+- Blog cover images keep their own colours in both themes.
 
 ---
 

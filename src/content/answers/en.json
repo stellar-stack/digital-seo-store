@@ -7,7 +7,9 @@
         {
           "id": "what-is-search-engine-optimization",
           "question": "What is Search Engine Optimization?",
-          "answer": "Search Engine Optimization (SEO) is a process of optimizing web pages in order to rank higher on search engine result pages."
+          "answer": [
+            "Search Engine Optimization (SEO) is a process of optimizing web pages in order to rank higher on search engine result pages."
+          ]
         },
         {
           "id": "what-is-the-history-of-seo",
@@ -17,207 +19,520 @@
         {
           "id": "how-does-seo-work",
           "question": "How does SEO work?",
-          "answer": null
+          "answer": [
+            "Google SEO work significantly on two task:",
+            {
+              "list": [
+                "Crawling– To find the webpages search engine use crawlers, which are also called spiders. It crawls from pages to pages through links to get indexed.",
+                "Indexing– After crawling the next process is indexing. Search engines store the content from webpages.",
+                "Ranking – Determine the most relevant pages in regards to relevant queries of the user to rank pages accordingly."
+              ]
+            }
+          ]
         },
         {
           "id": "why-is-seo-so-important",
           "question": "Why is SEO so important?",
-          "answer": null
+          "answer": [
+            "The main purpose of SEO is to bring organic traffic on web pages. For business, SEO increases the visibility of a website, generating organic traffic to increase click through rates of the website."
+          ]
         },
         {
           "id": "what-is-optimization-in-search-engines",
           "question": "What is Optimization in Search Engines?",
-          "answer": null
+          "answer": [
+            "Optimization of web content, architecture and links. It mainly includes On-page, Off-page and technical SEO."
+          ]
         },
         {
           "id": "how-can-you-choose-the-right-keywords-for-seo",
           "question": "How Can You Choose The Right Keywords for SEO?",
-          "answer": null
+          "answer": [
+            "Right keywords will help businesses reach their target audience. Among many keywords it’s important to choose the right keyword that exactly your target audience is searching for on search engines.",
+            "Start with a broad niche related to your business. Write down 5-10 topics to write content. Ex: Digital Marketing",
+            "Now, it’s time to niche down. You can’t rank on a broad topic. Micro-niche is important because it is less competitive and relevant to your target audience search query. Ex: SEO in digital marketing.",
+            "Understanding user intent is important as it is what your audience is searching to solve the problem.",
+            "Google related searches will give better suggestions on the specific keywords. There are tools to gauge the keyword metrics. Here are tools to use to find right keywords:",
+            {
+              "list": [
+                "Ahrefs",
+                "SEMrush",
+                "Ubersuggest",
+                "Google Keyword Planner",
+                "Moz",
+                "Keyword Everywhere"
+              ]
+            },
+            "Opt for keywords with high search volume and low competition. Find out the long-term keyword to target. It has less competition and more specific, that easily reaches the audience.",
+            "Analyze competitors’ target keywords. These keywords are real gems that actually are ranking on Google for specific terms. Targeting these keywords in your content is important."
+          ]
         },
         {
           "id": "what-are-the-best-seo-tools",
           "question": "What are the best SEO tools?",
-          "answer": null
+          "answer": [
+            "There are many paid and free best SEO tools available. Some of which are:",
+            {
+              "list": [
+                "Ahrefs",
+                "SEMrush",
+                "Moz",
+                "Google Analytics",
+                "Ubersuggest",
+                "Panguin Tool",
+                "KWFinder",
+                "Yoast SEO",
+                "Screaming Frog"
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-the-best-search-engine-optimization-strategy",
           "question": "What is the best Search Engine Optimization strategy?",
-          "answer": null
+          "answer": [
+            "Best strategy to optimize search engine is:",
+            {
+              "list": [
+                "Create high-quality content.",
+                "Add LSI (relevant keywords)",
+                "On-page SEO",
+                "Improve loading speed.",
+                "Make your site mobile-friendly.",
+                "Include internal links in content.",
+                "Integrate structured data",
+                "Optimize Alt image",
+                "Integrate voice search optimization",
+                "Improve Local SEO",
+                "Get High-authority backlinks",
+                "Set up Schema Markup",
+                "Optimize Video Content",
+                "Adopt AI-Powered SEO Tools",
+                "Use AI Chatbots"
+              ]
+            }
+          ]
         },
         {
           "id": "why-is-seo-important-for-your-website",
           "question": "Why is SEO important for your website?",
-          "answer": null
+          "answer": [
+            "SEO is helpful to enhance visibility of a website by ranking higher on search engine result pages. More visibility gives more sales and ROI for any business. SEO is a cost-effective marketing strategy to promote your business. Practicing SEO for websites will grow your business and create brand awareness in the market."
+          ]
         },
         {
           "id": "what-are-types-of-seo",
           "question": "What are types of SEO?",
-          "answer": null
+          "answer": [
+            "Followings are the types of SEO:",
+            {
+              "list": [
+                "On-page SEO",
+                "Off-page SEO",
+                "Local SEO",
+                "Technical SEO",
+                "Mobile SEO",
+                "E-commerce SEO",
+                "White-hat SEO",
+                "Black-hat SEO",
+                "Gray-hat SEO"
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-black-hat-seo",
           "question": "What is Black-Hat SEO?",
-          "answer": null
+          "answer": [
+            "Black-hat SEO is a way of scheming Google algorithms to rank higher in search engine result pages. This includes spammy or paid link-building strategies, keyword stuffing, etc. Black hat SEO will give fast results but if detected by Google, can cause penalties and negatively affect site ranking. Better to avoid black hat SEO."
+          ]
         },
         {
           "id": "what-is-white-hat-seo",
           "question": "What is White-Hat SEO?",
-          "answer": null
+          "answer": [
+            "White-hat SEO is the SEO practices that follow Google’s guidelines. It is   an authentic way to improve site ranking. In a long-run white-hat SEO is helpful to create a successful website. For white-hat SEO use keyword-rich high quality content, descriptive meta tags and make websites easy to navigate."
+          ]
         },
         {
           "id": "what-is-the-scope-of-seo",
           "question": "What is the scope of SEO?",
-          "answer": null
+          "answer": [
+            "SEO is a core of digital marketing success. It is useful for every business owner to build their brand and online presence. The results of SEO are long-lasting and cost-effective. Optimizing SEO will outrank competitors with poor SEO strategies. When you know what your target audience needs and help them solve problems, they become your regular customer. Thus, giving better user experience SEO is a need of every business owner to thrive in the market. Since SEO is a long-run game, it will last forever."
+          ]
         },
         {
           "id": "what-is-the-cost-of-seo",
           "question": "What is the Cost of SEO?",
-          "answer": null
+          "answer": [
+            "SEO cost can vary considering geography, project and purpose. The local price of SEO starts with $500. However, the average cost can be $2500 to $5000 a month."
+          ]
         },
         {
           "id": "how-to-learn-seo",
           "question": "How to learn SEO?",
-          "answer": null
+          "answer": [
+            "There are many online SEO courses available for free. Some of which are:",
+            {
+              "list": [
+                "Backlinko (SEO marketing hub)",
+                "Yoast (Free SEO Training: SEO for Beginners)",
+                "Reliablesoft (Free SEO Course)",
+                "Hubspot (SEO Certification Course)",
+                "Ahrefs (A Beginner’s Guide to SEO Success)",
+                "On-Page And Technical SEO Course (SEMRush)",
+                "Search Engine Journal (Engine Jornal: A Complete Guide to SEO)"
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-seo-in-digital-marketing",
           "question": "What is SEO in Digital Marketing?",
-          "answer": null
+          "answer": [
+            "SEO is a component of digital marketing. It is a device that ensures the online presence of websites on search engine result pages. It increases the visibility of websites so more and more target audiences can discover you. SEO is a tool to reach target audience, brand awareness, expand business leading to more sales and revenue. SEO provides organic traffic to websites at optimum ROI. Its goal is to bring organic traffic by ranking higher so you can get more conversations than your competitors."
+          ]
         },
         {
           "id": "is-seo-a-part-of-digital-marketing",
           "question": "Is SEO a part of Digital Marketing?",
-          "answer": null
+          "answer": [
+            "Yes, SEO is a part of digital marketing."
+          ]
         },
         {
           "id": "what-are-seo-techniques",
           "question": "What Are SEO Techniques?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Understand the needs of your target audience.",
+                "Analyze the keyword gap of competitors.",
+                "Keyword placement in introduction, title, subtitle and conclusion.",
+                "Internal Links",
+                "Get high-authority backlinks",
+                "Consider feature snippets.",
+                "Make website mobile-friendly",
+                "Eliminate speed loading time of website",
+                "Make the website user-friendly."
+              ]
+            }
+          ]
         },
         {
           "id": "how-long-does-it-take-for-seo-to-work",
           "question": "How Long Does it Take for SEO to Work?",
-          "answer": null
+          "answer": [
+            "It takes time for SEO to work and won’t show quick results. SEO requires time and patience. If done well SEO strategies will give fruitful results in 6 to 12 months."
+          ]
         },
         {
           "id": "what-it-meant-by-website-optimization",
           "question": "What it Meant by Website Optimization?",
-          "answer": null
+          "answer": [
+            "Optimization of websites is a practice of improving website performance in order to increase visibility by ranking on SERP for relevant search queries."
+          ]
         },
         {
           "id": "what-are-the-3-important-components-in-seo-strategy",
           "question": "What Are the 3 Important Components in SEO Strategy?",
-          "answer": null
+          "answer": [
+            "The 3 important components of SEO are:",
+            {
+              "list": [
+                "On-page SEO",
+                "Off-page SEO",
+                "Technical SEO"
+              ]
+            }
+          ]
         },
         {
           "id": "how-do-i-optimize-keywords-for-seo",
           "question": "How Do I Optimize Keywords for SEO?",
-          "answer": null
+          "answer": [
+            "Keyword optimization is the first most important part of SEO. Without keyword optimization ranking on SERP is next to possible. Here are ways to optimize keywords for SEO:",
+            {
+              "list": [
+                "Perform On-page SEO audit of website",
+                "Find right keywords for your site based on search intent",
+                "Prioritize long-tail keyword",
+                "Ensure the content is focusing on primary keyword",
+                "Consider target audience",
+                "Add keywords at right place",
+                "Avoid keyword stuffing",
+                "Write for humans, not for search engine",
+                "Ensure that each page get indexed"
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-seo-social-media-optimization",
           "question": "What is SEO Social Media Optimization?",
-          "answer": null
+          "answer": [
+            "Like website SEO, social media SEO is a process of ranking higher on search results. Visibility on social media platforms will drive huge traffic to the website."
+          ]
         },
         {
           "id": "what-is-seo-hosting",
           "question": "What is SEO Hosting?",
-          "answer": null
+          "answer": [
+            "SEO hosting is a multiple website hosting across multiple C class Internet Protected addresses with different domain names. It is a website design that links various websites managed by the web owner along with their own SEO. This SEO hosting ensures the fast loading sites and improves search engine ranking of the site."
+          ]
         },
         {
           "id": "what-is-the-importance-of-seo-in-todays-business",
           "question": "What is the Importance of SEO in Today’s Business?",
-          "answer": null
+          "answer": [
+            "SEO is a crucial part of digital marketing to grow the audience. It helps businesses to establish a brand which is necessary in today’s world. SEO provides free organic traffic that increases visibility of a website by ranking high on SERP. In the long-run SEO will build trust and grow wider which is the need of every business in today’s competition."
+          ]
         },
         {
           "id": "whats-the-difference-between-seo-and-online-marketing",
           "question": "What’s The Difference Between SEO and Online Marketing?",
-          "answer": null
+          "answer": [
+            "The difference between SEO and Online Marketing is:",
+            {
+              "list": [
+                "SEO is a strategy to rank websites higher on search engine result pages. Online marketing is a promotion of a brand via various digital marketing channels like social media marketing, email marketing, website marketing, and paid advertising.",
+                "While SEO is free, online marketing is not."
+              ]
+            }
+          ]
         },
         {
           "id": "whats-the-difference-between-pay-per-click-ppc-and-seo",
           "question": "What’s The Difference Between Pay-per-click(PPC) and SEO?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Paid advertising will drive an instant spike of traffic on websites while SEO will provide organic traffic.",
+                "PPC is short-term and SEO is a long-term process to increase visibility on a website.",
+                "However, the click-through rates of SEO are higher than PPC.",
+                "The visibility on PPC may not last longer but SEO is a consistent practice to increase visibility."
+              ]
+            }
+          ]
         },
         {
           "id": "is-search-engine-optimization-easy",
           "question": "Is Search Engine Optimization Easy?",
-          "answer": null
+          "answer": [
+            "SEO is not easy. It’s not too complex either. You need to keep updating information on your website. Also, keep changing the SEO techniques along with changing Google algorithms."
+          ]
         },
         {
           "id": "can-we-do-seo-by-self-or-hire-seo-professionals",
           "question": "Can We Do SEO by Self or Hire SEO Professionals?",
-          "answer": null
+          "answer": [
+            "You can do it by yourself for small tasks. However, SEO professionals will help you achieve the goal of ranking higher on SERP. For long-term hiring a professional SEO is better for business than doing it alone. Every company needs to invest in SEO."
+          ]
         },
         {
           "id": "what-are-the-benefits-of-outsourcing-seo-to-a-company",
           "question": "What Are The Benefits of Outsourcing SEO to A Company?",
-          "answer": null
+          "answer": [
+            "Outsourcing the right SEO agency will eliminate the burden to some extent. Here are the some benefits a brand can avail by outsourcing SEO agency:",
+            {
+              "list": [
+                "Expertise of experienced SEO professional",
+                "Get ranking results in lesser time",
+                "Enhanced productivity",
+                "Access to best SEO tools and techniques",
+                "Lower cost of SEO services",
+                "They will give a fresh perspective to objects and fix the flaws."
+              ]
+            }
+          ]
         },
         {
           "id": "is-seo-being-effective-to-increase-sales",
           "question": "Is SEO Being Effective to Increase Sales?",
-          "answer": null
+          "answer": [
+            "The sole purpose of SEO is to rank websites higher on SERP. This increases visibility and drives more traffic. If implied strategically SEO will give more conversion rates and as a result increased sales. SEO is super-effective to reach your buyers and make conversion."
+          ]
         },
         {
           "id": "what-are-some-common-misconceptions-about-seo",
           "question": "What Are Some Common Misconceptions About SEO?",
-          "answer": null
+          "answer": [
+            "There are always some misconceptions about SEO:",
+            {
+              "list": [
+                "Adding more keywords will help you rank websites higher on SERP.",
+                "Meta descriptions aren’t important.",
+                "SEO is not free.",
+                "It’s easy to manipulate Google algorithms.",
+                "Links don't matter.",
+                "You don’t need to hire an SEO expert for a successful website."
+              ]
+            }
+          ]
         },
         {
           "id": "does-seo-change-every-day",
           "question": "Does SEO Change Every Day?",
-          "answer": null
+          "answer": [
+            "Yes, SEO changes every day. When it comes to Google there are algorithms and other small improvements everyday. Maybe and maybe not. But SEO rules change frequently."
+          ]
         },
         {
           "id": "who-are-pioneers-of-seo",
           "question": "Who Are Pioneers of SEO?",
-          "answer": null
+          "answer": [
+            "There is always controversy about SEO pioneers. If you ever wonder who started this, you might consider many behind this hype. However the big fishes are:",
+            {
+              "list": [
+                "Danny Sullivan",
+                "Greg Boser",
+                "Bruce Clay"
+              ]
+            }
+          ]
         },
         {
           "id": "latest-updates-in-seo-2023",
           "question": "Latest Updates in SEO 2023?",
-          "answer": null
+          "answer": [
+            "Google has rolled out Helpful Content Update December, 2023.",
+            "Google Search Central announced this update on twitter.",
+            {
+              "list": [
+                "Relevant and helpful content will be a priority to rank.",
+                "AI content will not be accepted. You can take assistance from AI but Google considers only content written by humans keeping the target audience in mind.",
+                "Less crawling is another important update by Google. So focus on on-page SEO to grab the chance of ranking high.",
+                "Google’s E-E-T (Expertise-Authority-Trust) is now E-E-E-T (Expertise-Experience-Authority-Trust) from December 2022. Google will also consider the experience of the creator to evaluate the quality of content.",
+                "Fast page loading and high performing sites will continue to prioritize."
+              ]
+            }
+          ]
         },
         {
           "id": "how-do-you-manage-on-page-seo-in-wordpress",
-          "question": "How Do You Manage On-Page SEO in WordPress?",
-          "answer": null
+          "question": "How Do You Manage On-Page SEO in Wordpress?",
+          "answer": [
+            {
+              "list": [
+                "Ensure you haven’t turned on Search Engine Visibility in Wordpress.",
+                "Parmalinks should clearly address what the post, page or blog is about to improve user experience and SEO.",
+                "Add categories and tags so search engines can understand what the content is about for indexing.",
+                "Add an SEO plugin in Wordpress to improve SEO.",
+                "Improve the readability score of content.",
+                "To increase authority add internal links.",
+                "XML sitemaps are code files including each page of your website. It is useful for search engines to find, index and rank the content on your site.",
+                "Use Alt Images to optimize images. It helps search engines to read images and rank your sites.",
+                "Add Nofollow link in Link Relationship whenever you add hyperlink or manually add a Nofollow link to your wordpress site."
+              ]
+            }
+          ]
         },
         {
           "id": "how-do-i-choose-the-best-seo-company",
           "question": "How Do I Choose The Best SEO Company?",
-          "answer": null
+          "answer": [
+            "Choosing the right SEO company is not easy. Here are suggestions on finding best SEO company to ace your SEO game:",
+            {
+              "list": [
+                "Set your goals and options choose the SEO company that helps you achieve goals.",
+                "Best SEO company has a great experience. They’re updated with the latest Google algorithm which makes them responsible and reliable. This is crucial for any SEO company.",
+                "Ask them how long they’ve been in the SEO journey.",
+                "Results and Testimonials of previous clients. Their plans to achieve the goals to get results will help you understand how much they’re grounded",
+                "A best SEO company should be adaptive and quick to make changes along with changing algorithms of Google.",
+                "These SEO companies are good communicators.",
+                "Make sure the SEO company has the right SEO strategies that work for your website.",
+                "You can’t rely on Google all the time. Word of mouth can be the right method to find the best SEO company. Ask professionals in your industries who can give best suggestions."
+              ]
+            }
+          ]
         },
         {
           "id": "what-seo-services-does-seo-company-offer",
           "question": "What SEO Services Does SEO Company Offer?",
-          "answer": null
+          "answer": [
+            "Type of SEO services may vary from company to company but here are common SEO services that SEO company provides:",
+            {
+              "list": [
+                "SEO audit",
+                "On-page SEO",
+                "Off-page SEO",
+                "Technical SEO",
+                "Local SEO",
+                "E-commerce SEO",
+                "Website structure analysis",
+                "Website code and structure",
+                "Content  analysis",
+                "SEO competitive analysis",
+                "Monthly SEO Report"
+              ]
+            }
+          ]
         },
         {
           "id": "why-do-a-b-testing-of-serp-title-description-to-improve-click-through",
           "question": "Why Do A/B Testing of SERP Title & Description to Improve Click Through",
-          "answer": null
+          "answer": [
+            "Change the number, Keyword placement change, Length of Title and description, changing words, etc variations will be helpful for A/B testing of SERP. This will let you know which title and description works to improve click through rates. It’s important to test so you keep changing with change in customers behavior and market trends. The experiment of these elements won’t hurt SEO, instead will increase the chances of success."
+          ]
         },
         {
           "id": "how-does-bounce-rate-affect-seo",
           "question": "How Does Bounce Rate Affect SEO?",
-          "answer": null
+          "answer": [
+            "Bounce rate is the rate of people visiting your site and leaving without viewing all pages.",
+            "Bounce rate doesn’t directly affect SEO but it highlights the reasons of unsatisfied customers that actually affect SEO. This can be slow page loading, poor content quality and poor mobile-friendliness of a webpage. Any of the above can be a reason for poor user experience. And when it comes to unsatisfied users, it is unsatisfied Google. So, bounce rate affects SEO indirectly."
+          ]
         },
         {
           "id": "how-to-map-keywords-for-target-pages",
           "question": "How to Map Keywords for Target Pages?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Do keyword research and analysis.",
+                "After finding seed keywords, find relevant keywords with Keyword Researching Tool to map websites.",
+                "Build the list of targeted keywords.",
+                "Create a category of keywords into the main topic of niche.",
+                "Make a list of columns of keywords, search volume and optimized content page of that keyword.",
+                "Find a gap in the keyword that is not optimized.",
+                "Ex: italian recipes",
+                "Different urls for different target keyword pages.",
+                "Optimize with the most popular Keyword Research tools.",
+                "Google search console",
+                "Google keyword planner",
+                "Ubersuggest",
+                "Choose top relevant keywords.",
+                "Create a group of keywords, add in buckets for specific search intent.",
+                "Map keyword with a focused keyword to optimize content.",
+                "Avoid cannibalization of keywords which means competition with each other for search ranking.",
+                "Allot different pages for each keyword.",
+                "Optimize every page of the mapped keywords."
+              ]
+            }
+          ]
         },
         {
           "id": "how-to-optimize-robot-txt",
           "question": "How to Optimize Robot.txt?",
-          "answer": null
+          "answer": [
+            "Robot.txt is a crucial part of SEO. It tells search engine spiders how they can crawl on websites.",
+            {
+              "list": [
+                "Use robot.txt to disallow duplicate content",
+                "Allow to crawl on pages you want to indexed",
+                "Don't use robots.txt file for sensitive information",
+                "Put the robots.txt in the root folder.",
+                "For robots.txt monitor file's content to keep web pages updated"
+              ]
+            }
+          ]
         },
         {
           "id": "why-should-i-hire-a-professional-seo-services-company",
           "question": "Why Should I Hire A Professional SEO Services Company?",
-          "answer": null
+          "answer": [
+            "You can do SEO on your own but if you don’t see any results after six or more months. If the issue persists then you need to hire a professional SEO to fix the problem. SEO companies will find the solution and help you rank higher on the search engine result page."
+          ]
         },
         {
           "id": "why-should-i-choose-a-digital-seo-store-for-professional-seo-services",
@@ -227,32 +542,44 @@
         {
           "id": "how-can-a-professional-seo-service-company-help-you-achieve-target",
           "question": "How Can A Professional SEO Service Company Help You Achieve Target?",
-          "answer": null
+          "answer": [
+            "A professional SEO company has expertise in SEO. Plus, they have the right tools to analyze the SEO of your website. These companies are more updated and adaptive to Google algorithms that help you achieve your goal faster. For long-term success, a professional SEO company is useful for brands. They will drive more traffic and revenues for your business."
+          ]
         },
         {
           "id": "how-will-seo-increase-your-business-revenues",
           "question": "How Will SEO Increase Your Business Revenues?",
-          "answer": null
+          "answer": [
+            "SEO optimized websites have the ability to turn visitors into buyers. SEO makes websites rank higher on SERP that increase visibility. SEO brings traffic to your website for the specific keyword your audience is looking for. It comes handy to people who’re looking for products and services. The increased visibility increases leads and revenues. Also, a positive customer satisfaction enhances credibility that gives repetitive customers who recommend your product and services."
+          ]
         },
         {
           "id": "will-internal-links-help-seo-ranking",
           "question": "Will Internal Links Help SEO Ranking?",
-          "answer": null
+          "answer": [
+            "Google admitted that internal links are a ranking factor. It is good for users as well as search engine crawlers. Internal links will help search engines to understand your content deeply and consider its authenticity. Good internal links increase value and are important for SEO."
+          ]
         },
         {
           "id": "what-is-schema-data-in-seo",
           "question": "What is Schema Data in SEO?",
-          "answer": null
+          "answer": [
+            "Schema data presents unstructured data of your content as structured data. It tells what the content on the web pages is about. That helps search engines to know your pages better and improve SERP ranking."
+          ]
         },
         {
           "id": "why-do-seo-companies-do-competitors-analysis",
           "question": "Why Do SEO Companies Do Competitors’ Analysis?",
-          "answer": null
+          "answer": [
+            "SEO competitive analysis is an analysis of content, keywords, backlinks and internal links of competitors’ websites. This analysis is important to understand the strategies of competitors in industries. This is crucial to develop SEO strategies for your website so you won't be easily outranked by competitors."
+          ]
         },
         {
           "id": "does-seo-and-website-maintenance-go-hand-in-hand",
           "question": "Does SEO And Website Maintenance Go Hand-in-Hand?",
-          "answer": null
+          "answer": [
+            "Yes, SEO and website maintenance go hand-in-hand. Especially to increase traffic and thrive in competition, both of these elements are necessary for your business. Moreover, a good website design will improve ranking and customer satisfaction."
+          ]
         }
       ]
     },
@@ -263,62 +590,170 @@
         {
           "id": "what-is-local-seo",
           "question": "What is Local SEO?",
-          "answer": "Local SEO is a type of SEO that helps businesses found in local search results on Google. Whenever any searcher nearby your business searches on Google for product or services you’re providing Local SEO will rank you on page for them."
+          "answer": [
+            "Local SEO is a type of SEO that helps businesses found in local search results on Google. Whenever any searcher nearby your business searches on Google for product or services you’re providing Local SEO will rank you on page for them."
+          ]
         },
         {
           "id": "what-is-the-purpose-of-local-seo",
           "question": "What is The Purpose of Local SEO?",
+          "answer": [
+            "The purpose of local SEO is to rank higher and increase visibility in local search results. This helps your business grow in the local area."
+          ]
+        },
+        {
+          "id": "types-of-businesses-that-need-local-seo",
+          "question": "Types of Businesses That Need Local SEO",
           "answer": null
         },
         {
           "id": "how-do-i-do-local-seo",
           "question": "How Do I Do Local SEO?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Do keyword research based on products and services you offer. Identify the keywords in your local area people are searching on Google related to your products/services.",
+                "Do an SEO audit and make sure your website has no technical or other issues.",
+                "Find competitors’ keywords that are ranking them high. Analyze search volume and competition then find the best that work for your business to rank in local search.",
+                "Use specific geographical keywords that your business offers in the area. Besides, target keywords that your competitors are targeting.",
+                "Do on-page SEO",
+                "Optimize Google My Business Listing",
+                "Establish a localized link building strategy",
+                "Invest in local backlinks to attract local audience",
+                "Link the location of the area to your site.",
+                "Submit your business info to online directories to improve local SEO.",
+                "Try to get positive customer reviews to help you rank for local SEO."
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-local-seo-v-s-seo",
           "question": "What is Local SEO V/S SEO?",
-          "answer": null
+          "answer": [
+            "SEO is the practice of improving the ranking of websites on search engine result pages while local SEO focuses on ranking websites in local search results.",
+            "Local SEO will enable your site to attract local customers to grow your business in your geographical territory."
+          ]
         },
         {
           "id": "what-are-the-differences-between-local-seo-and-global-seo",
           "question": "What Are The Differences Between Local SEO And Global SEO?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Local SEO increases online visibility of business in the area where business is located. And Global SEO increases visibility on an international level. Local SEO found by users for mainly “near me” topics, Global SEO is widely searched on international level.",
+                "Local SEO is based on specific keywords while Global SEO is on generic keywords.",
+                "The products and services business provides are different in Local SEO and international SEO.",
+                "Local SEO competition is limited while at Global SEO it’s cut-throat competition."
+              ]
+            }
+          ]
         },
         {
           "id": "is-local-seo-better-than-paid-search",
           "question": "Is Local SEO Better Than Paid Search?",
-          "answer": null
+          "answer": [
+            "There’s a lot of difference between Local SEO and Paid search (PPC). After knowing both sides of the coin you can decide what will work best for your business. Here, you can go through the list of differences.",
+            {
+              "list": [
+                "The harsh truth to believe is, PPC gets more visibility and few clicks in comparison to organic clicks.",
+                "With the right strategies local SEO will give you great exposure by ranking higher but PPC can be short-lived.",
+                "Local SEO will take time to show results but in the long run it enables business to scale up. With paid search you’ll get quick results but you can’t extend the campaign for a long time as it can be costly.",
+                "Local SEO is cheaper than paid advertising.",
+                "Local SEO is authentic and gains the trust of the audience while PPC won’t help you gain trust.",
+                "PPC will allow you to target an audience with location, age, gender, marital status, etc. And local SEO focuses on targeting the audience at the local level."
+              ]
+            },
+            "Local SEO and paid search are the best way of digital marketing. Choose the one that will fit on your budget and give you successful results."
+          ]
         },
         {
           "id": "why-is-local-seo-important",
           "question": "Why is Local SEO Important?",
-          "answer": null
+          "answer": [
+            "Local SEO drives traffic to your site for the local area of your business. So whenever anyone from your business area searches “near me” on Google it will rank your site on the first page of the SERP. This visibility will boost the click-through-rate. When it reaches people looking for products and services your business provides in the same area they will likely visit and buy it. Thus, it gives a higher conversion rate. It increases brand visibility of your business. Plus, when a customer gives a positive review your brand value increases as well."
+          ]
         },
         {
           "id": "what-are-local-seo-strategies",
           "question": "What are Local SEO Strategies?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Add your business in ‘Google My Business’",
+                "Add your business in local directories",
+                "Create a landing page which is location specific for the area you provide services.",
+                "Provide better user experience. Because an honest positive review is more than anything.",
+                "Distribute content through social media channels to build social media presence to engage the audience.",
+                "Add schema markup to your site.",
+                "Get backlinks to enhance authority of your site that help to rank on Google."
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-local-seo-keyword-research",
           "question": "What is Local SEO Keyword Research?",
-          "answer": null
+          "answer": [
+            "Local SEO keyword research is searching keywords that your audience is looking for products and services. These keywords rank websites higher on search engine result pages. As a result, driving more traffic to your site for local search results and increasing conversion rate."
+          ]
         },
         {
           "id": "how-is-local-seo-measured",
           "question": "How is Local SEO Measured?",
-          "answer": null
+          "answer": [
+            "Depending on your set goals for Local SEO results it may vary from business to business. It is measured basically on below factors:",
+            {
+              "list": [
+                "Check ranking on search engine results on Google.",
+                "Check local search ranking",
+                "Website organic traffic",
+                "Enhanced visibility",
+                "Click-through-rate of your website",
+                "Bounce rate of your site",
+                "Improvement in backlinks",
+                "Page speed of your site",
+                "Increment in sales and conversion"
+              ]
+            }
+          ]
         },
         {
           "id": "who-needs-local-seo",
           "question": "Who Needs Local SEO?",
-          "answer": null
+          "answer": [
+            "Any business that has geographical location needs local SEO so whenever a customer searches on Google your website can be found on the first page of the SERP. These businesses need SEO to grow in specific local area:",
+            {
+              "list": [
+                "Beauty salons",
+                "Pet Shops",
+                "Doctors",
+                "Lawyers",
+                "Electrician",
+                "Restaurants",
+                "Estate agents",
+                "Clothing Store"
+              ]
+            }
+          ]
         },
         {
           "id": "what-are-the-best-local-seo-tools",
           "question": "What Are The Best Local SEO Tools?",
-          "answer": null
+          "answer": [
+            "Here are the best local SEO tools you can use:",
+            {
+              "list": [
+                "Semrush",
+                "Google My Business",
+                "Yext",
+                "Georanker",
+                "Moz",
+                "Whitespark",
+                "Birdeye"
+              ]
+            }
+          ]
         },
         {
           "id": "what-are-the-best-businesses-to-target-for-local-seo",
@@ -328,27 +763,64 @@
         {
           "id": "how-can-local-seo-increase-sales",
           "question": "How Can Local SEO Increase Sales?",
-          "answer": null
+          "answer": [
+            "Local SEO targets your audience who are searching for products and services you provide in the same area. It’s easy to reach them by ranking higher with local SEO. As these customers find you in front they’re likely to buy from you. Local SEO drives traffic to your website and increases sales. Moreover, it makes your business popular in your area which gives a good conversion rate."
+          ]
         },
         {
           "id": "how-do-i-take-advantage-of-local-seo-for-my-business",
           "question": "How Do I Take Advantage of Local SEO for My Business?",
-          "answer": null
+          "answer": [
+            "For businesses it’s important to gain more profit and establish their brand. Local SEO is one of the best ways of digital marketing that gives you ample advantages. Below are the advantages of local SEO for business.",
+            {
+              "list": [
+                "Improve the ranking on search engine result page.",
+                "Drive more traffic to the website and increase visibility.",
+                "Long-lasting results for the success of your business.",
+                "Outrank competition in your local area.",
+                "Positive customer review will gain trust and enhance the ranking on Google.",
+                "Local SEO is cheaper than advertising.",
+                "Establish the brand name by gaining the trust of customers.",
+                "More conversion rate, more revenue."
+              ]
+            },
+            "Ultimately, local SEO is an easy and affordable way to grow your business."
+          ]
         },
         {
           "id": "what-is-local-seo-for-small-businesses",
           "question": "What is Local SEO for Small Businesses?",
-          "answer": null
+          "answer": [
+            "For small businesses, scaling up the business is not easy to compete with big fishes. Plus, at the local level it can take all the advantages of high conversion as more and more people are searching products/services in their local area. As you’re available at the corner, at the moment they want to purchase the product and services you have, you already win."
+          ]
         },
         {
           "id": "is-local-seo-important-for-small-business-websites",
           "question": "Is local SEO Important for Small Business Websites?",
-          "answer": null
+          "answer": [
+            "To drive more traffic from the local area, local SEO is important for small business websites. Your customers are searching for local information, if you haven’t optimized your website you’ll miss the opportunity when they’re ready to buy from your area. Local SEO will improve ranking and increase visibility of your website. These searchers are actually ready to buy so the chances of sales are high. For better reach to customers and increase revenue local SEO is important for small business websites.",
+            "Ref https://www.searchenginejournal.com/local-seo-small-business/454910/#close"
+          ]
         },
         {
           "id": "what-is-the-best-way-to-rank-local-businesses-in-local-seo",
           "question": "What is the best way to rank local businesses in local SEO?",
-          "answer": null
+          "answer": [
+            "Local SEO is easy and attracts more attention in your local area. Practice these to rank your local business.",
+            {
+              "list": [
+                "Optimize Google My Business for local SEO.",
+                "Add complete details of your business in GMB.",
+                "Add images and timing details.",
+                "Analyze the technical errors and fix them.",
+                "Add business into local directories.",
+                "Get high-quality backlinks to increase authority of your website.",
+                "Keep your website mobile-friendly.",
+                "Gain positive customer reviews and reply to them.",
+                "Build the social media presence of your brand."
+              ]
+            }
+          ]
         },
         {
           "id": "how-can-i-improve-my-local-seo-results",
@@ -363,17 +835,59 @@
         {
           "id": "how-to-create-google-my-business-account-for-local-seo",
           "question": "How to create Google My Business Account for local SEO?",
-          "answer": null
+          "answer": [
+            "Adding your business to Google is a crucial part of local SEO. Follow this steps to create Google My Business account easily:",
+            {
+              "list": [
+                "Go to Google My Business and create an account.",
+                "If you already have a business profile then edit or close it. If you don’t have Google My Business listed then claim it. Go to Google Map, type the name and “Claim the Business.” Click on “Add your business to Google”.",
+                "Add your business name",
+                "Choose a specific specific category for your business so Google can find you easily for a relevant search quarry in your area.",
+                "Add business location for local SEO. If you’ve profile listed on social media, also make sure you maintain the same address.",
+                "Add whether you serve your customers outside your location or not.",
+                "Add business description in “From the business”.",
+                "Add your business contact details."
+              ]
+            },
+            {
+              "list": [
+                "Why Is GMB Important for Local SEO?",
+                "How to Create a Google My Business Account?",
+                "8 Steps",
+                "How to Verify Your Google My Business Listing",
+                "How Does Google Determine Local Ranking?",
+                "8 Ways to Optimize Your Google My Business Account for SEO",
+                "How to Fix GMB Account Issues",
+                "Most Important Google My Business KPIs",
+                "Google My Business Dashboard Examples and Templates",
+                "Streamline Your Google My Business Profile Optimization with Databox"
+              ]
+            },
+            "https://databox.com/google-my-business-seo"
+          ]
         },
         {
           "id": "how-to-optimize-websites-for-local-seo",
           "question": "How to Optimize Websites for Local SEO?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Create content on the local area topic. This way you’ll be able to add keywords into content to rank for local SEO.",
+                "Add the correct NAP(Name-Address-Phone Number) of your business on the internet. Let it be social media, websites, local directories, etc. If these details are not the same, it will seem fake to search engines that affect your ranking.",
+                "Optimize on-page SEO with local keywords to boost ranking.",
+                "Providing value to customers will encourage positive reviews that are a booster for your website ranking.",
+                "Make your website mobile-friendly.",
+                "Get high-quality backlinks."
+              ]
+            }
+          ]
         },
         {
           "id": "how-much-do-seo-companies-charge-for-local-seo",
           "question": "How much do SEO companies charge for local SEO?",
-          "answer": null
+          "answer": [
+            "The charges of Local SEO can vary from business to business and depending on their goals and needs. Usually the SEO package can range between $300 - $1000 per month. Some large businesses have packages of $10,000 per month. There are many options available for local SEO to choose according to the requirements of your business."
+          ]
         },
         {
           "id": "how-do-i-dominate-local-seo-search-rankings",
@@ -383,37 +897,105 @@
         {
           "id": "what-is-the-best-local-seo-ranking-factor",
           "question": "What is The Best Local SEO Ranking Factor?",
-          "answer": null
+          "answer": [
+            "The best ranking factor for local SEO is the proximity of your business. The availability of your business near to your customers is the most important part of your business."
+          ]
         },
         {
           "id": "how-do-i-find-the-best-local-seo-company",
           "question": "How Do I Find The Best Local SEO Company?",
-          "answer": null
+          "answer": [
+            "Finding the best local SEO company is not easy. However, it’s neither too complex. Keep in mind these things to when finding best local SEO company:",
+            {
+              "list": [
+                "Experience of the company",
+                "Case studies",
+                "Testimonials",
+                "Updated with trends and Google algorithms",
+                "Commitment",
+                "Good communication"
+              ]
+            }
+          ]
         },
         {
           "id": "what-are-some-uncommon-local-seo-mistakes",
           "question": "What Are Some Uncommon Local SEO Mistakes?",
-          "answer": null
+          "answer": [
+            "Some uncommon local SEO mistakes impacting your local search results are:",
+            {
+              "list": [
+                "Negligence of social media",
+                "Ignoring schema markup",
+                "Not optimizing images",
+                "Short-tail keywords",
+                "Irrelevant internal links",
+                "Duplicate listings",
+                "Backlinks from poor-quality websites",
+                "Poor-quality content"
+              ]
+            }
+          ]
         },
         {
           "id": "what-are-some-common-local-seo-mistakes",
           "question": "What Are Some Common Local SEO Mistakes?",
-          "answer": null
+          "answer": [
+            "Here are some common local SEO mistakes that hurt your website's local search rankings:",
+            {
+              "list": [
+                "Unclaimed and incomplete Google My Business profile",
+                "Not updated local citations(NAP)",
+                "Not optimizing keywords",
+                "Mobile-unfriendly website",
+                "Not responding to customer reviews",
+                "Inconsistent NAP",
+                "Not tracking results"
+              ]
+            }
+          ]
         },
         {
           "id": "in-local-seo-what-is-the-best-local-seo-software-for-rank-tracking-citation-building-and-client-reporting",
           "question": "In Local SEO, What Is The Best Local SEO Software for Rank Tracking, Citation Building, And Client Reporting?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Semrush",
+                "Google My Business",
+                "Birdeye",
+                "Brightlocal",
+                "SE ranking"
+              ]
+            }
+          ]
         },
         {
           "id": "what-are-citation-sites-and-their-role-in-local-seo",
           "question": "What Are Citation Sites And Their Role in Local SEO?",
-          "answer": null
+          "answer": [
+            "Citation sites are NAP of your business. NAP is the name, address and phone number of your website. It is a vital element of local SEO.",
+            "Local citations are important to gain trust of your customers and show the authenticity of your site so search engines can trust you as well. This will increase visibility and search engine ranking."
+          ]
         },
         {
           "id": "what-is-the-best-url-structure-for-local-seo",
           "question": "What Is the Best URL Structure for Local SEO?",
-          "answer": null
+          "answer": [
+            "We can’t ignore URL structure if you want results for local SEO. Here are tips to make it simple, concise and appealing:",
+            {
+              "list": [
+                "Keep it short and simple URL which is easy to understand.",
+                "Add meaningful keywords into the URL so search engines can understand what it is about.",
+                "Make sure your URL matches the title of your blog.",
+                "Use hyphens in URLs to make them readable.",
+                "Avoid parameters and variables in URLs that confuse search engines.",
+                "If you’ve business at multiple locations then use subdirectories to use your content that improves local SEO.",
+                "Keep consistency in URL structure across your website to make it easy to navigate.",
+                "Add location information in your URLs to make it easy to rank for local SEO."
+              ]
+            }
+          ]
         },
         {
           "id": "how-much-does-seo-cost-in-the-usa",
@@ -423,7 +1005,9 @@
         {
           "id": "is-local-seo-still-relevant",
           "question": "Is local SEO still relevant?",
-          "answer": null
+          "answer": [
+            "As more and more businesses are emerging the need for local SEO is rising. To build an online presence every business needs a website. The local search is increasing and pushing businesses to implement local SEO to reach potential customers in their area. Because you need local SEO to rank on local search results. Also, Google puts more emphasis on local search results. So, to stand in the competition and grow business, you need local SEO to win the game by ranking on top results.  Hence, the demand for local SEO is rising and will continue to rise."
+          ]
         },
         {
           "id": "how-much-should-i-pay-for-local-seo",
@@ -438,7 +1022,20 @@
         {
           "id": "what-services-does-the-local-seo-company-provide",
           "question": "What services does the local SEO company provide?",
-          "answer": null
+          "answer": [
+            "Local SEO companies provide various services to businesses that help them rank on local search areas and reach potential customers. Generally, below are the services local SEO company provides:",
+            {
+              "list": [
+                "Keyword research for products and services customers are searching in the area.",
+                "On-page optimization including location-specific keywords and NAP.",
+                "Optimize Google My business with complete and accurate listing.",
+                "Getting high-quality backlinks to improve their local search rankings.",
+                "Build citations and manage listings on local directories and other social media platforms.",
+                "Respond and manage customer reviews.",
+                "Analyze and report the results to track the progress to improve local search ranking."
+              ]
+            }
+          ]
         }
       ]
     },
@@ -449,82 +1046,220 @@
         {
           "id": "what-is-social-media-marketing",
           "question": "What is social media marketing?",
-          "answer": "Social media marketing is a branch of digital marketing that uses social media platforms to market products and services. This will help you communicate brand message directly to your audience and increase brand awareness."
+          "answer": [
+            "Social media marketing is a branch of digital marketing that uses social media platforms to market products and services. This will help you communicate brand message directly to your audience and increase brand awareness."
+          ]
         },
         {
           "id": "what-is-the-role-of-social-media-in-marketing",
           "question": "What is the role of social media in marketing?",
-          "answer": null
+          "answer": [
+            "Social media marketing is a way you can connect and understand the needs of your customers. You can directly target an audience and build the brand with loyal customers. The transparency will foster a smooth relationship between your business and audience that will lead you to more visibility, more traffic and more revenue."
+          ]
         },
         {
           "id": "what-are-social-media-marketing-examples",
           "question": "What are social media marketing examples?",
-          "answer": null
+          "answer": [
+            "Some examples of social media marketing are: (need example of business..)",
+            {
+              "list": [
+                "Facebook advertising",
+                "Instagram marketing",
+                "LinkedIn sponsored content",
+                "Youtube video advertising"
+              ]
+            }
+          ]
         },
         {
           "id": "is-social-media-marketing-different-from-digital-marketing",
           "question": "Is social media marketing different from digital marketing?",
-          "answer": null
+          "answer": [
+            "Do understand the difference we need to know about both marketing goals.",
+            "Digital Marketing: It is an umbrella of marketing. Digital marketing is the marketing of products and services via marketing channels like content marketing, email marketing, social media marketing, pay-per-click and other digital platforms.",
+            "Social Media Marketing: Social media marketing is marketing of product and services via social media platforms such as Facebook, Instagram, LinkedIn, Twitter and Youtube. It creates content to spread brand awareness, reach potential audiences and establish brand value. It engages customers and keeps them engaged with the brand and drives more sales.",
+            "In nutshell, social media marketing is a part of digital marketing."
+          ]
         },
         {
           "id": "how-can-social-media-marketing-help-you-build-a-brand",
           "question": "How can social media marketing help you build a brand?",
-          "answer": null
+          "answer": [
+            "Social media is a platform where most people share their ideas. This will allow you to build visual content that helps you reach your target audience. Ultimately, you’re able to create brand awareness and promote your brand. By building a strong brand image it helps you gain trust of loyal customers."
+          ]
         },
         {
           "id": "what-are-the-benefits-of-social-media-marketing",
           "question": "What Are the Benefits of Social Media Marketing?",
-          "answer": null
+          "answer": [
+            "There are many benefits of social media marketing for your business.",
+            {
+              "list": [
+                "Social media will help you increase brand awareness.",
+                "Target the audience on the basis of age, location, gender, behaviors, etc.",
+                "High-level of engagement is possible only with social media marketing. Quick response on feedback attracts more audience.",
+                "Increased traffic on social media marketing platforms increases traffic on websites as well.",
+                "It boosts the visibility that drives more leads and conversions.",
+                "Among many options of marketing, social media marketing is more budget-friendly.",
+                "To stand out in the crowd of competitors, social media marketing is crucial.",
+                "A strong social media presence is a need to rank on search engine result pages.",
+                "The content you post on social media promotes your brand widely and gives you better return on investment (ROI)."
+              ]
+            }
+          ]
         },
         {
           "id": "what-is-the-most-powerful-social-media-marketing-strategy",
           "question": "What Is the Most Powerful Social Media Marketing Strategy?",
-          "answer": null
+          "answer": [
+            "Without strategies it’s not possible to succeed at any marketing goals. Here are the best social media marketing strategies to grow on social media.",
+            {
+              "list": [
+                "Choose the social media that suits your business goals.",
+                "Know your audience.",
+                "Learn from your competitors on social media. Monitor their posts and strategies.",
+                "Create high-quality, valuable content with catchy words and visuals that relates to your audience.",
+                "Collab with influencers in your industry or niche to reach a new, engaged audience and build credibility for your brand.",
+                "To reach far in less time run paid ads on social media platforms to drive more sales.",
+                "Audit your social media performance.",
+                "Create a social media calendar.",
+                "Educate your audience about products and services.",
+                "Experiment with various content - visual, video or blog.",
+                "Track performance and learn what works and what not.",
+                "Repeat."
+              ]
+            },
+            "Maintaining consistency is the demand of social media platforms. So, build a strong image of your brand to convey a message and follow the above process. It might not seem easy at the beginning but trust the process to get the result."
+          ]
         },
         {
           "id": "what-factors-make-social-media-successful",
           "question": "What Factors Make Social Media Successful?",
-          "answer": null
+          "answer": [
+            "Before are the factors that make social media successful:",
+            {
+              "list": [
+                "Consistency",
+                "Target audience",
+                "Communication",
+                "Strong brand image",
+                "Engagement",
+                "Value-driven content",
+                "Collaboration"
+              ]
+            }
+          ]
         },
         {
           "id": "which-social-media-is-best-for-your-business",
           "question": "Which Social Media Is Best for Your Business?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Instagram",
+                "Facebook",
+                "LinkedIn",
+                "Youtube",
+                "Twitter",
+                "Tiktok",
+                "Quora",
+                "Pinterest"
+              ]
+            }
+          ]
         },
         {
-          "id": "which-social-media-is-most-popular-facebook",
-          "question": "Which Social Media is Most Popular? Facebook",
-          "answer": null
+          "id": "which-social-media-is-most-popular",
+          "question": "Which Social Media is Most Popular?",
+          "answer": [
+            "Facebook"
+          ]
         },
         {
           "id": "which-social-media-has-the-most-users",
           "question": "Which Social Media Has the Most Users?",
-          "answer": null
+          "answer": [
+            "Ref The latest statistics show that Facebook continues to reign strong as the king of social media, with 2.96 billion active users in 2023. That means that nearly two out of every three of the 4.89 billion social media users across the world are active users of Facebook.01-Nov-2022",
+            "Top 10 Most Popular Social Media Platforms in 2023 - Shopify"
+          ]
         },
         {
           "id": "which-social-media-pays-the-most",
           "question": "Which Social Media Pays The Most?",
-          "answer": null
+          "answer": [
+            "Instagram, Youtube"
+          ]
         },
         {
           "id": "which-social-media-is-best-for-marketing",
           "question": "Which Social Media Is Best for Marketing?",
-          "answer": null
+          "answer": [
+            "(How to choose the right social media marketing tool?)",
+            {
+              "list": [
+                "Instagram",
+                "Facebook",
+                "Youtube",
+                "LinkedIn",
+                "Pinterest"
+              ]
+            }
+          ]
         },
         {
           "id": "which-are-the-best-social-media-marketing-tools",
           "question": "Which Are the Best Social Media Marketing Tools?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Buzzsumo",
+                "Buffer",
+                "Hootsuite",
+                "Planoly",
+                "Tailwind",
+                "Loomly"
+              ]
+            }
+          ]
         },
         {
           "id": "how-is-social-media-important-for-businesses",
           "question": "How Is Social Media Important for Businesses?",
-          "answer": null
+          "answer": [
+            "As the world is headed to digital transformation, it would be quite obnoxious to ignore the need of business’ online presence. Here are whys you need social media for business:",
+            {
+              "list": [
+                "Create brand identity and increase brand awareness.",
+                "Market research to get valuable insights of customer’s opinion about your product and services.",
+                "Stand up in competition and learn their strategies.",
+                "Response to customer’s questions and giving them feedback and suggestions will keep them staying loyal to your business.",
+                "Harmonious relationships with customers.",
+                "Increase website traffic when more and more people visit to profile.",
+                "Increase leads and conversions due to more traffic on site."
+              ]
+            }
+          ]
         },
         {
           "id": "why-is-social-media-important-for-business-communication",
           "question": "Why Is Social Media Important for Business Communication?",
-          "answer": null
+          "answer": [
+            {
+              "list": [
+                "Social media is a platform to share ideas and communicate thoughts with society.",
+                "For a business a great tool for marketing and promoting products and services to target audience by communicating.",
+                "Enables direct communications with the audience and answers their questions. This will make you a trustworthy brand to follow by loyal buyers.",
+                "Understanding their problem and giving solutions by offering your product and services will keep them buying from you.",
+                "A good content on social media will increase brand awareness.",
+                "Sharing content that connects and resonates with the target audience will keep you on the top of their mind and increase the brand identity of your business.",
+                "Good communication will leave a positive experience for consumers and enhance your brand authority.",
+                "A good number of followers on social media has a great impact on ranking on search engines. When you link your website on your profile more people will click and visit your site. As a result of higher visibility your changes of ranking improves.",
+                "It’s a great tool to convey your brand message to create a strong brand image.",
+                "By sharing valuable information and giving feedback your brand will become favorite among your audience. In the long-run, you’ll have strong relations with them."
+              ]
+            }
+          ]
         },
         {
           "id": "what-social-media-is-best-for-marketing",
@@ -534,12 +1269,34 @@
         {
           "id": "how-can-social-media-improve-business",
           "question": "How Can Social Media Improve Business?",
-          "answer": null
+          "answer": [
+            "Social media tools are helpful for business in many ways.",
+            {
+              "list": [
+                "Business owners can research market potential and learn the requirements of customers. This will give the idea for creating the best products that customers love.",
+                "Marketing products via social media is easy and far effective.",
+                "It reduces the cost of marketing than any other marketing option for business.",
+                "Direct communication with customers will improve the relationships and create brand authority.",
+                "Marketing will increase sales and revenues of the business among competition."
+              ]
+            },
+            "The overall factors will improve the business. Hence, social media tools are crucial for business growth."
+          ]
         },
         {
           "id": "how-do-i-create-social-media-for-my-business",
           "question": "How Do I Create Social Media for My Business?",
-          "answer": null
+          "answer": [
+            "It’s easy to create a social media account for your business. All you need to be ready with basic information of your business, logo and photo.",
+            "Facebook for Business:",
+            {
+              "list": [
+                "You can set up a business profile from your existing personal account or create a new one for a business.",
+                "Click on the “page” on your facebook profile to create your business page. By choosing the “Local Business & Place” option you can add a business address and other details important about your business location."
+              ]
+            },
+            "https://aofund.org/resource/social-media-marketing-guide-setting-social-media-pages-business/"
+          ]
         },
         {
           "id": "how-to-use-social-media-for-business",
@@ -705,32 +1462,76 @@
         {
           "id": "what-is-e-commerce-seo",
           "question": "What is E-commerce SEO?",
-          "answer": "E-commerce SEO is search engine optimization for e-commerce websites Creating and optimizing web pages that help your website rank for the search queries. . So your e-commerce site can be visible whenever any user searches for the products and services you’re selling."
+          "answer": [
+            "E-commerce SEO is search engine optimization for e-commerce websites Creating and optimizing web pages that help your website rank for the search queries. . So your e-commerce site can be visible whenever any user searches for the products and services you’re selling."
+          ]
         },
         {
           "id": "how-do-i-seo-my-e-commerce-website",
           "question": "How do I SEO my E-commerce website?",
-          "answer": null
+          "answer": [
+            "Follow these steps for E-commerce SEO:",
+            {
+              "list": [
+                "Use long-tail keywords: opt for long tail keywords to target what your customers are searching. Optimize keywords for heading, subheadings and product descriptions.",
+                "On-page SEO: Optimize your site for title tags, meta descriptions, images and URLs.",
+                "High-quality Content: Create high-quality content for your site including product descriptions and blog posts.",
+                "Technical SEO: Optimize your site for technical SEO. Remove duplicate content and broken links.",
+                "Site Speed: Ensure that your site loading time is fast as possible to reduce bounce rate and improve user experience.",
+                "Site architecture: keep your site easy to navigate so with few clicks your customers can get on any page they want.",
+                "Mobile-friendly: Make your e-commerce site mobile-friendly so customers can easily buy from their mobile.",
+                "Internal Linking: Internal link your product or service pages for better user experience.",
+                "URL: Keep your URL short and simple for search engines to crawl.",
+                "Social Media: Promote your e-commerce site through social media to drive more traffic to rank high on the SERP."
+              ]
+            },
+            "Optimizing E-commerce sites will improve search engine ranking and drive more traffic and sales for your business."
+          ]
         },
         {
           "id": "is-seo-worth-it-for-e-commerce",
           "question": "Is SEO worth it for e-commerce?",
-          "answer": null
+          "answer": [
+            "SEO for e-commerce sites will improve ranking and increase visibility. More visibility will drive more traffic which means more sales and revenues. Also, it will help establish your brand which is rewarding for the long-term. In short, SEO is like an investment that every e-commerce site needs. So, SEO is definitely worth e-commerce."
+          ]
         },
         {
           "id": "how-is-seo-for-e-commerce-different",
           "question": "How is SEO for E-commerce different?",
-          "answer": null
+          "answer": [
+            "SEO for E-commerce and other websites is different because of different goals and requirements. The main purpose is to rank your product pages high on SERPs. Here’re the key differences:",
+            {
+              "list": [
+                "A lot of product and service pages need optimization with relevant keywords, title tags and meta descriptions.",
+                "E-commerce websites require different content like product description, blog post, product reviews, etc.",
+                "E-commerce sites have category pages, subcategory pages, and product category pages to optimize for specific keywords.",
+                "Customer reviews are a priority to improve visibility and ranking that attracts potential customers."
+              ]
+            },
+            "Thus, SEO for e-commerce is different due to different needs."
+          ]
         },
         {
           "id": "is-seo-important-for-e-commerce",
           "question": "Is SEO important for E-commerce?",
-          "answer": null
+          "answer": [
+            "SEO helps product and category pages to rank high on SERPs. Whenever any user searches for the keyword, your product page will appear on the first result page. This will increase visibility of your webpages and drive more traffic and sales. That’s why SEO is important for e-commerce."
+          ]
         },
         {
           "id": "how-much-does-e-commerce-seo-cost",
           "question": "How Much Does E-commerce SEO Cost?",
-          "answer": null
+          "answer": [
+            "The cost of e-commerce mainly depends upon the size of business and the competition. Whether you want a inhouse team or outsource services, it can impact your budget.",
+            {
+              "list": [
+                "For inhouse-team you have to pay a salary around $5000-$10,000 depending on team’s size and experience. You pay a fixed amount each month.",
+                "For hiring an ecommerce SEO agency, you sign a contract with a firm that can be $1000-$10,000 a month.",
+                "For a project-based work it can be $1000 to $30,000 depending on a project.",
+                "For hiring a freelance consultant hourly rates can be $75 to $300 depending on their expertise."
+              ]
+            }
+          ]
         },
         {
           "id": "how-do-i-seo-my-product-page",
@@ -881,7 +1682,9 @@
         {
           "id": "what-is-an-seo-audit",
           "question": "What is An SEO Audit?",
-          "answer": "SEO audit is a process to analyze how your website is performing on search engine result pages. It helps to find out the errors and improve them for better SEO performance of the site. SEO audits the overall comprehensive analysis of the website including content, structure, technical issues, backlinks to find the strengths and weaknesses. So, you can develop a plan to optimize for high ranking on SERP."
+          "answer": [
+            "SEO audit is a process to analyze how your website is performing on search engine result pages. It helps to find out the errors and improve them for better SEO performance of the site. SEO audits the overall comprehensive analysis of the website including content, structure, technical issues, backlinks to find the strengths and weaknesses. So, you can develop a plan to optimize for high ranking on SERP."
+          ]
         },
         {
           "id": "what-is-an-seo-audit-checklist",
@@ -1087,7 +1890,9 @@
         {
           "id": "what-are-content-marketing-strategies",
           "question": "What are Content Marketing Strategies?",
-          "answer": "Content marketing strategies are strategies for creating, publishing and distributing content via multiple marketing channels to attract and retain a target audience…"
+          "answer": [
+            "Content marketing strategies are strategies for creating, publishing and distributing content via multiple marketing channels to attract and retain a target audience…"
+          ]
         },
         {
           "id": "what-are-types-of-content-marketing-strategies",
@@ -1218,7 +2023,9 @@
         {
           "id": "what-is-web-and-app-development",
           "question": "What is Web and App Development",
-          "answer": "Web and app development is a process of designing and creating the web and mobile applications that users can access on their devices via internet network."
+          "answer": [
+            "Web and app development is a process of designing and creating the web and mobile applications that users can access on their devices via internet network."
+          ]
         },
         {
           "id": "is-web-and-app-development-the-same",
@@ -1374,7 +2181,9 @@
         {
           "id": "what-is-website-speed-optimization",
           "question": "What is website speed optimization?",
-          "answer": "Website optimization is improving the page loading time of a website so the website can be high on search engine result pages."
+          "answer": [
+            "Website optimization is improving the page loading time of a website so the website can be high on search engine result pages."
+          ]
         },
         {
           "id": "how-do-i-optimize-website-speed",
@@ -1600,7 +2409,9 @@
         {
           "id": "is-a-1-click-rate-good",
           "question": "Is a 1% click rate good?",
-          "answer": "A good click-through-rate is considered 1.91% for search and 0.35% for display ads. So, 1% CTR is average or below average compared to the 1.91%. However, this can vary depending on the industry, ad type and target audience."
+          "answer": [
+            "A good click-through-rate is considered 1.91% for search and 0.35% for display ads. So, 1% CTR is average or below average compared to the 1.91%. However, this can vary depending on the industry, ad type and target audience."
+          ]
         },
         {
           "id": "what-are-ppc-services-2",

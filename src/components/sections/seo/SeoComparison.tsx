@@ -7,7 +7,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="mt-0.5 h-5 w-5 shrink-0 text-blue" fill="none" aria-hidden>
+    <svg viewBox="0 0 20 20" className="mt-0.5 h-5 w-5 shrink-0 text-accent" fill="none" aria-hidden>
       <circle cx="10" cy="10" r="9" fill="currentColor" fillOpacity="0.16" />
       <path
         d="M6 10.3l2.6 2.6L14.2 7"
@@ -50,7 +50,7 @@ export default function SeoComparison({
                 role="columnheader"
                 className={clsx(
                   "px-8 py-6 font-display text-lg font-semibold",
-                  c === 0 ? "bg-blue text-white" : "border-l border-line bg-white text-ink"
+                  c === 0 ? "bg-blue text-on-accent" : "border-l border-line bg-white text-ink"
                 )}
               >
                 {col}

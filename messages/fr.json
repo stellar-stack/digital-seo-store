@@ -39,6 +39,11 @@
         "label": "En vedette",
         "cta": "Voir ce qui est inclus"
       }
+    },
+    "theme": {
+      "label": "Thème",
+      "blue": "Thème bleu",
+      "orange": "Thème orange"
     }
   },
   "footer": {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import { getAnswerCategories } from "@/lib/answers";
+import { answerText, getAnswerCategories } from "@/lib/answers";
 import AnswersExplorer from "@/components/sections/AnswersExplorer";
 import CTASection from "@/components/sections/CTASection";
 import { absoluteUrl, breadcrumbList } from "@/lib/seo";
@@ -43,7 +43,7 @@ export default async function AnswersPage({
         .map((item) => ({
           "@type": "Question",
           name: item.question,
-          acceptedAnswer: { "@type": "Answer", text: item.answer },
+          acceptedAnswer: { "@type": "Answer", text: answerText(item.answer) },
         }))
     ),
   };

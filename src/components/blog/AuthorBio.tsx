@@ -42,7 +42,7 @@ export default function AuthorBio({
               target="_blank"
               rel="noopener noreferrer"
               aria-label={linkedinLabel}
-              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-line text-blue transition-[border-color,box-shadow,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_20px_-8px_rgba(10,14,26,0.25)] active:translate-y-0 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
+              className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-line text-accent transition-[border-color,box-shadow,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_20px_-8px_rgba(10,14,26,0.25)] active:translate-y-0 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
             >
               <LinkedInMark className="h-5 w-5" />
             </a>

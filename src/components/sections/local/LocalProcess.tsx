@@ -32,7 +32,7 @@ export default function LocalProcess({
           ) : (
             <>
               {title.slice(0, at)}
-              <span className="text-blue">{highlight}</span>
+              <span className="text-accent">{highlight}</span>
               {title.slice(at + highlight.length)}
             </>
           )}
@@ -57,7 +57,7 @@ export default function LocalProcess({
                 className="grid grid-cols-[auto_1fr] gap-x-6 md:grid-cols-[1fr_auto_1fr] md:gap-x-12"
               >
                 <div className="col-start-1 row-start-1 flex flex-col items-center md:col-start-2">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue/10 font-display text-lg font-semibold text-blue">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue/10 font-display text-lg font-semibold text-accent">
                     {i + 1}
                   </span>
                   {!last && (

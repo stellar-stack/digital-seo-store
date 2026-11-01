@@ -100,7 +100,7 @@ export default function ToolsStrip() {
             type="button"
             aria-label={t("previous")}
             onClick={() => step(-1)}
-            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-muted/70 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-blue"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-muted/70 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-accent"
           >
             <Chevron direction="left" />
           </button>
@@ -142,7 +142,7 @@ export default function ToolsStrip() {
             type="button"
             aria-label={t("next")}
             onClick={() => step(1)}
-            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-muted/70 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-blue"
+            className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-muted/70 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-accent"
           >
             <Chevron direction="right" />
           </button>

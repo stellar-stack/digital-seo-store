@@ -86,7 +86,7 @@ export default function ContactSection() {
             <div className="mt-10 space-y-5">
               {reassurance.map((item) => (
                 <div key={item.key} className="flex items-start gap-4">
-                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-mist text-blue-dark">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-mist text-accent-strong">
                     {REASSURANCE_ICONS[item.key]}
                   </span>
                   <div>

@@ -124,7 +124,7 @@ export default function IntroStatement() {
                 href={tile.href}
                 className="group rounded-3xl border border-line bg-white p-6 transition-colors hover:border-blue/40"
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-blue-dark transition-colors group-hover:bg-blue/15 [&_svg]:h-5 [&_svg]:w-5">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-mist text-accent-strong transition-colors group-hover:bg-blue/15 [&_svg]:h-5 [&_svg]:w-5">
                   {tile.icon}
                 </span>
                 <p className="font-display mt-5 text-base font-semibold text-ink">

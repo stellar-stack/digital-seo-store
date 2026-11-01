@@ -72,7 +72,7 @@ export default function ServicesIndex() {
                   className={clsx(
                     "rounded-lg px-4 py-2.5 text-left text-sm font-semibold transition-colors duration-200 md:w-full md:px-5 md:py-3.5",
                     i === activeIndex
-                      ? "border border-blue bg-blue text-white shadow-lg shadow-blue/25 md:border-0"
+                      ? "border border-blue bg-blue text-on-accent shadow-lg shadow-blue/25 md:border-0"
                       : "border border-blue-ink/25 bg-white text-blue-ink hover:bg-blue/5 md:border-0 md:bg-transparent md:text-ink/70 md:hover:bg-blue/[0.06] md:hover:text-ink"
                   )}
                 >

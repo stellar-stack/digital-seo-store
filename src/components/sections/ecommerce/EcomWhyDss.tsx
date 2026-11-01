@@ -7,7 +7,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 function Tick() {
   return (
-    <svg viewBox="0 0 20 20" className="mt-1 h-[18px] w-[18px] shrink-0 text-blue" fill="none" aria-hidden>
+    <svg viewBox="0 0 20 20" className="mt-1 h-[18px] w-[18px] shrink-0 text-accent" fill="none" aria-hidden>
       <path d="M4.5 10.5l3.6 3.6L15.5 6" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -53,7 +53,7 @@ export default function EcomWhyDss({
               <h3
                 className={clsx(
                   "font-display text-center text-2xl font-semibold tracking-tight",
-                  c === 0 ? "text-blue" : "text-[#e0483d]"
+                  c === 0 ? "text-accent" : "text-[#e0483d]"
                 )}
               >
                 {col}

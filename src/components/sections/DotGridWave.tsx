@@ -59,6 +59,9 @@ export default function DotGridWave({ reducedMotion = false }: { reducedMotion?:
       // than popping in/out mid-frame.
       const waveT = reducedMotion ? 0.5 : ((t / 1000 / CYCLE_SECONDS) % 1.4) - 0.2;
 
+      // Read per frame so a theme switch recolours the wave immediately.
+      const accent = getComputedStyle(document.documentElement).getPropertyValue("--color-blue").trim();
+
       for (let cx = 0; cx < cols; cx++) {
         for (let cy = 0; cy < rows; cy++) {
           const x = cx * SPACING;
@@ -70,8 +73,8 @@ export default function DotGridWave({ reducedMotion = false }: { reducedMotion?:
           const opacity = 0.04 + glow * 0.3;
           const radius = DOT_RADIUS + glow * (ACTIVE_RADIUS - DOT_RADIUS);
 
-          ctx!.fillStyle =
-            glow > 0.35 ? `rgba(0, 113, 227, ${opacity})` : `rgba(10, 14, 26, ${opacity})`;
+          ctx!.globalAlpha = opacity;
+          ctx!.fillStyle = glow > 0.35 ? accent : "#0a0e1a";
           ctx!.beginPath();
           ctx!.arc(x, y, radius, 0, Math.PI * 2);
           ctx!.fill();

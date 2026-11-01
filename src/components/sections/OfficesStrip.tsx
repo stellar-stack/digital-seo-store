@@ -68,7 +68,7 @@ export default function OfficesStrip() {
               <circle key={`d${i}`} cx={x} cy={y} r={dotRadius} fill="#ddd9cc" />
             ))}
             {highlightDots.map(([x, y], i) => (
-              <circle key={`h${i}`} cx={x} cy={y} r={dotRadius * 1.35} fill="#0071e3" fillOpacity={0.6} />
+              <circle key={`h${i}`} cx={x} cy={y} r={dotRadius * 1.35} fill="var(--color-blue)" fillOpacity={0.6} />
             ))}
           </svg>
 

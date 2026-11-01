@@ -75,7 +75,7 @@ export default function LocaleSuggestion() {
             <button
               type="button"
               onClick={() => handle(suggested)}
-              className="rounded-full bg-blue px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-blue-dark"
+              className="rounded-full bg-blue px-4 py-2 text-sm font-semibold text-on-accent transition-colors hover:bg-blue-dark"
             >
               {t("switch", { language: LANGUAGE_NAMES[suggested] })}
             </button>

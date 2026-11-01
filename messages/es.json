@@ -39,6 +39,11 @@
         "label": "Destacado",
         "cta": "Ver qué incluye"
       }
+    },
+    "theme": {
+      "label": "Tema",
+      "blue": "Tema azul",
+      "orange": "Tema naranja"
     }
   },
   "footer": {

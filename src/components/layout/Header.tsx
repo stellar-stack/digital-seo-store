@@ -8,6 +8,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { clsx } from "clsx";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
+import Logo from "@/components/ui/Logo";
+import ThemeSwitch from "@/components/ui/ThemeSwitch";
 import FlickerGlow from "@/components/ui/FlickerGlow";
 import { services, SERVICE_CATEGORY_COLUMNS, type ServiceCategory } from "@/config/services";
 import { SERVICE_ICONS } from "@/components/icons/ServiceIcons";
@@ -103,14 +105,7 @@ export default function Header() {
       >
         <Container className="flex items-center justify-between py-4">
           <Link href="/" className="relative z-10 flex items-center gap-2 shrink-0">
-            <Image
-              src="/brand/logo.png"
-              alt="Digital SEO Store"
-              width={168}
-              height={86}
-              priority
-              className="h-9 w-auto"
-            />
+            <Logo priority className="h-9 w-auto" />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -164,7 +159,7 @@ export default function Header() {
                                       href={`/services/${s.slug}`}
                                       className="flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-charcoal/80 hover:bg-mist hover:text-charcoal transition-colors"
                                     >
-                                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-mist text-blue-dark [&_svg]:h-4 [&_svg]:w-4">
+                                      <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-mist text-accent-strong [&_svg]:h-4 [&_svg]:w-4">
                                         {SERVICE_ICONS[s.key]}
                                       </span>
                                       {t(`services.${s.key}` as never)}
@@ -223,6 +218,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
+            <ThemeSwitch />
             <FlickerGlow>
               <MagneticButton as="a" href="/contact" variant="solid" className="text-xs px-6 py-3">
                 {t("cta")}
@@ -287,7 +283,7 @@ export default function Header() {
                     </span>
                     <span
                       className={clsx(
-                        "text-xl text-blue transition-transform duration-300",
+                        "text-xl text-accent transition-transform duration-300",
                         mobileServicesOpen && "rotate-45"
                       )}
                     >
@@ -311,7 +307,7 @@ export default function Header() {
                               href={`/services/${s.slug}`}
                               className="flex items-center gap-2.5 text-sm font-medium text-muted transition-colors hover:text-ink"
                             >
-                              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-mist text-blue-dark [&_svg]:h-3.5 [&_svg]:w-3.5">
+                              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-mist text-accent-strong [&_svg]:h-3.5 [&_svg]:w-3.5">
                                 {SERVICE_ICONS[s.key]}
                               </span>
                               {t(`services.${s.key}` as never)}
@@ -337,7 +333,12 @@ export default function Header() {
                 ))}
               </div>
 
-              <motion.div variants={itemVariants} className="mt-8 flex flex-col gap-5">
+              <motion.div variants={itemVariants} className="mt-8 flex items-center justify-between border-t border-line pt-5">
+                <span className="text-base font-medium text-charcoal">{t("theme.label")}</span>
+                <ThemeSwitch />
+              </motion.div>
+
+              <motion.div variants={itemVariants} className="mt-6 flex flex-col gap-5">
                 <MagneticButton as="a" href="/contact" variant="solid" className="w-full">
                   {t("cta")}
                 </MagneticButton>

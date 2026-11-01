@@ -22,7 +22,7 @@ const NETWORKS = [
     href: (url: string, title: string) =>
       `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}`,
     icon: (
-      <svg viewBox="0 0 24 24" className="h-5 w-5 text-blue" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" aria-hidden>
+      <svg viewBox="0 0 24 24" className="h-5 w-5 text-accent" fill="none" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" aria-hidden>
         <path d="M3 3h5.2l12.8 18h-5.2L3 3Z" />
         <path d="M20.5 3l-7.3 8.2M3.6 21l7.2-8.1" strokeLinecap="round" />
       </svg>
@@ -58,7 +58,7 @@ export default function ShareLinks({
           target="_blank"
           rel="noopener noreferrer"
           aria-label={shareOn(n.name)}
-          className="flex h-14 w-14 items-center justify-center rounded-full border border-line bg-white transition-[border-color,box-shadow,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_20px_-8px_rgba(10,14,26,0.25)] active:translate-y-0 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue"
+          className="flex h-14 w-14 items-center justify-center rounded-full border border-line bg-white transition-[border-color,box-shadow,transform] duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-0.5 hover:border-blue/40 hover:shadow-[0_8px_20px_-8px_rgba(10,14,26,0.25)] active:translate-y-0 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
         >
           {n.icon}
         </a>

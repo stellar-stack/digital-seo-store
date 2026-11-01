@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Logo from "@/components/ui/Logo";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import Container from "@/components/ui/Container";
@@ -14,13 +14,7 @@ export default function Footer() {
       <Container className="pt-20 pb-10">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div>
-            <Image
-              src="/brand/logo.png"
-              alt="Digital SEO Store"
-              width={168}
-              height={86}
-              className="h-9 w-auto"
-            />
+            <Logo className="h-9 w-auto" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted">
               {t("blurb")}
             </p>
@@ -35,7 +29,7 @@ export default function Footer() {
                 <li key={s.slug}>
                   <Link
                     href={`/services/${s.slug}`}
-                    className="text-sm text-charcoal/70 hover:text-blue transition-colors"
+                    className="text-sm text-charcoal/70 hover:text-accent transition-colors"
                   >
                     {tNav(`services.${s.key}` as never)}
                   </Link>
@@ -50,27 +44,27 @@ export default function Footer() {
             </p>
             <ul className="space-y-2.5">
               <li>
-                <Link href="/about" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                <Link href="/about" className="text-sm text-charcoal/70 hover:text-accent transition-colors">
                   {tNav("about")}
                 </Link>
               </li>
               <li>
-                <Link href="/answers" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                <Link href="/answers" className="text-sm text-charcoal/70 hover:text-accent transition-colors">
                   {tNav("answers")}
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                <Link href="/blog" className="text-sm text-charcoal/70 hover:text-accent transition-colors">
                   {tNav("blog")}
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                <Link href="/faq" className="text-sm text-charcoal/70 hover:text-accent transition-colors">
                   {t("faq")}
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-sm text-charcoal/70 hover:text-blue transition-colors">
+                <Link href="/contact" className="text-sm text-charcoal/70 hover:text-accent transition-colors">
                   {tNav("contact")}
                 </Link>
               </li>
@@ -83,12 +77,12 @@ export default function Footer() {
             </p>
             <ul className="space-y-2.5 text-sm text-charcoal/70">
               <li>
-                <a href="mailto:hello@digitalseostore.com" className="hover:text-blue transition-colors">
+                <a href="mailto:hello@digitalseostore.com" className="hover:text-accent transition-colors">
                   hello@digitalseostore.com
                 </a>
               </li>
               <li>
-                <a href="tel:+12505056094" className="hover:text-blue transition-colors">
+                <a href="tel:+12505056094" className="hover:text-accent transition-colors">
                   +1 250 505 6094
                 </a>
               </li>

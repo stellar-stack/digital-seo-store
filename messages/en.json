@@ -39,6 +39,11 @@
         "label": "Featured",
         "cta": "See what's included"
       }
+    },
+    "theme": {
+      "label": "Theme",
+      "blue": "Blue theme",
+      "orange": "Orange theme"
     }
   },
   "footer": {

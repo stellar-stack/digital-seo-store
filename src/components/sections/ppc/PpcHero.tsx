@@ -34,7 +34,7 @@ function StatValue({ value }: { value: string }) {
 }
 
 const CIRCLE_STYLES = [
-  "bg-blue text-white shadow-[0_25px_50px_-18px_rgba(0,113,227,0.55)]",
+  "bg-blue text-on-accent shadow-[0_25px_50px_-18px_color-mix(in_srgb,var(--color-blue)_55%,transparent)]",
   "bg-[#6b5ce7] text-white shadow-[0_25px_50px_-18px_rgba(107,92,231,0.55)]",
   "bg-ink text-white shadow-[0_25px_50px_-18px_rgba(10,14,26,0.5)]",
 ];
@@ -74,7 +74,7 @@ export default function PpcHero({
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-blue"
+              className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-accent"
             >
               {eyebrow}
             </motion.p>

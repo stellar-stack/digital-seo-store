@@ -57,7 +57,7 @@ function TocLinks({
               href={`#${h.id}`}
               aria-current={active === h.id ? "location" : undefined}
               className={clsx(
-                "block rounded-sm py-2.5 text-[0.9375rem] leading-snug transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue",
+                "block rounded-sm py-2.5 text-[0.9375rem] leading-snug transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent",
                 active === h.id ? "font-medium text-blue-ink" : "text-charcoal hover:text-blue-ink"
               )}
             >
@@ -149,7 +149,7 @@ export default function PostToc({
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="font-display mt-5 rounded-sm text-lg font-semibold text-blue transition-colors duration-300 hover:text-blue-dark focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue"
+            className="font-display mt-5 rounded-sm text-lg font-semibold text-accent transition-colors duration-300 hover:text-accent-strong focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
           >
             {showAllLabel}
           </button>

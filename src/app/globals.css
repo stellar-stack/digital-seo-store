@@ -9,6 +9,20 @@
   --color-blue: #0071e3;
   --color-blue-dark: #0058b0;
   --color-blue-ink: #005ecb;
+  /* Text-safe accent. Equals the fill in the blue theme; the orange theme
+     needs a darker value because amber on white fails contrast. */
+  --color-accent: #0071e3;
+  --color-accent-strong: #0058b0;
+  --color-on-accent: #ffffff;
+  --color-tint: #f3f6fb;
+  /* Illustration tones used by the service-page artwork. */
+  --color-art-deep: #0a4fb0;
+  --color-art-soft: #d6e5fa;
+  --color-art-light: #e8f0fc;
+  --color-art-pale: #eef4fc;
+  --color-art-mist: #f7f9ff;
+  --color-art-line: #dfe9f6;
+  --color-art-sky: #bcd8f6;
   --color-charcoal: #17181c;
   --color-cream: #faf9f6;
   --color-mist: #f2f1ec;
@@ -27,12 +41,36 @@
     Arial, sans-serif;
 }
 
+:root[data-theme="orange"] {
+  /* The original brand orange, taken from the logo. Token names stay "blue"
+     because they name the accent role, used in hundreds of places. Text on it
+     is dark: white on #ffad00 is only 1.9:1, ink is 10.2:1. */
+  --color-blue: #ffad00;
+  --color-blue-dark: #e89c00;
+  --color-blue-ink: #b45309;
+  --color-accent: #b45309;
+  --color-accent-strong: #92400e;
+  --color-on-accent: #0a0e1a;
+  --color-tint: #fdf6e8;
+  --color-art-deep: #b45309;
+  --color-art-soft: #fde6b4;
+  --color-art-light: #fef0d3;
+  --color-art-pale: #fef4e0;
+  --color-art-mist: #fffaf0;
+  --color-art-line: #f8e3bd;
+  --color-art-sky: #fcd68a;
+}
+
 @theme inline {
   --color-ink: var(--color-ink);
   --color-ink-soft: var(--color-ink-soft);
   --color-blue: var(--color-blue);
   --color-blue-dark: var(--color-blue-dark);
   --color-blue-ink: var(--color-blue-ink);
+  --color-accent: var(--color-accent);
+  --color-accent-strong: var(--color-accent-strong);
+  --color-on-accent: var(--color-on-accent);
+  --color-tint: var(--color-tint);
   --color-charcoal: var(--color-charcoal);
   --color-cream: var(--color-cream);
   --color-mist: var(--color-mist);
@@ -63,7 +101,25 @@ body {
 
 ::selection {
   background: var(--color-blue);
-  color: white;
+  color: var(--color-on-accent);
+}
+
+/* Theme-specific artwork: both versions are in the page and CSS shows one, so
+   switching is instant and the theme script prevents a flash on load. */
+:root:not([data-theme="orange"]) .only-orange,
+:root[data-theme="orange"] .only-blue {
+  display: none !important;
+}
+
+.theme-switching *,
+.theme-switching *::before,
+.theme-switching *::after {
+  transition: none !important;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 260ms;
 }
 
 @keyframes marquee {

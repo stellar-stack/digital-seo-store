@@ -6,7 +6,7 @@ import MagneticButton from "@/components/ui/MagneticButton";
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="mt-0.5 h-5 w-5 shrink-0 text-blue" fill="none" aria-hidden>
+    <svg viewBox="0 0 20 20" className="mt-0.5 h-5 w-5 shrink-0 text-accent" fill="none" aria-hidden>
       <circle cx="10" cy="10" r="9" fill="currentColor" fillOpacity="0.16" />
       <path
         d="M6 10.3l2.6 2.6L14.2 7"

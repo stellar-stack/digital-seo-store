@@ -12,8 +12,8 @@ export function SemArt({ background = true }: { background?: boolean }) {
     >
       <defs>
         <linearGradient id="sem-bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#e8f0fc" />
-          <stop offset="100%" stopColor="#d6e5fa" />
+          <stop offset="0%" stopColor="var(--color-art-light)" />
+          <stop offset="100%" stopColor="var(--color-art-soft)" />
         </linearGradient>
       </defs>
       {background && (
@@ -32,11 +32,11 @@ export function SemArt({ background = true }: { background?: boolean }) {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
       >
-        <rect x="130" y="140" width="340" height="64" rx="32" fill="#fff" stroke="#0a4fb0" strokeWidth="3" />
-        <circle cx="168" cy="172" r="10" stroke="#0071e3" strokeWidth="3" fill="none" />
-        <line x1="176" y1="180" x2="184" y2="188" stroke="#0071e3" strokeWidth="3" strokeLinecap="round" />
-        <rect x="200" y="164" width="150" height="16" rx="4" fill="#0a4fb0" fillOpacity="0.18" />
-        <rect x="392" y="154" width="46" height="36" rx="8" fill="#0071e3" />
+        <rect x="130" y="140" width="340" height="64" rx="32" fill="#fff" stroke="var(--color-art-deep)" strokeWidth="3" />
+        <circle cx="168" cy="172" r="10" stroke="var(--color-blue)" strokeWidth="3" fill="none" />
+        <line x1="176" y1="180" x2="184" y2="188" stroke="var(--color-blue)" strokeWidth="3" strokeLinecap="round" />
+        <rect x="200" y="164" width="150" height="16" rx="4" fill="var(--color-art-deep)" fillOpacity="0.18" />
+        <rect x="392" y="154" width="46" height="36" rx="8" fill="var(--color-blue)" />
         <path
           d="M405 172h20M415 162v20"
           stroke="#fff"
@@ -51,11 +51,11 @@ export function SemArt({ background = true }: { background?: boolean }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
       >
-        <rect x="130" y="226" width="340" height="72" rx="14" fill="#fff" stroke="#0071e3" strokeWidth="2.5" />
-        <rect x="150" y="242" width="32" height="16" rx="4" fill="#0071e3" />
-        <rect x="192" y="245" width="120" height="10" rx="3" fill="#0a4fb0" fillOpacity="0.4" />
-        <rect x="150" y="268" width="260" height="8" rx="3" fill="#0a4fb0" fillOpacity="0.16" />
-        <rect x="150" y="282" width="190" height="8" rx="3" fill="#0a4fb0" fillOpacity="0.16" />
+        <rect x="130" y="226" width="340" height="72" rx="14" fill="#fff" stroke="var(--color-blue)" strokeWidth="2.5" />
+        <rect x="150" y="242" width="32" height="16" rx="4" fill="var(--color-blue)" />
+        <rect x="192" y="245" width="120" height="10" rx="3" fill="var(--color-art-deep)" fillOpacity="0.4" />
+        <rect x="150" y="268" width="260" height="8" rx="3" fill="var(--color-art-deep)" fillOpacity="0.16" />
+        <rect x="150" y="282" width="190" height="8" rx="3" fill="var(--color-art-deep)" fillOpacity="0.16" />
       </motion.g>
 
       <motion.g
@@ -63,9 +63,9 @@ export function SemArt({ background = true }: { background?: boolean }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
       >
-        <rect x="130" y="310" width="340" height="56" rx="14" fill="#fff" fillOpacity="0.75" stroke="#0a4fb0" strokeOpacity="0.25" strokeWidth="2" />
-        <rect x="150" y="328" width="150" height="9" rx="3" fill="#0a4fb0" fillOpacity="0.22" />
-        <rect x="150" y="344" width="210" height="7" rx="3" fill="#0a4fb0" fillOpacity="0.14" />
+        <rect x="130" y="310" width="340" height="56" rx="14" fill="#fff" fillOpacity="0.75" stroke="var(--color-art-deep)" strokeOpacity="0.25" strokeWidth="2" />
+        <rect x="150" y="328" width="150" height="9" rx="3" fill="var(--color-art-deep)" fillOpacity="0.22" />
+        <rect x="150" y="344" width="210" height="7" rx="3" fill="var(--color-art-deep)" fillOpacity="0.14" />
       </motion.g>
 
       {/* small rising-chart badge */}
@@ -74,10 +74,10 @@ export function SemArt({ background = true }: { background?: boolean }) {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
       >
-        <circle cx="470" cy="330" r="42" fill="#fff" stroke="#0071e3" strokeWidth="3" />
+        <circle cx="470" cy="330" r="42" fill="#fff" stroke="var(--color-blue)" strokeWidth="3" />
         <path
           d="M452 340l10-14 8 8 12-18"
-          stroke="#0071e3"
+          stroke="var(--color-blue)"
           strokeWidth="4"
           strokeLinecap="round"
           strokeLinejoin="round"
@@ -85,8 +85,8 @@ export function SemArt({ background = true }: { background?: boolean }) {
         />
       </motion.g>
 
-      <motion.circle cx="110" cy="180" r="6" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
-      <motion.circle cx="500" cy="220" r="7" fill="#0071e3" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
+      <motion.circle cx="110" cy="180" r="6" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} />
+      <motion.circle cx="500" cy="220" r="7" fill="var(--color-blue)" fillOpacity="0.5" animate={{ y: [0, -8, 0] }} transition={{ duration: 4.4, repeat: Infinity, ease: "easeInOut", delay: 0.6 }} />
     </svg>
   );
 }

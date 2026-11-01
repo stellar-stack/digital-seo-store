@@ -38,7 +38,7 @@ export default function LocalServices({
               className="border-t border-ink/15 pt-8"
             >
               <div className="flex items-center gap-4">
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-blue/10 text-blue-dark [&_svg]:h-[22px] [&_svg]:w-[22px]">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-blue/10 text-accent-strong [&_svg]:h-[22px] [&_svg]:w-[22px]">
                   {icons[i]}
                 </span>
                 <h3 className="font-display text-xl font-semibold leading-snug text-ink">

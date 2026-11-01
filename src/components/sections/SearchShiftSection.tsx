@@ -18,7 +18,7 @@ export default function SearchShiftSection() {
           className="font-display text-3xl font-semibold leading-tight tracking-tight text-ink md:text-4xl lg:text-[2.75rem]"
         >
           {t("titleLine1")}{" "}
-          <span className="text-blue">{t("titleLine2")}</span>
+          <span className="text-accent">{t("titleLine2")}</span>
         </motion.h2>
 
         <motion.p

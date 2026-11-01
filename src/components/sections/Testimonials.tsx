@@ -93,7 +93,7 @@ export default function Testimonials() {
     "flex flex-col items-center px-6 py-10 text-center sm:px-12 md:px-16 md:py-14 [grid-area:1/1]";
 
   const arrowClass =
-    "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-line bg-white text-charcoal shadow-[0_1px_2px_rgba(10,14,26,0.06)] transition-colors duration-300 hover:border-blue/40 hover:text-blue focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue";
+    "flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-line bg-white text-charcoal shadow-[0_1px_2px_rgba(10,14,26,0.06)] transition-colors duration-300 hover:border-blue/40 hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
   return (
     <section className="bg-cream section-y">

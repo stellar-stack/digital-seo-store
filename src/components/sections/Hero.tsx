@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Container from "@/components/ui/Container";
 import MagneticButton from "@/components/ui/MagneticButton";
 import DotGridWave from "@/components/sections/DotGridWave";
+import GrowthEngine from "@/components/sections/GrowthEngine";
 
 const STEP_INTERVAL_MS = 3400;
 
@@ -20,7 +20,7 @@ export default function Hero() {
   const [reducedMotion, setReducedMotion] = useState(false);
 
   const progress = useMotionValue(0);
-  const bgColor = useTransform(progress, [0, 1], ["#ffffff", "#f7f9ff"]);
+  const bgColor = useTransform(progress, [0, 1], ["#ffffff", "var(--color-art-mist)"]);
   const glowOpacity = useTransform(progress, [0, 1], [0.05, 0.12]);
   const glowScale = useTransform(progress, [0, 1], [0.85, 1.3]);
   const glowX = useTransform(progress, [0, 1], ["36%", "64%"]);
@@ -92,7 +92,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 14 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-                className="text-xs font-semibold uppercase tracking-[0.25em] text-blue mb-7"
+                className="text-xs font-semibold uppercase tracking-[0.25em] text-accent mb-7"
               >
                 {t("eyebrow")}
               </motion.p>
@@ -117,7 +117,7 @@ export default function Hero() {
                         <motion.path
                           d="M4,14 C30,6 55,18 85,10 C115,4 140,16 170,9 C190,5 205,12 216,8"
                           fill="none"
-                          stroke="#0071e3"
+                          stroke="var(--color-blue)"
                           strokeWidth="6"
                           strokeLinecap="round"
                           initial={{ pathLength: 0, opacity: 0 }}
@@ -169,21 +169,7 @@ export default function Hero() {
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
               className="relative mx-auto w-full max-w-[40rem] lg:max-w-none"
             >
-              <motion.div
-                animate={reducedMotion ? undefined : { y: [0, -6, 0] }}
-                transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-                className="relative aspect-[3/2]"
-              >
-                <Image
-                  src="/images/home/hero-growth-engine.png"
-                  alt=""
-                  fill
-                  priority
-                  quality={90}
-                  sizes="(min-width: 1280px) 640px, (min-width: 1024px) 50vw, (min-width: 640px) 40rem, 100vw"
-                  className="object-contain"
-                />
-              </motion.div>
+              <GrowthEngine />
             </motion.div>
           </div>
         </Container>

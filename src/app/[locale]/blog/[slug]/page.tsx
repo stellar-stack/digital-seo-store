@@ -140,7 +140,7 @@ export default async function BlogPostPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
-      <section className="relative bg-[#f3f6fb]">
+      <section className="relative bg-tint">
         <Container>
           <div className="pb-10 pt-8 sm:pt-10 lg:w-1/2 lg:py-10 xl:w-[52%] xl:py-14">
             <nav aria-label="Breadcrumb" className="animate-rise">
